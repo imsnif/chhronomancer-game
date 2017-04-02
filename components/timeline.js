@@ -7,7 +7,7 @@ import Player from './player'
 export default class Timeline extends Component {
   render() {
     return (
-      <View style={{flex: 1, flexDirection: 'row'}}>
+      <View style={{flex: 1, flexDirection: 'row', backgroundColor: '#2f3241'}}>
         <View style={{width: '30%', flexDirection: 'column'}}>
           <MenuButton title='Lock' onPress={() => {}} />
           <MenuButton title='Unlock' onPress={() => {}} />
