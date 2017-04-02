@@ -11,7 +11,7 @@ export default class Player extends Component {
         <View style={{flex: 1, flexDirection: 'column', width: '70%', backgroundColor: 'skyblue', padding: 5}}>
           <Text style={{width: '100%', backgroundColor: 'steelblue', padding: 5}}>Name</Text>
           <Text style={{width: '100%', backgroundColor: 'steelblue', padding: 5}}>Power</Text>
-          <ItemBar style={{width: '100%', backgroundColor: 'steelblue'}} />
+          <ItemBar count={3} style={{width: '100%', backgroundColor: 'steelblue'}} />
         </View>
       </View>
     );

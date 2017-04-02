@@ -1,21 +1,22 @@
 import React, { Component } from 'react'
 import { ScrollView, View, Button, Text} from 'react-native'
+import ItemBar from './item-bar'
+import Item from './item'
 
 export default class Inventory extends Component {
   render() {
-    return (
-      <View style={{width: '100%', flexDirection: 'column'}}>
-        <Text style={{textAlign: 'center'}}>05:42</Text>
-        <Text style={{textAlign: 'center'}}>Power Name</Text>
-        <View style={{flexDirection: 'row'}}>
-          <Text style={{width: '50%', textAlign: 'center'}}>Src</Text>
-          <Text style={{width: '50%', textAlign: 'center'}}>Target</Text>
-        </View>
-        <View style={{flexDirection: 'row'}}>
-          <ExternalParties title='Allies' />
-          <ExternalParties title='Enemies' />
-        </View>
+   return (
+      // Try setting `justifyContent` to `center`.
+      // Try setting `flexDirection` to `row`.
+      <View style={{
+        flex: 1,
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+      }}>
+	<ItemBar count={3}/>
+	<ItemBar count={2}/>
+	<ItemBar count={1}/>
       </View>
-    )
+    );
   }
 }

@@ -4,11 +4,13 @@ import Item from './item'
 
 export default class ItemBar extends Component {
   render() {
+    let items = []
+    for (let i = 0; i < this.props.count; i += 1) {
+      items.push(<Item key={i}/>)
+    }
     return (
       <View style={{flex: 1, flexDirection: 'row'}}>
-        <Item style={{height: '100%'}}/>
-        <Item style={{height: '100%'}}/>
-        <Item style={{height: '100%'}}/>
+        {items}
       </View>
     );
   }
