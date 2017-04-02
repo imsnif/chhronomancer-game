@@ -12,7 +12,8 @@ export default class Player extends Component {
         borderColor: '#02ffff',
         backgroundColor: '#02ffff',
         borderWidth: 0.2,
-        margin: 1,
+        margin: 5,
+        marginBottom: 15,
         borderRadius: 2,
         height: 100
       }}>
@@ -39,11 +40,11 @@ export default class Player extends Component {
           <Text style={{color: '#81bcca', padding: 5, textAlign: 'center'}}>Power</Text>
           <View style={{
             flex: 1,
-            flexDirection: 'column',
-            justifyContent: 'center',
-            alignItems: 'center'
+            flexDirection: 'row'
           }}>
             <ItemBar count={3} style={{backgroundColor: '#2f3241'}} />
+            <ItemBar count={2} style={{backgroundColor: '#2f3241'}} />
+            <ItemBar count={1} style={{backgroundColor: '#2f3241'}} />
           </View>
         </View>
       </View>
