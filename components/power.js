@@ -45,7 +45,7 @@ export default class Power extends Component {
                 color: 'red',
                 flex: 1,
                 margin: 5
-              }}>00:00</Text>
+              }}>00:22</Text>
               <View style={{
                 flex: 1,
                 margin: 5,
