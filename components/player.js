@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { AppRegistry, View, Text } from 'react-native';
 import { Container, Header, Body, Footer } from 'native-base'
 import ItemBar from './item-bar'
+import Power from './power'
 
 export default class Player extends Component {
   render() {
@@ -37,7 +38,7 @@ export default class Player extends Component {
           borderWidth: 1,
           borderRadius: 2
         }}>
-          <Text style={{color: '#81bcca', padding: 5, textAlign: 'center'}}>Power</Text>
+          <Power />
           <View style={{
             flex: 1,
             flexDirection: 'row'
@@ -51,3 +52,4 @@ export default class Player extends Component {
     )
   }
 };
+          // <Text style={{color: '#81bcca', padding: 5, textAlign: 'center'}}>Power</Text>
