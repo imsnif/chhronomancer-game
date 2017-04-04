@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { AppRegistry, View, Text } from 'react-native';
-import { Container, Header, Body, Footer } from 'native-base'
+import { AppRegistry, View, Text, Image } from 'react-native';
+import LowItems from './low-items'
+import MidItems from './mid-items'
+import HighItems from './high-items'
 import ItemBar from './item-bar'
 import Power from './power'
 
@@ -19,14 +21,15 @@ export default class Player extends Component {
         height: 100
       }}>
         <View style={{flex: 1, flexDirection: 'row'}}>
-          <Text style={{
-            textAlign: 'center',
+          <Image source={require('../assets/placeholders/tom.jpg')} style={{
+            width: 10,
+            height: 21,
             margin: 2,
             marginBottom: 1,
             borderRadius: 2,
             flex: 1,
             backgroundColor: '#2f3241'
-          }}>P</Text>
+          }} />
           <Text style={{color: '#2e1a29', flex: 9, textAlign: 'center', paddingRight: 30, paddingTop: 2, fontFamily: 'sans-serif'}}>Name</Text>
         </View>
         <View style={{
@@ -43,13 +46,15 @@ export default class Player extends Component {
             flex: 1,
             flexDirection: 'row'
           }}>
-            <ItemBar count={3} style={{backgroundColor: '#2f3241'}} />
-            <ItemBar count={2} style={{backgroundColor: '#2f3241'}} />
-            <ItemBar count={1} style={{backgroundColor: '#2f3241'}} />
+            <LowItems />
+            <MidItems />
+            <HighItems />
           </View>
         </View>
       </View>
     )
   }
 };
-          // <Text style={{color: '#81bcca', padding: 5, textAlign: 'center'}}>Power</Text>
+//            <ItemBar count={3} style={{backgroundColor: '#2f3241'}} />
+//            <ItemBar count={2} style={{backgroundColor: '#2f3241'}} />
+//            <ItemBar count={1} style={{backgroundColor: '#2f3241'}} />

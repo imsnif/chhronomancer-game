@@ -38,14 +38,14 @@ export default class Power extends Component {
             }}>
               <Text style={{
                 color: '#2e1a29',
-                flex: 1,
+                flex: 2,
                 margin: 5
               }}>Questing...</Text>
               <Text style={{
                 color: 'red',
-                flex: 1,
+                flex: 2,
                 margin: 5
-              }}>00:22</Text>
+              }}>00:22:50</Text>
               <View style={{
                 flex: 1,
                 margin: 5,
