@@ -4,10 +4,11 @@ import Item from './item'
 
 export default class LowItems extends Component {
   render() {
+    const items = this.props.items
     return (
       <View style={{flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
-        <Item key={1} fill={true} color='purple' />
-        <Item key={2} fill={false} color='brown' />
+        <Item key={1} fill={items.purple} color='purple' />
+        <Item key={2} fill={items.brown} color='brown' />
       </View>
     )
   }
