@@ -41,20 +41,22 @@ playersStore.addPlayer({
   }
 })
 timelineStore.addPlayer(1)
-playersStore.addPlayer({
-  id: 2,
-  name: 'Tom',
-  items: {
-    red: true,
-    green: true,
-    blue: true,
-    purple: true,
-    brown: false,
-    black: false
-  },
-  image: require('./assets/placeholders/me.jpeg')
-})
-timelineStore.addPlayer(2)
+setTimeout(() => {
+  playersStore.addPlayer({
+    id: 2,
+    name: 'Tom',
+    items: {
+      red: true,
+      green: true,
+      blue: true,
+      purple: true,
+      brown: false,
+      black: false
+    },
+    image: require('./assets/placeholders/me.jpeg')
+  })
+  timelineStore.addPlayer(2)
+}, 2000)
 
 export default class chronomancer extends Component {
   render() {
