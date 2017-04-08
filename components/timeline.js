@@ -20,11 +20,7 @@ export default class Timeline extends Component {
                     key={player.id}
                     name={player.name}
                     image={player.image}
-                    activePower={player.activePower.name}
-                    progress={player.activePower.progress}
-                    timeLeft={player.activePower.timeLeft}
-                    alliedPlayers={player.activePower.alliedPlayers}
-                    enemyPlayers={player.activePower.enemyPlayers}
+                    activePower={player.activePower}
                     items={player.items}
                   />
                 )

@@ -12,15 +12,20 @@ export default class Player extends Component {
     const lowItems = _.pick(this.props.items, ['red', 'green', 'blue'])
     const midItems = _.pick(this.props.items, ['purple', 'brown'])
     const highItems = _.pick(this.props.items, ['black'])
+    const activePower = this.props.activePower
     return (
       <InfoBox title={this.props.name} image={this.props.image}>
-        <Power
-          name={this.props.activePower}
-          progress={this.props.progress}
-          timeLeft={this.props.timeLeft}
-          alliedPlayers={this.props.alliedPlayers}
-          enemyPlayers={this.props.enemyPlayers}
-        />
+        {
+          activePower
+            ? <Power
+                name={activePower.name}
+                progress={activePower.progress}
+                timeLeft={activePower.timeLeft}
+                alliedPlayers={activePower.alliedPlayers}
+                enemyPlayers={activePower.enemyPlayers}
+              />
+            : <View style={{flex: 1}} />
+        }
         <View style={{
           flex: 1,
           flexDirection: 'row'
