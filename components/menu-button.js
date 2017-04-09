@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { AppRegistry, View, TouchableHighlight, StyleSheet, Text } from 'react-native'
-import { Container, Header, Body, Footer } from 'native-base'
 import Button from 'react-native-button'
 
 export default class MenuButton extends Component {

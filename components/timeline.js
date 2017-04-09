@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { ScrollView, View, Button} from 'react-native'
-import { Container, Header, Body, Footer } from 'native-base'
 import {observer} from 'mobx-react/native'
 import MenuButton from './menu-button'
 import Player from './player'

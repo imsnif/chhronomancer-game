@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { AppRegistry, View, Text, Image, StyleSheet } from 'react-native';
+import React, { Component } from 'react'
+import { View, StyleSheet } from 'react-native'
 
 export default class Item extends Component {
   constructor(props) {

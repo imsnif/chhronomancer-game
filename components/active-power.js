@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
-import { AppRegistry, View, Text } from 'react-native';
-import { Container, Header, Body, Footer } from 'native-base'
+import React, { Component } from 'react'
+import { AppRegistry, View, Text } from 'react-native'
 import Item from './item'
 
 export default class ActivePower extends Component {
