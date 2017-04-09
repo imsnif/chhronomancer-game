@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item (default props) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#2f3241",
+      "borderColor": "#02ffff",
+      "borderRadius": 2,
+      "borderWidth": 1,
+      "height": 20,
+      "margin": 4,
+      "width": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 10,
+        "width": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderBottomColor": undefined,
+          "borderBottomWidth": 2,
+          "borderLeftColor": "transparent",
+          "borderLeftWidth": 5,
+          "borderRightColor": "transparent",
+          "borderRightWidth": 5,
+          "borderTopColor": "transparent",
+          "borderTopWidth": 5,
+          "height": 0,
+          "width": 0,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "borderBottomColor": "transparent",
+          "borderBottomWidth": 5,
+          "borderLeftColor": "transparent",
+          "borderLeftWidth": 5,
+          "borderRightColor": "transparent",
+          "borderRightWidth": 5,
+          "borderTopColor": undefined,
+          "borderTopWidth": 7,
+          "height": 0,
+          "width": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Item (with color and fill) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#02ffff",
+      "borderColor": "#02ffff",
+      "borderRadius": 2,
+      "borderWidth": 1,
+      "height": 20,
+      "margin": 4,
+      "width": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 10,
+        "width": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderBottomColor": "red",
+          "borderBottomWidth": 2,
+          "borderLeftColor": "transparent",
+          "borderLeftWidth": 5,
+          "borderRightColor": "transparent",
+          "borderRightWidth": 5,
+          "borderTopColor": "transparent",
+          "borderTopWidth": 5,
+          "height": 0,
+          "width": 0,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "borderBottomColor": "transparent",
+          "borderBottomWidth": 5,
+          "borderLeftColor": "transparent",
+          "borderLeftWidth": 5,
+          "borderRightColor": "transparent",
+          "borderRightWidth": 5,
+          "borderTopColor": "red",
+          "borderTopWidth": 7,
+          "height": 0,
+          "width": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Item (with color) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#2f3241",
+      "borderColor": "#02ffff",
+      "borderRadius": 2,
+      "borderWidth": 1,
+      "height": 20,
+      "margin": 4,
+      "width": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 10,
+        "width": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderBottomColor": "red",
+          "borderBottomWidth": 2,
+          "borderLeftColor": "transparent",
+          "borderLeftWidth": 5,
+          "borderRightColor": "transparent",
+          "borderRightWidth": 5,
+          "borderTopColor": "transparent",
+          "borderTopWidth": 5,
+          "height": 0,
+          "width": 0,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "borderBottomColor": "transparent",
+          "borderBottomWidth": 5,
+          "borderLeftColor": "transparent",
+          "borderLeftWidth": 5,
+          "borderRightColor": "transparent",
+          "borderRightWidth": 5,
+          "borderTopColor": "red",
+          "borderTopWidth": 7,
+          "height": 0,
+          "width": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`Item (with fill) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#02ffff",
+      "borderColor": "#02ffff",
+      "borderRadius": 2,
+      "borderWidth": 1,
+      "height": 20,
+      "margin": 4,
+      "width": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 10,
+        "width": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "borderBottomColor": undefined,
+          "borderBottomWidth": 2,
+          "borderLeftColor": "transparent",
+          "borderLeftWidth": 5,
+          "borderRightColor": "transparent",
+          "borderRightWidth": 5,
+          "borderTopColor": "transparent",
+          "borderTopWidth": 5,
+          "height": 0,
+          "width": 0,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "borderBottomColor": "transparent",
+          "borderBottomWidth": 5,
+          "borderLeftColor": "transparent",
+          "borderLeftWidth": 5,
+          "borderRightColor": "transparent",
+          "borderRightWidth": 5,
+          "borderTopColor": undefined,
+          "borderTopWidth": 7,
+          "height": 0,
+          "width": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
