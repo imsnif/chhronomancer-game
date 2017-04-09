@@ -36,7 +36,7 @@ playersStore.addPlayer({
   activePower: {
     name: 'Questing',
     startTime: Date.now(),
-    endTime: Date.now() + 100000,
+    endTime: Date.now() + 1000000,
     alliedPlayers: 5,
     enemyPlayers: 4
   }
