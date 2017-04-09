@@ -16,6 +16,10 @@ class PlayersStore {
       return p !== id
     })
   }
+  updatePower (id, activePower) {
+    const player = this.players.find(p => p.id === id)
+    player.activePower = activePower
+  }
 }
 
 const playersStore = new PlayersStore()
