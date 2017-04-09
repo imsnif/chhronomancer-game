@@ -17,6 +17,7 @@ export default class Timeline extends Component {
                 const player = this.props.playersStore.players.find(p => p.id === pId)
                 return (
                   <Player
+                    clockStore={this.props.clockStore}
                     key={player.id}
                     name={player.name}
                     image={player.image}

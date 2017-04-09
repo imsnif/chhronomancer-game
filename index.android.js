@@ -19,6 +19,7 @@ import Inventory from './components/inventory'
 import Timeline from './components/timeline'
 import playersStore from './stores/players'
 import timelineStore from './stores/timeline'
+import clockStore from './stores/clock'
 
 playersStore.addPlayer({
   id: 1,
@@ -34,34 +35,22 @@ playersStore.addPlayer({
   image: require('./assets/placeholders/me.jpeg'),
   activePower: {
     name: 'Questing',
-    progress: '50%',
-    timeLeft: '00:22:50',
+    startTime: Date.now(),
+    endTime: Date.now() + 100000,
     alliedPlayers: 5,
     enemyPlayers: 4
   }
 })
 timelineStore.addPlayer(1)
-setTimeout(() => {
-  playersStore.addPlayer({
-    id: 2,
-    name: 'Tom',
-    items: {
-      red: true,
-      green: true,
-      blue: true,
-      purple: true,
-      brown: false,
-      black: false
-    },
-    image: require('./assets/placeholders/me.jpeg')
-  })
-  timelineStore.addPlayer(2)
-}, 2000)
 
 export default class chronomancer extends Component {
   render() {
     return (
-      <Timeline playersStore={playersStore} timelineStore={timelineStore}/>
+      <Timeline
+        playersStore={playersStore}
+        timelineStore={timelineStore}
+        clockStore={clockStore}
+      />
     )
   }
 }
