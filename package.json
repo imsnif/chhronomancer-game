@@ -27,13 +27,5 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "babel": {
-    "presets": [
-      "react-native"
-    ],
-    "plugins": [
-      "transform-decorators-legacy"
-    ]
   }
 }
