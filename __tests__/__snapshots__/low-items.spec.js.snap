@@ -1,0 +1,911 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LowItems (default props) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#2f3241",
+        "borderColor": "#02ffff",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "height": 20,
+        "margin": 4,
+        "width": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 10,
+          "width": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "red",
+            "borderBottomWidth": 2,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "transparent",
+            "borderTopWidth": 5,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "borderBottomColor": "transparent",
+            "borderBottomWidth": 5,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "red",
+            "borderTopWidth": 7,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#2f3241",
+        "borderColor": "#02ffff",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "height": 20,
+        "margin": 4,
+        "width": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 10,
+          "width": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "green",
+            "borderBottomWidth": 2,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "transparent",
+            "borderTopWidth": 5,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "borderBottomColor": "transparent",
+            "borderBottomWidth": 5,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "green",
+            "borderTopWidth": 7,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#2f3241",
+        "borderColor": "#02ffff",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "height": 20,
+        "margin": 4,
+        "width": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 10,
+          "width": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "blue",
+            "borderBottomWidth": 2,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "transparent",
+            "borderTopWidth": 5,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "borderBottomColor": "transparent",
+            "borderBottomWidth": 5,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "blue",
+            "borderTopWidth": 7,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`LowItems (with blue item) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#2f3241",
+        "borderColor": "#02ffff",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "height": 20,
+        "margin": 4,
+        "width": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 10,
+          "width": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "red",
+            "borderBottomWidth": 2,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "transparent",
+            "borderTopWidth": 5,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "borderBottomColor": "transparent",
+            "borderBottomWidth": 5,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "red",
+            "borderTopWidth": 7,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#2f3241",
+        "borderColor": "#02ffff",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "height": 20,
+        "margin": 4,
+        "width": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 10,
+          "width": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "green",
+            "borderBottomWidth": 2,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "transparent",
+            "borderTopWidth": 5,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "borderBottomColor": "transparent",
+            "borderBottomWidth": 5,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "green",
+            "borderTopWidth": 7,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#02ffff",
+        "borderColor": "#02ffff",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "height": 20,
+        "margin": 4,
+        "width": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 10,
+          "width": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "blue",
+            "borderBottomWidth": 2,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "transparent",
+            "borderTopWidth": 5,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "borderBottomColor": "transparent",
+            "borderBottomWidth": 5,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "blue",
+            "borderTopWidth": 7,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`LowItems (with green item) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#2f3241",
+        "borderColor": "#02ffff",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "height": 20,
+        "margin": 4,
+        "width": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 10,
+          "width": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "red",
+            "borderBottomWidth": 2,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "transparent",
+            "borderTopWidth": 5,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "borderBottomColor": "transparent",
+            "borderBottomWidth": 5,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "red",
+            "borderTopWidth": 7,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#02ffff",
+        "borderColor": "#02ffff",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "height": 20,
+        "margin": 4,
+        "width": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 10,
+          "width": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "green",
+            "borderBottomWidth": 2,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "transparent",
+            "borderTopWidth": 5,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "borderBottomColor": "transparent",
+            "borderBottomWidth": 5,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "green",
+            "borderTopWidth": 7,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#2f3241",
+        "borderColor": "#02ffff",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "height": 20,
+        "margin": 4,
+        "width": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 10,
+          "width": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "blue",
+            "borderBottomWidth": 2,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "transparent",
+            "borderTopWidth": 5,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "borderBottomColor": "transparent",
+            "borderBottomWidth": 5,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "blue",
+            "borderTopWidth": 7,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`LowItems (with red item) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#02ffff",
+        "borderColor": "#02ffff",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "height": 20,
+        "margin": 4,
+        "width": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 10,
+          "width": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "red",
+            "borderBottomWidth": 2,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "transparent",
+            "borderTopWidth": 5,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "borderBottomColor": "transparent",
+            "borderBottomWidth": 5,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "red",
+            "borderTopWidth": 7,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#2f3241",
+        "borderColor": "#02ffff",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "height": 20,
+        "margin": 4,
+        "width": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 10,
+          "width": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "green",
+            "borderBottomWidth": 2,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "transparent",
+            "borderTopWidth": 5,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "borderBottomColor": "transparent",
+            "borderBottomWidth": 5,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "green",
+            "borderTopWidth": 7,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#2f3241",
+        "borderColor": "#02ffff",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "height": 20,
+        "margin": 4,
+        "width": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 10,
+          "width": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "blue",
+            "borderBottomWidth": 2,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "transparent",
+            "borderTopWidth": 5,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "borderBottomColor": "transparent",
+            "borderBottomWidth": 5,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "blue",
+            "borderTopWidth": 7,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`LowItems (with red, green and blue items) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#02ffff",
+        "borderColor": "#02ffff",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "height": 20,
+        "margin": 4,
+        "width": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 10,
+          "width": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "red",
+            "borderBottomWidth": 2,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "transparent",
+            "borderTopWidth": 5,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "borderBottomColor": "transparent",
+            "borderBottomWidth": 5,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "red",
+            "borderTopWidth": 7,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#02ffff",
+        "borderColor": "#02ffff",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "height": 20,
+        "margin": 4,
+        "width": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 10,
+          "width": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "green",
+            "borderBottomWidth": 2,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "transparent",
+            "borderTopWidth": 5,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "borderBottomColor": "transparent",
+            "borderBottomWidth": 5,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "green",
+            "borderTopWidth": 7,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#02ffff",
+        "borderColor": "#02ffff",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "height": 20,
+        "margin": 4,
+        "width": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 10,
+          "width": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "borderBottomColor": "blue",
+            "borderBottomWidth": 2,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "transparent",
+            "borderTopWidth": 5,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "borderBottomColor": "transparent",
+            "borderBottomWidth": 5,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 5,
+            "borderRightColor": "transparent",
+            "borderRightWidth": 5,
+            "borderTopColor": "blue",
+            "borderTopWidth": 7,
+            "height": 0,
+            "width": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
