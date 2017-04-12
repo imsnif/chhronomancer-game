@@ -26,6 +26,9 @@
     "react-test-renderer": "~15.4.1"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "modulePathIgnorePatterns": [
+      "node_modules/react-native/node_modules/"
+    ]
   }
 }
