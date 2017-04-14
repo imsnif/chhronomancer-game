@@ -1,6 +1,6 @@
 import _ from 'lodash'
 import React, { Component } from 'react'
-import { AppRegistry, View, Text, Image, Animated } from 'react-native'
+import { View, Animated } from 'react-native'
 import { observer } from 'mobx-react/native'
 import InfoBox from './info-box'
 import LowItems from './low-items'
@@ -17,18 +17,11 @@ function calcProgress (activePower, time) {
 }
 
 function formatTimeLeft (activePower, time) {
-  const timeLeft = activePower.endTime - time
-  const duration = timeLeft > 0 ? moment.duration(timeLeft) : moment.duration(0)
-  const hours = duration.get('hours') >= 10
-    ? duration.get('hours')
-    : `0${duration.get('hours')}`
-  const minutes = duration.get('minutes') >= 10
-    ? duration.get('minutes')
-    : `0${duration.get('minutes')}`
-  const seconds = duration.get('seconds') >= 10
-    ? duration.get('seconds')
-    : `0${duration.get('seconds')}`
-  return `${hours}:${minutes}:${seconds}`
+  const timeLeft = activePower.endTime - time > 0
+    ? activePower.endTime - time
+    : 0
+  const duration = moment.duration(timeLeft)
+  return moment.utc(duration.as('milliseconds')).format('HH:mm:ss')
 }
 
 @observer
