@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
-import { AppRegistry, View, Text, Animated } from 'react-native';
+import React, { Component } from 'react'
+import { View, Animated, StyleSheet } from 'react-native'
+import styles from './styles'
 
-function cycleAnimation() {
+function cycleAnimation () {
   Animated.sequence([
     Animated.timing(this.state.barOpacity, {
       toValue: 300,
@@ -10,7 +11,7 @@ function cycleAnimation() {
     Animated.timing(this.state.barOpacity, {
       toValue: 0,
       duration: 1500
-   })
+    })
   ]).start(event => {
     if (event.finished) {
       cycleAnimation.call(this)
@@ -19,7 +20,7 @@ function cycleAnimation() {
 }
 
 export default class ProgressBar extends Component {
-  constructor(props) {
+  constructor (props) {
     super(props)
     this.state = {
       barOpacity: new Animated.Value(0),
@@ -38,7 +39,7 @@ export default class ProgressBar extends Component {
       }
     ).start()
   }
-  render() {
+  render () {
     const color = this.state.barOpacity.interpolate({
       inputRange: [0, 300],
       outputRange: ['rgb(2, 255, 255)', 'rgb(255, 255, 255)']
@@ -48,18 +49,16 @@ export default class ProgressBar extends Component {
       outputRange: ['0%', '100%']
     })
     return (
-      <View style={{backgroundColor: '#2f3241', flex: 1, padding: 5}}>
-        <View style={{backgroundColor: '#02ffff', borderRadius: 2, flex: 1, padding: 2}}>
-          <View style={{justifyContent: 'center', backgroundColor: '#2f3241', flex: 1, width: '100%', borderRadius: 2}}>
-            <Animated.View style={{
-              width: progress,
-              backgroundColor: color,
-              height: '100%',
-              flex: 1,
-              borderRadius: 2,
-              position: 'absolute',
-            }} />
-            <View style={{elevation: 6, backgroundColor: 'transparent', width: '100%', height: '100%', flexDirection: 'row'}}>
+      <View style={styles.container}>
+        <View style={styles.barBorder}>
+          <View style={styles.barBox}>
+            <Animated.View style={
+              StyleSheet.flatten([
+                styles.progressIndicator,
+                {width: progress, backgroundColor: color}
+              ])
+            } />
+            <View style={styles.childrenContainer}>
               {this.props.children}
             </View>
           </View>
