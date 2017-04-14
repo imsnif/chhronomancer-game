@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuButton (default props) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "margin": 7,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hasTVPreferredFocus={undefined}
+    hitSlop={undefined}
+    isTVSelectable={true}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        Object {
+          "backgroundColor": "#2f3241",
+          "borderColor": "#02ffff",
+          "borderRadius": 2,
+          "borderWidth": 2,
+          "flex": 1,
+          "width": "100%",
+        },
+      ]
+    }
+    testID={undefined}
+    tvParallaxProperties={undefined}
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#02ffff",
+          "paddingTop": 12,
+          "textAlign": "center",
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`MenuButton (with title) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "margin": 7,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hasTVPreferredFocus={undefined}
+    hitSlop={undefined}
+    isTVSelectable={true}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        Object {
+          "backgroundColor": "#2f3241",
+          "borderColor": "#02ffff",
+          "borderRadius": 2,
+          "borderWidth": 2,
+          "flex": 1,
+          "width": "100%",
+        },
+      ]
+    }
+    testID={undefined}
+    tvParallaxProperties={undefined}
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#02ffff",
+          "paddingTop": 12,
+          "textAlign": "center",
+        }
+      }
+    >
+      foo
+    </Text>
+  </View>
+</View>
+`;
