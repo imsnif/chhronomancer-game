@@ -1,0 +1,285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoBox (default props) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#02ffff",
+      "borderColor": "#02ffff",
+      "borderRadius": 2,
+      "borderWidth": 0.2,
+      "flex": 1,
+      "flexDirection": "column",
+      "height": 100,
+      "margin": 5,
+      "marginBottom": 15,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Image
+      source={undefined}
+      style={
+        Object {
+          "backgroundColor": "#2f3241",
+          "borderRadius": 2,
+          "flex": 1,
+          "height": 21,
+          "margin": 2,
+          "marginBottom": 1,
+          "width": 10,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#2e1a29",
+          "flex": 9,
+          "fontFamily": "sans-serif",
+          "paddingRight": 30,
+          "paddingTop": 2,
+          "textAlign": "center",
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#2f3241",
+        "borderColor": "#2f3241",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "flex": 3,
+        "flexDirection": "column",
+        "margin": 2,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`InfoBox (with image) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#02ffff",
+      "borderColor": "#02ffff",
+      "borderRadius": 2,
+      "borderWidth": 0.2,
+      "flex": 1,
+      "flexDirection": "column",
+      "height": 100,
+      "margin": 5,
+      "marginBottom": 15,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Image
+      source={1}
+      style={
+        Object {
+          "backgroundColor": "#2f3241",
+          "borderRadius": 2,
+          "flex": 1,
+          "height": 21,
+          "margin": 2,
+          "marginBottom": 1,
+          "width": 10,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#2e1a29",
+          "flex": 9,
+          "fontFamily": "sans-serif",
+          "paddingRight": 30,
+          "paddingTop": 2,
+          "textAlign": "center",
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#2f3241",
+        "borderColor": "#2f3241",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "flex": 3,
+        "flexDirection": "column",
+        "margin": 2,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`InfoBox (with title and image) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#02ffff",
+      "borderColor": "#02ffff",
+      "borderRadius": 2,
+      "borderWidth": 0.2,
+      "flex": 1,
+      "flexDirection": "column",
+      "height": 100,
+      "margin": 5,
+      "marginBottom": 15,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Image
+      source={1}
+      style={
+        Object {
+          "backgroundColor": "#2f3241",
+          "borderRadius": 2,
+          "flex": 1,
+          "height": 21,
+          "margin": 2,
+          "marginBottom": 1,
+          "width": 10,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#2e1a29",
+          "flex": 9,
+          "fontFamily": "sans-serif",
+          "paddingRight": 30,
+          "paddingTop": 2,
+          "textAlign": "center",
+        }
+      }
+    >
+      foo
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#2f3241",
+        "borderColor": "#2f3241",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "flex": 3,
+        "flexDirection": "column",
+        "margin": 2,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`InfoBox (with title) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#02ffff",
+      "borderColor": "#02ffff",
+      "borderRadius": 2,
+      "borderWidth": 0.2,
+      "flex": 1,
+      "flexDirection": "column",
+      "height": 100,
+      "margin": 5,
+      "marginBottom": 15,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Image
+      source={undefined}
+      style={
+        Object {
+          "backgroundColor": "#2f3241",
+          "borderRadius": 2,
+          "flex": 1,
+          "height": 21,
+          "margin": 2,
+          "marginBottom": 1,
+          "width": 10,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#2e1a29",
+          "flex": 9,
+          "fontFamily": "sans-serif",
+          "paddingRight": 30,
+          "paddingTop": 2,
+          "textAlign": "center",
+        }
+      }
+    >
+      foo
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#2f3241",
+        "borderColor": "#2f3241",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "flex": 3,
+        "flexDirection": "column",
+        "margin": 2,
+      }
+    }
+  />
+</View>
+`;
