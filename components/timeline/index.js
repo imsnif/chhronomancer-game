@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
-import { ScrollView, View, Button} from 'react-native'
-import {observer} from 'mobx-react/native'
-import MenuButton from './menu-button'
-import Player from './player'
+import { ScrollView, View, Button, StyleSheet } from 'react-native'
+import { observer } from 'mobx-react/native'
+import MenuButton from '../menu-button'
+import Player from '../player'
+import styles from './styles'
 
 @observer
 export default class Timeline extends Component {
-  render() {
+  render () {
     return (
-      <View style={{flex: 1, flexDirection: 'column', backgroundColor: '#2f3241'}}>
-        <View style={{flex: 1, borderWidth: 5, borderColor: 'black', borderStyle: 'dashed'}}>
-          <ScrollView style={{flex: 1, padding: 5}}>
+      <View style={styles.container}>
+        <View style={styles.playersContainer}>
+          <ScrollView style={styles.playersScroller}>
             {
               this.props.timelineStore.players.map(pId => {
                 const player = this.props.playersStore.players.find(p => p.id === pId)
@@ -26,18 +27,18 @@ export default class Timeline extends Component {
                 )
               })
             }
-            <View style={{height: 10}}/>
+            <View style={styles.scrollPad}/>
           </ScrollView>
         </View>
-        <View style={{flex: 0, height: 60, flexDirection: 'row', justifyContent: 'center'}}>
+        <View style={styles.buttonRow}>
           <MenuButton title='Reset' onPress={() => {}} />
           <MenuButton title='Quest' onPress={() => {}} />
         </View>
-        <View style={{flex: 0, height: 60, flexDirection: 'row', justifyContent: 'center'}}>
+        <View style={styles.buttonRow}>
           <MenuButton title='Lock' onPress={() => {}} />
           <MenuButton title='Unlock' onPress={() => {}} />
         </View>
-        <View style={{flex: 0, height: 60, flexDirection: 'row', justifyContent: 'center'}}>
+        <View style={styles.buttonRow}>
           <MenuButton title='Travel Here' onPress={() => {}} />
         </View>
       </View>
