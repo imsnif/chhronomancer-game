@@ -119,3 +119,25 @@ exports[`MenuButton (with title) => renders correctly 1`] = `
   </View>
 </View>
 `;
+
+exports[`MenuButton => changes color while finger is held down 1`] = `
+Object {
+  "backgroundColor": "#02ffff",
+  "borderColor": "#02ffff",
+  "borderRadius": 2,
+  "borderWidth": 1,
+  "flex": 1,
+  "width": "100%",
+}
+`;
+
+exports[`MenuButton => changes color while finger is held down 2`] = `
+Object {
+  "backgroundColor": "#2f3241",
+  "borderColor": "#02ffff",
+  "borderRadius": 2,
+  "borderWidth": 2,
+  "flex": 1,
+  "width": "100%",
+}
+`;
