@@ -2,12 +2,12 @@ import { observable, action } from 'mobx'
 import moment from 'moment'
 
 class Clock {
-  @observable time = moment();
+  @observable time = moment()
   constructor(period = 1000) {
     this.interval = setInterval(() => this.clockTick(), period)
   }
   @action clockTick(newTime = moment()) {
-      this.time = newTime;
+    this.time = newTime
   }
   destroy () {
     clearInterval(this.interval)
