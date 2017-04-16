@@ -13,7 +13,7 @@ class PlayersStore {
   }
   removePlayer (id) {
     this.players = this.players.filter(p => {
-      return p !== id
+      return p.id !== id
     })
   }
   updatePower (id, activePower) {
