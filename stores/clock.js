@@ -9,6 +9,9 @@ class Clock {
   @action clockTick(newTime = moment()) {
       this.time = newTime;
   }
+  destroy () {
+    clearInterval(this.interval)
+  }
 }
 
 const clock = new Clock()
