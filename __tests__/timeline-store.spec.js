@@ -1,8 +1,6 @@
 import moment from 'moment'
 import renderer from 'react-test-renderer'
 
-const staticTime = 1492347672000
-
 beforeEach(() => {
   jest.resetModules()
 })
