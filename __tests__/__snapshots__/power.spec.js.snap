@@ -4,7 +4,7 @@ exports[`Power (default props) => renders correctly 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#2f3241",
+      "backgroundColor": "black",
       "flex": 1,
       "padding": 5,
     }
@@ -13,18 +13,18 @@ exports[`Power (default props) => renders correctly 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#02ffff",
-        "borderRadius": 2,
+        "backgroundColor": "#00ff00",
+        "borderRadius": 0,
         "flex": 1,
-        "padding": 2,
+        "padding": 1,
       }
     }
   >
     <View
       style={
         Object {
-          "backgroundColor": "#2f3241",
-          "borderRadius": 2,
+          "backgroundColor": "black",
+          "borderRadius": 0,
           "flex": 1,
           "justifyContent": "center",
           "width": "100%",
@@ -35,7 +35,7 @@ exports[`Power (default props) => renders correctly 1`] = `
         style={
           Object {
             "backgroundColor": "rgba(2, 255, 255, 1)",
-            "borderRadius": 2,
+            "borderRadius": 0,
             "flex": 1,
             "height": "100%",
             "position": "absolute",
@@ -60,9 +60,10 @@ exports[`Power (default props) => renders correctly 1`] = `
           ellipsizeMode="tail"
           style={
             Object {
-              "color": "#2e1a29",
+              "color": "#00ff00",
               "flex": 2,
-              "margin": 5,
+              "fontFamily": "px_sans_nouveaux",
+              "marginLeft": 4,
             }
           }
         >
@@ -74,9 +75,10 @@ exports[`Power (default props) => renders correctly 1`] = `
           ellipsizeMode="tail"
           style={
             Object {
-              "color": "red",
+              "color": "#00ff00",
               "flex": 2,
-              "margin": 5,
+              "fontFamily": "px_sans_nouveaux",
+              "marginTop": 1,
             }
           }
         />
@@ -85,7 +87,7 @@ exports[`Power (default props) => renders correctly 1`] = `
             Object {
               "flex": 1,
               "flexDirection": "row",
-              "margin": 5,
+              "marginTop": 1,
             }
           }
         >
@@ -95,7 +97,8 @@ exports[`Power (default props) => renders correctly 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "green",
+                "color": "#00ff00",
+                "fontFamily": "px_sans_nouveaux",
               }
             }
           />
@@ -105,7 +108,8 @@ exports[`Power (default props) => renders correctly 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "#2e1a29",
+                "color": "#00ff00",
+                "fontFamily": "px_sans_nouveaux",
               }
             }
           >
@@ -117,7 +121,8 @@ exports[`Power (default props) => renders correctly 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "red",
+                "color": "#00ff00",
+                "fontFamily": "px_sans_nouveaux",
               }
             }
           />
@@ -132,7 +137,7 @@ exports[`Power (with allied/enemy players) => renders correctly 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#2f3241",
+      "backgroundColor": "black",
       "flex": 1,
       "padding": 5,
     }
@@ -141,18 +146,18 @@ exports[`Power (with allied/enemy players) => renders correctly 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#02ffff",
-        "borderRadius": 2,
+        "backgroundColor": "#00ff00",
+        "borderRadius": 0,
         "flex": 1,
-        "padding": 2,
+        "padding": 1,
       }
     }
   >
     <View
       style={
         Object {
-          "backgroundColor": "#2f3241",
-          "borderRadius": 2,
+          "backgroundColor": "black",
+          "borderRadius": 0,
           "flex": 1,
           "justifyContent": "center",
           "width": "100%",
@@ -163,7 +168,7 @@ exports[`Power (with allied/enemy players) => renders correctly 1`] = `
         style={
           Object {
             "backgroundColor": "rgba(2, 255, 255, 1)",
-            "borderRadius": 2,
+            "borderRadius": 0,
             "flex": 1,
             "height": "100%",
             "position": "absolute",
@@ -188,9 +193,10 @@ exports[`Power (with allied/enemy players) => renders correctly 1`] = `
           ellipsizeMode="tail"
           style={
             Object {
-              "color": "#2e1a29",
+              "color": "#00ff00",
               "flex": 2,
-              "margin": 5,
+              "fontFamily": "px_sans_nouveaux",
+              "marginLeft": 4,
             }
           }
         >
@@ -202,9 +208,10 @@ exports[`Power (with allied/enemy players) => renders correctly 1`] = `
           ellipsizeMode="tail"
           style={
             Object {
-              "color": "red",
+              "color": "#00ff00",
               "flex": 2,
-              "margin": 5,
+              "fontFamily": "px_sans_nouveaux",
+              "marginTop": 1,
             }
           }
         />
@@ -213,7 +220,7 @@ exports[`Power (with allied/enemy players) => renders correctly 1`] = `
             Object {
               "flex": 1,
               "flexDirection": "row",
-              "margin": 5,
+              "marginTop": 1,
             }
           }
         >
@@ -223,7 +230,8 @@ exports[`Power (with allied/enemy players) => renders correctly 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "green",
+                "color": "#00ff00",
+                "fontFamily": "px_sans_nouveaux",
               }
             }
           >
@@ -235,7 +243,8 @@ exports[`Power (with allied/enemy players) => renders correctly 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "#2e1a29",
+                "color": "#00ff00",
+                "fontFamily": "px_sans_nouveaux",
               }
             }
           >
@@ -247,7 +256,8 @@ exports[`Power (with allied/enemy players) => renders correctly 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "red",
+                "color": "#00ff00",
+                "fontFamily": "px_sans_nouveaux",
               }
             }
           >
@@ -264,7 +274,7 @@ exports[`Power (with progress) => renders correctly 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#2f3241",
+      "backgroundColor": "black",
       "flex": 1,
       "padding": 5,
     }
@@ -273,18 +283,18 @@ exports[`Power (with progress) => renders correctly 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#02ffff",
-        "borderRadius": 2,
+        "backgroundColor": "#00ff00",
+        "borderRadius": 0,
         "flex": 1,
-        "padding": 2,
+        "padding": 1,
       }
     }
   >
     <View
       style={
         Object {
-          "backgroundColor": "#2f3241",
-          "borderRadius": 2,
+          "backgroundColor": "black",
+          "borderRadius": 0,
           "flex": 1,
           "justifyContent": "center",
           "width": "100%",
@@ -295,7 +305,7 @@ exports[`Power (with progress) => renders correctly 1`] = `
         style={
           Object {
             "backgroundColor": "rgba(2, 255, 255, 1)",
-            "borderRadius": 2,
+            "borderRadius": 0,
             "flex": 1,
             "height": "100%",
             "position": "absolute",
@@ -320,9 +330,10 @@ exports[`Power (with progress) => renders correctly 1`] = `
           ellipsizeMode="tail"
           style={
             Object {
-              "color": "#2e1a29",
+              "color": "#00ff00",
               "flex": 2,
-              "margin": 5,
+              "fontFamily": "px_sans_nouveaux",
+              "marginLeft": 4,
             }
           }
         >
@@ -334,9 +345,10 @@ exports[`Power (with progress) => renders correctly 1`] = `
           ellipsizeMode="tail"
           style={
             Object {
-              "color": "red",
+              "color": "#00ff00",
               "flex": 2,
-              "margin": 5,
+              "fontFamily": "px_sans_nouveaux",
+              "marginTop": 1,
             }
           }
         />
@@ -345,7 +357,7 @@ exports[`Power (with progress) => renders correctly 1`] = `
             Object {
               "flex": 1,
               "flexDirection": "row",
-              "margin": 5,
+              "marginTop": 1,
             }
           }
         >
@@ -355,7 +367,8 @@ exports[`Power (with progress) => renders correctly 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "green",
+                "color": "#00ff00",
+                "fontFamily": "px_sans_nouveaux",
               }
             }
           />
@@ -365,7 +378,8 @@ exports[`Power (with progress) => renders correctly 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "#2e1a29",
+                "color": "#00ff00",
+                "fontFamily": "px_sans_nouveaux",
               }
             }
           >
@@ -377,7 +391,8 @@ exports[`Power (with progress) => renders correctly 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "red",
+                "color": "#00ff00",
+                "fontFamily": "px_sans_nouveaux",
               }
             }
           />
@@ -392,7 +407,7 @@ exports[`Power (with progress, timeLeft and allied/enemy players) => renders cor
 <View
   style={
     Object {
-      "backgroundColor": "#2f3241",
+      "backgroundColor": "black",
       "flex": 1,
       "padding": 5,
     }
@@ -401,18 +416,18 @@ exports[`Power (with progress, timeLeft and allied/enemy players) => renders cor
   <View
     style={
       Object {
-        "backgroundColor": "#02ffff",
-        "borderRadius": 2,
+        "backgroundColor": "#00ff00",
+        "borderRadius": 0,
         "flex": 1,
-        "padding": 2,
+        "padding": 1,
       }
     }
   >
     <View
       style={
         Object {
-          "backgroundColor": "#2f3241",
-          "borderRadius": 2,
+          "backgroundColor": "black",
+          "borderRadius": 0,
           "flex": 1,
           "justifyContent": "center",
           "width": "100%",
@@ -423,7 +438,7 @@ exports[`Power (with progress, timeLeft and allied/enemy players) => renders cor
         style={
           Object {
             "backgroundColor": "rgba(2, 255, 255, 1)",
-            "borderRadius": 2,
+            "borderRadius": 0,
             "flex": 1,
             "height": "100%",
             "position": "absolute",
@@ -448,9 +463,10 @@ exports[`Power (with progress, timeLeft and allied/enemy players) => renders cor
           ellipsizeMode="tail"
           style={
             Object {
-              "color": "#2e1a29",
+              "color": "#00ff00",
               "flex": 2,
-              "margin": 5,
+              "fontFamily": "px_sans_nouveaux",
+              "marginLeft": 4,
             }
           }
         >
@@ -462,9 +478,10 @@ exports[`Power (with progress, timeLeft and allied/enemy players) => renders cor
           ellipsizeMode="tail"
           style={
             Object {
-              "color": "red",
+              "color": "#00ff00",
               "flex": 2,
-              "margin": 5,
+              "fontFamily": "px_sans_nouveaux",
+              "marginTop": 1,
             }
           }
         >
@@ -475,7 +492,7 @@ exports[`Power (with progress, timeLeft and allied/enemy players) => renders cor
             Object {
               "flex": 1,
               "flexDirection": "row",
-              "margin": 5,
+              "marginTop": 1,
             }
           }
         >
@@ -485,7 +502,8 @@ exports[`Power (with progress, timeLeft and allied/enemy players) => renders cor
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "green",
+                "color": "#00ff00",
+                "fontFamily": "px_sans_nouveaux",
               }
             }
           >
@@ -497,7 +515,8 @@ exports[`Power (with progress, timeLeft and allied/enemy players) => renders cor
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "#2e1a29",
+                "color": "#00ff00",
+                "fontFamily": "px_sans_nouveaux",
               }
             }
           >
@@ -509,7 +528,8 @@ exports[`Power (with progress, timeLeft and allied/enemy players) => renders cor
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "red",
+                "color": "#00ff00",
+                "fontFamily": "px_sans_nouveaux",
               }
             }
           >
@@ -526,7 +546,7 @@ exports[`Power (with timeLeft) => renders correctly 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#2f3241",
+      "backgroundColor": "black",
       "flex": 1,
       "padding": 5,
     }
@@ -535,18 +555,18 @@ exports[`Power (with timeLeft) => renders correctly 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#02ffff",
-        "borderRadius": 2,
+        "backgroundColor": "#00ff00",
+        "borderRadius": 0,
         "flex": 1,
-        "padding": 2,
+        "padding": 1,
       }
     }
   >
     <View
       style={
         Object {
-          "backgroundColor": "#2f3241",
-          "borderRadius": 2,
+          "backgroundColor": "black",
+          "borderRadius": 0,
           "flex": 1,
           "justifyContent": "center",
           "width": "100%",
@@ -557,7 +577,7 @@ exports[`Power (with timeLeft) => renders correctly 1`] = `
         style={
           Object {
             "backgroundColor": "rgba(2, 255, 255, 1)",
-            "borderRadius": 2,
+            "borderRadius": 0,
             "flex": 1,
             "height": "100%",
             "position": "absolute",
@@ -582,9 +602,10 @@ exports[`Power (with timeLeft) => renders correctly 1`] = `
           ellipsizeMode="tail"
           style={
             Object {
-              "color": "#2e1a29",
+              "color": "#00ff00",
               "flex": 2,
-              "margin": 5,
+              "fontFamily": "px_sans_nouveaux",
+              "marginLeft": 4,
             }
           }
         >
@@ -596,9 +617,10 @@ exports[`Power (with timeLeft) => renders correctly 1`] = `
           ellipsizeMode="tail"
           style={
             Object {
-              "color": "red",
+              "color": "#00ff00",
               "flex": 2,
-              "margin": 5,
+              "fontFamily": "px_sans_nouveaux",
+              "marginTop": 1,
             }
           }
         >
@@ -609,7 +631,7 @@ exports[`Power (with timeLeft) => renders correctly 1`] = `
             Object {
               "flex": 1,
               "flexDirection": "row",
-              "margin": 5,
+              "marginTop": 1,
             }
           }
         >
@@ -619,7 +641,8 @@ exports[`Power (with timeLeft) => renders correctly 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "green",
+                "color": "#00ff00",
+                "fontFamily": "px_sans_nouveaux",
               }
             }
           />
@@ -629,7 +652,8 @@ exports[`Power (with timeLeft) => renders correctly 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "#2e1a29",
+                "color": "#00ff00",
+                "fontFamily": "px_sans_nouveaux",
               }
             }
           >
@@ -641,7 +665,8 @@ exports[`Power (with timeLeft) => renders correctly 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "red",
+                "color": "#00ff00",
+                "fontFamily": "px_sans_nouveaux",
               }
             }
           />

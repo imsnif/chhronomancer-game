@@ -1,15 +1,17 @@
 import { StyleSheet } from 'react-native';
 
+import common from '../common/styles'
+
 module.exports = StyleSheet.create({
   outerBox: {
     flex: 1,
     flexDirection: 'column',
-    borderColor: '#02ffff',
-    backgroundColor: '#02ffff',
-    borderWidth: 0.2,
+    borderColor: common.foreGround,
+    backgroundColor: common.foreGround,
+    borderWidth: StyleSheet.hairlineWidth,
     margin: 5,
     marginBottom: 15,
-    borderRadius: 2,
+    borderRadius: common.borderRadius,
     height: 100
   },
   titleBar: {
@@ -21,25 +23,24 @@ module.exports = StyleSheet.create({
     height: 21,
     margin: 2,
     marginBottom: 1,
-    borderRadius: 2,
+    borderRadius: common.borderRadius,
     flex: 1,
-    backgroundColor: '#2f3241'
+    backgroundColor: common.backGround
   },
   titleText: {
-    color: '#2e1a29',
+    fontFamily: 'px_sans_nouveaux',
+    color: common.altText,
     flex: 9,
     textAlign: 'center',
-    paddingRight: 30,
-    paddingTop: 2,
-    fontFamily: 'sans-serif'
+    paddingRight: 30
   },
   contentBox: {
-    margin: 2,
+    margin: 1,
     flex: 3,
     flexDirection: 'column',
-    backgroundColor: '#2f3241',
-    borderColor: '#2f3241',
-    borderWidth: 1,
-    borderRadius: 2
+    backgroundColor: common.backGround,
+    borderColor: common.backGround,
+    borderWidth: StyleSheet.hairlineWidth,
+    borderRadius: common.borderRadius
   }
 })

@@ -1,10 +1,12 @@
 import { StyleSheet } from 'react-native'
 
+import common from '../common/styles'
+
 export default StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'column',
-    backgroundColor: '#2f3241'
+    backgroundColor: common.backGround
   },
   playersContainer: {
     flex: 1,

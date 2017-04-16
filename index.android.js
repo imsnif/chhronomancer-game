@@ -30,7 +30,7 @@ playersStore.addPlayer({
     blue: true,
     purple: true,
     brown: false,
-    black: false
+    yellow: false
   },
   image: require('./assets/placeholders/me.jpeg'),
   activePower: {

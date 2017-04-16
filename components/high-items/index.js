@@ -7,7 +7,7 @@ export default function LowItems (props) {
   const items = props.items || {}
   return (
     <View style={styles.itemContainer}>
-      <Item key={1} fill={items.black} color='black' />
+      <Item key={1} fill={items.yellow} color='yellow' />
     </View>
   )
 }

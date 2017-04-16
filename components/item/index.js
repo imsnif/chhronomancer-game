@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { View, StyleSheet } from 'react-native'
 import styles from './styles'
 
+import commonStyles from '../common/styles'
+
 export default function Item (props) {
   const topStyle = StyleSheet.flatten([
     styles.diamondShieldTop,
@@ -13,14 +15,17 @@ export default function Item (props) {
   ])
   const boxStyle = StyleSheet.flatten([
     styles.boxStyle,
-    { backgroundColor: props.fill ? '#02ffff' : '#2f3241' }
+    {
+      borderColor: 'black'
+    }
   ])
+  const diamond = StyleSheet.flatten([styles.diamond, {
+    backgroundColor: props.fill ? props.color : commonStyles.backGround,
+    borderColor: props.color
+  }])
   return (
     <View style={boxStyle}>
-      <View style={styles.diamondShield}>
-        <View style={topStyle}/>
-        <View style={bottomStyle}/>
-      </View>
+      <View style={diamond} />
     </View>
   )
 }

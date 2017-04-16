@@ -1,28 +1,30 @@
 import { StyleSheet } from 'react-native'
 
+import common from '../common/styles'
+
 module.exports = StyleSheet.create({
   container: {
-    backgroundColor: '#2f3241',
+    backgroundColor: common.backGround,
     flex: 1,
     padding: 5
   },
   barBorder: {
-    backgroundColor: '#02ffff',
-    borderRadius: 2,
+    backgroundColor: common.foreGround,
+    borderRadius: common.borderRadius,
     flex: 1,
-    padding: 2
+    padding: 1
   },
   barBox: {
     justifyContent: 'center',
-    backgroundColor: '#2f3241',
+    backgroundColor: common.backGround,
     flex: 1,
     width: '100%',
-    borderRadius: 2
+    borderRadius: common.borderRadius
   },
   progressIndicator: {
     height: '100%',
     flex: 1,
-    borderRadius: 2,
+    borderRadius: common.borderRadius,
     position: 'absolute'
   },
   childrenContainer: {

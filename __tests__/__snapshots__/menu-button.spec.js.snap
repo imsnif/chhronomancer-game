@@ -31,10 +31,10 @@ exports[`MenuButton (default props) => renders correctly 1`] = `
           "backgroundColor": "transparent",
         },
         Object {
-          "backgroundColor": "#2f3241",
-          "borderColor": "#02ffff",
-          "borderRadius": 2,
-          "borderWidth": 2,
+          "backgroundColor": "black",
+          "borderColor": "#00ff00",
+          "borderRadius": 0,
+          "borderWidth": 1,
           "flex": 1,
           "width": "100%",
         },
@@ -49,8 +49,9 @@ exports[`MenuButton (default props) => renders correctly 1`] = `
       ellipsizeMode="tail"
       style={
         Object {
-          "color": "#02ffff",
-          "paddingTop": 12,
+          "color": "#00ff00",
+          "fontFamily": "px_sans_nouveaux",
+          "paddingTop": 9,
           "textAlign": "center",
         }
       }
@@ -90,10 +91,10 @@ exports[`MenuButton (with title) => renders correctly 1`] = `
           "backgroundColor": "transparent",
         },
         Object {
-          "backgroundColor": "#2f3241",
-          "borderColor": "#02ffff",
-          "borderRadius": 2,
-          "borderWidth": 2,
+          "backgroundColor": "black",
+          "borderColor": "#00ff00",
+          "borderRadius": 0,
+          "borderWidth": 1,
           "flex": 1,
           "width": "100%",
         },
@@ -108,8 +109,9 @@ exports[`MenuButton (with title) => renders correctly 1`] = `
       ellipsizeMode="tail"
       style={
         Object {
-          "color": "#02ffff",
-          "paddingTop": 12,
+          "color": "#00ff00",
+          "fontFamily": "px_sans_nouveaux",
+          "paddingTop": 9,
           "textAlign": "center",
         }
       }
@@ -122,9 +124,9 @@ exports[`MenuButton (with title) => renders correctly 1`] = `
 
 exports[`MenuButton => changes color while finger is held down 1`] = `
 Object {
-  "backgroundColor": "#02ffff",
-  "borderColor": "#02ffff",
-  "borderRadius": 2,
+  "backgroundColor": "#00ff00",
+  "borderColor": "#00ff00",
+  "borderRadius": 0,
   "borderWidth": 1,
   "flex": 1,
   "width": "100%",
@@ -133,10 +135,10 @@ Object {
 
 exports[`MenuButton => changes color while finger is held down 2`] = `
 Object {
-  "backgroundColor": "#2f3241",
-  "borderColor": "#02ffff",
-  "borderRadius": 2,
-  "borderWidth": 2,
+  "backgroundColor": "black",
+  "borderColor": "#00ff00",
+  "borderRadius": 0,
+  "borderWidth": 1,
   "flex": 1,
   "width": "100%",
 }

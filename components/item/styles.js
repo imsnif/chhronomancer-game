@@ -1,14 +1,28 @@
 import { StyleSheet } from 'react-native'
 
+import common from '../common/styles'
+
 export default StyleSheet.create({
   boxStyle: {
     margin: 4,
-    height: 20,
-    width: 20,
+    height: 14,
+    width: 14,
     borderWidth: 1,
-    borderColor: '#02ffff',
-    borderRadius: 2,
+    borderColor: common.foreGround,
+    borderRadius: common.borderRadius,
+    backgroundColor: common.backGround,
     alignItems: 'center'
+  },
+  diamond: {
+    marginTop: 2,
+    width: 8,
+    height: 8,
+    borderWidth: 1,
+    borderColor: 'red',
+    backgroundColor: 'black',
+    transform: [
+      {rotate: '45deg'}
+    ]
   },
   diamondShield: {
     width: 10,

@@ -1,28 +1,35 @@
 import { StyleSheet } from 'react-native'
 
+import common from '../common/styles'
+
 module.exports = StyleSheet.create({
   powerName: {
-    color: '#2e1a29',
+    fontFamily: 'px_sans_nouveaux',
+    color: common.foreGround,
     flex: 2,
-    margin: 5
+    marginLeft: 4
   },
   timeLeft: {
-    color: 'red',
+    fontFamily: 'px_sans_nouveaux',
+    color: common.foreGround,
     flex: 2,
-    margin: 5
+    marginTop: 1
   },
   involvedPlayers: {
     flex: 1,
-    margin: 5,
-    flexDirection: 'row'
+    flexDirection: 'row',
+    marginTop: 1
   },
   alliedPlayers: {
-    color: 'green'
+    fontFamily: 'px_sans_nouveaux',
+    color: common.foreGround
   },
   divider: {
-    color: '#2e1a29'
+    fontFamily: 'px_sans_nouveaux',
+    color: common.foreGround,
   },
   enemyPlayers: {
-    color: 'red'
+    fontFamily: 'px_sans_nouveaux',
+    color: common.foreGround
   }
 })

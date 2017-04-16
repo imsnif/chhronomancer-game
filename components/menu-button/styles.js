@@ -1,5 +1,7 @@
 import { StyleSheet } from 'react-native'
 
+import common from '../common/styles'
+
 export default StyleSheet.create({
   buttonContainer: {
     width: '100%',
@@ -7,29 +9,31 @@ export default StyleSheet.create({
     margin: 7
   },
   text: {
-    color: '#02ffff',
+    fontFamily: 'px_sans_nouveaux',
+    color: common.foreGround,
     textAlign: 'center',
-    paddingTop: 12
+    paddingTop: 9
   },
   textPress: {
-    color: '#2e1a29',
+    fontFamily: 'px_sans_nouveaux',
+    color: common.altText,
     textAlign: 'center',
-    paddingTop: 12
+    paddingTop: 9
   },
   button: {
     width: '100%',
     flex: 1,
-    borderRadius: 2,
-    borderColor: '#02ffff',
-    backgroundColor: '#2f3241',
-    borderWidth: 2
+    borderRadius: common.borderRadius,
+    borderColor: common.foreGround,
+    backgroundColor: common.backGround,
+    borderWidth: 1
   },
   buttonPress: {
     width: '100%',
     flex: 1,
-    borderRadius: 2,
-    backgroundColor: '#02ffff',
-    borderColor: '#02ffff',
+    borderRadius: common.borderRadius,
+    backgroundColor: common.foreGround,
+    borderColor: common.foreGround,
     borderWidth: 1
   }
 })
