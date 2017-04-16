@@ -6,9 +6,7 @@ class TimelineStore {
     this.players.push(id)
   }
   removePlayer (id) {
-    this.players = this.players.filter(p => {
-      return p !== id
-    })
+    this.players = this.players.filter(p => p !== id)
   }
 }
 
