@@ -13,7 +13,8 @@ beforeEach(() => {
 
 test('ClockStore => is constructed properly', () => {
   const clockStore = require('../stores/clock').default
-  expect(clockStore.time.valueOf()).toEqual(staticTime)
+  const epochStoreTime = clockStore.time.valueOf()
+  expect(epochStoreTime).toEqual(staticTime)
   clockStore.destroy()
 })
 
@@ -21,6 +22,7 @@ test('ClockStore => moves time forward', () => {
   const clockStore = require('../stores/clock').default
   MockDate.set(staticTime + 1000)
   jest.runTimersToTime(1000)
-  expect(clockStore.time.valueOf()).toEqual(staticTime + 1000)
+  const epochStoreTime = clockStore.time.valueOf()
+  expect(epochStoreTime).toEqual(staticTime + 1000)
   clockStore.destroy()
 })
