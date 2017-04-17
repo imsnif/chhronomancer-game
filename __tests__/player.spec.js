@@ -4,6 +4,7 @@ import Player from '../components/player'
 import renderer from 'react-test-renderer'
 
 jest.mock('mobx-react/native', () => require('mobx-react/custom'))
+jest.useFakeTimers()
 
 test('Player (default props) => renders correctly', () => {
   const tree = renderer.create(

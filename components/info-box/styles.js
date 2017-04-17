@@ -23,14 +23,18 @@ module.exports = StyleSheet.create({
     height: 21,
     margin: 2,
     marginBottom: 1,
+    borderWidth: 1,
+    borderColor: 'black',
     borderRadius: common.borderRadius,
     flex: 1,
-    backgroundColor: common.backGround
+    backgroundColor: common.backGround,
+    resizeMode: 'contain'
   },
   titleText: {
-    fontFamily: 'px_sans_nouveaux',
+    fontFamily: 'telegrama_raw',
     color: common.altText,
     flex: 9,
+    paddingTop: 4,
     textAlign: 'center',
     paddingRight: 30
   },

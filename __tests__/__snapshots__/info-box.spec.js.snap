@@ -29,11 +29,14 @@ exports[`InfoBox (default props) => renders correctly 1`] = `
       style={
         Object {
           "backgroundColor": "black",
+          "borderColor": "black",
           "borderRadius": 0,
+          "borderWidth": 1,
           "flex": 1,
           "height": 21,
           "margin": 2,
           "marginBottom": 1,
+          "resizeMode": "contain",
           "width": 10,
         }
       }
@@ -46,8 +49,9 @@ exports[`InfoBox (default props) => renders correctly 1`] = `
         Object {
           "color": "black",
           "flex": 9,
-          "fontFamily": "px_sans_nouveaux",
+          "fontFamily": "telegrama_raw",
           "paddingRight": 30,
+          "paddingTop": 4,
           "textAlign": "center",
         }
       }
@@ -98,11 +102,14 @@ exports[`InfoBox (with image) => renders correctly 1`] = `
       style={
         Object {
           "backgroundColor": "black",
+          "borderColor": "black",
           "borderRadius": 0,
+          "borderWidth": 1,
           "flex": 1,
           "height": 21,
           "margin": 2,
           "marginBottom": 1,
+          "resizeMode": "contain",
           "width": 10,
         }
       }
@@ -115,8 +122,9 @@ exports[`InfoBox (with image) => renders correctly 1`] = `
         Object {
           "color": "black",
           "flex": 9,
-          "fontFamily": "px_sans_nouveaux",
+          "fontFamily": "telegrama_raw",
           "paddingRight": 30,
+          "paddingTop": 4,
           "textAlign": "center",
         }
       }
@@ -167,11 +175,14 @@ exports[`InfoBox (with title and image) => renders correctly 1`] = `
       style={
         Object {
           "backgroundColor": "black",
+          "borderColor": "black",
           "borderRadius": 0,
+          "borderWidth": 1,
           "flex": 1,
           "height": 21,
           "margin": 2,
           "marginBottom": 1,
+          "resizeMode": "contain",
           "width": 10,
         }
       }
@@ -184,8 +195,9 @@ exports[`InfoBox (with title and image) => renders correctly 1`] = `
         Object {
           "color": "black",
           "flex": 9,
-          "fontFamily": "px_sans_nouveaux",
+          "fontFamily": "telegrama_raw",
           "paddingRight": 30,
+          "paddingTop": 4,
           "textAlign": "center",
         }
       }
@@ -238,11 +250,14 @@ exports[`InfoBox (with title) => renders correctly 1`] = `
       style={
         Object {
           "backgroundColor": "black",
+          "borderColor": "black",
           "borderRadius": 0,
+          "borderWidth": 1,
           "flex": 1,
           "height": 21,
           "margin": 2,
           "marginBottom": 1,
+          "resizeMode": "contain",
           "width": 10,
         }
       }
@@ -255,8 +270,9 @@ exports[`InfoBox (with title) => renders correctly 1`] = `
         Object {
           "color": "black",
           "flex": 9,
-          "fontFamily": "px_sans_nouveaux",
+          "fontFamily": "telegrama_raw",
           "paddingRight": 30,
+          "paddingTop": 4,
           "textAlign": "center",
         }
       }

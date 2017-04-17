@@ -1,253 +1,77 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ProgressBar (default props) => renders correctly 1`] = `
-<View
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
   style={
     Object {
-      "backgroundColor": "black",
-      "flex": 1,
-      "padding": 5,
+      "color": "#00ff00",
+      "fontFamily": "telegrama_raw",
+      "fontSize": 7,
+      "marginLeft": 9,
+      "marginTop": 15,
     }
   }
 >
-  <View
-    style={
-      Object {
-        "backgroundColor": "#00ff00",
-        "borderRadius": 0,
-        "flex": 1,
-        "padding": 1,
-      }
-    }
-  >
-    <View
-      style={
-        Object {
-          "backgroundColor": "black",
-          "borderRadius": 0,
-          "flex": 1,
-          "justifyContent": "center",
-          "width": "100%",
-        }
-      }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "rgba(2, 255, 255, 1)",
-            "borderRadius": 0,
-            "flex": 1,
-            "height": "100%",
-            "position": "absolute",
-            "width": "NaN%",
-          }
-        }
-      />
-      <View
-        style={
-          Object {
-            "backgroundColor": "transparent",
-            "elevation": 6,
-            "flexDirection": "row",
-            "height": "100%",
-            "width": "100%",
-          }
-        }
-      />
-    </View>
-  </View>
-</View>
+  Questing [ =======------------------------------------------- ] 20% 00:01:23
+</Text>
 `;
 
 exports[`ProgressBar (with children) => renders correctly 1`] = `
-<View
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
   style={
     Object {
-      "backgroundColor": "black",
-      "flex": 1,
-      "padding": 5,
+      "color": "#00ff00",
+      "fontFamily": "telegrama_raw",
+      "fontSize": 7,
+      "marginLeft": 9,
+      "marginTop": 15,
     }
   }
 >
-  <View
-    style={
-      Object {
-        "backgroundColor": "#00ff00",
-        "borderRadius": 0,
-        "flex": 1,
-        "padding": 1,
-      }
-    }
-  >
-    <View
-      style={
-        Object {
-          "backgroundColor": "black",
-          "borderRadius": 0,
-          "flex": 1,
-          "justifyContent": "center",
-          "width": "100%",
-        }
-      }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "rgba(2, 255, 255, 1)",
-            "borderRadius": 0,
-            "flex": 1,
-            "height": "100%",
-            "position": "absolute",
-            "width": "NaN%",
-          }
-        }
-      />
-      <View
-        style={
-          Object {
-            "backgroundColor": "transparent",
-            "elevation": 6,
-            "flexDirection": "row",
-            "height": "100%",
-            "width": "100%",
-          }
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-        >
-          foo
-        </Text>
-      </View>
-    </View>
-  </View>
-</View>
+  Questing [ =======------------------------------------------- ] 20% 00:01:23
+</Text>
 `;
 
 exports[`ProgressBar (with progress and children) => renders correctly 1`] = `
-<View
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
   style={
     Object {
-      "backgroundColor": "black",
-      "flex": 1,
-      "padding": 5,
+      "color": "#00ff00",
+      "fontFamily": "telegrama_raw",
+      "fontSize": 7,
+      "marginLeft": 9,
+      "marginTop": 15,
     }
   }
 >
-  <View
-    style={
-      Object {
-        "backgroundColor": "#00ff00",
-        "borderRadius": 0,
-        "flex": 1,
-        "padding": 1,
-      }
-    }
-  >
-    <View
-      style={
-        Object {
-          "backgroundColor": "black",
-          "borderRadius": 0,
-          "flex": 1,
-          "justifyContent": "center",
-          "width": "100%",
-        }
-      }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "rgba(2, 255, 255, 1)",
-            "borderRadius": 0,
-            "flex": 1,
-            "height": "100%",
-            "position": "absolute",
-            "width": "50%",
-          }
-        }
-      />
-      <View
-        style={
-          Object {
-            "backgroundColor": "transparent",
-            "elevation": 6,
-            "flexDirection": "row",
-            "height": "100%",
-            "width": "100%",
-          }
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-        >
-          foo
-        </Text>
-      </View>
-    </View>
-  </View>
-</View>
+  Questing [ =======------------------------------------------- ] 20% 00:01:23
+</Text>
 `;
 
 exports[`ProgressBar (with progress) => renders correctly 1`] = `
-<View
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
   style={
     Object {
-      "backgroundColor": "black",
-      "flex": 1,
-      "padding": 5,
+      "color": "#00ff00",
+      "fontFamily": "telegrama_raw",
+      "fontSize": 7,
+      "marginLeft": 9,
+      "marginTop": 15,
     }
   }
 >
-  <View
-    style={
-      Object {
-        "backgroundColor": "#00ff00",
-        "borderRadius": 0,
-        "flex": 1,
-        "padding": 1,
-      }
-    }
-  >
-    <View
-      style={
-        Object {
-          "backgroundColor": "black",
-          "borderRadius": 0,
-          "flex": 1,
-          "justifyContent": "center",
-          "width": "100%",
-        }
-      }
-    >
-      <View
-        style={
-          Object {
-            "backgroundColor": "rgba(2, 255, 255, 1)",
-            "borderRadius": 0,
-            "flex": 1,
-            "height": "100%",
-            "position": "absolute",
-            "width": "50%",
-          }
-        }
-      />
-      <View
-        style={
-          Object {
-            "backgroundColor": "transparent",
-            "elevation": 6,
-            "flexDirection": "row",
-            "height": "100%",
-            "width": "100%",
-          }
-        }
-      />
-    </View>
-  </View>
-</View>
+  Questing [ =======------------------------------------------- ] 20% 00:01:23
+</Text>
 `;

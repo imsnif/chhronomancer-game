@@ -9,16 +9,18 @@ export default StyleSheet.create({
     margin: 7
   },
   text: {
-    fontFamily: 'px_sans_nouveaux',
+    fontFamily: 'telegrama_raw',
     color: common.foreGround,
     textAlign: 'center',
-    paddingTop: 9
+    paddingTop: 9,
+    fontSize: 20
   },
   textPress: {
-    fontFamily: 'px_sans_nouveaux',
+    fontFamily: 'telegrama_raw',
     color: common.altText,
     textAlign: 'center',
-    paddingTop: 9
+    paddingTop: 9,
+    fontSize: 20
   },
   button: {
     width: '100%',

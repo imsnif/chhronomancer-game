@@ -8,7 +8,6 @@ export default StyleSheet.create({
     height: 14,
     width: 14,
     borderWidth: 1,
-    borderColor: common.foreGround,
     borderRadius: common.borderRadius,
     backgroundColor: common.backGround,
     alignItems: 'center'

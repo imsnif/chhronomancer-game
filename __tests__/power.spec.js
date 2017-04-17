@@ -4,6 +4,7 @@ import Power from '../components/power'
 import renderer from 'react-test-renderer'
 
 jest.mock('mobx-react/native', () => require('mobx-react/custom'))
+jest.useFakeTimers()
 
 test('Power (default props) => renders correctly', () => {
   const tree = renderer.create(

@@ -6,7 +6,6 @@ exports[`Item (default props) => renders correctly 1`] = `
     Object {
       "alignItems": "center",
       "backgroundColor": "black",
-      "borderColor": "black",
       "borderRadius": 0,
       "borderWidth": 1,
       "height": 14,
@@ -18,20 +17,813 @@ exports[`Item (default props) => renders correctly 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": undefined,
-        "borderWidth": 1,
-        "height": 8,
-        "marginTop": 2,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 8,
+        "flexDirection": "row",
+        "height": 10,
       }
     }
-  />
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+  </View>
 </View>
 `;
 
@@ -41,7 +833,6 @@ exports[`Item (with color and fill) => renders correctly 1`] = `
     Object {
       "alignItems": "center",
       "backgroundColor": "black",
-      "borderColor": "black",
       "borderRadius": 0,
       "borderWidth": 1,
       "height": 14,
@@ -53,20 +844,813 @@ exports[`Item (with color and fill) => renders correctly 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "red",
-        "borderColor": "red",
-        "borderWidth": 1,
-        "height": 8,
-        "marginTop": 2,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 8,
+        "flexDirection": "row",
+        "height": 10,
       }
     }
-  />
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+  </View>
 </View>
 `;
 
@@ -76,7 +1660,6 @@ exports[`Item (with color) => renders correctly 1`] = `
     Object {
       "alignItems": "center",
       "backgroundColor": "black",
-      "borderColor": "black",
       "borderRadius": 0,
       "borderWidth": 1,
       "height": 14,
@@ -88,20 +1671,813 @@ exports[`Item (with color) => renders correctly 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "red",
-        "borderWidth": 1,
-        "height": 8,
-        "marginTop": 2,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 8,
+        "flexDirection": "row",
+        "height": 10,
       }
     }
-  />
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+  </View>
 </View>
 `;
 
@@ -111,7 +2487,6 @@ exports[`Item (with fill) => renders correctly 1`] = `
     Object {
       "alignItems": "center",
       "backgroundColor": "black",
-      "borderColor": "black",
       "borderRadius": 0,
       "borderWidth": 1,
       "height": 14,
@@ -123,19 +2498,812 @@ exports[`Item (with fill) => renders correctly 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": undefined,
-        "borderColor": undefined,
-        "borderWidth": 1,
-        "height": 8,
-        "marginTop": 2,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 8,
+        "flexDirection": "row",
+        "height": 10,
       }
     }
-  />
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": 1,
+            "width": 1,
+          }
+        }
+      />
+    </View>
+  </View>
 </View>
 `;

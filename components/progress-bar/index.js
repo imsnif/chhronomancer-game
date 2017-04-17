@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { View, Animated, StyleSheet } from 'react-native'
+import { Text, View, Animated, StyleSheet } from 'react-native'
 import styles from './styles'
 
 function cycleAnimation () {
@@ -49,21 +49,30 @@ export default class ProgressBar extends Component {
       outputRange: ['0%', '100%']
     })
     return (
-      <View style={styles.container}>
-        <View style={styles.barBorder}>
-          <View style={styles.barBox}>
-            <Animated.View style={
-              StyleSheet.flatten([
-                styles.progressIndicator,
-                {width: progress, backgroundColor: color}
-              ])
-            } />
-            <View style={styles.childrenContainer}>
-              {this.props.children}
-            </View>
-          </View>
-        </View>
-      </View>
+      <Text style={{
+        color: '#00ff00',
+        fontFamily: 'telegrama_raw',
+        marginLeft: 9,
+        marginTop: 15,
+        fontSize: 7
+      }}>{'Questing [ =======------------------------------------------- ] 20% 00:01:23'}</Text>
     )
+//    return (
+//      <View style={styles.container}>
+//        <View style={styles.barBorder}>
+//          <View style={styles.barBox}>
+//            <Animated.View style={
+//              StyleSheet.flatten([
+//                styles.progressIndicator,
+//                {width: progress, backgroundColor: color}
+//              ])
+//            } />
+//            <View style={styles.childrenContainer}>
+//              {this.props.children}
+//            </View>
+//          </View>
+//        </View>
+//      </View>
+//    )
   }
 }
