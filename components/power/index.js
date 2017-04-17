@@ -5,6 +5,21 @@ import styles from './styles'
 
 const spinnerChars = [ '|', '/', '-', '\\', '|', '/', '-', '\\' ]
 
+function createTextBar (progress) {
+  const fillCount = Math.round(progress / 2)
+  return Array(50).fill().map((n, i) => i <= fillCount ? '=' : '-').join('')
+}
+
+function padProgress (progress) {
+  if (progress < 100 && progress > 9) {
+    return ` ${progress}`
+  } else if (progress < 10) {
+    return `  ${progress}`
+  } else {
+    return `${progress}`
+  }
+}
+
 export default class Power extends Component {
   constructor (props) {
     super(props)
@@ -14,54 +29,30 @@ export default class Power extends Component {
   }
   componentDidMount () {
     clearInterval(this.interval)
-    this.interval = setInterval(() => {
-      console.log('ticking')
-      const currentIndex = this.state.spinCharIndex
-      const nextIndex = currentIndex + 1 >= spinnerChars.length ? 0 : currentIndex + 1
-      this.setState({spinCharIndex: nextIndex})
-    }, 125)
+    this.interval = setInterval(() => this.progressSpinChar, 125)
   }
   componentWillReceiveProps () {
     clearInterval(this.interval)
-    this.interval = setInterval(() => {
-      console.log('ticking')
-      const currentIndex = this.state.spinCharIndex
-      const nextIndex = currentIndex + 1 >= spinnerChars.length ? 0 : currentIndex + 1
-      this.setState({spinCharIndex: nextIndex})
-    }, 125)
+    this.interval = setInterval(() => this.progressSpinChar, 125)
   }
   componentWillUnmount () {
     clearInterval(this.interval)
   }
+  progressSpinChar () {
+    const currentIndex = this.state.spinCharIndex
+    const nextIndex = currentIndex + 1 >= spinnerChars.length ? 0 : currentIndex + 1
+    this.setState({spinCharIndex: nextIndex})
+  }
   render () {
     const name = this.props.name
     const timeLeft = this.props.timeLeft
-    const fillCount = Math.round(this.props.progress / 2)
-    const emptyCount = 50 - fillCount
     const spinChar = spinnerChars[this.state.spinCharIndex]
-    let bar = []
-    for (let i = 0; i < 50; i += 1) {
-      if (i <= fillCount) {
-        bar.push('=')
-      } else {
-        bar.push('-')
-      }
-    }
     const progress = this.props.progress
-    const paddedProgress = progress < 100 && progress > 9
-      ? ` ${progress}`
-      : progress < 10
-      ? `  ${progress}`
-      : `${progress}`
-    const barString = `${name} ${spinChar} |${bar.join('')}| ${paddedProgress}% ${timeLeft}`
+    const bar = createTextBar(progress)
+    const paddedProgress = padProgress(progress)
+    const barString = `${name} ${spinChar} |${bar}| ${paddedProgress}% ${timeLeft}`
     return (
-      <Text style={{
-        fontFamily: 'telegrama_raw',
-        color: '#00ff00',
-        marginLeft: 9,
-        marginTop: 15,
-        fontSize: 6
-      }}>{barString}</Text>
+      <Text style={styles.barLine}>{barString}</Text>
     )
   }
 }
