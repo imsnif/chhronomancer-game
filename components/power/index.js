@@ -32,6 +32,7 @@ export default class Power extends Component {
   }
   componentWillReceiveProps () {
     clearInterval(this.interval)
+    this.setState({spinCharIndex: 0})
     this.interval = setInterval(() => this.progressSpinChar(), 125)
   }
   componentWillUnmount () {
