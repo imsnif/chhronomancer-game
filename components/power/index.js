@@ -28,11 +28,11 @@ export default class Power extends Component {
   }
   componentDidMount () {
     clearInterval(this.interval)
-    this.interval = setInterval(() => this.progressSpinChar, 125)
+    this.interval = setInterval(() => this.progressSpinChar(), 125)
   }
   componentWillReceiveProps () {
     clearInterval(this.interval)
-    this.interval = setInterval(() => this.progressSpinChar, 125)
+    this.interval = setInterval(() => this.progressSpinChar(), 125)
   }
   componentWillUnmount () {
     clearInterval(this.interval)
