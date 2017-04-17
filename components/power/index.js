@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { View, Text } from 'react-native'
-import ProgressBar from '../progress-bar'
 import styles from './styles'
 
 const spinnerChars = [ '|', '/', '-', '\\', '|', '/', '-', '\\' ]
