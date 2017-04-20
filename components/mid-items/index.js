@@ -7,8 +7,8 @@ export default function MidItems (props) {
   const items = props.items || {}
   return (
     <View style={styles.itemContainer}>
-      <Item key={1} fill={items.purple} color='purple' />
-      <Item key={2} fill={items.brown} color='brown' />
+      <Item key={1} fill={items.lock} name='lock' />
+      <Item key={2} fill={items.unlock} name='unlock' />
     </View>
   )
 }

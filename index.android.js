@@ -25,12 +25,11 @@ playersStore.addPlayer({
   id: 1,
   name: 'Aram',
   items: {
-    red: true,
-    green: true,
-    blue: false,
-    purple: false,
-    brown: false,
-    yellow: false
+    assistPrevent: false,
+    reset: false,
+    steal: false,
+    lock: false,
+    unlock: false
   },
   image: require('./assets/placeholders/green_me.png'),
   activePower: {
@@ -46,12 +45,11 @@ playersStore.addPlayer({
   id: 2,
   name: 'Tom',
   items: {
-    red: true,
-    green: true,
-    blue: true,
-    purple: true,
-    brown: false,
-    yellow: false
+    assistPrevent: true,
+    reset: true,
+    steal: true,
+    lock: true,
+    unlock: false
   },
   image: require('./assets/placeholders/green_tom.png'),
   activePower: {
@@ -67,12 +65,11 @@ playersStore.addPlayer({
   id: 3,
   name: 'Gondollieri',
   items: {
-    red: true,
-    green: true,
-    blue: true,
-    purple: true,
-    brown: true,
-    yellow: false
+    assistPrevent: true,
+    reset: true,
+    steal: true,
+    lock: true,
+    unlock: true
   },
   image: require('./assets/placeholders/green_gondollieri.png'),
   activePower: {
@@ -88,12 +85,11 @@ playersStore.addPlayer({
   id: 4,
   name: 'Simmons',
   items: {
-    red: true,
-    green: true,
-    blue: true,
-    purple: true,
-    brown: true,
-    yellow: false
+    assistPrevent: true,
+    reset: true,
+    steal: true,
+    lock: true,
+    unlock: true
   },
   image: require('./assets/placeholders/green_simmons.png'),
   activePower: {

@@ -42,9 +42,8 @@ export default class Player extends Component {
     ).start()
   }
   render() {
-    const lowItems = _.pick(this.props.items, ['red', 'green', 'blue'])
-    const midItems = _.pick(this.props.items, ['purple', 'brown'])
-    const highItems = _.pick(this.props.items, ['yellow'])
+    const lowItems = _.pick(this.props.items, ['assistPrevent', 'reset', 'steal'])
+    const midItems = _.pick(this.props.items, ['lock', 'unlock'])
     const activePower = this.props.activePower
     const time = this.props.clockStore.time
     return (

@@ -14,13 +14,13 @@ import unlock from '../../assets/items/unlock-green.png'
 
 export default function Item (props) {
   const icons = {
-    red: props.fill ? assistPrevent : assistPreventEmpty,
-    green: props.fill ? reset : resetEmpty,
-    blue: props.fill ? steal : stealEmpty,
-    purple: props.fill ? lock : lockEmpty,
-    brown: props.fill ? unlock : unlockEmpty
+    assistPrevent: props.fill ? assistPrevent : assistPreventEmpty,
+    reset: props.fill ? reset : resetEmpty,
+    steal: props.fill ? steal : stealEmpty,
+    lock: props.fill ? lock : lockEmpty,
+    unlock: props.fill ? unlock : unlockEmpty
   }
-  const img = icons[props.color]
+  const img = icons[props.name]
   return (
     <Image style={styles.item} source={img} />
   )
