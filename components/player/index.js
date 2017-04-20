@@ -64,7 +64,6 @@ export default class Player extends Component {
           <View style={{flex: 1, flexDirection: 'row'}}>
             <LowItems items={lowItems}/>
             <MidItems items={midItems}/>
-            <HighItems items={highItems}/>
           </View>
         </InfoBox>
       </Animated.View>
