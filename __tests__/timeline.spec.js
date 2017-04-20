@@ -5,7 +5,7 @@ import renderer from 'react-test-renderer'
 
 jest.mock('mobx-react/native', () => require('mobx-react/custom'))
 
-test('ProgressBar (default props) => renders correctly', () => {
+test('Timeline (default props) => renders correctly', () => {
   const tree = renderer.create(
     <Timeline
       timelineStore={{players: []}}
@@ -16,7 +16,7 @@ test('ProgressBar (default props) => renders correctly', () => {
   expect(tree).toMatchSnapshot()
 })
 
-test('ProgressBar (with one player) => renders correctly', () => {
+test('Timeline (with one player) => renders correctly', () => {
   const tree = renderer.create(
     <Timeline
       timelineStore={{players: [1]}}

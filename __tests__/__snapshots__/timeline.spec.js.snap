@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ProgressBar (default props) => renders correctly 1`] = `
+exports[`Timeline (default props) => renders correctly 1`] = `
 <View
   style={
     Object {
@@ -375,7 +375,7 @@ exports[`ProgressBar (default props) => renders correctly 1`] = `
 </View>
 `;
 
-exports[`ProgressBar (with one player) => renders correctly 1`] = `
+exports[`Timeline (with one player) => renders correctly 1`] = `
 <View
   style={
     Object {
