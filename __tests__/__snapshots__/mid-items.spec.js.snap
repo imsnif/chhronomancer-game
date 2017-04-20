@@ -11,37 +11,23 @@ exports[`MidItems (default props) => renders correctly 1`] = `
     }
   }
 >
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "purple",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "brown",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
@@ -59,37 +45,23 @@ exports[`MidItems (with brown item) => renders correctly 1`] = `
     }
   }
 >
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "purple",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "brown",
-        "borderColor": "brown",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
@@ -107,37 +79,23 @@ exports[`MidItems (with purple and brown items) => renders correctly 1`] = `
     }
   }
 >
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "purple",
-        "borderColor": "purple",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "brown",
-        "borderColor": "brown",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
@@ -155,37 +113,23 @@ exports[`MidItems (with purple item) => renders correctly 1`] = `
     }
   }
 >
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "purple",
-        "borderColor": "purple",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "brown",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />

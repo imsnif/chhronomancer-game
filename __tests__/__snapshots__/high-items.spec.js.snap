@@ -11,20 +11,13 @@ exports[`HighItems (default props) => renders correctly 1`] = `
     }
   }
 >
-  <View
+  <Image
+    source={undefined}
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "yellow",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
@@ -42,20 +35,13 @@ exports[`HighItems (with black item) => renders correctly 1`] = `
     }
   }
 >
-  <View
+  <Image
+    source={undefined}
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "yellow",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />

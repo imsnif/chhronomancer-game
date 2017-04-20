@@ -11,54 +11,33 @@ exports[`LowItems (default props) => renders correctly 1`] = `
     }
   }
 >
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "red",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "green",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "blue",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
@@ -76,54 +55,33 @@ exports[`LowItems (with blue item) => renders correctly 1`] = `
     }
   }
 >
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "red",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "green",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "blue",
-        "borderColor": "blue",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
@@ -141,54 +99,33 @@ exports[`LowItems (with green item) => renders correctly 1`] = `
     }
   }
 >
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "red",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "green",
-        "borderColor": "green",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "blue",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
@@ -206,54 +143,33 @@ exports[`LowItems (with red item) => renders correctly 1`] = `
     }
   }
 >
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "red",
-        "borderColor": "red",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "green",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "blue",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
@@ -271,54 +187,33 @@ exports[`LowItems (with red, green and blue items) => renders correctly 1`] = `
     }
   }
 >
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "red",
-        "borderColor": "red",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "green",
-        "borderColor": "green",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />
-  <View
+  <Image
+    source={1}
     style={
       Object {
-        "backgroundColor": "blue",
-        "borderColor": "blue",
-        "borderWidth": 1,
-        "height": 9,
+        "height": 16,
         "margin": 4,
-        "transform": Array [
-          Object {
-            "rotate": "45deg",
-          },
-        ],
-        "width": 9,
+        "width": 16,
       }
     }
   />

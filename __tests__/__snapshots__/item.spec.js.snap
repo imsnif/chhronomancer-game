@@ -1,80 +1,52 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Item (default props) => renders correctly 1`] = `
-<View
+<Image
+  source={undefined}
   style={
     Object {
-      "backgroundColor": "black",
-      "borderColor": undefined,
-      "borderWidth": 1,
-      "height": 9,
+      "height": 16,
       "margin": 4,
-      "transform": Array [
-        Object {
-          "rotate": "45deg",
-        },
-      ],
-      "width": 9,
+      "width": 16,
     }
   }
 />
 `;
 
 exports[`Item (with color and fill) => renders correctly 1`] = `
-<View
+<Image
+  source={1}
   style={
     Object {
-      "backgroundColor": "red",
-      "borderColor": "red",
-      "borderWidth": 1,
-      "height": 9,
+      "height": 16,
       "margin": 4,
-      "transform": Array [
-        Object {
-          "rotate": "45deg",
-        },
-      ],
-      "width": 9,
+      "width": 16,
     }
   }
 />
 `;
 
 exports[`Item (with color) => renders correctly 1`] = `
-<View
+<Image
+  source={1}
   style={
     Object {
-      "backgroundColor": "black",
-      "borderColor": "red",
-      "borderWidth": 1,
-      "height": 9,
+      "height": 16,
       "margin": 4,
-      "transform": Array [
-        Object {
-          "rotate": "45deg",
-        },
-      ],
-      "width": 9,
+      "width": 16,
     }
   }
 />
 `;
 
 exports[`Item (with fill) => renders correctly 1`] = `
-<View
+<Image
+  source={undefined}
   style={
     Object {
-      "backgroundColor": undefined,
-      "borderColor": undefined,
-      "borderWidth": 1,
-      "height": 9,
+      "height": 16,
       "margin": 4,
-      "transform": Array [
-        Object {
-          "rotate": "45deg",
-        },
-      ],
-      "width": 9,
+      "width": 16,
     }
   }
 />

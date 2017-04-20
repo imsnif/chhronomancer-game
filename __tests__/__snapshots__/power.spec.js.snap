@@ -7,7 +7,7 @@ exports[`Power (default props) => renders correctly 1`] = `
   ellipsizeMode="tail"
   style={
     Object {
-      "color": "#00ff00",
+      "color": "#329932",
       "fontFamily": "telegrama_raw",
       "fontSize": 6,
       "marginLeft": 9,
@@ -26,7 +26,7 @@ exports[`Power (with allied/enemy players) => renders correctly 1`] = `
   ellipsizeMode="tail"
   style={
     Object {
-      "color": "#00ff00",
+      "color": "#329932",
       "fontFamily": "telegrama_raw",
       "fontSize": 6,
       "marginLeft": 9,
@@ -45,7 +45,7 @@ exports[`Power (with progress) => renders correctly 1`] = `
   ellipsizeMode="tail"
   style={
     Object {
-      "color": "#00ff00",
+      "color": "#329932",
       "fontFamily": "telegrama_raw",
       "fontSize": 6,
       "marginLeft": 9,
@@ -64,7 +64,7 @@ exports[`Power (with progress, timeLeft and allied/enemy players) => renders cor
   ellipsizeMode="tail"
   style={
     Object {
-      "color": "#00ff00",
+      "color": "#329932",
       "fontFamily": "telegrama_raw",
       "fontSize": 6,
       "marginLeft": 9,
@@ -83,7 +83,7 @@ exports[`Power (with timeLeft) => renders correctly 1`] = `
   ellipsizeMode="tail"
   style={
     Object {
-      "color": "#00ff00",
+      "color": "#329932",
       "fontFamily": "telegrama_raw",
       "fontSize": 6,
       "marginLeft": 9,

@@ -4,8 +4,8 @@ exports[`InfoBox (default props) => renders correctly 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#00ff00",
-      "borderColor": "#00ff00",
+      "backgroundColor": "#329932",
+      "borderColor": "#329932",
       "borderRadius": 0,
       "borderWidth": 0.5,
       "flex": 1,
@@ -28,7 +28,7 @@ exports[`InfoBox (default props) => renders correctly 1`] = `
       source={undefined}
       style={
         Object {
-          "backgroundColor": "black",
+          "backgroundColor": "#141313",
           "borderColor": "black",
           "borderRadius": 0,
           "borderWidth": 1,
@@ -47,7 +47,7 @@ exports[`InfoBox (default props) => renders correctly 1`] = `
       ellipsizeMode="tail"
       style={
         Object {
-          "color": "black",
+          "color": "#0e0e0e",
           "flex": 9,
           "fontFamily": "telegrama_raw",
           "paddingRight": 30,
@@ -60,8 +60,8 @@ exports[`InfoBox (default props) => renders correctly 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "black",
+        "backgroundColor": "#141313",
+        "borderColor": "#141313",
         "borderRadius": 0,
         "borderWidth": 0.5,
         "flex": 3,
@@ -77,8 +77,8 @@ exports[`InfoBox (with image) => renders correctly 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#00ff00",
-      "borderColor": "#00ff00",
+      "backgroundColor": "#329932",
+      "borderColor": "#329932",
       "borderRadius": 0,
       "borderWidth": 0.5,
       "flex": 1,
@@ -101,7 +101,7 @@ exports[`InfoBox (with image) => renders correctly 1`] = `
       source={1}
       style={
         Object {
-          "backgroundColor": "black",
+          "backgroundColor": "#141313",
           "borderColor": "black",
           "borderRadius": 0,
           "borderWidth": 1,
@@ -120,7 +120,7 @@ exports[`InfoBox (with image) => renders correctly 1`] = `
       ellipsizeMode="tail"
       style={
         Object {
-          "color": "black",
+          "color": "#0e0e0e",
           "flex": 9,
           "fontFamily": "telegrama_raw",
           "paddingRight": 30,
@@ -133,8 +133,8 @@ exports[`InfoBox (with image) => renders correctly 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "black",
+        "backgroundColor": "#141313",
+        "borderColor": "#141313",
         "borderRadius": 0,
         "borderWidth": 0.5,
         "flex": 3,
@@ -150,8 +150,8 @@ exports[`InfoBox (with title and image) => renders correctly 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#00ff00",
-      "borderColor": "#00ff00",
+      "backgroundColor": "#329932",
+      "borderColor": "#329932",
       "borderRadius": 0,
       "borderWidth": 0.5,
       "flex": 1,
@@ -174,7 +174,7 @@ exports[`InfoBox (with title and image) => renders correctly 1`] = `
       source={1}
       style={
         Object {
-          "backgroundColor": "black",
+          "backgroundColor": "#141313",
           "borderColor": "black",
           "borderRadius": 0,
           "borderWidth": 1,
@@ -193,7 +193,7 @@ exports[`InfoBox (with title and image) => renders correctly 1`] = `
       ellipsizeMode="tail"
       style={
         Object {
-          "color": "black",
+          "color": "#0e0e0e",
           "flex": 9,
           "fontFamily": "telegrama_raw",
           "paddingRight": 30,
@@ -208,8 +208,8 @@ exports[`InfoBox (with title and image) => renders correctly 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "black",
+        "backgroundColor": "#141313",
+        "borderColor": "#141313",
         "borderRadius": 0,
         "borderWidth": 0.5,
         "flex": 3,
@@ -225,8 +225,8 @@ exports[`InfoBox (with title) => renders correctly 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#00ff00",
-      "borderColor": "#00ff00",
+      "backgroundColor": "#329932",
+      "borderColor": "#329932",
       "borderRadius": 0,
       "borderWidth": 0.5,
       "flex": 1,
@@ -249,7 +249,7 @@ exports[`InfoBox (with title) => renders correctly 1`] = `
       source={undefined}
       style={
         Object {
-          "backgroundColor": "black",
+          "backgroundColor": "#141313",
           "borderColor": "black",
           "borderRadius": 0,
           "borderWidth": 1,
@@ -268,7 +268,7 @@ exports[`InfoBox (with title) => renders correctly 1`] = `
       ellipsizeMode="tail"
       style={
         Object {
-          "color": "black",
+          "color": "#0e0e0e",
           "flex": 9,
           "fontFamily": "telegrama_raw",
           "paddingRight": 30,
@@ -283,8 +283,8 @@ exports[`InfoBox (with title) => renders correctly 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "black",
-        "borderColor": "black",
+        "backgroundColor": "#141313",
+        "borderColor": "#141313",
         "borderRadius": 0,
         "borderWidth": 0.5,
         "flex": 3,
