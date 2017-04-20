@@ -164,6 +164,50 @@ exports[`Player (default props) => renders correctly 1`] = `
             }
           />
         </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#329932",
+                "flex": 1,
+                "flexDirection": "row",
+                "fontFamily": "telegrama_raw",
+                "fontSize": 8,
+                "marginTop": 20,
+              }
+            }
+          >
+            Artifacts: 
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#329932",
+                "flex": 1,
+                "flexDirection": "row",
+                "fontFamily": "telegrama_raw",
+                "fontSize": 8,
+                "marginTop": 20,
+              }
+            }
+          >
+            0
+            /7
+          </Text>
+        </View>
       </View>
     </View>
   </View>
@@ -342,6 +386,50 @@ exports[`Player (with activePower and items) => renders correctly 1`] = `
               }
             }
           />
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#329932",
+                "flex": 1,
+                "flexDirection": "row",
+                "fontFamily": "telegrama_raw",
+                "fontSize": 8,
+                "marginTop": 20,
+              }
+            }
+          >
+            Artifacts: 
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#329932",
+                "flex": 1,
+                "flexDirection": "row",
+                "fontFamily": "telegrama_raw",
+                "fontSize": 8,
+                "marginTop": 20,
+              }
+            }
+          >
+            3
+            /7
+          </Text>
         </View>
       </View>
     </View>
@@ -522,6 +610,50 @@ exports[`Player (with activePower) => renders correctly 1`] = `
             }
           />
         </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#329932",
+                "flex": 1,
+                "flexDirection": "row",
+                "fontFamily": "telegrama_raw",
+                "fontSize": 8,
+                "marginTop": 20,
+              }
+            }
+          >
+            Artifacts: 
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#329932",
+                "flex": 1,
+                "flexDirection": "row",
+                "fontFamily": "telegrama_raw",
+                "fontSize": 8,
+                "marginTop": 20,
+              }
+            }
+          >
+            0
+            /7
+          </Text>
+        </View>
       </View>
     </View>
   </View>
@@ -691,6 +823,50 @@ exports[`Player (with items) => renders correctly 1`] = `
               }
             }
           />
+        </View>
+        <View
+          style={
+            Object {
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#329932",
+                "flex": 1,
+                "flexDirection": "row",
+                "fontFamily": "telegrama_raw",
+                "fontSize": 8,
+                "marginTop": 20,
+              }
+            }
+          >
+            Artifacts: 
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#329932",
+                "flex": 1,
+                "flexDirection": "row",
+                "fontFamily": "telegrama_raw",
+                "fontSize": 8,
+                "marginTop": 20,
+              }
+            }
+          >
+            3
+            /7
+          </Text>
         </View>
       </View>
     </View>
