@@ -10,9 +10,9 @@ test('Item (default props) => renders correctly', () => {
   expect(tree).toMatchSnapshot()
 })
 
-test('Item (with color) => renders correctly', () => {
+test('Item (with name) => renders correctly', () => {
   const tree = renderer.create(
-    <Item color='red' />
+    <Item name='assistPrevent' />
   ).toJSON();
   expect(tree).toMatchSnapshot()
 })
@@ -24,9 +24,9 @@ test('Item (with fill) => renders correctly', () => {
   expect(tree).toMatchSnapshot()
 })
 
-test('Item (with color and fill) => renders correctly', () => {
+test('Item (with name and fill) => renders correctly', () => {
   const tree = renderer.create(
-    <Item color='red' fill={true} />
+    <Item name='assistPrevent' fill={true} />
   ).toJSON();
   expect(tree).toMatchSnapshot()
 })

@@ -13,35 +13,35 @@ exports[`Item (default props) => renders correctly 1`] = `
 />
 `;
 
-exports[`Item (with color and fill) => renders correctly 1`] = `
-<Image
-  source={1}
-  style={
-    Object {
-      "height": 16,
-      "margin": 4,
-      "width": 16,
-    }
-  }
-/>
-`;
-
-exports[`Item (with color) => renders correctly 1`] = `
-<Image
-  source={1}
-  style={
-    Object {
-      "height": 16,
-      "margin": 4,
-      "width": 16,
-    }
-  }
-/>
-`;
-
 exports[`Item (with fill) => renders correctly 1`] = `
 <Image
   source={undefined}
+  style={
+    Object {
+      "height": 16,
+      "margin": 4,
+      "width": 16,
+    }
+  }
+/>
+`;
+
+exports[`Item (with name and fill) => renders correctly 1`] = `
+<Image
+  source={1}
+  style={
+    Object {
+      "height": 16,
+      "margin": 4,
+      "width": 16,
+    }
+  }
+/>
+`;
+
+exports[`Item (with name) => renders correctly 1`] = `
+<Image
+  source={1}
   style={
     Object {
       "height": 16,
