@@ -5,7 +5,7 @@ import { observer } from 'mobx-react/native'
 import InfoBox from '../info-box'
 import LowItems from '../low-items'
 import MidItems from '../mid-items'
-import HighItems from '../high-items'
+import InventoryCount from '../inventory-count'
 import Power from '../power'
 import moment from 'moment'
 
@@ -46,6 +46,9 @@ export default class Player extends Component {
     const midItems = _.pick(this.props.items, ['lock', 'unlock'])
     const activePower = this.props.activePower
     const time = this.props.clockStore.time
+    const count = this.props.items
+      ? Object.keys(this.props.items).filter(i => this.props.items[i]).length
+      : 0
     return (
       <Animated.View style={{opacity: this.state.fadeAnim}}>
         <InfoBox title={this.props.name} image={this.props.image}>
@@ -63,6 +66,7 @@ export default class Player extends Component {
           <View style={{flex: 1, flexDirection: 'row'}}>
             <LowItems items={lowItems}/>
             <MidItems items={midItems}/>
+            <InventoryCount count={count} />
           </View>
         </InfoBox>
       </Animated.View>
