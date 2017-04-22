@@ -10,7 +10,6 @@ class TimelineStore {
     this.players = this.players.filter(p => p !== id)
   }
   changeSort (sort) {
-    // TODO: test this
     this.sortBy = sort
   }
 }
