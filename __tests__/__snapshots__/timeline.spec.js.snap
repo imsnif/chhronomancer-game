@@ -42,7 +42,6 @@ exports[`Timeline (default props) => renders correctly 1`] = `
         "backgroundColor": "#329932",
         "flex": 0,
         "height": 1,
-        "marginBottom": 6,
         "marginLeft": 15,
         "marginRight": 15,
       }
@@ -432,6 +431,16 @@ exports[`Timeline (default props) => renders correctly 1`] = `
         </View>
       </View>
     </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#329932",
+          "flex": 0,
+          "height": "92%",
+          "width": 1,
+        }
+      }
+    />
     <View
       style={
         Object {
@@ -1323,7 +1332,6 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
         "backgroundColor": "#329932",
         "flex": 0,
         "height": 1,
-        "marginBottom": 6,
         "marginLeft": 15,
         "marginRight": 15,
       }
@@ -1713,6 +1721,16 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
         </View>
       </View>
     </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#329932",
+          "flex": 0,
+          "height": "92%",
+          "width": 1,
+        }
+      }
+    />
     <View
       style={
         Object {
@@ -2592,7 +2610,6 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
         "backgroundColor": "#329932",
         "flex": 0,
         "height": 1,
-        "marginBottom": 6,
         "marginLeft": 15,
         "marginRight": 15,
       }
@@ -2982,6 +2999,16 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
         </View>
       </View>
     </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#329932",
+          "flex": 0,
+          "height": "92%",
+          "width": 1,
+        }
+      }
+    />
     <View
       style={
         Object {
@@ -3870,7 +3897,6 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
         "backgroundColor": "#329932",
         "flex": 0,
         "height": 1,
-        "marginBottom": 6,
         "marginLeft": 15,
         "marginRight": 15,
       }
@@ -4260,6 +4286,16 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
         </View>
       </View>
     </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#329932",
+          "flex": 0,
+          "height": "92%",
+          "width": 1,
+        }
+      }
+    />
     <View
       style={
         Object {
@@ -5139,7 +5175,6 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
         "backgroundColor": "#329932",
         "flex": 0,
         "height": 1,
-        "marginBottom": 6,
         "marginLeft": 15,
         "marginRight": 15,
       }
@@ -5529,6 +5564,16 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
         </View>
       </View>
     </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#329932",
+          "flex": 0,
+          "height": "92%",
+          "width": 1,
+        }
+      }
+    />
     <View
       style={
         Object {
@@ -6417,7 +6462,6 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
         "backgroundColor": "#329932",
         "flex": 0,
         "height": 1,
-        "marginBottom": 6,
         "marginLeft": 15,
         "marginRight": 15,
       }
@@ -6807,6 +6851,16 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
         </View>
       </View>
     </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#329932",
+          "flex": 0,
+          "height": "92%",
+          "width": 1,
+        }
+      }
+    />
     <View
       style={
         Object {
@@ -7242,7 +7296,6 @@ exports[`Timeline (with one player) => renders correctly 1`] = `
         "backgroundColor": "#329932",
         "flex": 0,
         "height": 1,
-        "marginBottom": 6,
         "marginLeft": 15,
         "marginRight": 15,
       }
@@ -7632,6 +7685,16 @@ exports[`Timeline (with one player) => renders correctly 1`] = `
         </View>
       </View>
     </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#329932",
+          "flex": 0,
+          "height": "92%",
+          "width": 1,
+        }
+      }
+    />
     <View
       style={
         Object {

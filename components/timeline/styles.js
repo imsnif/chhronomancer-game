@@ -38,7 +38,12 @@ export default StyleSheet.create({
     height: 1,
     flex: 0,
     marginLeft: 15,
-    marginRight: 15,
-    marginBottom: 6
+    marginRight: 15
+  },
+  verticalLine: {
+    flex: 0,
+    width: 1,
+    backgroundColor: common.foreGround,
+    height: '92%'
   }
 })

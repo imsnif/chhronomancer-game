@@ -54,6 +54,7 @@ export default class Timeline extends Component {
               <MenuButton title='Travel Here' onPress={() => {}} />
             </View>
           </View>
+          <View style={styles.verticalLine} />
           <View style={{padding: 15, flex: 1}}>
             <SortButtons timelineStore={this.props.timelineStore}/>
           </View>
