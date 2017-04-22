@@ -9,22 +9,36 @@ export default StyleSheet.create({
     backgroundColor: common.backGround
   },
   playersContainer: {
-    flex: 1,
-    borderWidth: 5,
-    borderColor: 'black',
-    borderStyle: 'dashed'
+    padding: 15,
+    flex: 2
   },
   playersScroller: {
-    flex: 1,
-    padding: 5
+    flex: 1
   },
   scrollPad: {
     height: 10
   },
+  buttonPad: {
+    padding: 13,
+    flex: 2,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
   buttonRow: {
-    flex: 0,
-    height: 60,
+    flex: 1,
+    height: '100%',
+    width: '100%',
     flexDirection: 'row',
+    alignItems: 'center',
     justifyContent: 'center'
+  },
+  separatingLine: {
+    backgroundColor: common.foreGround,
+    height: 1,
+    flex: 0,
+    marginLeft: 15,
+    marginRight: 15,
+    marginBottom: 6
   }
 })
