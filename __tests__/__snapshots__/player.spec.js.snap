@@ -18,8 +18,8 @@ exports[`Player (default props) => renders correctly 1`] = `
         "flex": 1,
         "flexDirection": "column",
         "height": 100,
-        "margin": 5,
-        "marginBottom": 15,
+        "marginBottom": 7,
+        "width": "100%",
       }
     }
   >
@@ -40,8 +40,8 @@ exports[`Player (default props) => renders correctly 1`] = `
             "borderRadius": 0,
             "borderWidth": 1,
             "flex": 1,
-            "height": 21,
-            "margin": 2,
+            "height": 23,
+            "margin": 1,
             "marginBottom": 1,
             "resizeMode": "contain",
             "width": 10,
@@ -232,8 +232,8 @@ exports[`Player (with activePower and items) => renders correctly 1`] = `
         "flex": 1,
         "flexDirection": "column",
         "height": 100,
-        "margin": 5,
-        "marginBottom": 15,
+        "marginBottom": 7,
+        "width": "100%",
       }
     }
   >
@@ -254,8 +254,8 @@ exports[`Player (with activePower and items) => renders correctly 1`] = `
             "borderRadius": 0,
             "borderWidth": 1,
             "flex": 1,
-            "height": 21,
-            "margin": 2,
+            "height": 23,
+            "margin": 1,
             "marginBottom": 1,
             "resizeMode": "contain",
             "width": 10,
@@ -455,8 +455,8 @@ exports[`Player (with activePower) => renders correctly 1`] = `
         "flex": 1,
         "flexDirection": "column",
         "height": 100,
-        "margin": 5,
-        "marginBottom": 15,
+        "marginBottom": 7,
+        "width": "100%",
       }
     }
   >
@@ -477,8 +477,8 @@ exports[`Player (with activePower) => renders correctly 1`] = `
             "borderRadius": 0,
             "borderWidth": 1,
             "flex": 1,
-            "height": 21,
-            "margin": 2,
+            "height": 23,
+            "margin": 1,
             "marginBottom": 1,
             "resizeMode": "contain",
             "width": 10,
@@ -678,8 +678,8 @@ exports[`Player (with items) => renders correctly 1`] = `
         "flex": 1,
         "flexDirection": "column",
         "height": 100,
-        "margin": 5,
-        "marginBottom": 15,
+        "marginBottom": 7,
+        "width": "100%",
       }
     }
   >
@@ -700,8 +700,8 @@ exports[`Player (with items) => renders correctly 1`] = `
             "borderRadius": 0,
             "borderWidth": 1,
             "flex": 1,
-            "height": 21,
-            "margin": 2,
+            "height": 23,
+            "margin": 1,
             "marginBottom": 1,
             "resizeMode": "contain",
             "width": 10,

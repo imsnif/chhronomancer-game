@@ -5,7 +5,9 @@ exports[`MenuButton (default props) => renders correctly 1`] = `
   style={
     Object {
       "flex": 1,
-      "margin": 7,
+      "height": "100%",
+      "marginLeft": 2,
+      "marginRight": 2,
       "width": "100%",
     }
   }
@@ -31,11 +33,14 @@ exports[`MenuButton (default props) => renders correctly 1`] = `
           "backgroundColor": "transparent",
         },
         Object {
+          "alignSelf": "center",
           "backgroundColor": "#141313",
           "borderColor": "#329932",
           "borderRadius": 0,
           "borderWidth": 1,
           "flex": 1,
+          "height": "100%",
+          "margin": 2,
           "width": "100%",
         },
       ]
@@ -52,7 +57,7 @@ exports[`MenuButton (default props) => renders correctly 1`] = `
           "color": "#329932",
           "fontFamily": "telegrama_raw",
           "fontSize": 20,
-          "paddingTop": 9,
+          "paddingTop": 13,
           "textAlign": "center",
         }
       }
@@ -66,7 +71,9 @@ exports[`MenuButton (with title) => renders correctly 1`] = `
   style={
     Object {
       "flex": 1,
-      "margin": 7,
+      "height": "100%",
+      "marginLeft": 2,
+      "marginRight": 2,
       "width": "100%",
     }
   }
@@ -92,11 +99,14 @@ exports[`MenuButton (with title) => renders correctly 1`] = `
           "backgroundColor": "transparent",
         },
         Object {
+          "alignSelf": "center",
           "backgroundColor": "#141313",
           "borderColor": "#329932",
           "borderRadius": 0,
           "borderWidth": 1,
           "flex": 1,
+          "height": "100%",
+          "margin": 2,
           "width": "100%",
         },
       ]
@@ -113,7 +123,7 @@ exports[`MenuButton (with title) => renders correctly 1`] = `
           "color": "#329932",
           "fontFamily": "telegrama_raw",
           "fontSize": 20,
-          "paddingTop": 9,
+          "paddingTop": 13,
           "textAlign": "center",
         }
       }
@@ -126,22 +136,28 @@ exports[`MenuButton (with title) => renders correctly 1`] = `
 
 exports[`MenuButton => changes color while finger is held down 1`] = `
 Object {
+  "alignSelf": "center",
   "backgroundColor": "#329932",
   "borderColor": "#329932",
   "borderRadius": 0,
   "borderWidth": 1,
   "flex": 1,
+  "height": "100%",
+  "margin": 2,
   "width": "100%",
 }
 `;
 
 exports[`MenuButton => changes color while finger is held down 2`] = `
 Object {
+  "alignSelf": "center",
   "backgroundColor": "#141313",
   "borderColor": "#329932",
   "borderRadius": 0,
   "borderWidth": 1,
   "flex": 1,
+  "height": "100%",
+  "margin": 2,
   "width": "100%",
 }
 `;
