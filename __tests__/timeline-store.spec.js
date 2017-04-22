@@ -8,7 +8,9 @@ beforeEach(() => {
 test('TimelineStore => is constructed properly', () => {
   const timelineStore = require('../stores/timeline').default
   const players = timelineStore.players.map(p => p)
+  const { sortBy } = timelineStore
   expect(players).toEqual([])
+  expect(sortBy).toEqual('player')
 })
 
 test('TimelineStore => can add a player', () => {
@@ -24,4 +26,11 @@ test('TimelineStore => can remove a player', () => {
   timelineStore.removePlayer(1)
   const players = timelineStore.players.map(p => p)
   expect(players).toEqual([])
+})
+
+test('TimelineStore => can change sort', () => {
+  const timelineStore = require('../stores/timeline').default
+  timelineStore.changeSort('type')
+  const { sortBy } = timelineStore
+  expect(sortBy).toEqual('type')
 })
