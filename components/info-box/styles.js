@@ -4,13 +4,13 @@ import common from '../common/styles'
 
 module.exports = StyleSheet.create({
   outerBox: {
+    width: '100%',
     flex: 1,
     flexDirection: 'column',
     borderColor: common.foreGround,
     backgroundColor: common.foreGround,
     borderWidth: StyleSheet.hairlineWidth,
-    margin: 5,
-    marginBottom: 15,
+    marginBottom: 7,
     borderRadius: common.borderRadius,
     height: 100
   },
@@ -20,8 +20,8 @@ module.exports = StyleSheet.create({
   },
   imageBox: {
     width: 10,
-    height: 21,
-    margin: 2,
+    height: 23,
+    margin: 1,
     marginBottom: 1,
     borderWidth: 1,
     borderColor: 'black',

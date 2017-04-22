@@ -1,6 +1,7 @@
 import React from 'react'
 import { View, StyleSheet, Image } from 'react-native'
 import styles from './styles'
+
 import assistPreventEmpty from '../../assets/items/assist-prevent-green-empty.png'
 import assistPrevent from '../../assets/items/assist-prevent-green.png'
 import lockEmpty from '../../assets/items/padlock-green-empty.png'
