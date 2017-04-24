@@ -6,14 +6,15 @@ import styles from './styles'
 @observer
 export default class SortButtons extends Component {
   render () {
+    const timelineName = this.props.timelineName
     const timelineStore = this.props.timelineStore
-    const { sortBy } = timelineStore
+    const { sortBy } = timelineStore.getTimeline(this.props.timelineName)
     return (
       <View style={styles.container}>
         <TouchableHighlight style={sortBy === 'player'
           ? styles.selected
           : styles.unSelectedMiddle
-        } onPress={() => timelineStore.changeSort('player')}>
+        } onPress={() => timelineStore.changeSort(timelineName, 'player')}>
           <Text style={sortBy === 'player'
             ? styles.selectedText
             : styles.unSelectedText
@@ -22,7 +23,7 @@ export default class SortButtons extends Component {
         <TouchableHighlight style={sortBy === 'type'
           ? styles.selected
           : styles.unSelectedMiddle
-        } onPress={() => timelineStore.changeSort('type')}>
+        } onPress={() => timelineStore.changeSort(timelineName, 'type')}>
           <Text style={sortBy === 'type'
             ? styles.selectedText
             : styles.unSelectedText
@@ -31,7 +32,7 @@ export default class SortButtons extends Component {
         <TouchableHighlight style={sortBy === 'time'
           ? styles.selected
           : styles.unSelected
-        } onPress={() => timelineStore.changeSort('time')}>
+        } onPress={() => timelineStore.changeSort(timelineName, 'time')}>
           <Text style={sortBy === 'time'
             ? styles.selectedText
             : styles.unSelectedText

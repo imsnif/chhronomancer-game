@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimelineStore => can add a player to a timeline 1`] = `
+Array [
+  1,
+]
+`;
+
+exports[`TimelineStore => can add a timeline 1`] = `
+Array [
+  Object {
+    "name": "Timeline 1",
+    "players": Array [],
+    "sortBy": "player",
+    "type": "steal",
+  },
+]
+`;
+
+exports[`TimelineStore => can remove a player 1`] = `Array []`;

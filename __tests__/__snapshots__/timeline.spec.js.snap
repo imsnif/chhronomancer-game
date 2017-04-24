@@ -666,7 +666,7 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
                 "borderWidth": 0.5,
                 "flex": 1,
                 "flexDirection": "column",
-                "height": 100,
+                "height": 120,
                 "marginBottom": 7,
                 "width": "100%",
               }
@@ -689,10 +689,9 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
                     "borderRadius": 0,
                     "borderWidth": 1,
                     "flex": 1,
-                    "height": 23,
+                    "height": 28,
                     "margin": 1,
-                    "marginBottom": 1,
-                    "resizeMode": "contain",
+                    "resizeMode": "stretch",
                     "width": 10,
                   }
                 }
@@ -707,7 +706,7 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
                     "flex": 9,
                     "fontFamily": "telegrama_raw",
                     "paddingRight": 30,
-                    "paddingTop": 4,
+                    "paddingTop": 6,
                     "textAlign": "center",
                   }
                 }
@@ -888,7 +887,7 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
                 "borderWidth": 0.5,
                 "flex": 1,
                 "flexDirection": "column",
-                "height": 100,
+                "height": 120,
                 "marginBottom": 7,
                 "width": "100%",
               }
@@ -911,10 +910,9 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
                     "borderRadius": 0,
                     "borderWidth": 1,
                     "flex": 1,
-                    "height": 23,
+                    "height": 28,
                     "margin": 1,
-                    "marginBottom": 1,
-                    "resizeMode": "contain",
+                    "resizeMode": "stretch",
                     "width": 10,
                   }
                 }
@@ -929,7 +927,7 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
                     "flex": 9,
                     "fontFamily": "telegrama_raw",
                     "paddingRight": 30,
-                    "paddingTop": 4,
+                    "paddingTop": 6,
                     "textAlign": "center",
                   }
                 }
@@ -1110,7 +1108,7 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
                 "borderWidth": 0.5,
                 "flex": 1,
                 "flexDirection": "column",
-                "height": 100,
+                "height": 120,
                 "marginBottom": 7,
                 "width": "100%",
               }
@@ -1133,10 +1131,9 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
                     "borderRadius": 0,
                     "borderWidth": 1,
                     "flex": 1,
-                    "height": 23,
+                    "height": 28,
                     "margin": 1,
-                    "marginBottom": 1,
-                    "resizeMode": "contain",
+                    "resizeMode": "stretch",
                     "width": 10,
                   }
                 }
@@ -1151,7 +1148,7 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
                     "flex": 9,
                     "fontFamily": "telegrama_raw",
                     "paddingRight": 30,
-                    "paddingTop": 4,
+                    "paddingTop": 6,
                     "textAlign": "center",
                   }
                 }
@@ -1953,7 +1950,7 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
                 "borderWidth": 0.5,
                 "flex": 1,
                 "flexDirection": "column",
-                "height": 100,
+                "height": 120,
                 "marginBottom": 7,
                 "width": "100%",
               }
@@ -1976,10 +1973,9 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
                     "borderRadius": 0,
                     "borderWidth": 1,
                     "flex": 1,
-                    "height": 23,
+                    "height": 28,
                     "margin": 1,
-                    "marginBottom": 1,
-                    "resizeMode": "contain",
+                    "resizeMode": "stretch",
                     "width": 10,
                   }
                 }
@@ -1994,7 +1990,7 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
                     "flex": 9,
                     "fontFamily": "telegrama_raw",
                     "paddingRight": 30,
-                    "paddingTop": 4,
+                    "paddingTop": 6,
                     "textAlign": "center",
                   }
                 }
@@ -2166,7 +2162,7 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
                 "borderWidth": 0.5,
                 "flex": 1,
                 "flexDirection": "column",
-                "height": 100,
+                "height": 120,
                 "marginBottom": 7,
                 "width": "100%",
               }
@@ -2189,10 +2185,9 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
                     "borderRadius": 0,
                     "borderWidth": 1,
                     "flex": 1,
-                    "height": 23,
+                    "height": 28,
                     "margin": 1,
-                    "marginBottom": 1,
-                    "resizeMode": "contain",
+                    "resizeMode": "stretch",
                     "width": 10,
                   }
                 }
@@ -2207,7 +2202,7 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
                     "flex": 9,
                     "fontFamily": "telegrama_raw",
                     "paddingRight": 30,
-                    "paddingTop": 4,
+                    "paddingTop": 6,
                     "textAlign": "center",
                   }
                 }
@@ -2388,7 +2383,7 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
                 "borderWidth": 0.5,
                 "flex": 1,
                 "flexDirection": "column",
-                "height": 100,
+                "height": 120,
                 "marginBottom": 7,
                 "width": "100%",
               }
@@ -2411,10 +2406,9 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
                     "borderRadius": 0,
                     "borderWidth": 1,
                     "flex": 1,
-                    "height": 23,
+                    "height": 28,
                     "margin": 1,
-                    "marginBottom": 1,
-                    "resizeMode": "contain",
+                    "resizeMode": "stretch",
                     "width": 10,
                   }
                 }
@@ -2429,7 +2423,7 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
                     "flex": 9,
                     "fontFamily": "telegrama_raw",
                     "paddingRight": 30,
-                    "paddingTop": 4,
+                    "paddingTop": 6,
                     "textAlign": "center",
                   }
                 }
@@ -3231,7 +3225,7 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
                 "borderWidth": 0.5,
                 "flex": 1,
                 "flexDirection": "column",
-                "height": 100,
+                "height": 120,
                 "marginBottom": 7,
                 "width": "100%",
               }
@@ -3254,10 +3248,9 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
                     "borderRadius": 0,
                     "borderWidth": 1,
                     "flex": 1,
-                    "height": 23,
+                    "height": 28,
                     "margin": 1,
-                    "marginBottom": 1,
-                    "resizeMode": "contain",
+                    "resizeMode": "stretch",
                     "width": 10,
                   }
                 }
@@ -3272,7 +3265,7 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
                     "flex": 9,
                     "fontFamily": "telegrama_raw",
                     "paddingRight": 30,
-                    "paddingTop": 4,
+                    "paddingTop": 6,
                     "textAlign": "center",
                   }
                 }
@@ -3453,7 +3446,7 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
                 "borderWidth": 0.5,
                 "flex": 1,
                 "flexDirection": "column",
-                "height": 100,
+                "height": 120,
                 "marginBottom": 7,
                 "width": "100%",
               }
@@ -3476,10 +3469,9 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
                     "borderRadius": 0,
                     "borderWidth": 1,
                     "flex": 1,
-                    "height": 23,
+                    "height": 28,
                     "margin": 1,
-                    "marginBottom": 1,
-                    "resizeMode": "contain",
+                    "resizeMode": "stretch",
                     "width": 10,
                   }
                 }
@@ -3494,7 +3486,7 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
                     "flex": 9,
                     "fontFamily": "telegrama_raw",
                     "paddingRight": 30,
-                    "paddingTop": 4,
+                    "paddingTop": 6,
                     "textAlign": "center",
                   }
                 }
@@ -3675,7 +3667,7 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
                 "borderWidth": 0.5,
                 "flex": 1,
                 "flexDirection": "column",
-                "height": 100,
+                "height": 120,
                 "marginBottom": 7,
                 "width": "100%",
               }
@@ -3698,10 +3690,9 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
                     "borderRadius": 0,
                     "borderWidth": 1,
                     "flex": 1,
-                    "height": 23,
+                    "height": 28,
                     "margin": 1,
-                    "marginBottom": 1,
-                    "resizeMode": "contain",
+                    "resizeMode": "stretch",
                     "width": 10,
                   }
                 }
@@ -3716,7 +3707,7 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
                     "flex": 9,
                     "fontFamily": "telegrama_raw",
                     "paddingRight": 30,
-                    "paddingTop": 4,
+                    "paddingTop": 6,
                     "textAlign": "center",
                   }
                 }
@@ -4518,7 +4509,7 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
                 "borderWidth": 0.5,
                 "flex": 1,
                 "flexDirection": "column",
-                "height": 100,
+                "height": 120,
                 "marginBottom": 7,
                 "width": "100%",
               }
@@ -4541,10 +4532,9 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
                     "borderRadius": 0,
                     "borderWidth": 1,
                     "flex": 1,
-                    "height": 23,
+                    "height": 28,
                     "margin": 1,
-                    "marginBottom": 1,
-                    "resizeMode": "contain",
+                    "resizeMode": "stretch",
                     "width": 10,
                   }
                 }
@@ -4559,7 +4549,7 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
                     "flex": 9,
                     "fontFamily": "telegrama_raw",
                     "paddingRight": 30,
-                    "paddingTop": 4,
+                    "paddingTop": 6,
                     "textAlign": "center",
                   }
                 }
@@ -4731,7 +4721,7 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
                 "borderWidth": 0.5,
                 "flex": 1,
                 "flexDirection": "column",
-                "height": 100,
+                "height": 120,
                 "marginBottom": 7,
                 "width": "100%",
               }
@@ -4754,10 +4744,9 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
                     "borderRadius": 0,
                     "borderWidth": 1,
                     "flex": 1,
-                    "height": 23,
+                    "height": 28,
                     "margin": 1,
-                    "marginBottom": 1,
-                    "resizeMode": "contain",
+                    "resizeMode": "stretch",
                     "width": 10,
                   }
                 }
@@ -4772,7 +4761,7 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
                     "flex": 9,
                     "fontFamily": "telegrama_raw",
                     "paddingRight": 30,
-                    "paddingTop": 4,
+                    "paddingTop": 6,
                     "textAlign": "center",
                   }
                 }
@@ -4953,7 +4942,7 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
                 "borderWidth": 0.5,
                 "flex": 1,
                 "flexDirection": "column",
-                "height": 100,
+                "height": 120,
                 "marginBottom": 7,
                 "width": "100%",
               }
@@ -4976,10 +4965,9 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
                     "borderRadius": 0,
                     "borderWidth": 1,
                     "flex": 1,
-                    "height": 23,
+                    "height": 28,
                     "margin": 1,
-                    "marginBottom": 1,
-                    "resizeMode": "contain",
+                    "resizeMode": "stretch",
                     "width": 10,
                   }
                 }
@@ -4994,7 +4982,7 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
                     "flex": 9,
                     "fontFamily": "telegrama_raw",
                     "paddingRight": 30,
-                    "paddingTop": 4,
+                    "paddingTop": 6,
                     "textAlign": "center",
                   }
                 }
@@ -5796,7 +5784,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                 "borderWidth": 0.5,
                 "flex": 1,
                 "flexDirection": "column",
-                "height": 100,
+                "height": 120,
                 "marginBottom": 7,
                 "width": "100%",
               }
@@ -5819,10 +5807,9 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                     "borderRadius": 0,
                     "borderWidth": 1,
                     "flex": 1,
-                    "height": 23,
+                    "height": 28,
                     "margin": 1,
-                    "marginBottom": 1,
-                    "resizeMode": "contain",
+                    "resizeMode": "stretch",
                     "width": 10,
                   }
                 }
@@ -5837,7 +5824,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                     "flex": 9,
                     "fontFamily": "telegrama_raw",
                     "paddingRight": 30,
-                    "paddingTop": 4,
+                    "paddingTop": 6,
                     "textAlign": "center",
                   }
                 }
@@ -6018,7 +6005,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                 "borderWidth": 0.5,
                 "flex": 1,
                 "flexDirection": "column",
-                "height": 100,
+                "height": 120,
                 "marginBottom": 7,
                 "width": "100%",
               }
@@ -6041,10 +6028,9 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                     "borderRadius": 0,
                     "borderWidth": 1,
                     "flex": 1,
-                    "height": 23,
+                    "height": 28,
                     "margin": 1,
-                    "marginBottom": 1,
-                    "resizeMode": "contain",
+                    "resizeMode": "stretch",
                     "width": 10,
                   }
                 }
@@ -6059,7 +6045,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                     "flex": 9,
                     "fontFamily": "telegrama_raw",
                     "paddingRight": 30,
-                    "paddingTop": 4,
+                    "paddingTop": 6,
                     "textAlign": "center",
                   }
                 }
@@ -6240,7 +6226,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                 "borderWidth": 0.5,
                 "flex": 1,
                 "flexDirection": "column",
-                "height": 100,
+                "height": 120,
                 "marginBottom": 7,
                 "width": "100%",
               }
@@ -6263,10 +6249,9 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                     "borderRadius": 0,
                     "borderWidth": 1,
                     "flex": 1,
-                    "height": 23,
+                    "height": 28,
                     "margin": 1,
-                    "marginBottom": 1,
-                    "resizeMode": "contain",
+                    "resizeMode": "stretch",
                     "width": 10,
                   }
                 }
@@ -6281,7 +6266,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                     "flex": 9,
                     "fontFamily": "telegrama_raw",
                     "paddingRight": 30,
-                    "paddingTop": 4,
+                    "paddingTop": 6,
                     "textAlign": "center",
                   }
                 }
@@ -7083,7 +7068,7 @@ exports[`Timeline (with one player) => renders correctly 1`] = `
                 "borderWidth": 0.5,
                 "flex": 1,
                 "flexDirection": "column",
-                "height": 100,
+                "height": 120,
                 "marginBottom": 7,
                 "width": "100%",
               }
@@ -7106,10 +7091,9 @@ exports[`Timeline (with one player) => renders correctly 1`] = `
                     "borderRadius": 0,
                     "borderWidth": 1,
                     "flex": 1,
-                    "height": 23,
+                    "height": 28,
                     "margin": 1,
-                    "marginBottom": 1,
-                    "resizeMode": "contain",
+                    "resizeMode": "stretch",
                     "width": 10,
                   }
                 }
@@ -7124,7 +7108,7 @@ exports[`Timeline (with one player) => renders correctly 1`] = `
                     "flex": 9,
                     "fontFamily": "telegrama_raw",
                     "paddingRight": 30,
-                    "paddingTop": 4,
+                    "paddingTop": 6,
                     "textAlign": "center",
                   }
                 }

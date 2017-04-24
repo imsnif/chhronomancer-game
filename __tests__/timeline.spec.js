@@ -7,9 +7,10 @@ jest.mock('mobx-react/native', () => require('mobx-react/custom'))
 jest.useFakeTimers()
 
 test('Timeline (default props) => renders correctly', () => {
+  const getTimeline = jest.fn().mockReturnValue({players: []})
   const tree = renderer.create(
     <Timeline
-      timelineStore={{players: []}}
+      timelineStore={{getTimeline}}
       playersStore={{players: []}}
       clockStore={{time: 1}}
     />
@@ -18,9 +19,10 @@ test('Timeline (default props) => renders correctly', () => {
 })
 
 test('Timeline (with one player) => renders correctly', () => {
+  const getTimeline = jest.fn().mockReturnValue({players: [1]})
   const tree = renderer.create(
     <Timeline
-      timelineStore={{players: [1]}}
+      timelineStore={{getTimeline}}
       playersStore={{
         players: [
           {
@@ -38,9 +40,10 @@ test('Timeline (with one player) => renders correctly', () => {
 })
 
 test('Timeline (with multiple players - player name sort) => renders correctly', () => {
+  const getTimeline = jest.fn().mockReturnValue({players: [1, 2, 3], sortBy: 'player'})
   const tree = renderer.create(
     <Timeline
-      timelineStore={{players: [1, 2, 3], sortBy: 'player'}}
+      timelineStore={{getTimeline}}
       playersStore={{
         players: [
           {
@@ -82,9 +85,10 @@ test('Timeline (with multiple players - player name sort) => renders correctly',
 })
 
 test('Timeline (with multiple players - power type sort) => renders correctly', () => {
+  const getTimeline = jest.fn().mockReturnValue({players: [1, 2, 3], sortBy: 'type'})
   const tree = renderer.create(
     <Timeline
-      timelineStore={{players: [1, 2, 3], sortBy: 'type'}}
+      timelineStore={{getTimeline}}
       playersStore={{
         players: [
           {
@@ -126,9 +130,10 @@ test('Timeline (with multiple players - power type sort) => renders correctly', 
 })
 
 test('Timeline (with multiple players - power type sort with missing powers shows powers first) => renders correctly', () => {
+  const getTimeline = jest.fn().mockReturnValue({players: [1, 2, 3], sortBy: 'type'})
   const tree = renderer.create(
     <Timeline
-      timelineStore={{players: [1, 2, 3], sortBy: 'type'}}
+      timelineStore={{getTimeline}}
       playersStore={{
         players: [
           {
@@ -166,9 +171,10 @@ test('Timeline (with multiple players - power type sort with missing powers show
 })
 
 test('Timeline (with multiple players - power time sort) => renders correctly', () => {
+  const getTimeline = jest.fn().mockReturnValue({players: [1, 2, 3], sortBy: 'type'})
   const tree = renderer.create(
     <Timeline
-      timelineStore={{players: [1, 2, 3], sortBy: 'type'}}
+      timelineStore={{getTimeline}}
       playersStore={{
         players: [
           {
@@ -210,9 +216,10 @@ test('Timeline (with multiple players - power time sort) => renders correctly', 
 })
 
 test('Timeline (with multiple players - power time sort with missing powers shows powers first) => renders correctly', () => {
+  const getTimeline = jest.fn().mockReturnValue({players: [1, 2, 3], sortBy: 'type'})
   const tree = renderer.create(
     <Timeline
-      timelineStore={{players: [1, 2, 3], sortBy: 'type'}}
+      timelineStore={{getTimeline}}
       playersStore={{
         players: [
           {

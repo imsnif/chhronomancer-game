@@ -7,30 +7,42 @@ beforeEach(() => {
 
 test('TimelineStore => is constructed properly', () => {
   const timelineStore = require('../stores/timeline').default
-  const players = timelineStore.players.map(p => p)
+  const timelines = timelineStore.timelines.map(p => p)
   const { sortBy } = timelineStore
-  expect(players).toEqual([])
-  expect(sortBy).toEqual('player')
+  expect(timelines).toEqual([])
 })
 
-test('TimelineStore => can add a player', () => {
+test('TimelineStore => can add a timeline', () => {
   const timelineStore = require('../stores/timeline').default
-  timelineStore.addPlayer(1)
-  const players = timelineStore.players.map(p => p)
-  expect(players).toEqual([1])
+  timelineStore.addTimeline('Timeline 1', 'steal')
+  const timelines = timelineStore.timelines.map(p => p)
+  expect(timelines).toMatchSnapshot()
+})
+
+test('TimelineStore => can add a player to a timeline', () => {
+  const timelineStore = require('../stores/timeline').default
+  timelineStore.addTimeline('Timeline 1', 'steal')
+  const timelines = timelineStore.timelines.map(p => p)
+  timelineStore.addPlayer('Timeline 1', 1)
+  const { players } = timelineStore.getTimeline('Timeline 1')
+  expect(players).toMatchSnapshot()
 })
 
 test('TimelineStore => can remove a player', () => {
   const timelineStore = require('../stores/timeline').default
-  timelineStore.addPlayer(1)
-  timelineStore.removePlayer(1)
-  const players = timelineStore.players.map(p => p)
-  expect(players).toEqual([])
+  timelineStore.addTimeline('Timeline 1', 'steal')
+  const timelines = timelineStore.timelines.map(p => p)
+  timelineStore.addPlayer('Timeline 1', 1)
+  timelineStore.removePlayer('Timeline 1', 1)
+  const { players } = timelineStore.getTimeline('Timeline 1')
+  expect(players).toMatchSnapshot()
 })
 
 test('TimelineStore => can change sort', () => {
   const timelineStore = require('../stores/timeline').default
-  timelineStore.changeSort('type')
-  const { sortBy } = timelineStore
+  timelineStore.addTimeline('Timeline 1', 'steal')
+  const timelines = timelineStore.timelines.map(p => p)
+  timelineStore.changeSort('Timeline 1', 'type')
+  const { sortBy } = timelineStore.getTimeline('Timeline 1')
   expect(sortBy).toEqual('type')
 })

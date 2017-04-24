@@ -1,16 +1,29 @@
-import {observable} from 'mobx'
+import { observable } from 'mobx'
 
 class TimelineStore {
-  @observable sortBy = 'player'
-  @observable players = []
-  addPlayer (id) {
-    this.players.push(id)
+  @observable timelines = []
+  addTimeline (name, type) {
+    this.timelines.push({
+      name,
+      type,
+      sortBy: 'player',
+      players: []
+    })
   }
-  removePlayer (id) {
-    this.players = this.players.filter(p => p !== id)
+  addPlayer (timelineName, id) {
+    let timeline = this.getTimeline(timelineName)
+    timeline.players.push(id)
   }
-  changeSort (sort) {
-    this.sortBy = sort
+  removePlayer (timelineName, id) {
+    let timeline = this.getTimeline(timelineName)
+    timeline.players = timeline.players.filter(p => p !== id)
+  }
+  changeSort (timelineName, sort) {
+    let timeline = this.getTimeline(timelineName)
+    timeline.sortBy = sort
+  }
+  getTimeline (name) {
+    return this.timelines.find(t => t.name === name)
   }
 }
 

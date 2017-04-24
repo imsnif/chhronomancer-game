@@ -10,13 +10,15 @@ import sortPlayers from './sort-players.js'
 @observer
 export default class Timeline extends Component {
   render () {
-    const sortBy = this.props.timelineStore.sortBy
+    const name = this.props.name
+    const timeline = this.props.timelineStore.getTimeline(name)
+    const sortBy = timeline.sortBy
     return (
       <View style={styles.container}>
         <View style={styles.playersContainer}>
           <ScrollView style={styles.playersScroller}>
             {
-              this.props.timelineStore.players
+              timeline.players
               .sort((a, b) => {
                 const player1 = this.props.playersStore.players.find(p => p.id === a)
                 const player2 = this.props.playersStore.players.find(p => p.id === b)
@@ -56,7 +58,7 @@ export default class Timeline extends Component {
           </View>
           <View style={styles.verticalLine} />
           <View style={{padding: 15, flex: 1}}>
-            <SortButtons timelineStore={this.props.timelineStore}/>
+            <SortButtons timelineStore={this.props.timelineStore} timelineName={name}/>
           </View>
         </View>
       </View>
