@@ -18,7 +18,7 @@ export default class TimelineSummary extends Component {
     const imageToRender = images[timeline.type]
     return (
       <InfoBox title={this.props.name} image={imageToRender}>
-        <View style={{flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
+        <View style={styles.wrapper}>
         {
           timeline.players.map(pId => {
             const player = playersStore.players.find(p => p.id === pId)
