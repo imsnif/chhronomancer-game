@@ -15,28 +15,28 @@ test('Power (default props) => renders correctly', () => {
 
 test('Power (with progress) => renders correctly', () => {
   const tree = renderer.create(
-    <Power progress={50}/>
+    <Power progress={50} />
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })
 
 test('Power (with timeLeft) => renders correctly', () => {
   const tree = renderer.create(
-    <Power timeLeft={'00:00:25'}/>
+    <Power timeLeft={'00:00:25'} />
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })
 
 test('Power (with allied/enemy players) => renders correctly', () => {
   const tree = renderer.create(
-    <Power alliedPlayers={1} enemyPlayers={3}/>
+    <Power alliedPlayers={1} enemyPlayers={3} />
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })
 
 test('Power (with progress, timeLeft and allied/enemy players) => renders correctly', () => {
   const tree = renderer.create(
-    <Power progress={50} timeLeft={'00:00:25'} alliedPlayers={1} enemyPlayers={3}/>
+    <Power progress={50} timeLeft={'00:00:25'} alliedPlayers={1} enemyPlayers={3} />
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })

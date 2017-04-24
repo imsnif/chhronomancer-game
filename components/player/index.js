@@ -32,7 +32,7 @@ export default class Player extends Component {
       fadeAnim: new Animated.Value(0)
     }
   }
-  componentDidMount() {
+  componentDidMount () {
     Animated.timing(
       this.state.fadeAnim,
       {
@@ -41,7 +41,7 @@ export default class Player extends Component {
       }
     ).start()
   }
-  render() {
+  render () {
     const lowItems = _.pick(this.props.items, ['assistPrevent', 'reset', 'steal'])
     const midItems = _.pick(this.props.items, ['lock', 'unlock'])
     const activePower = this.props.activePower
@@ -55,17 +55,17 @@ export default class Player extends Component {
           {
             activePower
               ? <Power
-                  name={activePower.name}
-                  progress={calcProgress(activePower, time)}
-                  timeLeft={formatTimeLeft(activePower, time)}
-                  alliedPlayers={activePower.alliedPlayers}
-                  enemyPlayers={activePower.enemyPlayers}
+                name={activePower.name}
+                progress={calcProgress(activePower, time)}
+                timeLeft={formatTimeLeft(activePower, time)}
+                alliedPlayers={activePower.alliedPlayers}
+                enemyPlayers={activePower.enemyPlayers}
                 />
               : <View style={{flex: 1}} />
           }
           <View style={{flex: 1, flexDirection: 'row'}}>
-            <LowItems items={lowItems}/>
-            <MidItems items={midItems}/>
+            <LowItems items={lowItems} />
+            <MidItems items={midItems} />
             <InventoryCount count={count} />
           </View>
         </InfoBox>

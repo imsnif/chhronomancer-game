@@ -8,7 +8,7 @@ jest.useFakeTimers()
 
 test('Player (default props) => renders correctly', () => {
   const tree = renderer.create(
-    <Player clockStore={{time: 1}}/>
+    <Player clockStore={{time: 1}} />
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })

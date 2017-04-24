@@ -9,7 +9,7 @@ jest.mock('mobx-react/native', () => require('mobx-react/custom'))
 test('SortButtons (sortBy player) => renders correctly', () => {
   const getTimeline = jest.fn().mockReturnValue({sortBy: 'player'})
   const tree = renderer.create(
-    <SortButtons timelineStore={{sortBy: 'player', getTimeline}}/>
+    <SortButtons timelineStore={{sortBy: 'player', getTimeline}} />
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })
@@ -17,7 +17,7 @@ test('SortButtons (sortBy player) => renders correctly', () => {
 test('SortButtons (sortBy type) => renders correctly', () => {
   const getTimeline = jest.fn().mockReturnValue({sortBy: 'player'})
   const tree = renderer.create(
-    <SortButtons timelineStore={{sortBy: 'type', getTimeline}}/>
+    <SortButtons timelineStore={{sortBy: 'type', getTimeline}} />
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })
@@ -25,7 +25,7 @@ test('SortButtons (sortBy type) => renders correctly', () => {
 test('SortButtons (sortBy time) => renders correctly', () => {
   const getTimeline = jest.fn().mockReturnValue({sortBy: 'player'})
   const tree = renderer.create(
-    <SortButtons timelineStore={{sortBy: 'time', getTimeline}}/>
+    <SortButtons timelineStore={{sortBy: 'time', getTimeline}} />
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })

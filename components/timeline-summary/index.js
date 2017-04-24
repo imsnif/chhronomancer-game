@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { observer } from 'mobx-react/native'
-import { View, Text, Image } from 'react-native'
+import { View, Image } from 'react-native'
 import InfoBox from '../info-box'
 import styles from './styles'
 
@@ -10,7 +10,7 @@ import reset from '../../assets/items/reset-green.png'
 
 @observer
 export default class TimelineSummary extends Component {
-  render() {
+  render () {
     const images = {steal, assistPrevent, reset}
     const timelineStore = this.props.timelineStore
     const playersStore = this.props.playersStore
@@ -19,7 +19,7 @@ export default class TimelineSummary extends Component {
     return (
       <InfoBox title={this.props.name} image={imageToRender}>
         <View style={styles.wrapper}>
-        {
+          {
           timeline.players.map(pId => {
             const player = playersStore.players.find(p => p.id === pId)
             return <Image key={player.name} style={styles.image} source={player.image} />

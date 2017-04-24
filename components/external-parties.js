@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
-import { AppRegistry, View, Text, ScrollView } from 'react-native';
-import Item from './item'
+import React, { Component } from 'react'
+import { View, Text, ScrollView } from 'react-native'
 
 export default class ExternalParties extends Component {
-  render() {
+  render () {
     return (
       <ScrollView>
         <View style={{flexDirection: 'row'}}>

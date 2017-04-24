@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { ScrollView, View, Button, StyleSheet } from 'react-native'
+import { ScrollView, View } from 'react-native'
 import { observer } from 'mobx-react/native'
 import SortButtons from '../sort-buttons'
 import MenuButton from '../menu-button'
@@ -38,7 +38,7 @@ export default class Timeline extends Component {
                 )
               })
             }
-            <View style={styles.scrollPad}/>
+            <View style={styles.scrollPad} />
           </ScrollView>
         </View>
         <View style={styles.separatingLine} />
@@ -58,7 +58,7 @@ export default class Timeline extends Component {
           </View>
           <View style={styles.verticalLine} />
           <View style={{padding: 15, flex: 1}}>
-            <SortButtons timelineStore={this.props.timelineStore} timelineName={name}/>
+            <SortButtons timelineStore={this.props.timelineStore} timelineName={name} />
           </View>
         </View>
       </View>

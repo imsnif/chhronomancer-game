@@ -1,6 +1,3 @@
-import moment from 'moment'
-import renderer from 'react-test-renderer'
-
 beforeEach(() => {
   jest.resetModules()
 })

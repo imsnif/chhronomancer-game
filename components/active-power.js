@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
-import { AppRegistry, View, Text } from 'react-native'
-import Item from './item'
+import { View, Text } from 'react-native'
 
 export default class ActivePower extends Component {
-  render() {
+  render () {
     return (
       <View style={{flex: 1, flexDirection: 'column', margin: 5}}>
         <View style={{flex: 1, flexDirection: 'row'}}>
@@ -17,6 +16,6 @@ export default class ActivePower extends Component {
           <Text style={{color: 'red'}}>6</Text>
         </View>
       </View>
-    );
+    )
   }
 };

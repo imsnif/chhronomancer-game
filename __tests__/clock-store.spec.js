@@ -1,5 +1,3 @@
-import moment from 'moment'
-import renderer from 'react-test-renderer'
 import MockDate from 'mockdate'
 
 const staticTime = 1492347672000

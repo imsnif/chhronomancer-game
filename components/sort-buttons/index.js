@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { observer } from 'mobx-react/native'
-import { View, Text, StyleSheet, TouchableHighlight } from 'react-native'
+import { View, Text, TouchableHighlight } from 'react-native'
 import styles from './styles'
 
 @observer

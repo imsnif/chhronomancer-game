@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import { ScrollView, View, Button} from 'react-native'
+import { ScrollView } from 'react-native'
 import ActivePower from './active-power'
 
 export default class ActivePowers extends Component {
-  render() {
+  render () {
     return (
       <ScrollView style={{width: '100%', flexDirection: 'column'}}>
         <ActivePower />

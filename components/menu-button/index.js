@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { View, TouchableHighlight, StyleSheet, Text } from 'react-native'
-import Button from 'react-native-button'
+import { View, TouchableHighlight, Text } from 'react-native'
 import styles from './styles'
 
 import commonStyles from '../common/styles'
@@ -11,22 +10,22 @@ export default class MenuButton extends Component {
     this.state = { pressStatus: false }
   }
   _onHideUnderlay () {
-    this.setState({ pressStatus: false  });
+    this.setState({ pressStatus: false })
   }
   _onShowUnderlay () {
-    this.setState({ pressStatus: true  });
+    this.setState({ pressStatus: true })
   }
-  render() {
+  render () {
     return (
       <View style={styles.buttonContainer}>
         <TouchableHighlight
           onPress={() => {}}
           underlayColor={commonStyles.foreGround}
-          style={ this.state.pressStatus ? styles.buttonPress : styles.button }
+          style={this.state.pressStatus ? styles.buttonPress : styles.button}
           onHideUnderlay={this._onHideUnderlay.bind(this)}
           onShowUnderlay={this._onShowUnderlay.bind(this)}
         >
-          <Text style={ this.state.pressStatus ? styles.textPress : styles.text}>{this.props.title}</Text>
+          <Text style={this.state.pressStatus ? styles.textPress : styles.text}>{this.props.title}</Text>
         </TouchableHighlight>
       </View>
     )

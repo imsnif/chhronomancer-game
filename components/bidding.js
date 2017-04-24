@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import { ScrollView, View, Button, Text} from 'react-native'
+import { View, Text } from 'react-native'
 import ExternalParties from './external-parties'
 
 export default class Bidding extends Component {
-  render() {
+  render () {
     return (
       <View style={{width: '100%', flexDirection: 'column'}}>
         <Text style={{textAlign: 'center'}}>05:42</Text>
