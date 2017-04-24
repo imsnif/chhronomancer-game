@@ -12,7 +12,7 @@ module.exports = StyleSheet.create({
     borderWidth: StyleSheet.hairlineWidth,
     marginBottom: 7,
     borderRadius: common.borderRadius,
-    height: 100
+    height: 120
   },
   titleBar: {
     flex: 1,
@@ -20,21 +20,20 @@ module.exports = StyleSheet.create({
   },
   imageBox: {
     width: 10,
-    height: 23,
+    height: 28,
     margin: 1,
-    marginBottom: 1,
     borderWidth: 1,
     borderColor: 'black',
     borderRadius: common.borderRadius,
     flex: 1,
     backgroundColor: common.backGround,
-    resizeMode: 'contain'
+    resizeMode: 'stretch'
   },
   titleText: {
     fontFamily: 'telegrama_raw',
     color: common.altText,
     flex: 9,
-    paddingTop: 4,
+    paddingTop: 6,
     textAlign: 'center',
     paddingRight: 30
   },
