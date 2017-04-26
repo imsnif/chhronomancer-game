@@ -1,0 +1,1451 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bidding (default props) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#141313",
+      "flexDirection": "column",
+      "height": "100%",
+      "padding": 15,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#329932",
+        "flex": 1,
+        "flexDirection": "row",
+        "margin": 4,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#329932",
+          "color": "#141313",
+          "flex": 1,
+          "fontFamily": "telegrama_raw",
+          "fontSize": 25,
+          "textAlign": "center",
+        }
+      }
+    >
+      Steal
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#329932",
+        "flex": 1,
+        "flexDirection": "row",
+        "margin": 4,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#329932",
+          "color": "#141313",
+          "flex": 1,
+          "fontFamily": "telegrama_raw",
+          "fontSize": 25,
+          "textAlign": "center",
+        }
+      }
+    >
+      Timeline 1
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#329932",
+        "flex": 1,
+        "flexDirection": "row",
+        "margin": 4,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#329932",
+          "color": "#141313",
+          "flex": 1,
+          "fontFamily": "telegrama_raw",
+          "fontSize": 25,
+          "textAlign": "center",
+        }
+      }
+    >
+      04:32
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#329932",
+          "color": "#141313",
+          "flex": 1,
+          "fontFamily": "telegrama_raw",
+          "fontSize": 25,
+          "textAlign": "center",
+        }
+      }
+    >
+      -14
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#329932",
+          "color": "#141313",
+          "flex": 1,
+          "fontFamily": "telegrama_raw",
+          "fontSize": 25,
+          "textAlign": "center",
+        }
+      }
+    >
+      44%
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 9,
+        "flexDirection": "row",
+        "margin": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginRight": 8,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#329932",
+            "borderColor": "#329932",
+            "borderRadius": 0,
+            "borderWidth": 0.5,
+            "flex": 1,
+            "flexDirection": "column",
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "backgroundColor": "#141313",
+                "borderColor": "black",
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "flex": 1,
+                "height": 26,
+                "margin": 1,
+                "resizeMode": "stretch",
+                "width": 10,
+              }
+            }
+          />
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#0e0e0e",
+                "flex": 7,
+                "fontFamily": "telegrama_raw",
+                "textAlign": "center",
+              }
+            }
+          >
+            Aram
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#0e0e0e",
+                "flex": 2,
+                "fontFamily": "telegrama_raw",
+                "textAlign": "center",
+              }
+            }
+          >
+            35
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#141313",
+              "borderColor": "#141313",
+              "borderRadius": 0,
+              "borderWidth": 0.5,
+              "flex": 13,
+              "flexDirection": "column",
+              "margin": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 4,
+                "flexDirection": "column",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "margin": 1,
+                    "maxHeight": 30,
+                  }
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "borderWidth": 1,
+                      "flex": 1,
+                      "height": 26,
+                      "margin": 1,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 8,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    Aram
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 1,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    7
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "margin": 1,
+                    "maxHeight": 30,
+                  }
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "borderWidth": 1,
+                      "flex": 1,
+                      "height": 26,
+                      "margin": 1,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 8,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    Aram
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 1,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    7
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "margin": 1,
+                    "maxHeight": 30,
+                  }
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "borderWidth": 1,
+                      "flex": 1,
+                      "height": 26,
+                      "margin": 1,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 8,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    Aram
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 1,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    7
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "margin": 1,
+                    "maxHeight": 30,
+                  }
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "borderWidth": 1,
+                      "flex": 1,
+                      "height": 26,
+                      "margin": 1,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 8,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    Aram
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 1,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    7
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "margin": 1,
+                    "maxHeight": 30,
+                  }
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "borderWidth": 1,
+                      "flex": 1,
+                      "height": 26,
+                      "margin": 1,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 8,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    Aram
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 1,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    7
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "padding": 5,
+                "paddingRight": 8,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "height": "100%",
+                  "marginLeft": 2,
+                  "marginRight": 2,
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                accessibilityComponentType={undefined}
+                accessibilityLabel={undefined}
+                accessibilityTraits={undefined}
+                accessible={true}
+                hasTVPreferredFocus={undefined}
+                hitSlop={undefined}
+                isTVSelectable={true}
+                onLayout={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                    },
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "center",
+                      "backgroundColor": "#141313",
+                      "borderColor": "#329932",
+                      "borderRadius": 0,
+                      "borderWidth": 1,
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "margin": 2,
+                      "width": "100%",
+                    },
+                  ]
+                }
+                testID={undefined}
+                tvParallaxProperties={undefined}
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#329932",
+                      "flex": 1,
+                      "fontFamily": "telegrama_raw",
+                      "fontSize": 70,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  +
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#329932",
+            "borderColor": "#329932",
+            "borderRadius": 0,
+            "borderWidth": 0.5,
+            "flex": 1,
+            "flexDirection": "column",
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "backgroundColor": "#141313",
+                "borderColor": "black",
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "flex": 1,
+                "height": 26,
+                "margin": 1,
+                "resizeMode": "stretch",
+                "width": 10,
+              }
+            }
+          />
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#0e0e0e",
+                "flex": 7,
+                "fontFamily": "telegrama_raw",
+                "textAlign": "center",
+              }
+            }
+          >
+            Gondollieri
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#0e0e0e",
+                "flex": 2,
+                "fontFamily": "telegrama_raw",
+                "textAlign": "center",
+              }
+            }
+          >
+            49
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#141313",
+              "borderColor": "#141313",
+              "borderRadius": 0,
+              "borderWidth": 0.5,
+              "flex": 13,
+              "flexDirection": "column",
+              "margin": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 4,
+                "flexDirection": "column",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "margin": 1,
+                    "maxHeight": 30,
+                  }
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "borderWidth": 1,
+                      "flex": 1,
+                      "height": 26,
+                      "margin": 1,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 8,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    EvilAram
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 1,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    7
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "margin": 1,
+                    "maxHeight": 30,
+                  }
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "borderWidth": 1,
+                      "flex": 1,
+                      "height": 26,
+                      "margin": 1,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 8,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    EvilAram
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 1,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    7
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "margin": 1,
+                    "maxHeight": 30,
+                  }
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "borderWidth": 1,
+                      "flex": 1,
+                      "height": 26,
+                      "margin": 1,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 8,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    EvilAram
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 1,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    7
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "margin": 1,
+                    "maxHeight": 30,
+                  }
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "borderWidth": 1,
+                      "flex": 1,
+                      "height": 26,
+                      "margin": 1,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 8,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    EvilAram
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 1,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    7
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "margin": 1,
+                    "maxHeight": 30,
+                  }
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "borderWidth": 1,
+                      "flex": 1,
+                      "height": 26,
+                      "margin": 1,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 8,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    EvilAram
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 1,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    7
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "margin": 1,
+                    "maxHeight": 30,
+                  }
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "borderWidth": 1,
+                      "flex": 1,
+                      "height": 26,
+                      "margin": 1,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 8,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    EvilAram
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 1,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    7
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "margin": 1,
+                    "maxHeight": 30,
+                  }
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "borderWidth": 1,
+                      "flex": 1,
+                      "height": 26,
+                      "margin": 1,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 8,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    EvilAram
+                  </Text>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flex": 1,
+                      "flexDirection": "column",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "color": "green",
+                        "flex": 1,
+                        "fontFamily": "telegrama_raw",
+                        "paddingTop": 3,
+                      }
+                    }
+                  >
+                    7
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "padding": 5,
+                "paddingRight": 8,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "height": "100%",
+                  "marginLeft": 2,
+                  "marginRight": 2,
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                accessibilityComponentType={undefined}
+                accessibilityLabel={undefined}
+                accessibilityTraits={undefined}
+                accessible={true}
+                hasTVPreferredFocus={undefined}
+                hitSlop={undefined}
+                isTVSelectable={true}
+                onLayout={undefined}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                    },
+                    Object {
+                      "alignItems": "center",
+                      "alignSelf": "center",
+                      "backgroundColor": "#141313",
+                      "borderColor": "#329932",
+                      "borderRadius": 0,
+                      "borderWidth": 1,
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "height": "100%",
+                      "justifyContent": "center",
+                      "margin": 2,
+                      "width": "100%",
+                    },
+                  ]
+                }
+                testID={undefined}
+                tvParallaxProperties={undefined}
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#329932",
+                      "flex": 1,
+                      "fontFamily": "telegrama_raw",
+                      "fontSize": 70,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  +
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
