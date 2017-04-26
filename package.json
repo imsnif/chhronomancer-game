@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "standard && jest"
   },
   "dependencies": {
     "lodash": "^4.17.4",
@@ -37,7 +37,7 @@
   },
   "standard": {
     "parser": "babel-eslint",
-    "globals": [ "expect", "jest", "test", "beforeEach" ]
+    "globals": [ "expect", "jest", "test", "beforeEach", "afterEach" ]
   },
   "jest": {
     "preset": "jest-react-native",
