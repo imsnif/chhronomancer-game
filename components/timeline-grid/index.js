@@ -19,6 +19,7 @@ export default class TimelineGrid extends Component {
               type={timeline.type}
               timelineStore={timelineStore}
               playersStore={this.props.playersStore}
+              navigator={this.props.navigator}
             />
           })
         }
