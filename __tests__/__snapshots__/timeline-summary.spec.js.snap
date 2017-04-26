@@ -2,105 +2,132 @@
 
 exports[`TimelineSummary (assistPrevent) => renders correctly 1`] = `
 <View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "backgroundColor": "#329932",
-      "borderColor": "#329932",
-      "borderRadius": 0,
-      "borderWidth": 0.5,
-      "flex": 1,
-      "flexDirection": "column",
-      "height": 120,
-      "marginBottom": 7,
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+      },
+      undefined,
+    ]
   }
+  testID={undefined}
+  tvParallaxProperties={undefined}
 >
   <View
     style={
       Object {
-        "flex": 1,
-        "flexDirection": "row",
-      }
-    }
-  >
-    <Image
-      source={1}
-      style={
-        Object {
-          "backgroundColor": "#141313",
-          "borderColor": "black",
-          "borderRadius": 0,
-          "borderWidth": 1,
-          "flex": 1,
-          "height": 28,
-          "margin": 1,
-          "resizeMode": "stretch",
-          "width": 10,
-        }
-      }
-    />
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "#0e0e0e",
-          "flex": 9,
-          "fontFamily": "telegrama_raw",
-          "paddingRight": 30,
-          "paddingTop": 6,
-          "textAlign": "center",
-        }
-      }
-    >
-      Timeline 1
-    </Text>
-  </View>
-  <View
-    style={
-      Object {
-        "backgroundColor": "#141313",
-        "borderColor": "#141313",
+        "backgroundColor": "#329932",
+        "borderColor": "#329932",
         "borderRadius": 0,
         "borderWidth": 0.5,
-        "flex": 3,
+        "flex": 1,
         "flexDirection": "column",
-        "margin": 1,
+        "height": 120,
+        "marginBottom": 7,
+        "width": "100%",
       }
     }
   >
     <View
       style={
         Object {
-          "alignItems": "center",
           "flex": 1,
           "flexDirection": "row",
-          "justifyContent": "center",
         }
       }
     >
       <Image
-        source={undefined}
+        source={1}
         style={
           Object {
-            "height": 30,
-            "margin": 4,
-            "width": 30,
+            "backgroundColor": "#141313",
+            "borderColor": "black",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "flex": 1,
+            "height": 28,
+            "margin": 1,
+            "resizeMode": "stretch",
+            "width": 10,
           }
         }
       />
-      <Image
-        source={undefined}
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
         style={
           Object {
-            "height": 30,
-            "margin": 4,
-            "width": 30,
+            "color": "#0e0e0e",
+            "flex": 9,
+            "fontFamily": "telegrama_raw",
+            "paddingRight": 30,
+            "paddingTop": 6,
+            "textAlign": "center",
           }
         }
-      />
+      >
+        Timeline 1
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#141313",
+          "borderColor": "#141313",
+          "borderRadius": 0,
+          "borderWidth": 0.5,
+          "flex": 3,
+          "flexDirection": "column",
+          "margin": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Image
+          source={undefined}
+          style={
+            Object {
+              "height": 30,
+              "margin": 4,
+              "width": 30,
+            }
+          }
+        />
+        <Image
+          source={undefined}
+          style={
+            Object {
+              "height": 30,
+              "margin": 4,
+              "width": 30,
+            }
+          }
+        />
+      </View>
     </View>
   </View>
 </View>
@@ -108,105 +135,132 @@ exports[`TimelineSummary (assistPrevent) => renders correctly 1`] = `
 
 exports[`TimelineSummary (reset) => renders correctly 1`] = `
 <View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "backgroundColor": "#329932",
-      "borderColor": "#329932",
-      "borderRadius": 0,
-      "borderWidth": 0.5,
-      "flex": 1,
-      "flexDirection": "column",
-      "height": 120,
-      "marginBottom": 7,
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+      },
+      undefined,
+    ]
   }
+  testID={undefined}
+  tvParallaxProperties={undefined}
 >
   <View
     style={
       Object {
-        "flex": 1,
-        "flexDirection": "row",
-      }
-    }
-  >
-    <Image
-      source={1}
-      style={
-        Object {
-          "backgroundColor": "#141313",
-          "borderColor": "black",
-          "borderRadius": 0,
-          "borderWidth": 1,
-          "flex": 1,
-          "height": 28,
-          "margin": 1,
-          "resizeMode": "stretch",
-          "width": 10,
-        }
-      }
-    />
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "#0e0e0e",
-          "flex": 9,
-          "fontFamily": "telegrama_raw",
-          "paddingRight": 30,
-          "paddingTop": 6,
-          "textAlign": "center",
-        }
-      }
-    >
-      Timeline 1
-    </Text>
-  </View>
-  <View
-    style={
-      Object {
-        "backgroundColor": "#141313",
-        "borderColor": "#141313",
+        "backgroundColor": "#329932",
+        "borderColor": "#329932",
         "borderRadius": 0,
         "borderWidth": 0.5,
-        "flex": 3,
+        "flex": 1,
         "flexDirection": "column",
-        "margin": 1,
+        "height": 120,
+        "marginBottom": 7,
+        "width": "100%",
       }
     }
   >
     <View
       style={
         Object {
-          "alignItems": "center",
           "flex": 1,
           "flexDirection": "row",
-          "justifyContent": "center",
         }
       }
     >
       <Image
-        source={undefined}
+        source={1}
         style={
           Object {
-            "height": 30,
-            "margin": 4,
-            "width": 30,
+            "backgroundColor": "#141313",
+            "borderColor": "black",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "flex": 1,
+            "height": 28,
+            "margin": 1,
+            "resizeMode": "stretch",
+            "width": 10,
           }
         }
       />
-      <Image
-        source={undefined}
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
         style={
           Object {
-            "height": 30,
-            "margin": 4,
-            "width": 30,
+            "color": "#0e0e0e",
+            "flex": 9,
+            "fontFamily": "telegrama_raw",
+            "paddingRight": 30,
+            "paddingTop": 6,
+            "textAlign": "center",
           }
         }
-      />
+      >
+        Timeline 1
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#141313",
+          "borderColor": "#141313",
+          "borderRadius": 0,
+          "borderWidth": 0.5,
+          "flex": 3,
+          "flexDirection": "column",
+          "margin": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Image
+          source={undefined}
+          style={
+            Object {
+              "height": 30,
+              "margin": 4,
+              "width": 30,
+            }
+          }
+        />
+        <Image
+          source={undefined}
+          style={
+            Object {
+              "height": 30,
+              "margin": 4,
+              "width": 30,
+            }
+          }
+        />
+      </View>
     </View>
   </View>
 </View>
@@ -214,105 +268,132 @@ exports[`TimelineSummary (reset) => renders correctly 1`] = `
 
 exports[`TimelineSummary (steal) => renders correctly 1`] = `
 <View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "backgroundColor": "#329932",
-      "borderColor": "#329932",
-      "borderRadius": 0,
-      "borderWidth": 0.5,
-      "flex": 1,
-      "flexDirection": "column",
-      "height": 120,
-      "marginBottom": 7,
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+      },
+      undefined,
+    ]
   }
+  testID={undefined}
+  tvParallaxProperties={undefined}
 >
   <View
     style={
       Object {
-        "flex": 1,
-        "flexDirection": "row",
-      }
-    }
-  >
-    <Image
-      source={1}
-      style={
-        Object {
-          "backgroundColor": "#141313",
-          "borderColor": "black",
-          "borderRadius": 0,
-          "borderWidth": 1,
-          "flex": 1,
-          "height": 28,
-          "margin": 1,
-          "resizeMode": "stretch",
-          "width": 10,
-        }
-      }
-    />
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "#0e0e0e",
-          "flex": 9,
-          "fontFamily": "telegrama_raw",
-          "paddingRight": 30,
-          "paddingTop": 6,
-          "textAlign": "center",
-        }
-      }
-    >
-      Timeline 1
-    </Text>
-  </View>
-  <View
-    style={
-      Object {
-        "backgroundColor": "#141313",
-        "borderColor": "#141313",
+        "backgroundColor": "#329932",
+        "borderColor": "#329932",
         "borderRadius": 0,
         "borderWidth": 0.5,
-        "flex": 3,
+        "flex": 1,
         "flexDirection": "column",
-        "margin": 1,
+        "height": 120,
+        "marginBottom": 7,
+        "width": "100%",
       }
     }
   >
     <View
       style={
         Object {
-          "alignItems": "center",
           "flex": 1,
           "flexDirection": "row",
-          "justifyContent": "center",
         }
       }
     >
       <Image
-        source={undefined}
+        source={1}
         style={
           Object {
-            "height": 30,
-            "margin": 4,
-            "width": 30,
+            "backgroundColor": "#141313",
+            "borderColor": "black",
+            "borderRadius": 0,
+            "borderWidth": 1,
+            "flex": 1,
+            "height": 28,
+            "margin": 1,
+            "resizeMode": "stretch",
+            "width": 10,
           }
         }
       />
-      <Image
-        source={undefined}
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
         style={
           Object {
-            "height": 30,
-            "margin": 4,
-            "width": 30,
+            "color": "#0e0e0e",
+            "flex": 9,
+            "fontFamily": "telegrama_raw",
+            "paddingRight": 30,
+            "paddingTop": 6,
+            "textAlign": "center",
           }
         }
-      />
+      >
+        Timeline 1
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#141313",
+          "borderColor": "#141313",
+          "borderRadius": 0,
+          "borderWidth": 0.5,
+          "flex": 3,
+          "flexDirection": "column",
+          "margin": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Image
+          source={undefined}
+          style={
+            Object {
+              "height": 30,
+              "margin": 4,
+              "width": 30,
+            }
+          }
+        />
+        <Image
+          source={undefined}
+          style={
+            Object {
+              "height": 30,
+              "margin": 4,
+              "width": 30,
+            }
+          }
+        />
+      </View>
     </View>
   </View>
 </View>
