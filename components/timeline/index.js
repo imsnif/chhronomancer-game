@@ -9,9 +9,6 @@ import sortPlayers from './sort-players.js'
 
 @observer
 export default class Timeline extends Component {
-  constructor (props) {
-    super(props)
-  }
   componentDidMount () {
     // TODO: move this to a separate navigator component
     BackAndroid.addEventListener('hardwareBackPress', () => {
