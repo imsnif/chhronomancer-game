@@ -110,13 +110,16 @@ exports[`Timeline (default props) => renders correctly 1`] = `
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -132,9 +135,9 @@ exports[`Timeline (default props) => renders correctly 1`] = `
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -175,13 +178,16 @@ exports[`Timeline (default props) => renders correctly 1`] = `
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -197,9 +203,9 @@ exports[`Timeline (default props) => renders correctly 1`] = `
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -253,13 +259,16 @@ exports[`Timeline (default props) => renders correctly 1`] = `
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -275,9 +284,9 @@ exports[`Timeline (default props) => renders correctly 1`] = `
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -318,13 +327,16 @@ exports[`Timeline (default props) => renders correctly 1`] = `
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -340,9 +352,9 @@ exports[`Timeline (default props) => renders correctly 1`] = `
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -396,13 +408,16 @@ exports[`Timeline (default props) => renders correctly 1`] = `
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -418,9 +433,9 @@ exports[`Timeline (default props) => renders correctly 1`] = `
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -1397,13 +1412,16 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -1419,9 +1437,9 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -1462,13 +1480,16 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -1484,9 +1505,9 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -1540,13 +1561,16 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -1562,9 +1586,9 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -1605,13 +1629,16 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -1627,9 +1654,9 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -1683,13 +1710,16 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -1705,9 +1735,9 @@ exports[`Timeline (with multiple players - player name sort) => renders correctl
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -2672,13 +2702,16 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -2694,9 +2727,9 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -2737,13 +2770,16 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -2759,9 +2795,9 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -2815,13 +2851,16 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -2837,9 +2876,9 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -2880,13 +2919,16 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -2902,9 +2944,9 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -2958,13 +3000,16 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -2980,9 +3025,9 @@ exports[`Timeline (with multiple players - power time sort with missing powers s
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -3956,13 +4001,16 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -3978,9 +4026,9 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -4021,13 +4069,16 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -4043,9 +4094,9 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -4099,13 +4150,16 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -4121,9 +4175,9 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -4164,13 +4218,16 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -4186,9 +4243,9 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -4242,13 +4299,16 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -4264,9 +4324,9 @@ exports[`Timeline (with multiple players - power time sort) => renders correctly
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -5231,13 +5291,16 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -5253,9 +5316,9 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -5296,13 +5359,16 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -5318,9 +5384,9 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -5374,13 +5440,16 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -5396,9 +5465,9 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -5439,13 +5508,16 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -5461,9 +5533,9 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -5517,13 +5589,16 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -5539,9 +5614,9 @@ exports[`Timeline (with multiple players - power type sort with missing powers s
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -6515,13 +6590,16 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -6537,9 +6615,9 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -6580,13 +6658,16 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -6602,9 +6683,9 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -6658,13 +6739,16 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -6680,9 +6764,9 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -6723,13 +6807,16 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -6745,9 +6832,9 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -6801,13 +6888,16 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -6823,9 +6913,9 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -7348,13 +7438,16 @@ exports[`Timeline (with one player) => renders correctly 1`] = `
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -7370,9 +7463,9 @@ exports[`Timeline (with one player) => renders correctly 1`] = `
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -7413,13 +7506,16 @@ exports[`Timeline (with one player) => renders correctly 1`] = `
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -7435,9 +7531,9 @@ exports[`Timeline (with one player) => renders correctly 1`] = `
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -7491,13 +7587,16 @@ exports[`Timeline (with one player) => renders correctly 1`] = `
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -7513,9 +7612,9 @@ exports[`Timeline (with one player) => renders correctly 1`] = `
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -7556,13 +7655,16 @@ exports[`Timeline (with one player) => renders correctly 1`] = `
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -7578,9 +7680,9 @@ exports[`Timeline (with one player) => renders correctly 1`] = `
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }
@@ -7634,13 +7736,16 @@ exports[`Timeline (with one player) => renders correctly 1`] = `
                   "backgroundColor": "transparent",
                 },
                 Object {
+                  "alignItems": "center",
                   "alignSelf": "center",
                   "backgroundColor": "#141313",
                   "borderColor": "#329932",
                   "borderRadius": 0,
                   "borderWidth": 1,
                   "flex": 1,
+                  "flexDirection": "row",
                   "height": "100%",
+                  "justifyContent": "center",
                   "margin": 2,
                   "width": "100%",
                 },
@@ -7656,9 +7761,9 @@ exports[`Timeline (with one player) => renders correctly 1`] = `
               style={
                 Object {
                   "color": "#329932",
+                  "flex": 1,
                   "fontFamily": "telegrama_raw",
                   "fontSize": 20,
-                  "paddingTop": 13,
                   "textAlign": "center",
                 }
               }

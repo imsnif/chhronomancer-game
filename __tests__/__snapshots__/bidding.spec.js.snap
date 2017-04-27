@@ -705,7 +705,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                       "color": "#329932",
                       "flex": 1,
                       "fontFamily": "telegrama_raw",
-                      "fontSize": 70,
+                      "fontSize": 80,
                       "textAlign": "center",
                     }
                   }
@@ -1433,7 +1433,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                       "color": "#329932",
                       "flex": 1,
                       "fontFamily": "telegrama_raw",
-                      "fontSize": 70,
+                      "fontSize": 80,
                       "textAlign": "center",
                     }
                   }
