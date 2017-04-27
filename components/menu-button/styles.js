@@ -11,18 +11,15 @@ export default StyleSheet.create({
     marginRight: 2
   },
   text: {
+    flex: 1,
     fontFamily: 'telegrama_raw',
     color: common.foreGround,
-    textAlign: 'center',
-    paddingTop: 13,
-    fontSize: 20
+    textAlign: 'center'
   },
   textPress: {
     fontFamily: 'telegrama_raw',
     color: common.altText,
-    textAlign: 'center',
-    paddingTop: 13,
-    fontSize: 20
+    textAlign: 'center'
   },
   button: {
     margin: 2,
@@ -33,7 +30,10 @@ export default StyleSheet.create({
     borderRadius: common.borderRadius,
     borderColor: common.foreGround,
     backgroundColor: common.backGround,
-    borderWidth: 1
+    borderWidth: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center'
   },
   buttonSwitch: {
     height: '100%',
@@ -54,7 +54,10 @@ export default StyleSheet.create({
     borderRadius: common.borderRadius,
     borderColor: common.foreGround,
     backgroundColor: common.foreGround,
-    borderWidth: 1
+    borderWidth: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center'
   },
   buttonPressSwitch: {
     height: '100%',

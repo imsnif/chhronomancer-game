@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { View, Text, Image } from 'react-native'
 import styles from './styles'
 
-// TODO: merge with info-box
 export default class ListBox extends Component {
   setNativeProps (nativeProps) {
     if (this._root) this._root.setNativeProps(nativeProps)

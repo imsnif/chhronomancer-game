@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
-import { View, Text, Image } from 'react-native'
-import ListBox from '../list-box'
-import APButton from '../ap-button'
+import { View, Text } from 'react-native'
+import ExternalParties from '../external-parties'
 import styles from './styles'
 
 const image = require('../../assets/placeholders/green_me.png')
@@ -48,56 +47,10 @@ export default class Bidding extends Component {
         </View>
         <View style={styles.summaryBox}>
           <View style={styles.boxWithGap}>
-            <ListBox title={source} subtitle={totalFor} image={image}>
-              <View style={styles.boxContents}>
-                <View style={styles.playerList}>
-                  {
-                    allies.map(a => {
-                      return (
-                        <View key={a.id} style={styles.participantIndication}>
-                          <Image source={image} style={styles.participantImage} />
-                          <View style={styles.nameTextBox}>
-                            <Text style={styles.nameText}>{a.name}</Text>
-                          </View>
-                          <View style={styles.scoreTextBox}>
-                            <Text style={styles.scoreText}>{a.score}</Text>
-                          </View>
-                        </View>
-                      )
-                    })
-                  }
-                </View>
-              </View>
-              <View style={styles.buttonContainer}>
-                <APButton title='+' />
-              </View>
-            </ListBox>
+            <ExternalParties name={source} total={totalFor} image={image} parties={allies} />
           </View>
           <View style={{flex: 1}}>
-            <ListBox title={destination} subtitle={totalAgainst} image={image}>
-              <View style={styles.boxContents}>
-                <View style={styles.playerList}>
-                  {
-                    enemies.map(a => {
-                      return (
-                        <View key={a.id} style={styles.participantIndication}>
-                          <Image source={image} style={styles.participantImage} />
-                          <View style={styles.nameTextBox}>
-                            <Text style={styles.nameText}>{a.name}</Text>
-                          </View>
-                          <View style={styles.scoreTextBox}>
-                            <Text style={styles.scoreText}>{a.score}</Text>
-                          </View>
-                        </View>
-                      )
-                    })
-                  }
-                </View>
-              </View>
-              <View style={styles.buttonContainer}>
-                <APButton title='+' />
-              </View>
-            </ListBox>
+            <ExternalParties name={destination} total={totalAgainst} image={image} parties={enemies} />
           </View>
         </View>
       </View>

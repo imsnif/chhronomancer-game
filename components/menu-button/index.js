@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { View, TouchableHighlight, Text } from 'react-native'
+import { View, TouchableHighlight, Text, StyleSheet } from 'react-native'
 import styles from './styles'
 
 import commonStyles from '../common/styles'
@@ -16,6 +16,9 @@ export default class MenuButton extends Component {
     this.setState({ pressStatus: true })
   }
   render () {
+    const fontSize = this.props.fontSize
+    const textStyle = fontSize ? StyleSheet.flatten([styles.text, {fontSize}]) : styles.text
+    const pressedTextStyle = fontSize ? StyleSheet.flatten([styles.textPress, {fontSize}]) : styles.textPress
     return (
       <View style={styles.buttonContainer}>
         <TouchableHighlight
@@ -25,7 +28,7 @@ export default class MenuButton extends Component {
           onHideUnderlay={this._onHideUnderlay.bind(this)}
           onShowUnderlay={this._onShowUnderlay.bind(this)}
         >
-          <Text style={this.state.pressStatus ? styles.textPress : styles.text}>{this.props.title}</Text>
+          <Text style={this.state.pressStatus ? pressedTextStyle : textStyle}>{this.props.title}</Text>
         </TouchableHighlight>
       </View>
     )

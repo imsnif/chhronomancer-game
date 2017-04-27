@@ -55,15 +55,15 @@ export default class Timeline extends Component {
         <View style={{flex: 1, flexDirection: 'row'}}>
           <View style={styles.buttonPad}>
             <View style={styles.buttonRow}>
-              <MenuButton title='Reset' onPress={() => {}} />
-              <MenuButton title='Quest' onPress={() => {}} />
+              <MenuButton fontSize={20} title='Reset' onPress={() => {}} />
+              <MenuButton fontSize={20} title='Quest' onPress={() => {}} />
             </View>
             <View style={styles.buttonRow}>
-              <MenuButton title='Lock' onPress={() => {}} />
-              <MenuButton title='Unlock' onPress={() => {}} />
+              <MenuButton fontSize={20} title='Lock' onPress={() => {}} />
+              <MenuButton fontSize={20} title='Unlock' onPress={() => {}} />
             </View>
             <View style={styles.buttonRow}>
-              <MenuButton title='Travel Here' onPress={() => {}} />
+              <MenuButton fontSize={20} title='Travel Here' onPress={() => {}} />
             </View>
           </View>
           <View style={styles.verticalLine} />
