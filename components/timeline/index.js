@@ -10,7 +10,6 @@ import sortPlayers from './sort-players.js'
 @observer
 export default class Timeline extends Component {
   componentDidMount () {
-    // TODO: move this to a separate navigator component
     BackAndroid.addEventListener('hardwareBackPress', () => {
       if (this.props.navigator && this.props.navigator.getCurrentRoutes().length > 1) {
         this.props.navigator.pop()
@@ -44,6 +43,7 @@ export default class Timeline extends Component {
                     image={player.image}
                     activePower={player.activePower}
                     items={player.items}
+                    navigator={this.props.navigator}
                   />
                 )
               })

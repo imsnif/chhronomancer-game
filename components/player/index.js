@@ -1,6 +1,6 @@
 import _ from 'lodash'
 import React, { Component } from 'react'
-import { View, Animated } from 'react-native'
+import { View, Animated, TouchableHighlight } from 'react-native'
 import { observer } from 'mobx-react/native'
 import InfoBox from '../info-box'
 import LowItems from '../low-items'
@@ -31,6 +31,7 @@ export default class Player extends Component {
     this.state = {
       fadeAnim: new Animated.Value(0)
     }
+    this.navigate = this.navigate.bind(this)
   }
   componentDidMount () {
     Animated.timing(
@@ -40,6 +41,12 @@ export default class Player extends Component {
         duration: 1200
       }
     ).start()
+  }
+  navigate () {
+    console.log('navigating!')
+    this.props.navigator.push({
+      screenName: 'Bidding'
+    })
   }
   render () {
     const lowItems = _.pick(this.props.items, ['assistPrevent', 'reset', 'steal'])
@@ -51,24 +58,26 @@ export default class Player extends Component {
       : 0
     return (
       <Animated.View style={{opacity: this.state.fadeAnim}}>
-        <InfoBox title={this.props.name} image={this.props.image}>
-          {
-            activePower
-              ? <Power
-                name={activePower.name}
-                progress={calcProgress(activePower, time)}
-                timeLeft={formatTimeLeft(activePower, time)}
-                alliedPlayers={activePower.alliedPlayers}
-                enemyPlayers={activePower.enemyPlayers}
-                />
-              : <View style={{flex: 1}} />
-          }
-          <View style={{flex: 1, flexDirection: 'row'}}>
-            <LowItems items={lowItems} />
-            <MidItems items={midItems} />
-            <InventoryCount count={count} />
-          </View>
-        </InfoBox>
+        <TouchableHighlight onPress={this.navigate}>
+          <InfoBox title={this.props.name} image={this.props.image}>
+            {
+              activePower
+                ? <Power
+                  name={activePower.name}
+                  progress={calcProgress(activePower, time)}
+                  timeLeft={formatTimeLeft(activePower, time)}
+                  alliedPlayers={activePower.alliedPlayers}
+                  enemyPlayers={activePower.enemyPlayers}
+                  />
+                : <View style={{flex: 1}} />
+            }
+            <View style={{flex: 1, flexDirection: 'row'}}>
+              <LowItems items={lowItems} />
+              <MidItems items={midItems} />
+              <InventoryCount count={count} />
+            </View>
+          </InfoBox>
+        </TouchableHighlight>
       </Animated.View>
     )
   }
