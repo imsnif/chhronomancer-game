@@ -1,9 +1,17 @@
 import React, { Component } from 'react'
+import { observer } from 'mobx-react/native'
 import { View, Text, Image } from 'react-native'
 import ListBox from '../list-box'
 import MenuButton from '../menu-button'
 import styles from './styles'
 
+import steal from '../../assets/items/steal-green.png'
+import assistPrevent from '../../assets/items/assist-prevent-green.png'
+import reset from '../../assets/items/reset-green.png'
+
+import playerStore from '../../stores/players'
+
+@observer
 export default class ExternalParties extends Component {
   render () {
     const parties = this.props.parties || []
@@ -13,10 +21,11 @@ export default class ExternalParties extends Component {
         <View style={styles.boxContents}>
           <View style={styles.playerList}>
             {
-              parties.map(player => {
+              parties.map(({id, score}) => {
+                const player = playerStore.getPlayer(id)
                 return (
-                  <View key={player.id} style={styles.participantIndication}>
-                    <Image source={image} style={styles.participantImage} />
+                  <View key={id} style={styles.participantIndication}>
+                    <Image source={player.image} style={styles.participantImage} />
                     <View style={styles.nameTextBox}>
                       <Text style={styles.nameText}>{player.name}</Text>
                     </View>

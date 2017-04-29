@@ -42,7 +42,10 @@ export default class chronomancer extends Component {
       )
     } else if (route.screenName === 'Bidding') {
       return (
-        <Bidding />
+        <Bidding
+          playerId={route.playerId}
+          timelineName={route.timelineName}
+        />
       )
     }
   }

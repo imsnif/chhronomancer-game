@@ -1,36 +1,40 @@
 import React, { Component } from 'react'
+import { observer } from 'mobx-react/native'
 import { View, Text } from 'react-native'
 import ExternalParties from '../external-parties'
 import styles from './styles'
 
-const image = require('../../assets/placeholders/green_me.png')
+import clockStore from '../../stores/clock'
+import powerStore from '../../stores/power'
+import playersStore from '../../stores/players'
+import timelineStore from '../../stores/timeline'
 
+import steal from '../../assets/items/steal-green.png'
+import assistPrevent from '../../assets/items/assist-prevent-green.png'
+import reset from '../../assets/items/reset-green.png'
+
+const images = {steal, assistPrevent, reset}
+
+@observer
 export default class Bidding extends Component {
   render () {
-    // connect this to the rest of the game, through stores, etc.
-    // restructure the game data structure to facilitate this - probably keep powers in different store with references... allow players to have more than one activePower, categorize them by timelines, etc. etc.
-    const powerName = 'Steal'
-    const timelineName = 'Timeline 1'
-    const timeLeft = '04:32'
-    const percentage = '44%'
-    const source = 'Aram'
-    const destination = 'Gondollieri'
-    const allies = [
-      {id: 1, name: 'Aram', score: 7},
-      {id: 2, name: 'Aram', score: 7},
-      {id: 3, name: 'Aram', score: 7},
-      {id: 4, name: 'Aram', score: 7},
-      {id: 5, name: 'Aram', score: 7}
-    ]
-    const enemies = [
-      {id: 1, name: 'EvilAram', score: 7},
-      {id: 2, name: 'EvilAram', score: 7},
-      {id: 3, name: 'EvilAram', score: 7},
-      {id: 4, name: 'EvilAram', score: 7},
-      {id: 5, name: 'EvilAram', score: 7},
-      {id: 6, name: 'EvilAram', score: 7},
-      {id: 7, name: 'EvilAram', score: 7}
-    ]
+    const time = clockStore.time
+    const playerId = this.props.playerId
+    const player = playersStore.getPlayer(playerId)
+    const timelineName = this.props.timelineName
+    const timeline = timelineStore.getTimeline(timelineName)
+    const power = powerStore.getPower(playerId, timelineName)
+    const powerName = power.name
+    const timeLeft = powerStore.getTimeLeft(playerId, timelineName, time)
+    const percentage = powerStore.getProgress(playerId, timelineName, time)
+    const source = player.name
+    const sourceImage = player.image
+    const destination = power.target
+    const destinationImage = destination.type === 'player'
+      ? playersStore.getPlayer(destination.id).image
+      : images[timeline.type]
+    const allies = power.allies
+    const enemies = power.enemies
     const totalFor = allies.map(a => a.score).reduce((a, b) => a + b, 0)
     const totalAgainst = enemies.map(a => a.score).reduce((a, b) => a + b, 0)
     const balance = totalFor - totalAgainst
@@ -43,16 +47,16 @@ export default class Bidding extends Component {
           <Text style={styles.titleText}>{timelineName}</Text>
         </View>
         <View style={styles.titleItem}>
-          <Text style={styles.titleText}>{timeLeft}</Text>
-          <Text style={styles.titleText}>{balance}</Text>
-          <Text style={styles.titleText}>{percentage}</Text>
+          <Text style={styles.titleTextStats}>{timeLeft}</Text>
+          <Text style={styles.titleTextStatsCenter}>{balance}</Text>
+          <Text style={styles.titleTextStats}>{percentage}%</Text>
         </View>
         <View style={styles.summaryBox}>
           <View style={styles.boxWithGap}>
-            <ExternalParties name={source} total={totalFor} image={image} parties={allies} />
+            <ExternalParties name={source} total={totalFor} image={sourceImage} parties={allies} />
           </View>
           <View style={{flex: 1}}>
-            <ExternalParties name={destination} total={totalAgainst} image={image} parties={enemies} />
+            <ExternalParties name={destination.name} total={totalAgainst} image={destinationImage} parties={enemies} />
           </View>
         </View>
       </View>

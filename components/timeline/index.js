@@ -12,9 +12,6 @@ import powerStore from '../../stores/power'
 @observer
 export default class Timeline extends Component {
   componentDidMount () {
-    // TODO: CONTINUE HERE - make it so that pressing a player connects to the bidding screen
-    // then restructure the data, separate activePower so that players can have multiple activePowers (probably make an active-power-store)
-    // then hook up the bidding screen to the store
     BackAndroid.addEventListener('hardwareBackPress', () => {
       if (this.props.navigator && this.props.navigator.getCurrentRoutes().length > 1) {
         this.props.navigator.pop()

@@ -63,11 +63,21 @@ const powers = [
   {
     playerId: 1,
     timelineName: 'Timeline 1',
-    name: 'Questing',
+    name: 'Resetting',
     startTime: Date.now(),
     endTime: Date.now() + 100000,
-    alliedPlayers: 5,
-    enemyPlayers: 4
+    target: {
+      type: 'timeline',
+      name: 'Timeline 1'
+    },
+    allies: [
+      {id: 1, score: 8},
+      {id: 2, score: 5}
+    ],
+    enemies: [
+      {id: 3, score: 1},
+      {id: 4, score: 9}
+    ]
   },
   {
     playerId: 2,
@@ -75,8 +85,18 @@ const powers = [
     name: 'Resetting',
     startTime: Date.now(),
     endTime: Date.now() + 1000000,
-    alliedPlayers: 5,
-    enemyPlayers: 4
+    target: {
+      type: 'timeline',
+      name: 'Timeline 1'
+    },
+    allies: [
+      {id: 2, score: 1},
+      {id: 1, score: 5}
+    ],
+    enemies: [
+      {id: 3, score: 1},
+      {id: 4, score: 2}
+    ]
   },
   {
     playerId: 3,
@@ -84,8 +104,18 @@ const powers = [
     name: 'Combining',
     startTime: Date.now(),
     endTime: Date.now() + 2000000,
-    alliedPlayers: 5,
-    enemyPlayers: 4
+    target: {
+      type: 'timeline',
+      name: 'Timeline 1'
+    },
+    allies: [
+      {id: 3, score: 1},
+      {id: 1, score: 2}
+    ],
+    enemies: [
+      {id: 2, score: 2},
+      {id: 4, score: 5}
+    ]
   },
   {
     playerId: 4,
@@ -93,8 +123,18 @@ const powers = [
     name: 'Locking',
     startTime: Date.now(),
     endTime: Date.now() + 100000,
-    alliedPlayers: 5,
-    enemyPlayers: 4
+    target: {
+      type: 'timeline',
+      name: 'Timeline 1'
+    },
+    allies: [
+      {id: 4, score: 7},
+      {id: 2, score: 2}
+    ],
+    enemies: [
+      {id: 2, score: 2},
+      {id: 1, score: 5}
+    ]
   }
 ]
 

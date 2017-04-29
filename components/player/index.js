@@ -46,9 +46,11 @@ export default class Player extends Component {
       }
     ).start()
   }
-  navigate () {
+  navigate (playerId, timelineName) {
     this.props.navigator.push({
-      screenName: 'Bidding'
+      screenName: 'Bidding',
+      playerId,
+      timelineName
     })
   }
   render () {
@@ -63,14 +65,14 @@ export default class Player extends Component {
       : 0
     return (
       <Animated.View style={{opacity: this.state.fadeAnim}}>
-        <TouchableHighlight onPress={this.navigate}>
+        <TouchableHighlight onPress={() => this.navigate(player.id, timelineName)}>
           <InfoBox title={player.name} image={player.image}>
             {
               activePower
                 ? <Power
                   name={activePower.name}
-                  progress={calcProgress(activePower, time)}
-                  timeLeft={formatTimeLeft(activePower, time)}
+                  progress={powerStore.getProgress(player.id, timelineName, time)}
+                  timeLeft={powerStore.getTimeLeft(player.id, timelineName, time)}
                   alliedPlayers={activePower.alliedPlayers}
                   enemyPlayers={activePower.enemyPlayers}
                   />

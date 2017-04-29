@@ -23,6 +23,24 @@ export default StyleSheet.create({
     backgroundColor: common.foreGround,
     textAlign: 'center'
   },
+  titleTextStatsCenter: {
+    flex: 1,
+    alignSelf: 'center',
+    fontFamily: 'telegrama_raw',
+    fontSize: 18,
+    color: common.backGround,
+    backgroundColor: common.foreGround,
+    textAlign: 'center'
+  },
+  titleTextStats: {
+    flex: 2,
+    alignSelf: 'center',
+    fontFamily: 'telegrama_raw',
+    fontSize: 18,
+    color: common.backGround,
+    backgroundColor: common.foreGround,
+    textAlign: 'center'
+  },
   summaryBox: {
     margin: 4,
     flex: 9,
