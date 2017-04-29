@@ -7,6 +7,8 @@ const image = require('../../assets/placeholders/green_me.png')
 
 export default class Bidding extends Component {
   render () {
+    // connect this to the rest of the game, through stores, etc.
+    // restructure the game data structure to facilitate this - probably keep powers in different store with references... allow players to have more than one activePower, categorize them by timelines, etc. etc.
     const powerName = 'Steal'
     const timelineName = 'Timeline 1'
     const timeLeft = '04:32'

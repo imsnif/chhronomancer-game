@@ -9,6 +9,10 @@ import InventoryCount from '../inventory-count'
 import Power from '../power'
 import moment from 'moment'
 
+import playersStore from '../../stores/players'
+import clockStore from '../../stores/clock'
+import powerStore from '../../stores/power'
+
 function calcProgress (activePower, time) {
   const whole = activePower.endTime - activePower.startTime
   const elapsed = time - activePower.startTime
@@ -43,23 +47,24 @@ export default class Player extends Component {
     ).start()
   }
   navigate () {
-    console.log('navigating!')
     this.props.navigator.push({
       screenName: 'Bidding'
     })
   }
   render () {
-    const lowItems = _.pick(this.props.items, ['assistPrevent', 'reset', 'steal'])
-    const midItems = _.pick(this.props.items, ['lock', 'unlock'])
-    const activePower = this.props.activePower
-    const time = this.props.clockStore.time
-    const count = this.props.items
-      ? Object.keys(this.props.items).filter(i => this.props.items[i]).length
+    const timelineName = this.props.timelineName
+    const player = playersStore.getPlayer(this.props.id)
+    const lowItems = _.pick(player.items, ['assistPrevent', 'reset', 'steal'])
+    const midItems = _.pick(player.items, ['lock', 'unlock'])
+    const activePower = powerStore.getPower(player.id, timelineName)
+    const time = clockStore.time
+    const count = player.items
+      ? Object.keys(player.items).filter(i => player.items[i]).length
       : 0
     return (
       <Animated.View style={{opacity: this.state.fadeAnim}}>
         <TouchableHighlight onPress={this.navigate}>
-          <InfoBox title={this.props.name} image={this.props.image}>
+          <InfoBox title={player.name} image={player.image}>
             {
               activePower
                 ? <Power

@@ -7,9 +7,14 @@ import Player from '../player'
 import styles from './styles'
 import sortPlayers from './sort-players.js'
 
+import powerStore from '../../stores/power'
+
 @observer
 export default class Timeline extends Component {
   componentDidMount () {
+    // TODO: CONTINUE HERE - make it so that pressing a player connects to the bidding screen
+    // then restructure the data, separate activePower so that players can have multiple activePowers (probably make an active-power-store)
+    // then hook up the bidding screen to the store
     BackAndroid.addEventListener('hardwareBackPress', () => {
       if (this.props.navigator && this.props.navigator.getCurrentRoutes().length > 1) {
         this.props.navigator.pop()
@@ -31,22 +36,13 @@ export default class Timeline extends Component {
               .sort((a, b) => {
                 const player1 = this.props.playersStore.players.find(p => p.id === a)
                 const player2 = this.props.playersStore.players.find(p => p.id === b)
-                return sortPlayers(player1, player2, sortBy)
+                const activePowers = {
+                  player1: powerStore.getPower(player1, name),
+                  player2: powerStore.getPower(player2, name)
+                }
+                return sortPlayers(player1, player2, activePowers, sortBy)
               })
-              .map(pId => {
-                const player = this.props.playersStore.players.find(p => p.id === pId)
-                return (
-                  <Player
-                    clockStore={this.props.clockStore}
-                    key={player.id}
-                    name={player.name}
-                    image={player.image}
-                    activePower={player.activePower}
-                    items={player.items}
-                    navigator={this.props.navigator}
-                  />
-                )
-              })
+              .map(pId => <Player key={pId} id={pId} navigator={this.props.navigator} timelineName={this.props.name} />)
             }
             <View style={styles.scrollPad} />
           </ScrollView>

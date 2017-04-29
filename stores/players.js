@@ -2,13 +2,12 @@ import {observable} from 'mobx'
 
 class PlayersStore {
   @observable players = []
-  addPlayer ({id, name, items, image, activePower}) {
+  addPlayer ({id, name, items, image}) {
     this.players.push({
       id,
       name,
       items,
-      image,
-      activePower
+      image
     })
   }
   removePlayer (id) {
@@ -16,9 +15,8 @@ class PlayersStore {
       return p.id !== id
     })
   }
-  updatePower (id, activePower) {
-    const player = this.players.find(p => p.id === id)
-    player.activePower = activePower
+  getPlayer (id) {
+    return this.players.find(p => p.id === id)
   }
 }
 
