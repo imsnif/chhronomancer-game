@@ -1,5 +1,3 @@
-import powerStore from '../../stores/power'
-
 function getSortParams (player1, player2, activePowers, sortBy) {
   if (sortBy === 'player') {
     return {

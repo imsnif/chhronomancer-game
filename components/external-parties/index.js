@@ -5,10 +5,6 @@ import ListBox from '../list-box'
 import MenuButton from '../menu-button'
 import styles from './styles'
 
-import steal from '../../assets/items/steal-green.png'
-import assistPrevent from '../../assets/items/assist-prevent-green.png'
-import reset from '../../assets/items/reset-green.png'
-
 import playerStore from '../../stores/players'
 
 @observer

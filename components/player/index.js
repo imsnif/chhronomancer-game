@@ -7,26 +7,10 @@ import LowItems from '../low-items'
 import MidItems from '../mid-items'
 import InventoryCount from '../inventory-count'
 import Power from '../power'
-import moment from 'moment'
 
 import playersStore from '../../stores/players'
 import clockStore from '../../stores/clock'
 import powerStore from '../../stores/power'
-
-function calcProgress (activePower, time) {
-  const whole = activePower.endTime - activePower.startTime
-  const elapsed = time - activePower.startTime
-  const progress = Math.round((elapsed / whole) * 100)
-  return progress < 100 ? progress : 100
-}
-
-function formatTimeLeft (activePower, time) {
-  const timeLeft = activePower.endTime - time > 0
-    ? activePower.endTime - time
-    : 0
-  const duration = moment.duration(timeLeft)
-  return moment.utc(duration.as('milliseconds')).format('HH:mm:ss')
-}
 
 @observer
 export default class Player extends Component {
