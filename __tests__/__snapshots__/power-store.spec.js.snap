@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PowerStore => can add a power 1`] = `
+Array [
+  Object {
+    "allies": Array [
+      Object {
+        "a": 1,
+        "b": 1,
+      },
+      Object {
+        "c": 3,
+        "d": 4,
+      },
+    ],
+    "endTime": 2,
+    "enemies": Array [
+      Object {
+        "x": 1,
+        "y": 1,
+      },
+      Object {
+        "q": 4,
+        "z": 3,
+      },
+    ],
+    "name": "bar",
+    "playerId": 1,
+    "startTime": 1,
+    "target": "baz",
+    "timelineName": "foo",
+  },
+]
+`;
+
+exports[`PowerStore => can get power 1`] = `
+Object {
+  "allies": undefined,
+  "endTime": undefined,
+  "enemies": undefined,
+  "name": undefined,
+  "playerId": 1,
+  "startTime": undefined,
+  "target": undefined,
+  "timelineName": "foo",
+}
+`;
+
+exports[`PowerStore => can get timeLeft 1`] = `"00:00:05"`;
