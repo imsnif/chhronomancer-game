@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Player (default props) => renders correctly 1`] = `
+exports[`Player (no items or power) => renders correctly 1`] = `
 <View
   style={
     Object {
@@ -9,80 +9,46 @@ exports[`Player (default props) => renders correctly 1`] = `
   }
 >
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hasTVPreferredFocus={undefined}
+    hitSlop={undefined}
+    isTVSelectable={true}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
-      Object {
-        "backgroundColor": "#329932",
-        "borderColor": "#329932",
-        "borderRadius": 0,
-        "borderWidth": 0.5,
-        "flex": 1,
-        "flexDirection": "column",
-        "height": 120,
-        "marginBottom": 7,
-        "width": "100%",
-      }
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        undefined,
+      ]
     }
+    testID={undefined}
+    tvParallaxProperties={undefined}
   >
     <View
       style={
         Object {
-          "flex": 1,
-          "flexDirection": "row",
-        }
-      }
-    >
-      <Image
-        source={undefined}
-        style={
-          Object {
-            "backgroundColor": "#141313",
-            "borderColor": "black",
-            "borderRadius": 0,
-            "borderWidth": 1,
-            "flex": 1,
-            "height": 28,
-            "margin": 1,
-            "resizeMode": "stretch",
-            "width": 10,
-          }
-        }
-      />
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Object {
-            "color": "#0e0e0e",
-            "flex": 9,
-            "fontFamily": "telegrama_raw",
-            "paddingRight": 30,
-            "paddingTop": 6,
-            "textAlign": "center",
-          }
-        }
-      />
-    </View>
-    <View
-      style={
-        Object {
-          "backgroundColor": "#141313",
-          "borderColor": "#141313",
+          "backgroundColor": "#329932",
+          "borderColor": "#329932",
           "borderRadius": 0,
           "borderWidth": 0.5,
-          "flex": 3,
+          "flex": 1,
           "flexDirection": "column",
-          "margin": 1,
+          "height": 120,
+          "marginBottom": 7,
+          "width": "100%",
         }
       }
     >
-      <View
-        style={
-          Object {
-            "flex": 1,
-          }
-        }
-      />
       <View
         style={
           Object {
@@ -91,78 +57,60 @@ exports[`Player (default props) => renders correctly 1`] = `
           }
         }
       >
-        <View
+        <Image
+          source={1}
           style={
             Object {
-              "alignItems": "center",
+              "backgroundColor": "#141313",
+              "borderColor": "black",
+              "borderRadius": 0,
+              "borderWidth": 1,
               "flex": 1,
-              "flexDirection": "row",
-              "justifyContent": "center",
+              "height": 28,
+              "margin": 1,
+              "resizeMode": "stretch",
+              "width": 10,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#0e0e0e",
+              "flex": 9,
+              "fontFamily": "telegrama_raw",
+              "paddingRight": 30,
+              "paddingTop": 6,
+              "textAlign": "center",
             }
           }
         >
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-        </View>
+          Aram
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#141313",
+            "borderColor": "#141313",
+            "borderRadius": 0,
+            "borderWidth": 0.5,
+            "flex": 3,
+            "flexDirection": "column",
+            "margin": 1,
+          }
+        }
+      >
         <View
           style={
             Object {
-              "alignItems": "center",
               "flex": 1,
-              "flexDirection": "row",
-              "justifyContent": "center",
             }
           }
-        >
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-        </View>
+        />
         <View
           style={
             Object {
@@ -171,41 +119,122 @@ exports[`Player (default props) => renders correctly 1`] = `
             }
           }
         >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+          <View
             style={
               Object {
-                "color": "#329932",
+                "alignItems": "center",
                 "flex": 1,
                 "flexDirection": "row",
-                "fontFamily": "telegrama_raw",
-                "fontSize": 8,
-                "marginTop": 20,
+                "justifyContent": "center",
               }
             }
           >
-            Artifacts: 
-          </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 16,
+                  "margin": 4,
+                  "width": 16,
+                }
+              }
+            />
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 16,
+                  "margin": 4,
+                  "width": 16,
+                }
+              }
+            />
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 16,
+                  "margin": 4,
+                  "width": 16,
+                }
+              }
+            />
+          </View>
+          <View
             style={
               Object {
-                "color": "#329932",
+                "alignItems": "center",
                 "flex": 1,
                 "flexDirection": "row",
-                "fontFamily": "telegrama_raw",
-                "fontSize": 8,
-                "marginTop": 20,
+                "justifyContent": "center",
               }
             }
           >
-            0
-            /7
-          </Text>
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 16,
+                  "margin": 4,
+                  "width": 16,
+                }
+              }
+            />
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 16,
+                  "margin": 4,
+                  "width": 16,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#329932",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "fontFamily": "telegrama_raw",
+                  "fontSize": 8,
+                  "marginTop": 20,
+                }
+              }
+            >
+              Artifacts: 
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#329932",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "fontFamily": "telegrama_raw",
+                  "fontSize": 8,
+                  "marginTop": 20,
+                }
+              }
+            >
+              0
+              /7
+            </Text>
+          </View>
         </View>
       </View>
     </View>
@@ -213,7 +242,7 @@ exports[`Player (default props) => renders correctly 1`] = `
 </View>
 `;
 
-exports[`Player (with activePower and items) => renders correctly 1`] = `
+exports[`Player (with items and no power) => renders correctly 1`] = `
 <View
   style={
     Object {
@@ -222,89 +251,46 @@ exports[`Player (with activePower and items) => renders correctly 1`] = `
   }
 >
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hasTVPreferredFocus={undefined}
+    hitSlop={undefined}
+    isTVSelectable={true}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
-      Object {
-        "backgroundColor": "#329932",
-        "borderColor": "#329932",
-        "borderRadius": 0,
-        "borderWidth": 0.5,
-        "flex": 1,
-        "flexDirection": "column",
-        "height": 120,
-        "marginBottom": 7,
-        "width": "100%",
-      }
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        undefined,
+      ]
     }
+    testID={undefined}
+    tvParallaxProperties={undefined}
   >
     <View
       style={
         Object {
-          "flex": 1,
-          "flexDirection": "row",
-        }
-      }
-    >
-      <Image
-        source={undefined}
-        style={
-          Object {
-            "backgroundColor": "#141313",
-            "borderColor": "black",
-            "borderRadius": 0,
-            "borderWidth": 1,
-            "flex": 1,
-            "height": 28,
-            "margin": 1,
-            "resizeMode": "stretch",
-            "width": 10,
-          }
-        }
-      />
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Object {
-            "color": "#0e0e0e",
-            "flex": 9,
-            "fontFamily": "telegrama_raw",
-            "paddingRight": 30,
-            "paddingTop": 6,
-            "textAlign": "center",
-          }
-        }
-      />
-    </View>
-    <View
-      style={
-        Object {
-          "backgroundColor": "#141313",
-          "borderColor": "#141313",
+          "backgroundColor": "#329932",
+          "borderColor": "#329932",
           "borderRadius": 0,
           "borderWidth": 0.5,
-          "flex": 3,
+          "flex": 1,
           "flexDirection": "column",
-          "margin": 1,
+          "height": 120,
+          "marginBottom": 7,
+          "width": "100%",
         }
       }
     >
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Object {
-            "color": "#329932",
-            "fontFamily": "telegrama_raw",
-            "fontSize": 6,
-            "marginLeft": 9,
-            "marginTop": 15,
-          }
-        }
-      >
-        PowerName | |==------------------------------------------------|   2% 00:00:09
-      </Text>
       <View
         style={
           Object {
@@ -313,78 +299,60 @@ exports[`Player (with activePower and items) => renders correctly 1`] = `
           }
         }
       >
-        <View
+        <Image
+          source={1}
           style={
             Object {
-              "alignItems": "center",
+              "backgroundColor": "#141313",
+              "borderColor": "black",
+              "borderRadius": 0,
+              "borderWidth": 1,
               "flex": 1,
-              "flexDirection": "row",
-              "justifyContent": "center",
+              "height": 28,
+              "margin": 1,
+              "resizeMode": "stretch",
+              "width": 10,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#0e0e0e",
+              "flex": 9,
+              "fontFamily": "telegrama_raw",
+              "paddingRight": 30,
+              "paddingTop": 6,
+              "textAlign": "center",
             }
           }
         >
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-        </View>
+          Tom
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#141313",
+            "borderColor": "#141313",
+            "borderRadius": 0,
+            "borderWidth": 0.5,
+            "flex": 3,
+            "flexDirection": "column",
+            "margin": 1,
+          }
+        }
+      >
         <View
           style={
             Object {
-              "alignItems": "center",
               "flex": 1,
-              "flexDirection": "row",
-              "justifyContent": "center",
             }
           }
-        >
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-        </View>
+        />
         <View
           style={
             Object {
@@ -393,41 +361,122 @@ exports[`Player (with activePower and items) => renders correctly 1`] = `
             }
           }
         >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+          <View
             style={
               Object {
-                "color": "#329932",
+                "alignItems": "center",
                 "flex": 1,
                 "flexDirection": "row",
-                "fontFamily": "telegrama_raw",
-                "fontSize": 8,
-                "marginTop": 20,
+                "justifyContent": "center",
               }
             }
           >
-            Artifacts: 
-          </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 16,
+                  "margin": 4,
+                  "width": 16,
+                }
+              }
+            />
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 16,
+                  "margin": 4,
+                  "width": 16,
+                }
+              }
+            />
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 16,
+                  "margin": 4,
+                  "width": 16,
+                }
+              }
+            />
+          </View>
+          <View
             style={
               Object {
-                "color": "#329932",
+                "alignItems": "center",
                 "flex": 1,
                 "flexDirection": "row",
-                "fontFamily": "telegrama_raw",
-                "fontSize": 8,
-                "marginTop": 20,
+                "justifyContent": "center",
               }
             }
           >
-            3
-            /7
-          </Text>
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 16,
+                  "margin": 4,
+                  "width": 16,
+                }
+              }
+            />
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 16,
+                  "margin": 4,
+                  "width": 16,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#329932",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "fontFamily": "telegrama_raw",
+                  "fontSize": 8,
+                  "marginTop": 20,
+                }
+              }
+            >
+              Artifacts: 
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#329932",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "fontFamily": "telegrama_raw",
+                  "fontSize": 8,
+                  "marginTop": 20,
+                }
+              }
+            >
+              4
+              /7
+            </Text>
+          </View>
         </View>
       </View>
     </View>
@@ -435,7 +484,7 @@ exports[`Player (with activePower and items) => renders correctly 1`] = `
 </View>
 `;
 
-exports[`Player (with activePower) => renders correctly 1`] = `
+exports[`Player (with items and power) => renders correctly 1`] = `
 <View
   style={
     Object {
@@ -444,89 +493,46 @@ exports[`Player (with activePower) => renders correctly 1`] = `
   }
 >
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hasTVPreferredFocus={undefined}
+    hitSlop={undefined}
+    isTVSelectable={true}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
-      Object {
-        "backgroundColor": "#329932",
-        "borderColor": "#329932",
-        "borderRadius": 0,
-        "borderWidth": 0.5,
-        "flex": 1,
-        "flexDirection": "column",
-        "height": 120,
-        "marginBottom": 7,
-        "width": "100%",
-      }
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        undefined,
+      ]
     }
+    testID={undefined}
+    tvParallaxProperties={undefined}
   >
     <View
       style={
         Object {
-          "flex": 1,
-          "flexDirection": "row",
-        }
-      }
-    >
-      <Image
-        source={undefined}
-        style={
-          Object {
-            "backgroundColor": "#141313",
-            "borderColor": "black",
-            "borderRadius": 0,
-            "borderWidth": 1,
-            "flex": 1,
-            "height": 28,
-            "margin": 1,
-            "resizeMode": "stretch",
-            "width": 10,
-          }
-        }
-      />
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Object {
-            "color": "#0e0e0e",
-            "flex": 9,
-            "fontFamily": "telegrama_raw",
-            "paddingRight": 30,
-            "paddingTop": 6,
-            "textAlign": "center",
-          }
-        }
-      />
-    </View>
-    <View
-      style={
-        Object {
-          "backgroundColor": "#141313",
-          "borderColor": "#141313",
+          "backgroundColor": "#329932",
+          "borderColor": "#329932",
           "borderRadius": 0,
           "borderWidth": 0.5,
-          "flex": 3,
+          "flex": 1,
           "flexDirection": "column",
-          "margin": 1,
+          "height": 120,
+          "marginBottom": 7,
+          "width": "100%",
         }
       }
     >
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Object {
-            "color": "#329932",
-            "fontFamily": "telegrama_raw",
-            "fontSize": 6,
-            "marginLeft": 9,
-            "marginTop": 15,
-          }
-        }
-      >
-        PowerName | |==------------------------------------------------|   2% 00:00:09
-      </Text>
       <View
         style={
           Object {
@@ -535,291 +541,69 @@ exports[`Player (with activePower) => renders correctly 1`] = `
           }
         }
       >
-        <View
+        <Image
+          source={1}
           style={
             Object {
-              "alignItems": "center",
+              "backgroundColor": "#141313",
+              "borderColor": "black",
+              "borderRadius": 0,
+              "borderWidth": 1,
               "flex": 1,
-              "flexDirection": "row",
-              "justifyContent": "center",
+              "height": 28,
+              "margin": 1,
+              "resizeMode": "stretch",
+              "width": 10,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#0e0e0e",
+              "flex": 9,
+              "fontFamily": "telegrama_raw",
+              "paddingRight": 30,
+              "paddingTop": 6,
+              "textAlign": "center",
             }
           }
         >
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-        </View>
-        <View
-          style={
-            Object {
-              "alignItems": "center",
-              "flex": 1,
-              "flexDirection": "row",
-              "justifyContent": "center",
-            }
-          }
-        >
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-        </View>
-        <View
-          style={
-            Object {
-              "flex": 1,
-              "flexDirection": "row",
-            }
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Object {
-                "color": "#329932",
-                "flex": 1,
-                "flexDirection": "row",
-                "fontFamily": "telegrama_raw",
-                "fontSize": 8,
-                "marginTop": 20,
-              }
-            }
-          >
-            Artifacts: 
-          </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Object {
-                "color": "#329932",
-                "flex": 1,
-                "flexDirection": "row",
-                "fontFamily": "telegrama_raw",
-                "fontSize": 8,
-                "marginTop": 20,
-              }
-            }
-          >
-            0
-            /7
-          </Text>
-        </View>
+          Tom
+        </Text>
       </View>
-    </View>
-  </View>
-</View>
-`;
-
-exports[`Player (with items) => renders correctly 1`] = `
-<View
-  style={
-    Object {
-      "opacity": 0,
-    }
-  }
->
-  <View
-    style={
-      Object {
-        "backgroundColor": "#329932",
-        "borderColor": "#329932",
-        "borderRadius": 0,
-        "borderWidth": 0.5,
-        "flex": 1,
-        "flexDirection": "column",
-        "height": 120,
-        "marginBottom": 7,
-        "width": "100%",
-      }
-    }
-  >
-    <View
-      style={
-        Object {
-          "flex": 1,
-          "flexDirection": "row",
-        }
-      }
-    >
-      <Image
-        source={undefined}
+      <View
         style={
           Object {
             "backgroundColor": "#141313",
-            "borderColor": "black",
+            "borderColor": "#141313",
             "borderRadius": 0,
-            "borderWidth": 1,
-            "flex": 1,
-            "height": 28,
+            "borderWidth": 0.5,
+            "flex": 3,
+            "flexDirection": "column",
             "margin": 1,
-            "resizeMode": "stretch",
-            "width": 10,
-          }
-        }
-      />
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Object {
-            "color": "#0e0e0e",
-            "flex": 9,
-            "fontFamily": "telegrama_raw",
-            "paddingRight": 30,
-            "paddingTop": 6,
-            "textAlign": "center",
-          }
-        }
-      />
-    </View>
-    <View
-      style={
-        Object {
-          "backgroundColor": "#141313",
-          "borderColor": "#141313",
-          "borderRadius": 0,
-          "borderWidth": 0.5,
-          "flex": 3,
-          "flexDirection": "column",
-          "margin": 1,
-        }
-      }
-    >
-      <View
-        style={
-          Object {
-            "flex": 1,
-          }
-        }
-      />
-      <View
-        style={
-          Object {
-            "flex": 1,
-            "flexDirection": "row",
           }
         }
       >
-        <View
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
           style={
             Object {
-              "alignItems": "center",
-              "flex": 1,
-              "flexDirection": "row",
-              "justifyContent": "center",
+              "color": "#329932",
+              "fontFamily": "telegrama_raw",
+              "fontSize": 6,
+              "marginLeft": 9,
+              "marginTop": 15,
             }
           }
         >
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-        </View>
-        <View
-          style={
-            Object {
-              "alignItems": "center",
-              "flex": 1,
-              "flexDirection": "row",
-              "justifyContent": "center",
-            }
-          }
-        >
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-          <Image
-            source={1}
-            style={
-              Object {
-                "height": 16,
-                "margin": 4,
-                "width": 16,
-              }
-            }
-          />
-        </View>
+          Resetting | |=-------------------------------------------------|   0% 00:16:39
+        </Text>
         <View
           style={
             Object {
@@ -828,41 +612,122 @@ exports[`Player (with items) => renders correctly 1`] = `
             }
           }
         >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+          <View
             style={
               Object {
-                "color": "#329932",
+                "alignItems": "center",
                 "flex": 1,
                 "flexDirection": "row",
-                "fontFamily": "telegrama_raw",
-                "fontSize": 8,
-                "marginTop": 20,
+                "justifyContent": "center",
               }
             }
           >
-            Artifacts: 
-          </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 16,
+                  "margin": 4,
+                  "width": 16,
+                }
+              }
+            />
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 16,
+                  "margin": 4,
+                  "width": 16,
+                }
+              }
+            />
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 16,
+                  "margin": 4,
+                  "width": 16,
+                }
+              }
+            />
+          </View>
+          <View
             style={
               Object {
-                "color": "#329932",
+                "alignItems": "center",
                 "flex": 1,
                 "flexDirection": "row",
-                "fontFamily": "telegrama_raw",
-                "fontSize": 8,
-                "marginTop": 20,
+                "justifyContent": "center",
               }
             }
           >
-            3
-            /7
-          </Text>
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 16,
+                  "margin": 4,
+                  "width": 16,
+                }
+              }
+            />
+            <Image
+              source={1}
+              style={
+                Object {
+                  "height": 16,
+                  "margin": 4,
+                  "width": 16,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#329932",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "fontFamily": "telegrama_raw",
+                  "fontSize": 8,
+                  "marginTop": 20,
+                }
+              }
+            >
+              Artifacts: 
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#329932",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "fontFamily": "telegrama_raw",
+                  "fontSize": 8,
+                  "marginTop": 20,
+                }
+              }
+            >
+              4
+              /7
+            </Text>
+          </View>
         </View>
       </View>
     </View>

@@ -37,7 +37,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
         }
       }
     >
-      Steal
+      Resetting
     </Text>
   </View>
   <View
@@ -88,14 +88,14 @@ exports[`Bidding (default props) => renders correctly 1`] = `
           "alignSelf": "center",
           "backgroundColor": "#329932",
           "color": "#141313",
-          "flex": 1,
+          "flex": 2,
           "fontFamily": "telegrama_raw",
-          "fontSize": 25,
+          "fontSize": 18,
           "textAlign": "center",
         }
       }
     >
-      04:32
+      00:01:39
     </Text>
     <Text
       accessible={true}
@@ -108,12 +108,12 @@ exports[`Bidding (default props) => renders correctly 1`] = `
           "color": "#141313",
           "flex": 1,
           "fontFamily": "telegrama_raw",
-          "fontSize": 25,
+          "fontSize": 18,
           "textAlign": "center",
         }
       }
     >
-      -14
+      3
     </Text>
     <Text
       accessible={true}
@@ -124,14 +124,15 @@ exports[`Bidding (default props) => renders correctly 1`] = `
           "alignSelf": "center",
           "backgroundColor": "#329932",
           "color": "#141313",
-          "flex": 1,
+          "flex": 2,
           "fontFamily": "telegrama_raw",
-          "fontSize": 25,
+          "fontSize": 18,
           "textAlign": "center",
         }
       }
     >
-      44%
+      0
+      %
     </Text>
   </View>
   <View
@@ -218,7 +219,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
               }
             }
           >
-            35
+            13
           </Text>
         </View>
         <View
@@ -322,9 +323,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                         "paddingTop": 3,
                       }
                     }
-                  >
-                    7
-                  </Text>
+                  />
                 </View>
               </View>
               <View
@@ -373,7 +372,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                       }
                     }
                   >
-                    Aram
+                    Tom
                   </Text>
                 </View>
                 <View
@@ -399,240 +398,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                         "paddingTop": 3,
                       }
                     }
-                  >
-                    7
-                  </Text>
-                </View>
-              </View>
-              <View
-                style={
-                  Object {
-                    "flex": 1,
-                    "flexDirection": "row",
-                    "margin": 1,
-                    "maxHeight": 30,
-                  }
-                }
-              >
-                <Image
-                  source={1}
-                  style={
-                    Object {
-                      "borderWidth": 1,
-                      "flex": 1,
-                      "height": 26,
-                      "margin": 1,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 8,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
-                    }
-                  }
-                >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    Aram
-                  </Text>
-                </View>
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 1,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
-                    }
-                  }
-                >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    7
-                  </Text>
-                </View>
-              </View>
-              <View
-                style={
-                  Object {
-                    "flex": 1,
-                    "flexDirection": "row",
-                    "margin": 1,
-                    "maxHeight": 30,
-                  }
-                }
-              >
-                <Image
-                  source={1}
-                  style={
-                    Object {
-                      "borderWidth": 1,
-                      "flex": 1,
-                      "height": 26,
-                      "margin": 1,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 8,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
-                    }
-                  }
-                >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    Aram
-                  </Text>
-                </View>
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 1,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
-                    }
-                  }
-                >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    7
-                  </Text>
-                </View>
-              </View>
-              <View
-                style={
-                  Object {
-                    "flex": 1,
-                    "flexDirection": "row",
-                    "margin": 1,
-                    "maxHeight": 30,
-                  }
-                }
-              >
-                <Image
-                  source={1}
-                  style={
-                    Object {
-                      "borderWidth": 1,
-                      "flex": 1,
-                      "height": 26,
-                      "margin": 1,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 8,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
-                    }
-                  }
-                >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    Aram
-                  </Text>
-                </View>
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 1,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
-                    }
-                  }
-                >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    7
-                  </Text>
+                  />
                 </View>
               </View>
             </View>
@@ -777,7 +543,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
               }
             }
           >
-            Gondollieri
+            Timeline 1
           </Text>
           <Text
             accessible={true}
@@ -792,7 +558,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
               }
             }
           >
-            49
+            10
           </Text>
         </View>
         <View
@@ -870,7 +636,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                       }
                     }
                   >
-                    EvilAram
+                    Gondollieri
                   </Text>
                 </View>
                 <View
@@ -896,9 +662,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                         "paddingTop": 3,
                       }
                     }
-                  >
-                    7
-                  </Text>
+                  />
                 </View>
               </View>
               <View
@@ -947,7 +711,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                       }
                     }
                   >
-                    EvilAram
+                    Simmons
                   </Text>
                 </View>
                 <View
@@ -973,394 +737,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                         "paddingTop": 3,
                       }
                     }
-                  >
-                    7
-                  </Text>
-                </View>
-              </View>
-              <View
-                style={
-                  Object {
-                    "flex": 1,
-                    "flexDirection": "row",
-                    "margin": 1,
-                    "maxHeight": 30,
-                  }
-                }
-              >
-                <Image
-                  source={1}
-                  style={
-                    Object {
-                      "borderWidth": 1,
-                      "flex": 1,
-                      "height": 26,
-                      "margin": 1,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 8,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
-                    }
-                  }
-                >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    EvilAram
-                  </Text>
-                </View>
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 1,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
-                    }
-                  }
-                >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    7
-                  </Text>
-                </View>
-              </View>
-              <View
-                style={
-                  Object {
-                    "flex": 1,
-                    "flexDirection": "row",
-                    "margin": 1,
-                    "maxHeight": 30,
-                  }
-                }
-              >
-                <Image
-                  source={1}
-                  style={
-                    Object {
-                      "borderWidth": 1,
-                      "flex": 1,
-                      "height": 26,
-                      "margin": 1,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 8,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
-                    }
-                  }
-                >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    EvilAram
-                  </Text>
-                </View>
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 1,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
-                    }
-                  }
-                >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    7
-                  </Text>
-                </View>
-              </View>
-              <View
-                style={
-                  Object {
-                    "flex": 1,
-                    "flexDirection": "row",
-                    "margin": 1,
-                    "maxHeight": 30,
-                  }
-                }
-              >
-                <Image
-                  source={1}
-                  style={
-                    Object {
-                      "borderWidth": 1,
-                      "flex": 1,
-                      "height": 26,
-                      "margin": 1,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 8,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
-                    }
-                  }
-                >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    EvilAram
-                  </Text>
-                </View>
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 1,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
-                    }
-                  }
-                >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    7
-                  </Text>
-                </View>
-              </View>
-              <View
-                style={
-                  Object {
-                    "flex": 1,
-                    "flexDirection": "row",
-                    "margin": 1,
-                    "maxHeight": 30,
-                  }
-                }
-              >
-                <Image
-                  source={1}
-                  style={
-                    Object {
-                      "borderWidth": 1,
-                      "flex": 1,
-                      "height": 26,
-                      "margin": 1,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 8,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
-                    }
-                  }
-                >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    EvilAram
-                  </Text>
-                </View>
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 1,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
-                    }
-                  }
-                >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    7
-                  </Text>
-                </View>
-              </View>
-              <View
-                style={
-                  Object {
-                    "flex": 1,
-                    "flexDirection": "row",
-                    "margin": 1,
-                    "maxHeight": 30,
-                  }
-                }
-              >
-                <Image
-                  source={1}
-                  style={
-                    Object {
-                      "borderWidth": 1,
-                      "flex": 1,
-                      "height": 26,
-                      "margin": 1,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 8,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
-                    }
-                  }
-                >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    EvilAram
-                  </Text>
-                </View>
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 1,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
-                    }
-                  }
-                >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    7
-                  </Text>
+                  />
                 </View>
               </View>
             </View>

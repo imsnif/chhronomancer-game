@@ -1,65 +1,31 @@
 import 'react-native'
 import React from 'react'
-import Player from '../components/player'
 import renderer from 'react-test-renderer'
+import '../server-mock'
 
 jest.mock('mobx-react/native', () => require('mobx-react/custom'))
 jest.useFakeTimers()
 
-test('Player (default props) => renders correctly', () => {
+test('Player (no items or power) => renders correctly', () => {
+  const Player = require('../components/player').default
   const tree = renderer.create(
-    <Player clockStore={{time: 1}} />
+    <Player id={1} />
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })
 
-test('Player (with items) => renders correctly', () => {
+test('Player (with items and no power) => renders correctly', () => {
+  const Player = require('../components/player').default
   const tree = renderer.create(
-    <Player
-      clockStore={{time: 1}}
-      items={{
-        red: true,
-        purple: true,
-        black: true
-      }}
-    />
+    <Player id={2} timelineName='Timeline 2' />
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })
 
-test('Player (with activePower) => renders correctly', () => {
+test('Player (with items and power) => renders correctly', () => {
+  const Player = require('../components/player').default
   const tree = renderer.create(
-    <Player
-      clockStore={{time: 10200}}
-      activePower={{
-        name: 'PowerName',
-        startTime: 10000,
-        endTime: 20000,
-        alliedPlayers: 3,
-        enemyPlayers: 4
-      }}
-    />
-  ).toJSON()
-  expect(tree).toMatchSnapshot()
-})
-
-test('Player (with activePower and items) => renders correctly', () => {
-  const tree = renderer.create(
-    <Player
-      clockStore={{time: 10200}}
-      activePower={{
-        name: 'PowerName',
-        startTime: 10000,
-        endTime: 20000,
-        alliedPlayers: 3,
-        enemyPlayers: 4
-      }}
-      items={{
-        red: true,
-        purple: true,
-        black: true
-      }}
-    />
+    <Player id={2} timelineName='Timeline 1' />
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })
