@@ -7,7 +7,6 @@ import Timeline from './timeline'
 import TimelineGrid from './timeline-grid'
 import Bidding from './bidding'
 
-import playersStore from '../stores/players'
 import clockStore from '../stores/clock'
 
 export default class chronomancer extends Component {
@@ -24,7 +23,6 @@ export default class chronomancer extends Component {
     if (route.screenName === 'timeline-grid') {
       return (
         <TimelineGrid
-          playersStore={playersStore}
           navigator={navigator}
         />
       )
@@ -33,7 +31,6 @@ export default class chronomancer extends Component {
         <Timeline
           navigator={navigator}
           name={route.timelineName}
-          playersStore={playersStore}
           clockStore={clockStore}
         />
       )

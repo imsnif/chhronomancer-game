@@ -9,6 +9,7 @@ import assistPrevent from '../../assets/items/assist-prevent-green.png'
 import reset from '../../assets/items/reset-green.png'
 
 import timelineStore from '../../stores/timeline'
+import playersStore from '../../stores/players'
 
 @observer
 export default class TimelineSummary extends Component {
@@ -24,7 +25,6 @@ export default class TimelineSummary extends Component {
   }
   render () {
     const images = {steal, assistPrevent, reset}
-    const playersStore = this.props.playersStore
     const timeline = timelineStore.getTimeline(this.props.name)
     const imageToRender = images[timeline.type]
     return (
