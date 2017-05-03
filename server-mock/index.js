@@ -1,4 +1,4 @@
-import playersStore from '../stores/players'
+import playerStore from '../stores/player'
 import timelineStore from '../stores/timeline'
 import powerStore from '../stores/power'
 
@@ -143,7 +143,7 @@ timelines.forEach(t => {
 })
 
 players.forEach(p => {
-  playersStore.addPlayer(p)
+  playerStore.addPlayer(p)
 })
 
 timelineStore.addPlayer('Timeline 1', 1)

@@ -9,7 +9,7 @@ import assistPrevent from '../../assets/items/assist-prevent-green.png'
 import reset from '../../assets/items/reset-green.png'
 
 import timelineStore from '../../stores/timeline'
-import playersStore from '../../stores/players'
+import playerStore from '../../stores/player'
 
 @observer
 export default class TimelineSummary extends Component {
@@ -33,7 +33,7 @@ export default class TimelineSummary extends Component {
           <View style={styles.wrapper}>
             {
             timeline.players.map(pId => {
-              const player = playersStore.players.find(p => p.id === pId)
+              const player = playerStore.players.find(p => p.id === pId)
               return <Image key={player.name} style={styles.image} source={player.image} />
             })
           }

@@ -9,7 +9,7 @@ import sortPlayers from './sort-players.js'
 
 import powerStore from '../../stores/power'
 import timelineStore from '../../stores/timeline'
-import playersStore from '../../stores/players'
+import playerStore from '../../stores/player'
 import clockStore from '../../stores/clock'
 
 @observer
@@ -34,8 +34,8 @@ export default class Timeline extends Component {
             {
               timeline.players
               .sort((a, b) => {
-                const player1 = playersStore.players.find(p => p.id === a)
-                const player2 = playersStore.players.find(p => p.id === b)
+                const player1 = playerStore.players.find(p => p.id === a)
+                const player2 = playerStore.players.find(p => p.id === b)
                 const activePowers = {
                   player1: Object.assign({}, powerStore.getPower(player1.id, name), {
                     timeLeft: powerStore.getTimeLeft(player1.id, name, clockStore.time)

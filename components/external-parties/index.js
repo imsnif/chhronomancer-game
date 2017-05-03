@@ -5,7 +5,7 @@ import ListBox from '../list-box'
 import MenuButton from '../menu-button'
 import styles from './styles'
 
-import playerStore from '../../stores/players'
+import playerStore from '../../stores/player'
 
 @observer
 export default class ExternalParties extends Component {

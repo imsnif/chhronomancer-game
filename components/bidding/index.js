@@ -6,7 +6,7 @@ import styles from './styles'
 
 import clockStore from '../../stores/clock'
 import powerStore from '../../stores/power'
-import playersStore from '../../stores/players'
+import playerStore from '../../stores/player'
 import timelineStore from '../../stores/timeline'
 
 import steal from '../../assets/items/steal-green.png'
@@ -20,7 +20,7 @@ export default class Bidding extends Component {
   render () {
     const time = clockStore.time
     const playerId = this.props.playerId
-    const player = playersStore.getPlayer(playerId)
+    const player = playerStore.getPlayer(playerId)
     const timelineName = this.props.timelineName
     const timeline = timelineStore.getTimeline(timelineName)
     const power = powerStore.getPower(playerId, timelineName)
@@ -31,7 +31,7 @@ export default class Bidding extends Component {
     const sourceImage = player.image
     const destination = power.target
     const destinationImage = destination.type === 'player'
-      ? playersStore.getPlayer(destination.id).image
+      ? playerStore.getPlayer(destination.id).image
       : images[timeline.type]
     const allies = power.allies
     const enemies = power.enemies

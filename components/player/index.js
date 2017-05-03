@@ -8,7 +8,7 @@ import MidItems from '../mid-items'
 import InventoryCount from '../inventory-count'
 import Power from '../power'
 
-import playersStore from '../../stores/players'
+import playerStore from '../../stores/player'
 import clockStore from '../../stores/clock'
 import powerStore from '../../stores/power'
 
@@ -39,7 +39,7 @@ export default class Player extends Component {
   }
   render () {
     const timelineName = this.props.timelineName
-    const player = playersStore.getPlayer(this.props.id)
+    const player = playerStore.getPlayer(this.props.id)
     const lowItems = _.pick(player.items, ['assistPrevent', 'reset', 'steal'])
     const midItems = _.pick(player.items, ['lock', 'unlock'])
     const activePower = powerStore.getPower(player.id, timelineName)

@@ -10,22 +10,22 @@ const fakePlayer = {
 }
 
 test('PlayersStore => is constructed properly', () => {
-  const playersStore = require('../stores/players').default
-  const players = playersStore.players.map(p => p)
+  const playerStore = require('../stores/player').default
+  const players = playerStore.players.map(p => p)
   expect(players).toEqual([])
 })
 
 test('PlayersStore => can add a player', () => {
-  const playersStore = require('../stores/players').default
-  playersStore.addPlayer(fakePlayer)
-  const players = playersStore.players.map(p => p)
+  const playerStore = require('../stores/player').default
+  playerStore.addPlayer(fakePlayer)
+  const players = playerStore.players.map(p => p)
   expect(players).toEqual([fakePlayer])
 })
 
 test('TimelineStore => can remove a player', () => {
-  const playersStore = require('../stores/players').default
-  playersStore.addPlayer(fakePlayer)
-  playersStore.removePlayer(fakePlayer.id)
-  const players = playersStore.players.map(p => p)
+  const playerStore = require('../stores/player').default
+  playerStore.addPlayer(fakePlayer)
+  playerStore.removePlayer(fakePlayer.id)
+  const players = playerStore.players.map(p => p)
   expect(players).toEqual([])
 })

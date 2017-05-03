@@ -7,11 +7,8 @@ import '../server-mock'
 jest.mock('mobx-react/native', () => require('mobx-react/custom'))
 
 test('TimelineGrid => renders correctly', () => {
-  const playersStore = require('../stores/players').default
   const tree = renderer.create(
-    <TimelineGrid
-      playersStore={playersStore}
-    />
+    <TimelineGrid />
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })
