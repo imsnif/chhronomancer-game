@@ -39,6 +39,7 @@ class PowerStore {
   }
   getTimeLeft (playerId, timelineName, time) {
     const power = this.getPower(playerId, timelineName)
+    if (!power) return
     const timeLeft = power.endTime - time > 0
       ? power.endTime - time
       : 0

@@ -8,6 +8,9 @@ import styles from './styles'
 import sortPlayers from './sort-players.js'
 
 import powerStore from '../../stores/power'
+import timelineStore from '../../stores/timeline'
+import playersStore from '../../stores/players'
+import clockStore from '../../stores/clock'
 
 @observer
 export default class Timeline extends Component {
@@ -22,7 +25,7 @@ export default class Timeline extends Component {
   }
   render () {
     const name = this.props.name
-    const timeline = this.props.timelineStore.getTimeline(name)
+    const timeline = timelineStore.getTimeline(name)
     const sortBy = timeline.sortBy
     return (
       <View style={styles.container}>
@@ -31,11 +34,15 @@ export default class Timeline extends Component {
             {
               timeline.players
               .sort((a, b) => {
-                const player1 = this.props.playersStore.players.find(p => p.id === a)
-                const player2 = this.props.playersStore.players.find(p => p.id === b)
+                const player1 = playersStore.players.find(p => p.id === a)
+                const player2 = playersStore.players.find(p => p.id === b)
                 const activePowers = {
-                  player1: powerStore.getPower(player1, name),
-                  player2: powerStore.getPower(player2, name)
+                  player1: Object.assign({}, powerStore.getPower(player1.id, name), {
+                    timeLeft: powerStore.getTimeLeft(player1.id, name, clockStore.time)
+                  }),
+                  player2: Object.assign({}, powerStore.getPower(player2.id, name), {
+                    timeLeft: powerStore.getTimeLeft(player2.id, name, clockStore.time)
+                  })
                 }
                 return sortPlayers(player1, player2, activePowers, sortBy)
               })
@@ -61,7 +68,7 @@ export default class Timeline extends Component {
           </View>
           <View style={styles.verticalLine} />
           <View style={{padding: 15, flex: 1}}>
-            <SortButtons timelineStore={this.props.timelineStore} timelineName={name} />
+            <SortButtons timelineStore={timelineStore} timelineName={name} />
           </View>
         </View>
       </View>

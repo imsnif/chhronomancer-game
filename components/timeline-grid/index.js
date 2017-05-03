@@ -4,10 +4,11 @@ import { ScrollView, View } from 'react-native'
 import TimelineSummary from '../timeline-summary'
 import styles from './styles'
 
+import timelineStore from '../../stores/timeline'
+
 @observer
 export default class TimelineGrid extends Component {
   render () {
-    const timelineStore = this.props.timelineStore
     return (
       <View style={styles.container}>
         <ScrollView style={styles.timelineScroll}>
@@ -17,7 +18,6 @@ export default class TimelineGrid extends Component {
               key={timeline.name}
               name={timeline.name}
               type={timeline.type}
-              timelineStore={timelineStore}
               playersStore={this.props.playersStore}
               navigator={this.props.navigator}
             />

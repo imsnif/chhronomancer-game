@@ -3,11 +3,12 @@ import { observer } from 'mobx-react/native'
 import { View, Text, TouchableHighlight } from 'react-native'
 import styles from './styles'
 
+import timelineStore from '../../stores/timeline'
+
 @observer
 export default class SortButtons extends Component {
   render () {
     const timelineName = this.props.timelineName
-    const timelineStore = this.props.timelineStore
     const { sortBy } = timelineStore.getTimeline(this.props.timelineName)
     return (
       <View style={styles.container}>

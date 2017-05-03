@@ -207,7 +207,10 @@ exports[`SortButtons (sortBy time) => renders correctly 1`] = `
         },
         Object {
           "alignSelf": "center",
-          "backgroundColor": "#329932",
+          "backgroundColor": "#141313",
+          "borderBottomWidth": 1,
+          "borderColor": "#329932",
+          "borderRadius": 0,
           "flex": 1,
           "height": "100%",
           "width": "100%",
@@ -223,7 +226,7 @@ exports[`SortButtons (sortBy time) => renders correctly 1`] = `
       ellipsizeMode="tail"
       style={
         Object {
-          "color": "#0e0e0e",
+          "color": "#329932",
           "fontFamily": "telegrama_raw",
           "fontSize": 20,
           "paddingTop": 13,
@@ -308,9 +311,7 @@ exports[`SortButtons (sortBy time) => renders correctly 1`] = `
         },
         Object {
           "alignSelf": "center",
-          "backgroundColor": "#141313",
-          "borderColor": "#329932",
-          "borderRadius": 0,
+          "backgroundColor": "#329932",
           "flex": 1,
           "height": "100%",
           "width": "100%",
@@ -326,7 +327,7 @@ exports[`SortButtons (sortBy time) => renders correctly 1`] = `
       ellipsizeMode="tail"
       style={
         Object {
-          "color": "#329932",
+          "color": "#0e0e0e",
           "fontFamily": "telegrama_raw",
           "fontSize": 20,
           "paddingTop": 13,
@@ -377,7 +378,10 @@ exports[`SortButtons (sortBy type) => renders correctly 1`] = `
         },
         Object {
           "alignSelf": "center",
-          "backgroundColor": "#329932",
+          "backgroundColor": "#141313",
+          "borderBottomWidth": 1,
+          "borderColor": "#329932",
+          "borderRadius": 0,
           "flex": 1,
           "height": "100%",
           "width": "100%",
@@ -393,7 +397,7 @@ exports[`SortButtons (sortBy type) => renders correctly 1`] = `
       ellipsizeMode="tail"
       style={
         Object {
-          "color": "#0e0e0e",
+          "color": "#329932",
           "fontFamily": "telegrama_raw",
           "fontSize": 20,
           "paddingTop": 13,
@@ -426,10 +430,7 @@ exports[`SortButtons (sortBy type) => renders correctly 1`] = `
         },
         Object {
           "alignSelf": "center",
-          "backgroundColor": "#141313",
-          "borderBottomWidth": 1,
-          "borderColor": "#329932",
-          "borderRadius": 0,
+          "backgroundColor": "#329932",
           "flex": 1,
           "height": "100%",
           "width": "100%",
@@ -445,7 +446,7 @@ exports[`SortButtons (sortBy type) => renders correctly 1`] = `
       ellipsizeMode="tail"
       style={
         Object {
-          "color": "#329932",
+          "color": "#0e0e0e",
           "fontFamily": "telegrama_raw",
           "fontSize": 20,
           "paddingTop": 13,

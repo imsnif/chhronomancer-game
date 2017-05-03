@@ -13,7 +13,7 @@ function getSortParams (player1, player2, activePowers, sortBy) {
   } else if (sortBy === 'time') {
     return {
       player1: activePowers.player1 ? activePowers.player1.timeLeft : false,
-      player2: activePowers.player2 ? activePowers.player1.timeLeft : false
+      player2: activePowers.player2 ? activePowers.player2.timeLeft : false
     }
   }
 }

@@ -81,7 +81,7 @@ exports[`TimelineSummary (assistPrevent) => renders correctly 1`] = `
           }
         }
       >
-        Timeline 1
+        Timeline 2
       </Text>
     </View>
     <View
@@ -108,7 +108,7 @@ exports[`TimelineSummary (assistPrevent) => renders correctly 1`] = `
         }
       >
         <Image
-          source={undefined}
+          source={1}
           style={
             Object {
               "height": 30,
@@ -118,7 +118,7 @@ exports[`TimelineSummary (assistPrevent) => renders correctly 1`] = `
           }
         />
         <Image
-          source={undefined}
+          source={1}
           style={
             Object {
               "height": 30,
@@ -214,7 +214,7 @@ exports[`TimelineSummary (reset) => renders correctly 1`] = `
           }
         }
       >
-        Timeline 1
+        Timeline 3
       </Text>
     </View>
     <View
@@ -241,7 +241,7 @@ exports[`TimelineSummary (reset) => renders correctly 1`] = `
         }
       >
         <Image
-          source={undefined}
+          source={1}
           style={
             Object {
               "height": 30,
@@ -251,7 +251,17 @@ exports[`TimelineSummary (reset) => renders correctly 1`] = `
           }
         />
         <Image
-          source={undefined}
+          source={1}
+          style={
+            Object {
+              "height": 30,
+              "margin": 4,
+              "width": 30,
+            }
+          }
+        />
+        <Image
+          source={1}
           style={
             Object {
               "height": 30,
@@ -374,7 +384,7 @@ exports[`TimelineSummary (steal) => renders correctly 1`] = `
         }
       >
         <Image
-          source={undefined}
+          source={1}
           style={
             Object {
               "height": 30,
@@ -384,7 +394,27 @@ exports[`TimelineSummary (steal) => renders correctly 1`] = `
           }
         />
         <Image
-          source={undefined}
+          source={1}
+          style={
+            Object {
+              "height": 30,
+              "margin": 4,
+              "width": 30,
+            }
+          }
+        />
+        <Image
+          source={1}
+          style={
+            Object {
+              "height": 30,
+              "margin": 4,
+              "width": 30,
+            }
+          }
+        />
+        <Image
+          source={1}
           style={
             Object {
               "height": 30,

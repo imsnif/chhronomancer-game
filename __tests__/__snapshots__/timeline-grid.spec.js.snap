@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TimelineGrid (multiple timelines) => renders correctly 1`] = `
+exports[`TimelineGrid => renders correctly 1`] = `
 <View
   style={
     Object {
@@ -126,7 +126,7 @@ exports[`TimelineGrid (multiple timelines) => renders correctly 1`] = `
               }
             >
               <Image
-                source={undefined}
+                source={1}
                 style={
                   Object {
                     "height": 30,
@@ -136,7 +136,27 @@ exports[`TimelineGrid (multiple timelines) => renders correctly 1`] = `
                 }
               />
               <Image
-                source={undefined}
+                source={1}
+                style={
+                  Object {
+                    "height": 30,
+                    "margin": 4,
+                    "width": 30,
+                  }
+                }
+              />
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "height": 30,
+                    "margin": 4,
+                    "width": 30,
+                  }
+                }
+              />
+              <Image
+                source={1}
                 style={
                   Object {
                     "height": 30,
@@ -256,7 +276,17 @@ exports[`TimelineGrid (multiple timelines) => renders correctly 1`] = `
               }
             >
               <Image
-                source={undefined}
+                source={1}
+                style={
+                  Object {
+                    "height": 30,
+                    "margin": 4,
+                    "width": 30,
+                  }
+                }
+              />
+              <Image
+                source={1}
                 style={
                   Object {
                     "height": 30,
@@ -269,53 +299,6 @@ exports[`TimelineGrid (multiple timelines) => renders correctly 1`] = `
           </View>
         </View>
       </View>
-    </View>
-  </RCTScrollView>
-</View>
-`;
-
-exports[`TimelineGrid (no timelines) => renders correctly 1`] = `
-<View
-  style={
-    Object {
-      "backgroundColor": "#141313",
-      "height": "100%",
-      "padding": 15,
-    }
-  }
->
-  <RCTScrollView
-    style={
-      Object {
-        "flexDirection": "column",
-        "width": "100%",
-      }
-    }
-  >
-    <View />
-  </RCTScrollView>
-</View>
-`;
-
-exports[`TimelineGrid (one timeline) => renders correctly 1`] = `
-<View
-  style={
-    Object {
-      "backgroundColor": "#141313",
-      "height": "100%",
-      "padding": 15,
-    }
-  }
->
-  <RCTScrollView
-    style={
-      Object {
-        "flexDirection": "column",
-        "width": "100%",
-      }
-    }
-  >
-    <View>
       <View
         accessibilityComponentType={undefined}
         accessibilityLabel={undefined}
@@ -396,7 +379,7 @@ exports[`TimelineGrid (one timeline) => renders correctly 1`] = `
                 }
               }
             >
-              Timeline 1
+              Timeline 3
             </Text>
           </View>
           <View
@@ -423,7 +406,7 @@ exports[`TimelineGrid (one timeline) => renders correctly 1`] = `
               }
             >
               <Image
-                source={undefined}
+                source={1}
                 style={
                   Object {
                     "height": 30,
@@ -433,7 +416,17 @@ exports[`TimelineGrid (one timeline) => renders correctly 1`] = `
                 }
               />
               <Image
-                source={undefined}
+                source={1}
+                style={
+                  Object {
+                    "height": 30,
+                    "margin": 4,
+                    "width": 30,
+                  }
+                }
+              />
+              <Image
+                source={1}
                 style={
                   Object {
                     "height": 30,
