@@ -25,10 +25,10 @@ const players = [
     id: 2,
     name: 'Tom',
     items: {
-      assistPrevent: true,
-      reset: true,
-      steal: true,
-      lock: true,
+      assistPrevent: 'Timeline 2',
+      reset: 'Timeline 3',
+      steal: 'Timeline 1',
+      lock: 'Timeline 1',
       unlock: false
     },
     image: require('../assets/placeholders/green_tom.png')
@@ -37,11 +37,11 @@ const players = [
     id: 3,
     name: 'Gondollieri',
     items: {
-      assistPrevent: true,
-      reset: true,
-      steal: true,
-      lock: true,
-      unlock: true
+      assistPrevent: 'Timeline 2',
+      reset: 'Timeline 3',
+      steal: 'Timeline 1',
+      lock: 'Timeline 3',
+      unlock: 'Timeline 1'
     },
     image: require('../assets/placeholders/green_gondollieri.png')
   },
@@ -49,11 +49,11 @@ const players = [
     id: 4,
     name: 'Simmons',
     items: {
-      assistPrevent: true,
-      reset: true,
-      steal: true,
-      lock: true,
-      unlock: true
+      assistPrevent: 'Timeline 2',
+      reset: 'Timeline 3',
+      steal: 'Timeline 1',
+      lock: 'Timeline 2',
+      unlock: 'Timeline 2'
     },
     image: require('../assets/placeholders/green_simmons.png')
   }
