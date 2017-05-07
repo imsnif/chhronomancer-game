@@ -3,30 +3,46 @@ import React from 'react'
 import MidItems from '../components/mid-items'
 import renderer from 'react-test-renderer'
 
-test('MidItems (default props) => renders correctly', () => {
+test('MidItems (not filled) => renders correctly', () => {
+  const items = [
+    { name: 'lock', fill: false, bright: false },
+    { name: 'unlock', fill: false, bright: false }
+  ]
   const tree = renderer.create(
-    <MidItems />
+    <MidItems items={items} />
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })
 
-test('MidItems (with purple item) => renders correctly', () => {
+test('MidItems (filled) => renders correctly', () => {
+  const items = [
+    { name: 'lock', fill: true, bright: false },
+    { name: 'unlock', fill: true, bright: false }
+  ]
   const tree = renderer.create(
-    <MidItems items={{purple: true}} />
+    <MidItems items={items} />
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })
 
-test('MidItems (with brown item) => renders correctly', () => {
+test('MidItems (filled and bright) => renders correctly', () => {
+  const items = [
+    { name: 'lock', fill: true, bright: true },
+    { name: 'unlock', fill: true, bright: true }
+  ]
   const tree = renderer.create(
-    <MidItems items={{brown: true}} />
+    <MidItems items={items} />
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })
 
-test('MidItems (with purple and brown items) => renders correctly', () => {
+test('MidItems (filled and partially bright) => renders correctly', () => {
+  const items = [
+    { name: 'lock', fill: true, bright: true },
+    { name: 'unlock', fill: true, bright: false }
+  ]
   const tree = renderer.create(
-    <MidItems items={{purple: true, brown: true}} />
+    <MidItems items={items} />
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })

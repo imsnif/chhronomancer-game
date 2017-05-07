@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`MidItems (default props) => renders correctly 1`] = `
+exports[`MidItems (filled and bright) => renders correctly 1`] = `
 <View
   style={
     Object {
@@ -34,7 +34,7 @@ exports[`MidItems (default props) => renders correctly 1`] = `
 </View>
 `;
 
-exports[`MidItems (with brown item) => renders correctly 1`] = `
+exports[`MidItems (filled and partially bright) => renders correctly 1`] = `
 <View
   style={
     Object {
@@ -68,7 +68,7 @@ exports[`MidItems (with brown item) => renders correctly 1`] = `
 </View>
 `;
 
-exports[`MidItems (with purple and brown items) => renders correctly 1`] = `
+exports[`MidItems (filled) => renders correctly 1`] = `
 <View
   style={
     Object {
@@ -102,7 +102,7 @@ exports[`MidItems (with purple and brown items) => renders correctly 1`] = `
 </View>
 `;
 
-exports[`MidItems (with purple item) => renders correctly 1`] = `
+exports[`MidItems (not filled) => renders correctly 1`] = `
 <View
   style={
     Object {
