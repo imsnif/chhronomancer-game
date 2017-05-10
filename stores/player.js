@@ -1,6 +1,6 @@
 import {observable} from 'mobx'
 
-class PlayersStore {
+class PlayerStore {
   @observable players = []
   addPlayer ({id, name, items, image}) {
     this.players.push({
@@ -20,5 +20,5 @@ class PlayersStore {
   }
 }
 
-const playersStore = new PlayersStore()
-export default playersStore
+const playerStore = new PlayerStore()
+export default playerStore
