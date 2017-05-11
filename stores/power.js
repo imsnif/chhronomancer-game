@@ -1,9 +1,12 @@
 import moment from 'moment'
-import {observable} from 'mobx'
+import { observable, action } from 'mobx'
 
+// TODO: CONTINUE FROM HERE
+// then move on to create character sheet screen
+// then navigator bar
 class PowerStore {
   @observable powers = []
-  addPower ({
+  @action addPower ({
     playerId,
     timelineName,
     name,

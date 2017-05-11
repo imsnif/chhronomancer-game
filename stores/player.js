@@ -1,8 +1,8 @@
-import {observable} from 'mobx'
+import { observable, action } from 'mobx'
 
 class PlayerStore {
   @observable players = []
-  addPlayer ({id, name, items, image}) {
+  @action addPlayer ({id, name, items, image}) {
     this.players.push({
       id,
       name,
@@ -10,7 +10,7 @@ class PlayerStore {
       image
     })
   }
-  removePlayer (id) {
+  @action removePlayer (id) {
     this.players = this.players.filter(p => {
       return p.id !== id
     })
