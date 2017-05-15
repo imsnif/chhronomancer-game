@@ -5,6 +5,7 @@ import ListBox from '../list-box'
 import styles from './styles'
 
 import playerStore from '../../stores/player'
+import timelineStore from '../../stores/timeline'
 
 import steal from '../../assets/items/steal-green.png'
 import assistPrevent from '../../assets/items/assist-prevent-green.png'
@@ -45,6 +46,7 @@ export default class CharacterSheet extends Component {
     const playerId = this.props.playerId
     const player = playerStore.getPlayer(playerId)
     const items = player.items
+    const playerTimelines = timelineStore.timelines.filter(t => t.players.some(pId => pId === playerId)).map(t => t.name) // TODO: use computed in store to do this
     return (
       <View style={styles.container}>
         <View style={styles.titleItem}>
@@ -80,6 +82,17 @@ export default class CharacterSheet extends Component {
               </ListBox>
               <View style={styles.iterationsContainer}>
                 <ListBox title='Iterations'>
+                {
+                  playerTimelines.map(tName => {
+                    return (
+                      <View key={tName} style={styles.participantIndication}>
+                        <View style={styles.nameTextBox}>
+                          <Text style={styles.nameText}>{tName}</Text>
+                        </View>
+                      </View>
+                    )
+                  })
+                }
                 </ListBox>
               </View>
             </View>
