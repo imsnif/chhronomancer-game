@@ -66,7 +66,7 @@ export default StyleSheet.create({
     flexDirection: 'row'
   },
   boxContents: {
-    flex: 4,
+    flex: 1,
     flexDirection: 'column'
   },
   playerList: {
@@ -88,16 +88,21 @@ export default StyleSheet.create({
   },
   nameTextBox: {
     flex: 8,
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center'
+    flexDirection: 'row',
+    justifyContent: 'space-between'
   },
   nameText: {
     color: 'green',
     fontFamily: 'telegrama_raw',
+    flex: 5,
+    paddingTop: 5,
+    paddingLeft: 9
+  },
+  details: {
+    color: 'green',
+    fontFamily: 'telegrama_raw',
     flex: 1,
-    alignSelf: 'center',
-    paddingTop: 3
+    paddingTop: 5
   },
   scoreTextBox: {
     flex: 1,
@@ -111,6 +116,15 @@ export default StyleSheet.create({
     flex: 1,
     alignSelf: 'center',
     paddingTop: 3
+  },
+  dualBoxContainer: {
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'center'
+  },
+  iterationsContainer: {
+    flex: 1,
+    marginTop: 9
   },
   buttonContainer: {
     flex: 1,

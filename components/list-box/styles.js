@@ -13,7 +13,7 @@ module.exports = StyleSheet.create({
     borderRadius: common.borderRadius
   },
   titleBar: {
-    flex: 1,
+    minHeight: 30,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center'
