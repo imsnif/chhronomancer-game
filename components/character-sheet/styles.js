@@ -86,8 +86,18 @@ export default StyleSheet.create({
     borderWidth: 1,
     flex: 1
   },
+  powerListItem: {
+    margin: 1,
+    height: 60,
+    flexDirection: 'column'
+  },
   nameTextBox: {
     flex: 8,
+    flexDirection: 'row',
+    justifyContent: 'space-between'
+  },
+  powerTextBox: {
+    flex: 1,
     flexDirection: 'row',
     justifyContent: 'space-between'
   },

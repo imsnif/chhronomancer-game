@@ -1,9 +1,6 @@
 import moment from 'moment'
-import { observable, action } from 'mobx'
+import { observable, action, toJS } from 'mobx'
 
-// TODO: CONTINUE FROM HERE
-// then move on to create character sheet screen
-// then navigator bar
 class PowerStore {
   @observable powers = []
   @action addPower ({
@@ -32,6 +29,9 @@ class PowerStore {
       return p.playerId === playerId &&
         p.timelineName === timelineName
     })
+  }
+  getPlayerPowers (playerId) {
+    return this.powers.filter(p => p.playerId === playerId)
   }
   getProgress (playerId, timelineName, time) {
     const power = this.getPower(playerId, timelineName)

@@ -6,6 +6,7 @@ import styles from './styles'
 
 import playerStore from '../../stores/player'
 import timelineStore from '../../stores/timeline'
+import powerStore from '../../stores/power'
 
 import steal from '../../assets/items/steal-green.png'
 import assistPrevent from '../../assets/items/assist-prevent-green.png'
@@ -36,10 +37,6 @@ const itemNames = {
   unlock: 'Unlock'
 }
 
-// TODO: CONTINUE FROM HERE
-// Write the presence (preferably find a better name) pane - include all the timelines in which the player is in as well as their active power there
-// Make everything look nice, then write tests
-// Connect this with the other screen, pressing an item leads to where it was got, pressing an iteration in the presence pane leads to the timeline, back leads to previous screen, etc.
 @observer
 export default class CharacterSheet extends Component {
   render () {
@@ -47,6 +44,7 @@ export default class CharacterSheet extends Component {
     const player = playerStore.getPlayer(playerId)
     const items = player.items
     const playerTimelines = timelineStore.timelines.filter(t => t.players.some(pId => pId === playerId)).map(t => t.name) // TODO: use computed in store to do this
+    const playerPowers = powerStore.getPlayerPowers(playerId)
     return (
       <View style={styles.container}>
         <View style={styles.titleItem}>
@@ -98,7 +96,34 @@ export default class CharacterSheet extends Component {
             </View>
           </View>
           <View style={{flex: 1}}>
-            <ListBox title='Active Powers' />
+            <ListBox title='Active Powers'>
+            {
+              playerPowers.map(power => {
+                const timeLeft = powerStore.getTimeLeft(playerId, power.timelineName, Date.now())
+                const allies = power.allies.length
+                const enemies = power.enemies.length
+                // TODO: CONTINUE FROM HERE - FIX THIS (get timeLeft as observable)
+                // Then make it look passable, then add icons to iterations
+                // Then make whole sheet look nice
+                // Then connect to rest of game (pressing timeline leads to it, pressing power leads to relevant timeline, etc.)
+                // Then write tests
+                // Then write navbar
+                return (
+                  <View key={power.name} style={styles.powerListItem}>
+                    <View style={styles.nameTextBox}>
+                      <Text style={styles.nameText}>{power.name}</Text>
+                    </View>
+                    <View style={styles.nameTextBox}>
+                      <Text style={styles.nameText}>{timeLeft}</Text>
+                    </View>
+                    <View style={styles.nameTextBox}>
+                      <Text style={styles.nameText}>{allies}/{enemies}</Text>
+                    </View>
+                  </View>
+                )
+              })
+            }
+            </ListBox>
           </View>
         </View>
       </View>
