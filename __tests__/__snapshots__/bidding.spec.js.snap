@@ -169,9 +169,9 @@ exports[`Bidding (default props) => renders correctly 1`] = `
           style={
             Object {
               "alignItems": "center",
-              "flex": 1,
               "flexDirection": "row",
               "justifyContent": "center",
+              "minHeight": 30,
             }
           }
         >
@@ -508,9 +508,9 @@ exports[`Bidding (default props) => renders correctly 1`] = `
           style={
             Object {
               "alignItems": "center",
-              "flex": 1,
               "flexDirection": "row",
               "justifyContent": "center",
+              "minHeight": 30,
             }
           }
         >

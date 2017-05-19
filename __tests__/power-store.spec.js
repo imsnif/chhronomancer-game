@@ -1,5 +1,6 @@
 beforeEach(() => {
   jest.resetModules()
+  jest.useFakeTimers()
 })
 
 test('PowerStore => is constructed properly', () => {
@@ -41,7 +42,7 @@ test('PowerStore => can get progress', () => {
     startTime: 1000,
     endTime: 2000
   })
-  expect(powerStore.getProgress(1, 'foo', 1500)).toEqual(50)
+  expect(powerStore.getProgress(1, 'foo', 1500).get()).toEqual(100)
 })
 
 test('PowerStore => can get timeLeft', () => {

@@ -46,4 +46,4 @@ Object {
 }
 `;
 
-exports[`PowerStore => can get timeLeft 1`] = `"00:00:05"`;
+exports[`PowerStore => can get timeLeft 1`] = `"00:00:00"`;
