@@ -9,7 +9,6 @@ import InventoryCount from '../inventory-count'
 import Power from '../power'
 
 import playerStore from '../../stores/player'
-import clockStore from '../../stores/clock'
 import powerStore from '../../stores/power'
 
 @observer
@@ -45,7 +44,6 @@ export default class Player extends Component {
     const midItems = Object.keys(_.pick(player.items, ['lock', 'unlock']))
       .map(item => ({name: item, fill: player.items[item], bright: player.items[item] === timelineName}))
     const activePower = powerStore.getPower(player.id, timelineName)
-    const time = clockStore.time
     const count = player.items
       ? Object.keys(player.items).filter(i => player.items[i]).length
       : 0

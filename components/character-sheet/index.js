@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { observer } from 'mobx-react/native'
-import { computed } from 'mobx'
 import { View, Text, Image } from 'react-native'
 import ListBox from '../list-box'
 import styles from './styles'
@@ -61,69 +60,69 @@ export default class CharacterSheet extends Component {
             <View style={styles.dualBoxContainer}>
               <ListBox title='Items'>
                 <View style={styles.boxContents}>
-                {
-                  Object.keys(items).map((item, index) => {
-                    return (
-                      <View key={index} style={styles.participantIndication}>
-                        <Image
-                          source={items[item] ? imagesBright[item] : images[item]}
-                          style={styles.imageBox}
-                        />
-                        <View style={styles.nameTextBox}>
-                          <Text style={styles.nameText}>{itemNames[item]}</Text>
-                          <Text style={styles.details}>?</Text>
+                  {
+                    Object.keys(items).map((item, index) => {
+                      return (
+                        <View key={index} style={styles.participantIndication}>
+                          <Image
+                            source={items[item] ? imagesBright[item] : images[item]}
+                            style={styles.imageBox}
+                          />
+                          <View style={styles.nameTextBox}>
+                            <Text style={styles.nameText}>{itemNames[item]}</Text>
+                            <Text style={styles.details}>?</Text>
+                          </View>
                         </View>
-                      </View>
-                    )
-                  })
-                }
+                      )
+                    })
+                  }
                 </View>
               </ListBox>
               <View style={styles.iterationsContainer}>
                 <ListBox title='Iterations'>
-                {
-                  playerTimelines.map(timeline => {
-                    const tName = timeline.name
-                    const type = timeline.type
-                    return (
-                      <View key={tName} style={styles.participantIndication}>
-                        <Image
-                          source={images[type]}
-                          style={styles.imageBox}
-                        />
-                        <View style={styles.nameTextBox}>
-                          <Text style={styles.nameText}>{tName}</Text>
+                  {
+                    playerTimelines.map(timeline => {
+                      const tName = timeline.name
+                      const type = timeline.type
+                      return (
+                        <View key={tName} style={styles.participantIndication}>
+                          <Image
+                            source={images[type]}
+                            style={styles.imageBox}
+                          />
+                          <View style={styles.nameTextBox}>
+                            <Text style={styles.nameText}>{tName}</Text>
+                          </View>
                         </View>
-                      </View>
-                    )
-                  })
-                }
+                      )
+                    })
+                  }
                 </ListBox>
               </View>
             </View>
           </View>
           <View style={{flex: 1}}>
             <ListBox title='Active Powers'>
-            {
-              playerPowers.map(power => {
-                const timeLeft = powerStore.getTimeLeft(playerId, power.timelineName)
-                const allies = power.allies.length
-                const enemies = power.enemies.length
-                return (
-                  <View key={power.name} style={styles.powerListItem}>
-                    <View style={styles.nameTextBox}>
-                      <Text style={styles.nameText}>{power.name}</Text>
+              {
+                playerPowers.map(power => {
+                  const timeLeft = powerStore.getTimeLeft(playerId, power.timelineName)
+                  const allies = power.allies.length
+                  const enemies = power.enemies.length
+                  return (
+                    <View key={power.name} style={styles.powerListItem}>
+                      <View style={styles.nameTextBox}>
+                        <Text style={styles.nameText}>{power.name}</Text>
+                      </View>
+                      <View style={styles.nameTextBox}>
+                        <Text style={styles.nameText}>{timeLeft.get()}</Text>
+                      </View>
+                      <View style={styles.nameTextBox}>
+                        <Text style={styles.nameText}>{allies}/{enemies}</Text>
+                      </View>
                     </View>
-                    <View style={styles.nameTextBox}>
-                      <Text style={styles.nameText}>{timeLeft.get()}</Text>
-                    </View>
-                    <View style={styles.nameTextBox}>
-                      <Text style={styles.nameText}>{allies}/{enemies}</Text>
-                    </View>
-                  </View>
-                )
-              })
-            }
+                  )
+                })
+              }
             </ListBox>
           </View>
         </View>

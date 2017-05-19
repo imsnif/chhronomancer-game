@@ -1,6 +1,6 @@
 import moment from 'moment'
 import clockStore from './clock'
-import { observable, action, toJS, computed } from 'mobx'
+import { observable, action, computed } from 'mobx'
 
 class PowerStore {
   @observable powers = []

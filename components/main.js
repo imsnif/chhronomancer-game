@@ -7,7 +7,7 @@ import Timeline from './timeline'
 import TimelineGrid from './timeline-grid'
 import Bidding from './bidding'
 
-import CharacterSheet from './character-sheet'
+// import CharacterSheet from './character-sheet'
 
 export default class chronomancer extends Component {
   render () {
