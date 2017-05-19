@@ -21,14 +21,14 @@ export default class chronomancer extends Component {
   }
   renderScene (route, navigator) {
     if (route.screenName === 'timeline-grid') {
-      return (
-        <CharacterSheet playerId={1}/>
-      )
 //      return (
-//        <TimelineGrid
-//          navigator={navigator}
-//        />
+//        <CharacterSheet playerId={1}/>
 //      )
+      return (
+        <TimelineGrid
+          navigator={navigator}
+        />
+      )
     } else if (route.screenName === 'Timeline') {
       return (
         <Timeline

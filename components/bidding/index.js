@@ -25,8 +25,8 @@ export default class Bidding extends Component {
     const timeline = timelineStore.getTimeline(timelineName)
     const power = powerStore.getPower(playerId, timelineName)
     const powerName = power.name
-    const timeLeft = powerStore.getTimeLeft(playerId, timelineName, time)
-    const percentage = powerStore.getProgress(playerId, timelineName, time)
+    const timeLeft = powerStore.getTimeLeft(playerId, timelineName, time).get()
+    const percentage = powerStore.getProgress(playerId, timelineName, time).get()
     const source = player.name
     const sourceImage = player.image
     const destination = power.target

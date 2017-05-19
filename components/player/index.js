@@ -57,8 +57,8 @@ export default class Player extends Component {
               activePower
                 ? <Power
                   name={activePower.name}
-                  progress={powerStore.getProgress(player.id, timelineName, time)}
-                  timeLeft={powerStore.getTimeLeft(player.id, timelineName, time)}
+                  progress={powerStore.getProgress(player.id, timelineName).get()}
+                  timeLeft={powerStore.getTimeLeft(player.id, timelineName).get()}
                   alliedPlayers={activePower.alliedPlayers}
                   enemyPlayers={activePower.enemyPlayers}
                   />

@@ -34,12 +34,14 @@ class PowerStore {
   getPlayerPowers (playerId) {
     return this.powers.filter(p => p.playerId === playerId)
   }
-  getProgress (playerId, timelineName, time) {
-    const power = this.getPower(playerId, timelineName)
-    const whole = power.endTime - power.startTime
-    const elapsed = time - power.startTime
-    const progress = Math.round((elapsed / whole) * 100)
-    return progress < 100 ? progress : 100
+  getProgress (playerId, timelineName) {
+    return computed(() => {
+      const power = this.getPower(playerId, timelineName)
+      const whole = power.endTime - power.startTime
+      const elapsed = clockStore.time - power.startTime
+      const progress = Math.round((elapsed / whole) * 100)
+      return progress < 100 ? progress : 100
+    })
   }
   getTimeLeft (playerId, timelineName) {
     return computed(() => {
