@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { observer } from 'mobx-react/native'
+import { computed } from 'mobx'
 import { View, Text, Image } from 'react-native'
 import ListBox from '../list-box'
 import styles from './styles'
@@ -43,7 +44,7 @@ export default class CharacterSheet extends Component {
     const playerId = this.props.playerId
     const player = playerStore.getPlayer(playerId)
     const items = player.items
-    const playerTimelines = timelineStore.timelines.filter(t => t.players.some(pId => pId === playerId)).map(t => t.name) // TODO: use computed in store to do this
+    const playerTimelines = timelineStore.timelines.filter(t => t.players.some(pId => pId === playerId))
     const playerPowers = powerStore.getPlayerPowers(playerId)
     return (
       <View style={styles.container}>
@@ -81,9 +82,15 @@ export default class CharacterSheet extends Component {
               <View style={styles.iterationsContainer}>
                 <ListBox title='Iterations'>
                 {
-                  playerTimelines.map(tName => {
+                  playerTimelines.map(timeline => {
+                    const tName = timeline.name
+                    const type = timeline.type
                     return (
                       <View key={tName} style={styles.participantIndication}>
+                        <Image
+                          source={images[type]}
+                          style={styles.imageBox}
+                        />
                         <View style={styles.nameTextBox}>
                           <Text style={styles.nameText}>{tName}</Text>
                         </View>
@@ -99,22 +106,16 @@ export default class CharacterSheet extends Component {
             <ListBox title='Active Powers'>
             {
               playerPowers.map(power => {
-                const timeLeft = powerStore.getTimeLeft(playerId, power.timelineName, Date.now())
+                const timeLeft = powerStore.getTimeLeft(playerId, power.timelineName)
                 const allies = power.allies.length
                 const enemies = power.enemies.length
-                // TODO: CONTINUE FROM HERE - FIX THIS (get timeLeft as observable)
-                // Then make it look passable, then add icons to iterations
-                // Then make whole sheet look nice
-                // Then connect to rest of game (pressing timeline leads to it, pressing power leads to relevant timeline, etc.)
-                // Then write tests
-                // Then write navbar
                 return (
                   <View key={power.name} style={styles.powerListItem}>
                     <View style={styles.nameTextBox}>
                       <Text style={styles.nameText}>{power.name}</Text>
                     </View>
                     <View style={styles.nameTextBox}>
-                      <Text style={styles.nameText}>{timeLeft}</Text>
+                      <Text style={styles.nameText}>{timeLeft.get()}</Text>
                     </View>
                     <View style={styles.nameTextBox}>
                       <Text style={styles.nameText}>{allies}/{enemies}</Text>
