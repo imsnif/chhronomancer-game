@@ -8,7 +8,7 @@ import TimelineGrid from './timeline-grid'
 import Bidding from './bidding'
 import NavBar from './navbar'
 
-// import CharacterSheet from './character-sheet'
+import CharacterSheet from './character-sheet'
 
 export default class chronomancer extends Component {
   render () {
@@ -22,9 +22,6 @@ export default class chronomancer extends Component {
   }
   renderScene (route, navigator) {
     if (route.screenName === 'timeline-grid') {
-//      return (
-//        <CharacterSheet playerId={1}/>
-//      )
       return (
         <NavBar navigator={navigator}>
           <TimelineGrid
@@ -48,6 +45,12 @@ export default class chronomancer extends Component {
             playerId={route.playerId}
             timelineName={route.timelineName}
           />
+        </NavBar>
+      )
+    } else if (route.screenName === 'character-sheet') {
+      return (
+        <NavBar navigator={navigator}>
+          <CharacterSheet playerId={1}/>
         </NavBar>
       )
     }

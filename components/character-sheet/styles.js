@@ -13,6 +13,7 @@ export default StyleSheet.create({
     resizeMode: 'stretch'
   },
   container: {
+    width: '100%',
     height: '100%',
     padding: 15,
     backgroundColor: common.backGround,

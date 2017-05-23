@@ -28,21 +28,26 @@ export default class NavBar extends Component {
       return false
     })
   }
+  navigate (screenName) {
+    this.props.navigator.push({screenName})
+  }
   render () {
+    const screens = this.props.navigator.getCurrentRoutes()
+    const { screenName } = screens[screens.length - 1]
     return (
       <View style={{flex: 1, flexDirection: 'column', alignItems: 'center', backgroundColor: '#141313'}}>
         <View style={{flexDirection: 'column', height: 45, justifyContent: 'center', alignItems: 'center'}}>
           <View style={{height: 20, flexDirection: 'row', justifyContent: 'space-between'}}>
-            <TouchableHighlight onPress={() => this.setState({clicked: 'character'})} style={{flex: 1}}>
-              <Text onClick={() => this.setState({clicked: 'character'})}
+            <TouchableHighlight onPress={() => this.navigate('character-sheet')} style={{flex: 1}}>
+              <Text
                 style={{flex: 1, color: '#329932', fontFamily: 'telegrama_raw', textAlign: 'center', textAlignVertical: 'bottom', includeFontPadding: false, lineHeight: 15}}>
-                { this.state.clicked === 'character' ? '[ Character ]' : 'Character' }
+                { screenName === 'character-sheet' ? '[ Character ]' : 'Character' }
               </Text>
             </TouchableHighlight>
-            <TouchableHighlight onPress={() => this.setState({clicked: 'timelines'})} style={{flex: 1}}>
-              <Text onClick={() => this.setState({clicked: 'timelines'})}
+            <TouchableHighlight onPress={() => this.navigate('timeline-grid')} style={{flex: 1}}>
+              <Text
                 style={{flex: 1, color: '#329932', fontFamily: 'telegrama_raw', textAlign: 'center', textAlignVertical: 'bottom', includeFontPadding: false, lineHeight: 15}}>
-                { this.state.clicked === 'timelines' ? '[ Timelines ]' : 'Timelines' }
+                { screenName === 'timeline-grid' ? '[ Timelines ]' : 'Timelines' }
               </Text>
             </TouchableHighlight>
           </View>
