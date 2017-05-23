@@ -6,6 +6,7 @@ import {
 import Timeline from './timeline'
 import TimelineGrid from './timeline-grid'
 import Bidding from './bidding'
+import NavBar from './navbar'
 
 // import CharacterSheet from './character-sheet'
 
@@ -25,23 +26,29 @@ export default class chronomancer extends Component {
 //        <CharacterSheet playerId={1}/>
 //      )
       return (
-        <TimelineGrid
-          navigator={navigator}
-        />
+        <NavBar navigator={navigator}>
+          <TimelineGrid
+            navigator={navigator}
+          />
+        </NavBar>
       )
     } else if (route.screenName === 'Timeline') {
       return (
-        <Timeline
-          navigator={navigator}
-          name={route.timelineName}
-        />
+        <NavBar navigator={navigator}>
+          <Timeline
+            navigator={navigator}
+            name={route.timelineName}
+          />
+        </NavBar>
       )
     } else if (route.screenName === 'Bidding') {
       return (
-        <Bidding
-          playerId={route.playerId}
-          timelineName={route.timelineName}
-        />
+        <NavBar navigator={navigator}>
+          <Bidding
+            playerId={route.playerId}
+            timelineName={route.timelineName}
+          />
+        </NavBar>
       )
     }
   }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { ScrollView, View, BackAndroid } from 'react-native'
+import { ScrollView, View } from 'react-native'
 import { observer } from 'mobx-react/native'
 import SortButtons from '../sort-buttons'
 import MenuButton from '../menu-button'
@@ -14,15 +14,6 @@ import clockStore from '../../stores/clock'
 
 @observer
 export default class Timeline extends Component {
-  componentDidMount () {
-    BackAndroid.addEventListener('hardwareBackPress', () => {
-      if (this.props.navigator && this.props.navigator.getCurrentRoutes().length > 1) {
-        this.props.navigator.pop()
-        return true
-      }
-      return false
-    })
-  }
   render () {
     const name = this.props.name
     const timeline = timelineStore.getTimeline(name)
@@ -73,15 +64,5 @@ export default class Timeline extends Component {
         </View>
       </View>
     )
-  }
-  componentWillUnmount () {
-    // TODO: move this to a separate navigator component
-    BackAndroid.removeEventListener('hardwareBackPress', () => {
-      if (this.props.navigator && this.props.navigator.getCurrentRoutes().length > 1) {
-        this.props.navigator.pop()
-        return true
-      }
-      return false
-    })
   }
 }
