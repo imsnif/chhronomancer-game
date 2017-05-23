@@ -7,8 +7,18 @@ import Timeline from './timeline'
 import TimelineGrid from './timeline-grid'
 import Bidding from './bidding'
 import NavBar from './navbar'
-
 import CharacterSheet from './character-sheet'
+
+const InstantTransition = { // TODO: move this somewhere else
+  gestures: null,
+  defaultTransitionVelocity: null,
+  springFriction: null,
+  springTension: 1000,
+  animationInterpolators: {
+    into: r => r.opacity = 1,
+    out: r => r.opacity = 1,
+  },
+}
 
 export default class chronomancer extends Component {
   render () {
@@ -17,6 +27,7 @@ export default class chronomancer extends Component {
         style={{ flex: 1 }}
         initialRoute={{ screenName: 'timeline-grid' }}
         renderScene={this.renderScene}
+        configureScene={() => InstantTransition}
       />
     )
   }
