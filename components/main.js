@@ -25,7 +25,7 @@ export default class chronomancer extends Component {
     return (
       <Navigator
         style={{ flex: 1 }}
-        initialRoute={{ screenName: 'timeline-grid' }}
+        initialRoute={{ screenName: 'character-sheet' }}
         renderScene={this.renderScene}
         configureScene={() => InstantTransition}
       />

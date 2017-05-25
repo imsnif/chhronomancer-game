@@ -56,68 +56,51 @@ export default class CharacterSheet extends Component {
           <Text style={styles.titleTextStats}>13</Text>
         </View>
         <View style={styles.summaryBox}>
-          <View style={styles.boxWithGap}>
-            <View style={styles.dualBoxContainer}>
-              <ListBox title='Items'>
-                <View style={styles.boxContents}>
-                  {
-                    Object.keys(items).map((item, index) => {
-                      return (
-                        <View key={index} style={styles.participantIndication}>
-                          <Image
-                            source={items[item] ? imagesBright[item] : images[item]}
-                            style={styles.imageBox}
-                          />
-                          <View style={styles.nameTextBox}>
-                            <Text style={styles.nameText}>{itemNames[item]}</Text>
-                            <Text style={styles.details}>?</Text>
-                          </View>
+          <View style={{flex: 1, marginBottom: 4}}>
+            <ListBox title='Items'>
+              <View style={styles.boxContents}>
+                {
+                  Object.keys(items).map((item, index) => {
+                    return (
+                      <View key={index} style={styles.participantIndication}>
+                        <Image
+                          source={items[item] ? imagesBright[item] : images[item]}
+                          style={styles.imageBox}
+                        />
+                        <View style={styles.nameTextBox}>
+                          <Text style={styles.nameText}>{itemNames[item]}</Text>
+                          <Text style={styles.details}>?</Text>
                         </View>
-                      )
-                    })
-                  }
-                </View>
-              </ListBox>
-              <View style={styles.iterationsContainer}>
-                <ListBox title='Iterations'>
-                  {
-                    playerTimelines.map(timeline => {
-                      const tName = timeline.name
-                      const type = timeline.type
-                      return (
-                        <View key={tName} style={styles.participantIndication}>
-                          <Image
-                            source={images[type]}
-                            style={styles.imageBox}
-                          />
-                          <View style={styles.nameTextBox}>
-                            <Text style={styles.nameText}>{tName}</Text>
-                          </View>
-                        </View>
-                      )
-                    })
-                  }
-                </ListBox>
+                      </View>
+                    )
+                  })
+                }
               </View>
-            </View>
+            </ListBox>
           </View>
-          <View style={{flex: 1}}>
-            <ListBox title='Active Powers'>
+          <View style={{flex: 1, marginTop: 4}}>
+            <ListBox title='Iterations'>
               {
                 playerPowers.map(power => {
-                  const timeLeft = powerStore.getTimeLeft(playerId, power.timelineName)
-                  const allies = power.allies.length
-                  const enemies = power.enemies.length
+                  const timelineName = power.timelineName
+                  const powerName = power.name
+                  const progress = powerStore.getProgress(playerId, timelineName)
+                  const timeline = timelineStore.getTimeline(timelineName)
+                  const type = timeline.type
                   return (
-                    <View key={power.name} style={styles.powerListItem}>
-                      <View style={styles.nameTextBox}>
-                        <Text style={styles.nameText}>{power.name}</Text>
-                      </View>
-                      <View style={styles.nameTextBox}>
-                        <Text style={styles.nameText}>{timeLeft.get()}</Text>
-                      </View>
-                      <View style={styles.nameTextBox}>
-                        <Text style={styles.nameText}>{allies}/{enemies}</Text>
+                    <View key={timelineName} style={styles.participantIndication}>
+                      <Image
+                        source={images[type]}
+                        style={styles.imageBox}
+                      />
+                      <View style={{flex: 8, flexDirection: 'column'}}>
+                        <View style={{flex: 1, flexDirection: 'row', justifyContent: 'space-between'}}>
+                          <Text style={styles.nameTextHalfCenter}>{timelineName}</Text>
+                        </View>
+                        <View style={{flex: 1, flexDirection: 'row', justifyContent: 'space-between'}}>
+                          <Text style={styles.nameTextHalf}>{powerName}</Text>
+                          <Text style={styles.nameTextHalfRight}>{progress.get()}%</Text>
+                        </View>
                       </View>
                     </View>
                   )

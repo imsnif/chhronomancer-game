@@ -64,7 +64,7 @@ export default StyleSheet.create({
   summaryBox: {
     margin: 4,
     flex: 9,
-    flexDirection: 'row'
+    flexDirection: 'column'
   },
   boxContents: {
     flex: 1,
@@ -108,6 +108,32 @@ export default StyleSheet.create({
     flex: 5,
     paddingTop: 5,
     paddingLeft: 9
+  },
+  nameTextHalf: {
+    color: 'green',
+    fontFamily: 'telegrama_raw',
+    flex: 1,
+    paddingTop: 2,
+    paddingLeft: 9,
+    fontSize: 8
+  },
+  nameTextHalfRight: {
+    textAlign: 'right',
+    color: 'green',
+    fontFamily: 'telegrama_raw',
+    flex: 1,
+    paddingTop: 2,
+    paddingRight: 9,
+    fontSize: 8
+  },
+  nameTextHalfCenter: {
+    textAlign: 'center',
+    color: '#00ff00',
+    fontFamily: 'telegrama_raw',
+    flex: 1,
+    paddingTop: 2,
+    paddingRight: 9,
+    fontSize: 8
   },
   details: {
     color: 'green',

@@ -32,6 +32,7 @@ export default class NavBar extends Component {
     this.props.navigator.push({screenName})
   }
   render () {
+    // TODO: refactor
     const screens = this.props.navigator.getCurrentRoutes()
     const { screenName } = screens[screens.length - 1]
     return (
