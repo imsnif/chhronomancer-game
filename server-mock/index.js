@@ -16,9 +16,11 @@ const players = [
     name: 'Aram',
     items: [
       {name: 'assist', source: false},
-      {name: 'prevent', source: false},
-      {name: 'reset', source: false},
-      {name: 'steal', source: false},
+      {name: 'prevent', source: 'Timeline 3'},
+      {name: 'prevent', source: 'Timeline 3'},
+      {name: 'reset', source: 'Timeline 4'},
+      {name: 'reset', source: 'Timeline 4'},
+      {name: 'steal', source: 'Timeline 1'},
       {name: 'lock', source: false},
       {name: 'unlock', source: false}
     ],

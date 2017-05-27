@@ -29,6 +29,13 @@ module.exports = StyleSheet.create({
     backgroundColor: common.backGround,
     resizeMode: 'stretch'
   },
+  titleTextWithSubtitle: {
+    paddingLeft: 5,
+    fontFamily: 'telegrama_raw',
+    color: common.altText,
+    flex: 7,
+    textAlign: 'left'
+  },
   titleText: {
     fontFamily: 'telegrama_raw',
     color: common.altText,
@@ -38,7 +45,7 @@ module.exports = StyleSheet.create({
   subtitleText: {
     fontFamily: 'telegrama_raw',
     color: common.altText,
-    flex: 2,
+    flex: 3,
     textAlign: 'center'
   },
   contentBox: {

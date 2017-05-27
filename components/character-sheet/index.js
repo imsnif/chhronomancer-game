@@ -16,21 +16,21 @@ import reset from '../../assets/items/reset-green.png'
 import lock from '../../assets/items/padlock-green.png'
 import unlock from '../../assets/items/unlock-green.png'
 
-import stealBright from '../../assets/items/steal-green-bright.png'
-import assistBright from '../../assets/items/assist-green-bright.png'
-import preventBright from '../../assets/items/prevent-green-bright.png'
-import resetBright from '../../assets/items/reset-green-bright.png'
-import lockBright from '../../assets/items/padlock-green-bright.png'
-import unlockBright from '../../assets/items/unlock-green-bright.png'
+import stealEmpty from '../../assets/items/steal-green-empty.png'
+import assistEmpty from '../../assets/items/assist-green-empty.png'
+import preventEmpty from '../../assets/items/prevent-green-empty.png'
+import resetEmpty from '../../assets/items/reset-green-empty.png'
+import lockEmpty from '../../assets/items/padlock-green-empty.png'
+import unlockEmpty from '../../assets/items/unlock-green-empty.png'
 
 const images = {steal, assist, prevent, reset, lock, unlock}
-const imagesBright = {
-  steal: stealBright,
-  assist: assistBright,
-  prevent: preventBright,
-  reset: resetBright,
-  lock: lockBright,
-  unlock: unlockBright
+const imagesEmpty = {
+  steal: stealEmpty,
+  assist: assistEmpty,
+  prevent: preventEmpty,
+  reset: resetEmpty,
+  lock: lockEmpty,
+  unlock: unlockEmpty
 }
 
 const itemNames = {
@@ -48,7 +48,16 @@ export default class CharacterSheet extends Component {
     const playerId = statsStore.playerId
     const actions = statsStore.actions
     const player = playerStore.getPlayer(playerId)
-    const items = player.items
+    const items = player.items.reduce((memo, item) => {
+      const existingItem = memo.find(i => i.name === item.name)
+      if (!existingItem) {
+        memo.push(Object.assign({}, item, {count: 1}))
+      } else {
+        existingItem.count += 1
+      }
+      return memo
+    }, [])
+    const itemCount = player.items.filter(i => i.source).length
     const playerTimelines = timelineStore.timelines.filter(t => t.players.some(pId => pId === playerId))
     const playerPowers = powerStore.getPlayerPowers(playerId)
     return (
@@ -63,18 +72,22 @@ export default class CharacterSheet extends Component {
         </View>
         <View style={styles.summaryBox}>
           <View style={{flex: 1, marginBottom: 4}}>
-            <ListBox title='Items'>
+            <ListBox title='Items' subtitle={`Cap: ${itemCount}/7`}>
               <View style={styles.boxContents}>
                 {
                   items.map((item, index) => {
+                    const itemCount = item.count
+                    const nameAndCountString = itemCount > 1
+                      ? `${itemNames[item.name]} (x${itemCount})`
+                      : itemNames[item.name]
                     return (
                       <View key={index} style={styles.participantIndication}>
                         <Image
-                          source={items.source ? imagesBright[item.name] : images[item.name]}
+                          source={item.source ? images[item.name] : imagesEmpty[item.name]}
                           style={styles.imageBox}
                         />
                         <View style={styles.nameTextBox}>
-                          <Text style={styles.nameText}>{itemNames[item.name]}</Text>
+                          <Text style={styles.nameText}>{nameAndCountString}</Text>
                           <Text style={styles.details}>?</Text>
                         </View>
                       </View>
