@@ -1,6 +1,7 @@
 import playerStore from '../stores/player'
 import timelineStore from '../stores/timeline'
 import powerStore from '../stores/power'
+import statsStore from '../stores/stats'
 
 const timelines = [
   {name: 'Timeline 1', type: 'steal'},
@@ -145,6 +146,9 @@ timelines.forEach(t => {
 players.forEach(p => {
   playerStore.addPlayer(p)
 })
+
+statsStore.changePlayerId(1)
+statsStore.incrementActions(10)
 
 timelineStore.addPlayer('Timeline 1', 1)
 timelineStore.addPlayer('Timeline 1', 2)
