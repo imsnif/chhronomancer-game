@@ -92,7 +92,7 @@ export default class CharacterSheet extends Component {
                       <View key={index} style={styles.participantIndication}>
                         <Image
                           source={item.source ? images[item.name] : imagesEmpty[item.name]}
-                          style={styles.imageBox}
+                          style={styles.itemImageBox}
                         />
                         <View style={styles.nameTextBox}>
                           <Text style={item.source ? styles.boldNameText : styles.nameText}>{nameAndCountString}</Text>

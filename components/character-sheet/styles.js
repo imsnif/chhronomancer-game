@@ -12,6 +12,14 @@ export default StyleSheet.create({
     backgroundColor: common.backGround,
     resizeMode: 'stretch'
   },
+  itemImageBox: {
+    width: undefined,
+    height: undefined,
+    flex: 1,
+    backgroundColor: 'transparent',
+    resizeMode: 'stretch',
+    marginLeft: 3
+  },
   container: {
     width: '100%',
     height: '100%',
@@ -78,8 +86,8 @@ export default StyleSheet.create({
   },
   participantIndication: {
     flex: 1,
-    margin: 1,
-    maxHeight: 30,
+    marginTop: 2,
+    minHeight: 27,
     flexDirection: 'row'
   },
   participantImage: {
@@ -95,7 +103,7 @@ export default StyleSheet.create({
     flexDirection: 'column'
   },
   nameTextBox: {
-    flex: 8,
+    flex: 12,
     flexDirection: 'row',
     justifyContent: 'space-between'
   },
@@ -108,14 +116,14 @@ export default StyleSheet.create({
     color: 'green',
     fontFamily: 'telegrama_raw',
     flex: 5,
-    paddingTop: 5,
+    paddingTop: 3,
     paddingLeft: 9
   },
   boldNameText: {
     color: '#00ff00',
     fontFamily: 'telegrama_raw',
     flex: 5,
-    paddingTop: 5,
+    paddingTop: 3,
     paddingLeft: 9
   },
   nameTextHalf: {
