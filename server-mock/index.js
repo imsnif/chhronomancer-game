@@ -88,6 +88,25 @@ const powers = [
     ]
   },
   {
+    playerId: 1,
+    timelineName: 'Timeline 2',
+    name: 'Locking',
+    startTime: Date.now(),
+    endTime: Date.now() + 400000,
+    target: {
+      type: 'timeline',
+      name: 'Timeline 2'
+    },
+    allies: [
+      {id: 1, score: 8},
+      {id: 2, score: 5}
+    ],
+    enemies: [
+      {id: 3, score: 1},
+      {id: 4, score: 9}
+    ]
+  },
+  {
     playerId: 2,
     timelineName: 'Timeline 1',
     name: 'Resetting',

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { observer } from 'mobx-react/native'
 import { View, Text, Image } from 'react-native'
 import ListBox from '../list-box'
+import Power from '../power'
 import styles from './styles'
 
 import playerStore from '../../stores/player'
@@ -100,26 +101,29 @@ export default class CharacterSheet extends Component {
           <View style={{flex: 1, marginTop: 2}}>
             <ListBox title='Iterations'>
               {
-                playerPowers.map(power => {
+                playerPowers.map((power, index) => {
                   const timelineName = power.timelineName
                   const powerName = power.name
                   const progress = powerStore.getProgress(playerId, timelineName)
+                  const timeLeft = powerStore.getTimeLeft(playerId, timelineName)
                   const timeline = timelineStore.getTimeline(timelineName)
                   const type = timeline.type
-                  return (
-                    <View key={timelineName} style={styles.participantIndication}>
-                      <Image
-                        source={images[type]}
-                        style={styles.imageBox}
-                      />
-                      <View style={{flex: 8, flexDirection: 'column'}}>
-                        <View style={{flex: 1, flexDirection: 'row', justifyContent: 'space-between'}}>
-                          <Text style={styles.nameTextHalfCenter}>{timelineName}</Text>
-                        </View>
-                        <View style={{flex: 1, flexDirection: 'row', justifyContent: 'space-between'}}>
-                          <Text style={styles.nameTextHalf}>{powerName}</Text>
-                          <Text style={styles.nameTextHalfRight}>{progress.get()}%</Text>
-                        </View>
+                  return(
+                    <View key={index} style={{
+                      height: 25,
+                      flexDirection: 'column'
+                    }}>
+                      <View style={{flex: 1, marginTop: 5}}>
+                        <Text style={styles.nameTextHalfCenter}>{timelineName}</Text>
+                      </View>
+                      <View style={{flex: 1}}>
+                        <Power
+                          name={power.name}
+                          progress={progress.get()}
+                          timeLeft={timeLeft.get()}
+                          alliedPlayers={power.alliedPlayers}
+                          enemyPlayers={power.enemyPlayers}
+                        />
                       </View>
                     </View>
                   )
