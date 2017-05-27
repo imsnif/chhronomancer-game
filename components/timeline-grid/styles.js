@@ -4,7 +4,9 @@ import common from '../common/styles'
 export default StyleSheet.create({
   container: {
     height: '100%',
-    padding: 15,
+    paddingTop: 5,
+    paddingLeft: 15,
+    paddingRight: 15,
     backgroundColor: common.backGround
   },
   timelineScroll: {

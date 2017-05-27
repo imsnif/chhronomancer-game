@@ -6,10 +6,13 @@ export default StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'column',
+    paddingTop: 5,
     backgroundColor: common.backGround
   },
   playersContainer: {
-    padding: 15,
+    paddingLeft: 15,
+    paddingRight: 15,
+    paddingBottom: 15,
     flex: 2
   },
   playersScroller: {

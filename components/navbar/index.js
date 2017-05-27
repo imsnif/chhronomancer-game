@@ -37,22 +37,22 @@ export default class NavBar extends Component {
     const { screenName } = screens[screens.length - 1]
     return (
       <View style={{flex: 1, flexDirection: 'column', alignItems: 'center', backgroundColor: '#141313'}}>
-        <View style={{flexDirection: 'column', height: 45, justifyContent: 'center', alignItems: 'center'}}>
-          <View style={{height: 20, flexDirection: 'row', justifyContent: 'space-between'}}>
+        <View style={{flexDirection: 'column', height: 30, justifyContent: 'center', alignItems: 'center'}}>
+          <View style={{height: 15, flexDirection: 'row', justifyContent: 'space-between'}}>
             <TouchableHighlight onPress={() => this.navigate('character-sheet')} style={{flex: 1}}>
               <Text
-                style={{flex: 1, color: '#329932', fontFamily: 'telegrama_raw', textAlign: 'center', textAlignVertical: 'bottom', includeFontPadding: false, lineHeight: 15}}>
+                style={{flex: 1, color: '#329932', fontFamily: 'telegrama_raw', textAlign: 'center', textAlignVertical: 'bottom', includeFontPadding: false, lineHeight: 9, height: 9}}>
                 { screenName === 'character-sheet' ? '[ Character ]' : 'Character' }
               </Text>
             </TouchableHighlight>
             <TouchableHighlight onPress={() => this.navigate('timeline-grid')} style={{flex: 1}}>
               <Text
-                style={{flex: 1, color: '#329932', fontFamily: 'telegrama_raw', textAlign: 'center', textAlignVertical: 'bottom', includeFontPadding: false, lineHeight: 15}}>
+                style={{flex: 1, color: '#329932', fontFamily: 'telegrama_raw', textAlign: 'center', textAlignVertical: 'bottom', includeFontPadding: false, lineHeight: 9, height: 9}}>
                 { screenName === 'timeline-grid' ? '[ Timelines ]' : 'Timelines' }
               </Text>
             </TouchableHighlight>
           </View>
-          <Text style={{color: '#329932', fontSize: 21, height: 25, textAlignVertical: 'top', includeFontPadding: false, lineHeight: 15}}>+--------------------------------------------------------+</Text>
+          <Text style={{color: '#329932', fontSize: 21, height: 15, textAlignVertical: 'top', includeFontPadding: false, lineHeight: 15}}>+--------------------------------------------------------+</Text>
         </View>
         <View style={{flex: 2}}>
           {this.props.children}
