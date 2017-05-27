@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { observer } from 'mobx-react/native'
-import { View, Text, Image } from 'react-native'
+import { View, Text, Image, TouchableHighlight } from 'react-native'
 import ListBox from '../list-box'
 import Power from '../power'
 import styles from './styles'
@@ -45,6 +45,13 @@ const itemNames = {
 
 @observer
 export default class CharacterSheet extends Component {
+  navigate (playerId, timelineName) {
+    this.props.navigator.push({
+      screenName: 'Bidding',
+      playerId,
+      timelineName
+    })
+  }
   render () {
     const playerId = statsStore.playerId
     const actions = statsStore.actions
@@ -109,23 +116,25 @@ export default class CharacterSheet extends Component {
                   const timeline = timelineStore.getTimeline(timelineName)
                   const type = timeline.type
                   return(
-                    <View key={index} style={{
-                      height: 25,
-                      flexDirection: 'column'
-                    }}>
-                      <View style={{flex: 1, marginTop: 5}}>
-                        <Text style={styles.nameTextHalfCenter}>{timelineName}</Text>
+                    <TouchableHighlight key={index} onPress={() => this.navigate(playerId, timelineName)}>
+                      <View style={{
+                        height: 25,
+                        flexDirection: 'column'
+                      }}>
+                        <View style={{flex: 1, marginTop: 5}}>
+                          <Text style={styles.nameTextHalfCenter}>{timelineName}</Text>
+                        </View>
+                        <View style={{flex: 1}}>
+                          <Power
+                            name={power.name}
+                            progress={progress.get()}
+                            timeLeft={timeLeft.get()}
+                            alliedPlayers={power.alliedPlayers}
+                            enemyPlayers={power.enemyPlayers}
+                          />
+                        </View>
                       </View>
-                      <View style={{flex: 1}}>
-                        <Power
-                          name={power.name}
-                          progress={progress.get()}
-                          timeLeft={timeLeft.get()}
-                          alliedPlayers={power.alliedPlayers}
-                          enemyPlayers={power.enemyPlayers}
-                        />
-                      </View>
-                    </View>
+                    </TouchableHighlight>
                   )
                 })
               }

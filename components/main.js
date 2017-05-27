@@ -61,7 +61,7 @@ export default class chronomancer extends Component {
     } else if (route.screenName === 'character-sheet') {
       return (
         <NavBar navigator={navigator}>
-          <CharacterSheet playerId={1}/>
+          <CharacterSheet playerId={1} navigator={navigator} />
         </NavBar>
       )
     }
