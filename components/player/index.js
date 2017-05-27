@@ -39,14 +39,31 @@ export default class Player extends Component {
   render () {
     const timelineName = this.props.timelineName
     const player = playerStore.getPlayer(this.props.id)
-    const lowItems = Object.keys(_.pick(player.items, ['assist', 'prevent', 'reset', 'steal']))
-      .map(item => ({name: item, fill: player.items[item], bright: player.items[item] === timelineName}))
+    const lowItems = player.items
+    .filter(item => ( // TODO: move this logic to a separate function
+      item.name === 'assist' ||
+      item.name === 'prevent' ||
+      item.name === 'reset' ||
+      item.name === 'steal')
+    )
+    .map(item => ({
+      name: item.name,
+      fill: item.source,
+      bright: item.source === timelineName
+    }))
     const midItems = Object.keys(_.pick(player.items, ['lock', 'unlock']))
       .map(item => ({name: item, fill: player.items[item], bright: player.items[item] === timelineName}))
+    .filter(item => (
+      item.name === 'lock' ||
+      item.name === 'unlock'
+    ))
+    .map(item => ({
+      name: item.name,
+      fill: item.source,
+      bright: item.source === timelineName
+    }))
     const activePower = powerStore.getPower(player.id, timelineName)
-    const count = player.items
-      ? Object.keys(player.items).filter(i => player.items[i]).length
-      : 0
+    const count = player.items.length
     return (
       <Animated.View style={{opacity: this.state.fadeAnim}}>
         <TouchableHighlight onPress={() => this.navigate(player.id, timelineName)}>

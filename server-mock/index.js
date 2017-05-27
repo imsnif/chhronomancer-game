@@ -14,53 +14,53 @@ const players = [
   {
     id: 1,
     name: 'Aram',
-    items: {
-      assist: false,
-      prevent: false,
-      reset: false,
-      steal: false,
-      lock: false,
-      unlock: false
-    },
+    items: [
+      {name: 'assist', source: false},
+      {name: 'prevent', source: false},
+      {name: 'reset', source: false},
+      {name: 'steal', source: false},
+      {name: 'lock', source: false},
+      {name: 'unlock', source: false}
+    ],
     image: require('../assets/placeholders/green_me.png')
   },
   {
     id: 2,
     name: 'Tom',
-    items: {
-      assist: 'Timeline 2',
-      prevent: 'Timeline 3',
-      reset: 'Timeline 3',
-      steal: 'Timeline 1',
-      lock: 'Timeline 1',
-      unlock: false
-    },
+    items: [
+      {name: 'assist', source: 'Timeline 2'},
+      {name: 'prevent', source: 'Timeline 3'},
+      {name: 'reset', source: 'Timeline 3'},
+      {name: 'steal', source: 'Timeline 1'},
+      {name: 'lock', source: 'Timeline 1'},
+      {name: 'unlock', source: false}
+   ],
     image: require('../assets/placeholders/green_tom.png')
   },
   {
     id: 3,
     name: 'Gondollieri',
-    items: {
-      assist: 'Timeline 2',
-      prevent: 'Timeline 3',
-      reset: 'Timeline 3',
-      steal: 'Timeline 1',
-      lock: 'Timeline 3',
-      unlock: 'Timeline 1'
-    },
+    items: [
+      {name: 'assist', source: 'Timeline 2'},
+      {name: 'prevent', source: 'Timeline 3'},
+      {name: 'reset', source: 'Timeline 3'},
+      {name: 'steal', source: 'Timeline 1'},
+      {name: 'lock', source: 'Timeline 3'},
+      {name: 'unlock', source: 'Timeline 1'}
+    ],
     image: require('../assets/placeholders/green_gondollieri.png')
   },
   {
     id: 4,
     name: 'Simmons',
-    items: {
-      assist: 'Timeline 2',
-      prevent: false,
-      reset: 'Timeline 3',
-      steal: 'Timeline 1',
-      lock: 'Timeline 2',
-      unlock: 'Timeline 2'
-    },
+    items: [
+      {name: 'assist', source: 'Timeline 2'},
+      {name: 'prevent', source: false},
+      {name: 'reset', source: 'Timeline 3'},
+      {name: 'steal', source: 'Timeline 1'},
+      {name: 'lock', source: 'Timeline 2'},
+      {name: 'unlock', source: 'Timeline 2'}
+    ],
     image: require('../assets/placeholders/green_simmons.png')
   }
 ]

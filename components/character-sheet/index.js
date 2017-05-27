@@ -66,15 +66,15 @@ export default class CharacterSheet extends Component {
             <ListBox title='Items'>
               <View style={styles.boxContents}>
                 {
-                  Object.keys(items).map((item, index) => {
+                  items.map((item, index) => {
                     return (
                       <View key={index} style={styles.participantIndication}>
                         <Image
-                          source={items[item] ? imagesBright[item] : images[item]}
+                          source={items.source ? imagesBright[item.name] : images[item.name]}
                           style={styles.imageBox}
                         />
                         <View style={styles.nameTextBox}>
-                          <Text style={styles.nameText}>{itemNames[item]}</Text>
+                          <Text style={styles.nameText}>{itemNames[item.name]}</Text>
                           <Text style={styles.details}>?</Text>
                         </View>
                       </View>
