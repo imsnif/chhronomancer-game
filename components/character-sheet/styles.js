@@ -15,6 +15,8 @@ export default StyleSheet.create({
   container: {
     width: '100%',
     height: '100%',
+    paddingTop: 5,
+    paddingBottom: 5,
     paddingLeft: 15,
     paddingRight: 15,
     backgroundColor: common.backGround,
@@ -22,7 +24,7 @@ export default StyleSheet.create({
   },
   titleItem: {
     flex: 1,
-    margin: 4,
+    marginBottom: 4,
     backgroundColor: common.foreGround,
     flexDirection: 'row'
   },
@@ -63,7 +65,6 @@ export default StyleSheet.create({
     textAlign: 'center'
   },
   summaryBox: {
-    margin: 4,
     flex: 9,
     flexDirection: 'column'
   },
@@ -105,6 +106,13 @@ export default StyleSheet.create({
   },
   nameText: {
     color: 'green',
+    fontFamily: 'telegrama_raw',
+    flex: 5,
+    paddingTop: 5,
+    paddingLeft: 9
+  },
+  boldNameText: {
+    color: '#00ff00',
     fontFamily: 'telegrama_raw',
     flex: 5,
     paddingTop: 5,

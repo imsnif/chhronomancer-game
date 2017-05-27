@@ -71,7 +71,7 @@ export default class CharacterSheet extends Component {
           <Text style={styles.titleTextStats}>{actions}</Text>
         </View>
         <View style={styles.summaryBox}>
-          <View style={{flex: 1, marginBottom: 4}}>
+          <View style={{flex: 1, marginBottom: 2}}>
             <ListBox title='Items' subtitle={`Cap: ${itemCount}/7`}>
               <View style={styles.boxContents}>
                 {
@@ -87,7 +87,7 @@ export default class CharacterSheet extends Component {
                           style={styles.imageBox}
                         />
                         <View style={styles.nameTextBox}>
-                          <Text style={styles.nameText}>{nameAndCountString}</Text>
+                          <Text style={item.source ? styles.boldNameText : styles.nameText}>{nameAndCountString}</Text>
                           <Text style={styles.details}>?</Text>
                         </View>
                       </View>
@@ -97,7 +97,7 @@ export default class CharacterSheet extends Component {
               </View>
             </ListBox>
           </View>
-          <View style={{flex: 1, marginTop: 4}}>
+          <View style={{flex: 1, marginTop: 2}}>
             <ListBox title='Iterations'>
               {
                 playerPowers.map(power => {
