@@ -5,8 +5,9 @@ import statsStore from '../stores/stats'
 
 const timelines = [
   {name: 'Timeline 1', type: 'steal'},
-  {name: 'Timeline 2', type: 'assistPrevent'},
-  {name: 'Timeline 3', type: 'reset'}
+  {name: 'Timeline 2', type: 'assist'},
+  {name: 'Timeline 3', type: 'prevent'},
+  {name: 'Timeline 4', type: 'reset'}
 ]
 
 const players = [
@@ -14,7 +15,8 @@ const players = [
     id: 1,
     name: 'Aram',
     items: {
-      assistPrevent: false,
+      assist: false,
+      prevent: false,
       reset: false,
       steal: false,
       lock: false,
@@ -26,7 +28,8 @@ const players = [
     id: 2,
     name: 'Tom',
     items: {
-      assistPrevent: 'Timeline 2',
+      assist: 'Timeline 2',
+      prevent: 'Timeline 3',
       reset: 'Timeline 3',
       steal: 'Timeline 1',
       lock: 'Timeline 1',
@@ -38,7 +41,8 @@ const players = [
     id: 3,
     name: 'Gondollieri',
     items: {
-      assistPrevent: 'Timeline 2',
+      assist: 'Timeline 2',
+      prevent: 'Timeline 3',
       reset: 'Timeline 3',
       steal: 'Timeline 1',
       lock: 'Timeline 3',
@@ -50,7 +54,8 @@ const players = [
     id: 4,
     name: 'Simmons',
     items: {
-      assistPrevent: 'Timeline 2',
+      assist: 'Timeline 2',
+      prevent: false,
       reset: 'Timeline 3',
       steal: 'Timeline 1',
       lock: 'Timeline 2',

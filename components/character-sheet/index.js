@@ -10,21 +10,24 @@ import powerStore from '../../stores/power'
 import statsStore from '../../stores/stats'
 
 import steal from '../../assets/items/steal-green.png'
-import assistPrevent from '../../assets/items/assist-prevent-green.png'
+import assist from '../../assets/items/assist-green.png'
+import prevent from '../../assets/items/prevent-green.png'
 import reset from '../../assets/items/reset-green.png'
 import lock from '../../assets/items/padlock-green.png'
 import unlock from '../../assets/items/unlock-green.png'
 
 import stealBright from '../../assets/items/steal-green-bright.png'
-import assistPreventBright from '../../assets/items/assist-prevent-green-bright.png'
+import assistBright from '../../assets/items/assist-green-bright.png'
+import preventBright from '../../assets/items/prevent-green-bright.png'
 import resetBright from '../../assets/items/reset-green-bright.png'
 import lockBright from '../../assets/items/padlock-green-bright.png'
 import unlockBright from '../../assets/items/unlock-green-bright.png'
 
-const images = {steal, assistPrevent, reset, lock, unlock}
+const images = {steal, assist, prevent, reset, lock, unlock}
 const imagesBright = {
   steal: stealBright,
-  assistPrevent: assistPreventBright,
+  assist: assistBright,
+  prevent: preventBright,
   reset: resetBright,
   lock: lockBright,
   unlock: unlockBright
@@ -32,7 +35,8 @@ const imagesBright = {
 
 const itemNames = {
   steal: 'Steal',
-  assistPrevent: 'A / P',
+  assist: 'Assist',
+  prevent: 'Prevent',
   reset: 'Reset',
   lock: 'Lock',
   unlock: 'Unlock'

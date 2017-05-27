@@ -5,7 +5,8 @@ import InfoBox from '../info-box'
 import styles from './styles'
 
 import steal from '../../assets/items/steal-green.png'
-import assistPrevent from '../../assets/items/assist-prevent-green.png'
+import assist from '../../assets/items/assist-green.png'
+import prevent from '../../assets/items/prevent-green.png'
 import reset from '../../assets/items/reset-green.png'
 
 import timelineStore from '../../stores/timeline'
@@ -24,7 +25,7 @@ export default class TimelineSummary extends Component {
     })
   }
   render () {
-    const images = {steal, assistPrevent, reset}
+    const images = {steal, assist, prevent, reset}
     const timeline = timelineStore.getTimeline(this.props.name)
     const imageToRender = images[timeline.type]
     return (

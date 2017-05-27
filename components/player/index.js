@@ -39,7 +39,7 @@ export default class Player extends Component {
   render () {
     const timelineName = this.props.timelineName
     const player = playerStore.getPlayer(this.props.id)
-    const lowItems = Object.keys(_.pick(player.items, ['assistPrevent', 'reset', 'steal']))
+    const lowItems = Object.keys(_.pick(player.items, ['assist', 'prevent', 'reset', 'steal']))
       .map(item => ({name: item, fill: player.items[item], bright: player.items[item] === timelineName}))
     const midItems = Object.keys(_.pick(player.items, ['lock', 'unlock']))
       .map(item => ({name: item, fill: player.items[item], bright: player.items[item] === timelineName}))

@@ -2,9 +2,12 @@ import React from 'react'
 import { Image } from 'react-native'
 import styles from './styles'
 
-import assistPreventEmpty from '../../assets/items/assist-prevent-green-empty.png'
-import assistPreventBright from '../../assets/items/assist-prevent-green-bright.png'
-import assistPrevent from '../../assets/items/assist-prevent-green.png'
+import assistEmpty from '../../assets/items/assist-green-empty.png'
+import preventEmpty from '../../assets/items/prevent-green-empty.png'
+import assistBright from '../../assets/items/assist-green-bright.png'
+import preventBright from '../../assets/items/prevent-green-bright.png'
+import assist from '../../assets/items/assist-green.png'
+import prevent from '../../assets/items/prevent-green.png'
 import lockEmpty from '../../assets/items/padlock-green-empty.png'
 import lockBright from '../../assets/items/padlock-green-bright.png'
 import lock from '../../assets/items/padlock-green.png'
@@ -20,14 +23,16 @@ import unlock from '../../assets/items/unlock-green.png'
 
 export default function Item (props) {
   const icons = {
-    assistPrevent: props.fill ? assistPrevent : assistPreventEmpty,
+    assist: props.fill ? assist : assistEmpty,
+    prevent: props.fill ? prevent : preventEmpty,
     reset: props.fill ? reset : resetEmpty,
     steal: props.fill ? steal : stealEmpty,
     lock: props.fill ? lock : lockEmpty,
     unlock: props.fill ? unlock : unlockEmpty
   }
   const brightIcons = {
-    assistPrevent: assistPreventBright,
+    assist: assistBright,
+    prevent: preventBright,
     reset: resetBright,
     steal: stealBright,
     lock: lockBright,
