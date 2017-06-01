@@ -15,7 +15,7 @@ export default StyleSheet.create({
   },
   titleItem: {
     flex: 1,
-    margin: 4,
+    marginBottom: 4,
     backgroundColor: common.foreGround,
     flexDirection: 'row'
   },
@@ -47,7 +47,6 @@ export default StyleSheet.create({
     textAlign: 'center'
   },
   summaryBox: {
-    margin: 4,
     flex: 9,
     flexDirection: 'row'
   },
@@ -82,8 +81,7 @@ export default StyleSheet.create({
     color: 'green',
     fontFamily: 'telegrama_raw',
     flex: 1,
-    alignSelf: 'center',
-    paddingTop: 3
+    alignSelf: 'center'
   },
   scoreTextBox: {
     flex: 1,
@@ -105,6 +103,6 @@ export default StyleSheet.create({
   },
   boxWithGap: {
     flex: 1,
-    marginRight: 8
+    marginRight: 4
   }
 })
