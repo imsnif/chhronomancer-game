@@ -7,10 +7,18 @@ export default StyleSheet.create({
     paddingTop: 5,
     paddingLeft: 15,
     paddingRight: 15,
-    backgroundColor: common.backGround
+    backgroundColor: common.backGround,
+    flexDirection: 'column'
   },
   timelineScroll: {
     width: '100%',
     flexDirection: 'column'
-  }
+  },
+  separatingLine: {
+    backgroundColor: common.foreGround,
+    height: 1,
+    flex: 0,
+    marginTop: 15,
+    marginBottom: 13
+  },
 })

@@ -15,7 +15,7 @@ export default class SortButtons extends Component {
         <TouchableHighlight style={sortBy === 'player'
           ? styles.selected
           : styles.unSelectedMiddle
-        } onPress={() => timelineStore.changeSort(timelineName, 'player')}>
+        } onPress={() => timelineStore.changeTimelineSort(timelineName, 'player')}>
           <Text style={sortBy === 'player'
             ? styles.selectedText
             : styles.unSelectedText
@@ -24,7 +24,7 @@ export default class SortButtons extends Component {
         <TouchableHighlight style={sortBy === 'type'
           ? styles.selected
           : styles.unSelectedMiddle
-        } onPress={() => timelineStore.changeSort(timelineName, 'type')}>
+        } onPress={() => timelineStore.changeTimelineSort(timelineName, 'type')}>
           <Text style={sortBy === 'type'
             ? styles.selectedText
             : styles.unSelectedText
@@ -33,7 +33,7 @@ export default class SortButtons extends Component {
         <TouchableHighlight style={sortBy === 'time'
           ? styles.selected
           : styles.unSelected
-        } onPress={() => timelineStore.changeSort(timelineName, 'time')}>
+        } onPress={() => timelineStore.changeTimelineSort(timelineName, 'time')}>
           <Text style={sortBy === 'time'
             ? styles.selectedText
             : styles.unSelectedText

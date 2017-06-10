@@ -2,6 +2,7 @@ import { observable, action } from 'mobx'
 
 class TimelineStore {
   @observable timelines = []
+  @observable sortBy = 0
   @action addTimeline (name, type) {
     this.timelines.push({
       name,
@@ -18,9 +19,12 @@ class TimelineStore {
     let timeline = this.getTimeline(timelineName)
     timeline.players = timeline.players.filter(p => p !== id)
   }
-  @action changeSort (timelineName, sort) {
+  @action changeTimelineSort (timelineName, sort) {
     let timeline = this.getTimeline(timelineName)
     timeline.sortBy = sort
+  }
+  @action changeSort (index) {
+    this.sortBy = index
   }
   getTimeline (name) {
     return this.timelines.find(t => t.name === name)
