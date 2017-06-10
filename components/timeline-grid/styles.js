@@ -7,6 +7,7 @@ export default StyleSheet.create({
     paddingTop: 5,
     paddingLeft: 15,
     paddingRight: 15,
+    paddingBottom: 5,
     backgroundColor: common.backGround,
     flexDirection: 'column'
   },
