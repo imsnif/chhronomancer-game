@@ -20,6 +20,10 @@ class TimelineStore {
     let timeline = this.getTimeline(timelineName)
     timeline.players = timeline.players.filter(p => p !== id)
   }
+  @action changeTimelineLock (timelineName, isLocked) {
+    let timeline = this.getTimeline(timelineName)
+    timeline.isLocked = isLocked
+  }
   @action changeTimelineSort (timelineName, sort) {
     let timeline = this.getTimeline(timelineName)
     timeline.sortBy = sort

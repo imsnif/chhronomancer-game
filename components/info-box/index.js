@@ -9,11 +9,13 @@ export default class InfoBox extends Component {
   render () {
     const title = this.props.title
     const image = this.props.image
+    const rightImage = this.props.rightImage
     return (
       <View style={styles.outerBox}>
         <View style={styles.titleBar}>
           <Image source={image} style={styles.imageBox} />
           <Text style={styles.titleText}>{title}</Text>
+          { rightImage ? <Image source={rightImage} style={styles.imageBox} /> : null }
         </View>
         <View style={styles.contentBox}>{this.props.children}</View>
       </View>

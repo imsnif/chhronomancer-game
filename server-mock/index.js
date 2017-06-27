@@ -187,3 +187,5 @@ timelineStore.addPlayer('Timeline 1', 4)
 timelineStore.addPlayer('Timeline 3', 4)
 
 powers.forEach(p => powerStore.addPower(p))
+
+timelineStore.changeTimelineLock('Timeline 1', true)

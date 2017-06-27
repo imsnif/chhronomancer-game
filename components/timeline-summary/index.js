@@ -8,6 +8,7 @@ import steal from '../../assets/items/steal-green.png'
 import assist from '../../assets/items/assist-green.png'
 import prevent from '../../assets/items/prevent-green.png'
 import reset from '../../assets/items/reset-green.png'
+import lockedImage from '../../assets/generic/locked.png'
 
 import timelineStore from '../../stores/timeline'
 import playerStore from '../../stores/player'
@@ -30,7 +31,10 @@ export default class TimelineSummary extends Component {
     const imageToRender = images[timeline.type]
     return (
       <TouchableHighlight onPress={this.navigate}>
-        <InfoBox title={this.props.name} image={imageToRender}>
+        <InfoBox title={this.props.name}
+          image={imageToRender}
+          rightImage={this.props.isLocked ? lockedImage : false}
+        >
           <View style={styles.wrapper}>
             {
             timeline.players.map(pId => {

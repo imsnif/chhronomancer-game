@@ -35,6 +35,7 @@ export default class TimelineGrid extends Component {
             })
             .map(timeline => {
               return <TimelineSummary
+                isLocked={timeline.isLocked}
                 key={timeline.name}
                 name={timeline.name}
                 type={timeline.type}
