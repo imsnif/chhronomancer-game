@@ -3,6 +3,8 @@ import { observer } from 'mobx-react/native'
 import { View, Text, TouchableHighlight } from 'react-native'
 import styles from './styles'
 
+import commonStyles from '../common/styles'
+
 import timelineStore from '../../stores/timeline'
 
 export default function Switch (props) {
@@ -14,6 +16,7 @@ export default function Switch (props) {
           return (
             <TouchableHighlight
               key={index}
+              underlayColor={selected ? commonStyles.foreGround : commonStyles.backGround}
               style={selected ? styles.selected : styles.unSelected}
               onPress={selected ? () => {} : button.action}
             >
