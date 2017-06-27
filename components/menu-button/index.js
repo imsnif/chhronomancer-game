@@ -1,4 +1,4 @@
-mport React, { Component } from 'react'
+import React, { Component } from 'react'
 import { View, TouchableHighlight, Text, StyleSheet } from 'react-native'
 import styles from './styles'
 

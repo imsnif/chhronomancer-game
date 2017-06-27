@@ -11,6 +11,8 @@ import Power from '../power'
 import playerStore from '../../stores/player'
 import powerStore from '../../stores/power'
 
+import commonStyles from '../common/styles'
+
 @observer
 export default class NavBar extends Component {
   constructor (props) {
@@ -39,13 +41,13 @@ export default class NavBar extends Component {
       <View style={{flex: 1, flexDirection: 'column', alignItems: 'center', backgroundColor: '#141313'}}>
         <View style={{flexDirection: 'column', height: 30, justifyContent: 'center', alignItems: 'center'}}>
           <View style={{height: 15, flexDirection: 'row', justifyContent: 'space-between'}}>
-            <TouchableHighlight onPress={() => this.navigate('character-sheet')} style={{flex: 1}}>
+            <TouchableHighlight underlayColor={commonStyles.backgroundColor} onPress={() => this.navigate('character-sheet')} style={{flex: 1}}>
               <Text
                 style={{flex: 1, color: '#329932', fontFamily: 'telegrama_raw', textAlign: 'center', textAlignVertical: 'bottom', includeFontPadding: false, lineHeight: 9, height: 9}}>
                 { screenName === 'character-sheet' ? '[ Character ]' : 'Character' }
               </Text>
             </TouchableHighlight>
-            <TouchableHighlight onPress={() => this.navigate('timeline-grid')} style={{flex: 1}}>
+            <TouchableHighlight underlayColor={commonStyles.backgroundColor} onPress={() => this.navigate('timeline-grid')} style={{flex: 1}}>
               <Text
                 style={{flex: 1, color: '#329932', fontFamily: 'telegrama_raw', textAlign: 'center', textAlignVertical: 'bottom', includeFontPadding: false, lineHeight: 9, height: 9}}>
                 { screenName === 'timeline-grid' ? '[ Timelines ]' : 'Timelines' }
