@@ -8,17 +8,32 @@ import Switch from '../switch'
 import styles from './styles'
 
 import timelineStore from '../../stores/timeline'
+import statsStore from '../../stores/stats'
 
 @observer
 export default class TimelineGrid extends Component {
-  // TODO: CONTINUE FROM HERE - make sort buttons look normal, then continue with timelines-todos in ~/todos - now make size of button area same as in timeline, then add timeline specific sorting (my timelines, etc.) - might want to create a separate "button pad" component, where you pass it buttons and it arranges them in a certain way?
   render () {
     return (
       <View style={styles.container}>
         <View style={{flex: 2}}>
           <ScrollView style={styles.timelineScroll}>
             {
-            timelineStore.timelines.map(timeline => {
+            timelineStore.timelines
+            .sort((a, b) => {
+              // TODO: refactor this
+              if (timelineStore.sortBy === 0) { // name
+                return (a.name < b.name ? -1 : 1)
+              } if (timelineStore.sortBy === 1) { // type
+                return (a.type < b.type ? -1 : 1)
+              }
+            })
+            .filter(timeline => {
+              // TODO: refactor this
+              return timelineStore.filterBy === 1 // filter by player in timeline
+                ? timeline.players.some(p => p === statsStore.playerId)
+                : true
+            })
+            .map(timeline => {
               return <TimelineSummary
                 key={timeline.name}
                 name={timeline.name}
@@ -30,11 +45,20 @@ export default class TimelineGrid extends Component {
           </ScrollView>
         </View>
         <View style={styles.separatingLine} />
-        <View style={{flex: 1, marginTop: 5}}>
-          <Switch selected={timelineStore.sortBy} options={[
-            {text: 'name', action: () => timelineStore.changeSort(0)},
-            {text: 'type', action: () => timelineStore.changeSort(1)}
-          ]} />
+        <View style={{flex: 1, flexDirection: 'row'}}>
+          <View style={{flex: 2, marginTop: 5}}>
+            <Switch selected={timelineStore.filterBy} options={[
+              {text: 'all timelines', action: () => timelineStore.changeFilter(0)},
+              {text: 'my timelines', action: () => timelineStore.changeFilter(1)}
+            ]} />
+          </View>
+          <View style={styles.verticalLine} />
+          <View style={{flex: 1, marginTop: 5}}>
+            <Switch selected={timelineStore.sortBy} options={[
+              {text: 'name', action: () => timelineStore.changeSort(0)},
+              {text: 'type', action: () => timelineStore.changeSort(1)}
+            ]} />
+          </View>
         </View>
       </View>
     )

@@ -18,8 +18,13 @@ export default StyleSheet.create({
   separatingLine: {
     backgroundColor: common.foreGround,
     height: 1,
-    flex: 0,
-    marginTop: 15,
-    marginBottom: 13
+    marginTop: 15
   },
+  verticalLine: {
+    flex: 0,
+    width: 1,
+    backgroundColor: common.foreGround,
+    marginRight: 5,
+    marginLeft: 5
+  }
 })
