@@ -14,8 +14,6 @@ import timelineStore from '../../stores/timeline'
 import playerStore from '../../stores/player'
 import clockStore from '../../stores/clock'
 
-// TODO: CONTINUE FROM HERE - make switch work with sorting and stuff (get selected...), to index, etc.
-
 @observer
 export default class Timeline extends Component {
   render () {

@@ -68,17 +68,19 @@ export default class Player extends Component {
       <Animated.View style={{opacity: this.state.fadeAnim}}>
         <TouchableHighlight onPress={() => this.navigate(player.id, timelineName)}>
           <InfoBox title={player.name} image={player.image}>
-            {
-              activePower
-                ? <Power
-                  name={activePower.name}
-                  progress={powerStore.getProgress(player.id, timelineName).get()}
-                  timeLeft={powerStore.getTimeLeft(player.id, timelineName).get()}
-                  alliedPlayers={activePower.alliedPlayers}
-                  enemyPlayers={activePower.enemyPlayers}
-                  />
-                : <View style={{flex: 1}} />
-            }
+            <View style={{flex: 1, paddingTop: 25}}>
+              {
+                activePower
+                  ? <Power
+                    name={activePower.name}
+                    progress={powerStore.getProgress(player.id, timelineName).get()}
+                    timeLeft={powerStore.getTimeLeft(player.id, timelineName).get()}
+                    alliedPlayers={activePower.alliedPlayers}
+                    enemyPlayers={activePower.enemyPlayers}
+                    />
+                  : <View style={{flex: 1}} />
+              }
+            </View>
             <View style={{flex: 1, flexDirection: 'row'}}>
               <LowItems items={lowItems} />
               <MidItems items={midItems} />

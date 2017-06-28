@@ -9,6 +9,6 @@ export default StyleSheet.create({
     color: commons.foreGround,
     flexDirection: 'row',
     fontSize: 8,
-    marginTop: 20
+    marginTop: 10
   }
 })

@@ -4,6 +4,6 @@ export default StyleSheet.create({
   item: {
     width: 16,
     height: 16,
-    margin: 4
+    marginRight: 4
   }
 })
