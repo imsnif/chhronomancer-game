@@ -24,7 +24,7 @@ const players = [
       {name: 'lock', source: false},
       {name: 'unlock', source: false}
     ],
-    image: require('../assets/placeholders/green_me.png')
+    image: require('../assets/placeholders/green_me_s.png')
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ const players = [
       {name: 'lock', source: 'Timeline 1'},
       {name: 'unlock', source: false}
    ],
-    image: require('../assets/placeholders/green_tom.png')
+    image: require('../assets/placeholders/green_tom_s.png')
   },
   {
     id: 3,
@@ -50,7 +50,7 @@ const players = [
       {name: 'lock', source: 'Timeline 3'},
       {name: 'unlock', source: 'Timeline 1'}
     ],
-    image: require('../assets/placeholders/green_gondollieri.png')
+    image: require('../assets/placeholders/green_gondollieri_s.png')
   },
   {
     id: 4,
@@ -63,7 +63,7 @@ const players = [
       {name: 'lock', source: 'Timeline 2'},
       {name: 'unlock', source: 'Timeline 2'}
     ],
-    image: require('../assets/placeholders/green_simmons.png')
+    image: require('../assets/placeholders/green_simmons_s.png')
   }
 ]
 

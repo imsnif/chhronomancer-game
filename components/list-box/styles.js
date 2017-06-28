@@ -19,13 +19,10 @@ module.exports = StyleSheet.create({
     justifyContent: 'center'
   },
   imageBox: {
-    width: 10,
+    width: 26,
     height: 26,
-    margin: 1,
-    borderWidth: 1,
-    borderColor: 'black',
-    borderRadius: common.borderRadius,
-    flex: 1,
+    marginLeft: 3,
+    flex: 0,
     backgroundColor: common.backGround,
     resizeMode: 'stretch'
   },

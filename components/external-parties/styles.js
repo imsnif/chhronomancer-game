@@ -45,9 +45,9 @@ export default StyleSheet.create({
   participantImage: {
     margin: 1,
     height: 26,
-    width: 10,
-    borderWidth: 1,
-    flex: 1
+    width: 26,
+    flex: 0,
+    resizeMode: 'stretch'
   },
   nameTextBox: {
     flex: 8,
