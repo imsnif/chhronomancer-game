@@ -14,7 +14,7 @@ export default function ControlPanel (props) {
         <View style={{flex: 2, marginTop: 5}}>
           {leftPanel}
         </View>
-        <Text style={styles.verticalLine}>{"|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n"}</Text>
+        <Text style={styles.verticalLine}>{" |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n"}</Text>
         <View style={{flex: 1, marginTop: 5}}>
           {rightPanel}
         </View>

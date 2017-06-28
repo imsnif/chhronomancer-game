@@ -30,6 +30,6 @@ export default StyleSheet.create({
     color: '#329932',
     flex: 0,
     marginRight: 5,
-    marginLeft: 6
+    marginLeft: 4
   }
 })
