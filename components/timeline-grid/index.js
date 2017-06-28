@@ -10,12 +10,14 @@ import styles from './styles'
 import timelineStore from '../../stores/timeline'
 import statsStore from '../../stores/stats'
 
+import ControlPanel from '../control-panel'
+
 @observer
 export default class TimelineGrid extends Component {
   render () {
     return (
       <View style={styles.container}>
-        <View style={{flex: 2}}>
+        <View style={{flex: 2, paddingLeft: 15, paddingRight: 15}}>
           <ScrollView style={styles.timelineScroll}>
             {
             timelineStore.timelines
@@ -45,22 +47,16 @@ export default class TimelineGrid extends Component {
           }
           </ScrollView>
         </View>
-        <View style={styles.separatingLine} />
-        <View style={{flex: 1, flexDirection: 'row'}}>
-          <View style={{flex: 2, marginTop: 5}}>
-            <Switch selected={timelineStore.filterBy} options={[
-              {text: 'all timelines', action: () => timelineStore.changeFilter(0)},
-              {text: 'my timelines', action: () => timelineStore.changeFilter(1)}
-            ]} />
-          </View>
-          <View style={styles.verticalLine} />
-          <View style={{flex: 1, marginTop: 5}}>
-            <Switch selected={timelineStore.sortBy} options={[
-              {text: 'name', action: () => timelineStore.changeSort(0)},
-              {text: 'type', action: () => timelineStore.changeSort(1)}
-            ]} />
-          </View>
-        </View>
+        <ControlPanel>
+          <Switch selected={timelineStore.filterBy} options={[
+            {text: 'all timelines', action: () => timelineStore.changeFilter(0)},
+            {text: 'my timelines', action: () => timelineStore.changeFilter(1)}
+          ]} />
+          <Switch selected={timelineStore.sortBy} options={[
+            {text: 'name', action: () => timelineStore.changeSort(0)},
+            {text: 'type', action: () => timelineStore.changeSort(1)}
+          ]} />
+        </ControlPanel>
       </View>
     )
   }

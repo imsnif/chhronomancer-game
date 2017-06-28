@@ -5,6 +5,8 @@ export default StyleSheet.create({
   container: {
     height: '100%',
     paddingTop: 5,
+    paddingLeft: 15,
+    paddingRight: 15,
     paddingBottom: 5,
     backgroundColor: common.backGround,
     flexDirection: 'column'
@@ -14,15 +16,20 @@ export default StyleSheet.create({
     flexDirection: 'column'
   },
   separatingLine: {
-    backgroundColor: common.foreGround,
-    height: 1,
-    marginTop: 15
+    color: '#329932',
+    fontSize: 21,
+    height: 13,
+    textAlignVertical: 'top',
+    includeFontPadding: false,
+    lineHeight: 15,
+    alignSelf: 'center',
+    marginTop: 5
   },
   verticalLine: {
+    lineHeight: 13,
+    color: '#329932',
     flex: 0,
-    width: 1,
-    backgroundColor: common.foreGround,
     marginRight: 5,
-    marginLeft: 5
+    marginLeft: 6
   }
 })

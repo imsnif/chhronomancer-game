@@ -4,7 +4,7 @@ import common from '../common/styles'
 
 export default StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 2,
     flexDirection: 'column',
     paddingTop: 5,
     backgroundColor: common.backGround
@@ -22,7 +22,6 @@ export default StyleSheet.create({
     height: 10
   },
   buttonPad: {
-    padding: 13,
     flex: 2,
     flexDirection: 'column',
     justifyContent: 'center',
