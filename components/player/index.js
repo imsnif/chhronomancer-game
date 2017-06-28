@@ -1,6 +1,6 @@
 import _ from 'lodash'
 import React, { Component } from 'react'
-import { View, Animated, TouchableHighlight } from 'react-native'
+import { View, TouchableHighlight } from 'react-native'
 import { observer } from 'mobx-react/native'
 import InfoBox from '../info-box'
 import LowItems from '../low-items'
@@ -15,19 +15,7 @@ import powerStore from '../../stores/power'
 export default class Player extends Component {
   constructor (props) {
     super(props)
-    this.state = {
-      fadeAnim: new Animated.Value(0)
-    }
     this.navigate = this.navigate.bind(this)
-  }
-  componentDidMount () {
-    Animated.timing(
-      this.state.fadeAnim,
-      {
-        toValue: 1,
-        duration: 1200
-      }
-    ).start()
   }
   navigate (playerId, timelineName) {
     this.props.navigator.push({
@@ -65,30 +53,28 @@ export default class Player extends Component {
     const activePower = powerStore.getPower(player.id, timelineName)
     const count = new Set(player.items.map(i => i.name)).size
     return (
-      <Animated.View style={{opacity: this.state.fadeAnim}}>
-        <TouchableHighlight onPress={() => this.navigate(player.id, timelineName)}>
-          <InfoBox title={player.name} image={player.image}>
-            <View style={{flex: 1, paddingTop: 25}}>
-              {
-                activePower
-                  ? <Power
-                    name={activePower.name}
-                    progress={powerStore.getProgress(player.id, timelineName).get()}
-                    timeLeft={powerStore.getTimeLeft(player.id, timelineName).get()}
-                    alliedPlayers={activePower.alliedPlayers}
-                    enemyPlayers={activePower.enemyPlayers}
-                    />
-                  : <View style={{flex: 1}} />
-              }
-            </View>
-            <View style={{flex: 1, flexDirection: 'row'}}>
-              <LowItems items={lowItems} />
-              <MidItems items={midItems} />
-              <InventoryCount count={count} />
-            </View>
-          </InfoBox>
-        </TouchableHighlight>
-      </Animated.View>
+      <TouchableHighlight onPress={() => this.navigate(player.id, timelineName)}>
+        <InfoBox title={player.name} image={player.image}>
+          <View style={{flex: 1, paddingTop: 25}}>
+            {
+              activePower
+                ? <Power
+                  name={activePower.name}
+                  progress={powerStore.getProgress(player.id, timelineName).get()}
+                  timeLeft={powerStore.getTimeLeft(player.id, timelineName).get()}
+                  alliedPlayers={activePower.alliedPlayers}
+                  enemyPlayers={activePower.enemyPlayers}
+                  />
+                : <View style={{flex: 1}} />
+            }
+          </View>
+          <View style={{flex: 1, flexDirection: 'row'}}>
+            <LowItems items={lowItems} />
+            <MidItems items={midItems} />
+            <InventoryCount count={count} />
+          </View>
+        </InfoBox>
+      </TouchableHighlight>
     )
   }
 }
