@@ -26,7 +26,7 @@ export default class ExternalParties extends Component {
                       <Text style={styles.nameText}>{player.name}</Text>
                     </View>
                     <View style={styles.scoreTextBox}>
-                      <Text style={styles.scoreText}>{player.score}</Text>
+                      <Text style={styles.scoreText}>{score}</Text>
                     </View>
                   </View>
                 )
