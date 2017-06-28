@@ -63,7 +63,7 @@ export default class Player extends Component {
       bright: item.source === timelineName
     }))
     const activePower = powerStore.getPower(player.id, timelineName)
-    const count = player.items.length
+    const count = new Set(player.items.map(i => i.name)).size
     return (
       <Animated.View style={{opacity: this.state.fadeAnim}}>
         <TouchableHighlight onPress={() => this.navigate(player.id, timelineName)}>
