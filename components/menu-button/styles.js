@@ -6,9 +6,7 @@ export default StyleSheet.create({
   buttonContainer: {
     height: '100%',
     width: '100%',
-    flex: 1,
-    marginLeft: 2,
-    marginRight: 2
+    flex: 1
   },
   text: {
     flex: 1,
@@ -22,10 +20,8 @@ export default StyleSheet.create({
     textAlign: 'center'
   },
   button: {
-    margin: 2,
     height: '100%',
     width: '100%',
-    alignSelf: 'center',
     flex: 1,
     borderRadius: common.borderRadius,
     borderColor: common.foreGround,
@@ -46,7 +42,7 @@ export default StyleSheet.create({
     borderWidth: 1
   },
   buttonPress: {
-    margin: 2,
+    // margin: 2,
     height: '100%',
     width: '100%',
     alignSelf: 'center',

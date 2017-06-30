@@ -18,7 +18,17 @@ function getSortParams (player1, player2, activePowers, sortBy) {
   }
 }
 
-export default function sortPlayers (player1, player2, activePowers, sortBy) {
+export default function sortPlayers (player1Id, player2Id, playerStore, powerStore, clockStore, sortBy, timelineName) {
+  const player1 = playerStore.players.find(p => p.id === player1Id)
+  const player2 = playerStore.players.find(p => p.id === player2Id)
+  const activePowers = {
+    player1: Object.assign({}, powerStore.getPower(player1Id, timelineName), {
+      timeLeft: powerStore.getTimeLeft(player1Id, timelineName, clockStore.time)
+    }),
+    player2: Object.assign({}, powerStore.getPower(player2Id, timelineName), {
+      timeLeft: powerStore.getTimeLeft(player2Id, timelineName, clockStore.time)
+    })
+  }
   const sortParams = getSortParams(player1, player2, activePowers, sortBy)
   if (sortParams.player1 === false && sortParams.player2 === false) return 0
   if (sortParams.player1 === false) return -1

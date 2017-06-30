@@ -17,10 +17,12 @@ export default class MenuButton extends Component {
   }
   render () {
     const fontSize = this.props.fontSize
+    const style = this.props.style
     const textStyle = fontSize ? StyleSheet.flatten([styles.text, {fontSize}]) : styles.text
     const pressedTextStyle = fontSize ? StyleSheet.flatten([styles.textPress, {fontSize}]) : styles.textPress
+    const buttonContainerStyle = style ? StyleSheet.flatten([styles.buttonContainer, style]) : styles.buttonContainer
     return (
-      <View style={styles.buttonContainer}>
+      <View style={buttonContainerStyle}>
         <TouchableHighlight
           onPress={() => {}}
           underlayColor={commonStyles.foreGround}
