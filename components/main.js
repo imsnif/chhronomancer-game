@@ -15,9 +15,15 @@ const InstantTransition = { // TODO: move this somewhere else
   springFriction: null,
   springTension: 1000,
   animationInterpolators: {
-    into: r => r.opacity = 1,
-    out: r => r.opacity = 1,
-  },
+    into: r => {
+      r.opacity = 1
+      return true
+    },
+    out: r => {
+      r.opacity = 1
+      return true
+    }
+  }
 }
 
 export default class chronomancer extends Component {

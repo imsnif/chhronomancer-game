@@ -36,7 +36,7 @@ const players = [
       {name: 'steal', source: 'Timeline 1'},
       {name: 'lock', source: 'Timeline 1'},
       {name: 'unlock', source: false}
-   ],
+    ],
     image: require('../assets/placeholders/green_tom_s.png')
   },
   {

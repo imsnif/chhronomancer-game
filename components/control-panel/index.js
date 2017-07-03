@@ -1,8 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { View, Text } from 'react-native'
 import styles from './styles'
-import Switch from '../switch'
-import timelineStore from '../../stores/timeline'
 
 export default function ControlPanel (props) {
   const leftPanel = props.children[0]
@@ -14,7 +12,7 @@ export default function ControlPanel (props) {
         <View style={{flex: 2, marginTop: 5}}>
           {leftPanel}
         </View>
-        <Text style={styles.verticalLine}>{" |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n"}</Text>
+        <Text style={styles.verticalLine}>{' |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n'}</Text>
         <View style={{flex: 1, marginTop: 5}}>
           {rightPanel}
         </View>

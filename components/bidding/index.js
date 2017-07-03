@@ -11,7 +11,7 @@ import timelineStore from '../../stores/timeline'
 
 import steal from '../../assets/items/steal-green.png'
 import assist from '../../assets/items/assist-green.png'
-import prevent from '../../assets/items/assist-green.png'
+import prevent from '../../assets/items/prevent-green.png'
 import reset from '../../assets/items/reset-green.png'
 
 const images = {steal, assist, prevent, reset}

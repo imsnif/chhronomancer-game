@@ -1,11 +1,8 @@
-import React, { Component } from 'react'
-import { observer } from 'mobx-react/native'
+import React from 'react'
 import { View, Text, TouchableHighlight } from 'react-native'
 import styles from './styles'
 
 import commonStyles from '../common/styles'
-
-import timelineStore from '../../stores/timeline'
 
 export default function Switch (props) {
   return (

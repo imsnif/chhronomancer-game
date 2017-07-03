@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { ScrollView, View, StyleSheet } from 'react-native'
 import { observer } from 'mobx-react/native'
 import ControlPanel from '../control-panel'
-import SortButtons from '../sort-buttons'
 import MenuButton from '../menu-button'
 import Player from '../player'
 import Switch from '../switch'
@@ -68,7 +67,7 @@ export default class Timeline extends Component {
           <Switch selected={sortIndex} options={[
             {text: 'player', action: () => timelineStore.changeTimelineSort(name, 'player')},
             {text: 'type', action: () => timelineStore.changeTimelineSort(name, 'type')},
-            {text: 'time', action: () => timelineStore.changeTimelineSort(name, 'time')},
+            {text: 'time', action: () => timelineStore.changeTimelineSort(name, 'time')}
           ]} />
         </ControlPanel>
       </View>

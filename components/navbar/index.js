@@ -1,15 +1,6 @@
-import _ from 'lodash'
 import React, { Component } from 'react'
 import { View, Text, TouchableHighlight, BackAndroid } from 'react-native'
 import { observer } from 'mobx-react/native'
-import InfoBox from '../info-box'
-import LowItems from '../low-items'
-import MidItems from '../mid-items'
-import InventoryCount from '../inventory-count'
-import Power from '../power'
-
-import playerStore from '../../stores/player'
-import powerStore from '../../stores/power'
 
 import commonStyles from '../common/styles'
 
