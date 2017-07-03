@@ -2,6 +2,13 @@ beforeEach(() => {
   jest.resetModules()
 })
 
+afterEach(() => {
+  const clockStore = require('../stores/clock').default
+  jest.useRealTimers()
+  clockStore.destroy()
+  jest.useFakeTimers()
+})
+
 test('TimelineStore => is constructed properly', () => {
   const timelineStore = require('../stores/timeline').default
   const timelines = timelineStore.timelines.map(p => p)
@@ -35,7 +42,7 @@ test('TimelineStore => can remove a player', () => {
 test('TimelineStore => can change sort', () => {
   const timelineStore = require('../stores/timeline').default
   timelineStore.addTimeline('Timeline 1', 'steal')
-  timelineStore.changeSort('Timeline 1', 'type')
+  timelineStore.changeTimelineSort('Timeline 1', 1)
   const { sortBy } = timelineStore.getTimeline('Timeline 1')
-  expect(sortBy).toEqual('type')
+  expect(sortBy).toEqual(1)
 })
