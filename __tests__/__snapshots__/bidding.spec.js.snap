@@ -7,7 +7,9 @@ exports[`Bidding (default props) => renders correctly 1`] = `
       "backgroundColor": "#141313",
       "flexDirection": "column",
       "height": "100%",
-      "padding": 15,
+      "paddingBottom": 5,
+      "paddingTop": 5,
+      "width": "100%",
     }
   }
 >
@@ -17,7 +19,9 @@ exports[`Bidding (default props) => renders correctly 1`] = `
         "backgroundColor": "#329932",
         "flex": 1,
         "flexDirection": "row",
-        "margin": 4,
+        "marginBottom": 4,
+        "marginLeft": 15,
+        "marginRight": 15,
       }
     }
   >
@@ -46,7 +50,9 @@ exports[`Bidding (default props) => renders correctly 1`] = `
         "backgroundColor": "#329932",
         "flex": 1,
         "flexDirection": "row",
-        "margin": 4,
+        "marginBottom": 4,
+        "marginLeft": 15,
+        "marginRight": 15,
       }
     }
   >
@@ -75,7 +81,9 @@ exports[`Bidding (default props) => renders correctly 1`] = `
         "backgroundColor": "#329932",
         "flex": 1,
         "flexDirection": "row",
-        "margin": 4,
+        "marginBottom": 4,
+        "marginLeft": 15,
+        "marginRight": 15,
       }
     }
   >
@@ -140,7 +148,8 @@ exports[`Bidding (default props) => renders correctly 1`] = `
       Object {
         "flex": 9,
         "flexDirection": "row",
-        "margin": 4,
+        "marginLeft": 15,
+        "marginRight": 15,
       }
     }
   >
@@ -148,7 +157,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
       style={
         Object {
           "flex": 1,
-          "marginRight": 8,
+          "marginRight": 4,
         }
       }
     >
@@ -180,14 +189,11 @@ exports[`Bidding (default props) => renders correctly 1`] = `
             style={
               Object {
                 "backgroundColor": "#141313",
-                "borderColor": "black",
-                "borderRadius": 0,
-                "borderWidth": 1,
-                "flex": 1,
+                "flex": 0,
                 "height": 26,
-                "margin": 1,
+                "marginLeft": 3,
                 "resizeMode": "stretch",
-                "width": 10,
+                "width": 26,
               }
             }
           />
@@ -200,7 +206,8 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                 "color": "#0e0e0e",
                 "flex": 7,
                 "fontFamily": "telegrama_raw",
-                "textAlign": "center",
+                "paddingLeft": 5,
+                "textAlign": "left",
               }
             }
           >
@@ -213,7 +220,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
             style={
               Object {
                 "color": "#0e0e0e",
-                "flex": 2,
+                "flex": 3,
                 "fontFamily": "telegrama_raw",
                 "textAlign": "center",
               }
@@ -247,159 +254,154 @@ exports[`Bidding (default props) => renders correctly 1`] = `
               style={
                 Object {
                   "flex": 1,
-                  "flexDirection": "column",
+                  "flexDirection": "row",
+                  "margin": 1,
+                  "maxHeight": 30,
                 }
               }
             >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 0,
+                    "height": 26,
+                    "margin": 1,
+                    "resizeMode": "stretch",
+                    "width": 26,
+                  }
+                }
+              />
               <View
                 style={
                   Object {
-                    "flex": 1,
-                    "flexDirection": "row",
-                    "margin": 1,
-                    "maxHeight": 30,
+                    "alignItems": "center",
+                    "flex": 8,
+                    "flexDirection": "column",
+                    "justifyContent": "center",
                   }
                 }
               >
-                <Image
-                  source={1}
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
                   style={
                     Object {
-                      "borderWidth": 1,
+                      "alignSelf": "center",
+                      "color": "green",
                       "flex": 1,
-                      "height": 26,
-                      "margin": 1,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 8,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
+                      "fontFamily": "telegrama_raw",
+                      "paddingTop": 3,
                     }
                   }
                 >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    Aram
-                  </Text>
-                </View>
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 1,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
-                    }
-                  }
-                >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  />
-                </View>
+                  Aram
+                </Text>
               </View>
               <View
                 style={
                   Object {
+                    "alignItems": "center",
                     "flex": 1,
-                    "flexDirection": "row",
-                    "margin": 1,
-                    "maxHeight": 30,
+                    "flexDirection": "column",
+                    "justifyContent": "center",
                   }
                 }
               >
-                <Image
-                  source={1}
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
                   style={
                     Object {
-                      "borderWidth": 1,
+                      "alignSelf": "center",
+                      "color": "green",
                       "flex": 1,
-                      "height": 26,
-                      "margin": 1,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 8,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
+                      "fontFamily": "telegrama_raw",
+                      "paddingTop": 3,
                     }
                   }
                 >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    Tom
-                  </Text>
-                </View>
-                <View
+                  8
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "margin": 1,
+                  "maxHeight": 30,
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 0,
+                    "height": 26,
+                    "margin": 1,
+                    "resizeMode": "stretch",
+                    "width": 26,
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 8,
+                    "flexDirection": "column",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
                   style={
                     Object {
-                      "alignItems": "center",
+                      "alignSelf": "center",
+                      "color": "green",
                       "flex": 1,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
+                      "fontFamily": "telegrama_raw",
+                      "paddingTop": 3,
                     }
                   }
                 >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
+                  Tom
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "alignSelf": "center",
+                      "color": "green",
+                      "flex": 1,
+                      "fontFamily": "telegrama_raw",
+                      "paddingTop": 3,
                     }
-                  />
-                </View>
+                  }
+                >
+                  5
+                </Text>
               </View>
             </View>
           </View>
@@ -408,7 +410,6 @@ exports[`Bidding (default props) => renders correctly 1`] = `
               Object {
                 "flex": 1,
                 "padding": 5,
-                "paddingRight": 8,
               }
             }
           >
@@ -417,8 +418,6 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                 Object {
                   "flex": 1,
                   "height": "100%",
-                  "marginLeft": 2,
-                  "marginRight": 2,
                   "width": "100%",
                 }
               }
@@ -445,7 +444,6 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                     },
                     Object {
                       "alignItems": "center",
-                      "alignSelf": "center",
                       "backgroundColor": "#141313",
                       "borderColor": "#329932",
                       "borderRadius": 0,
@@ -454,7 +452,6 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                       "flexDirection": "row",
                       "height": "100%",
                       "justifyContent": "center",
-                      "margin": 2,
                       "width": "100%",
                     },
                   ]
@@ -519,14 +516,11 @@ exports[`Bidding (default props) => renders correctly 1`] = `
             style={
               Object {
                 "backgroundColor": "#141313",
-                "borderColor": "black",
-                "borderRadius": 0,
-                "borderWidth": 1,
-                "flex": 1,
+                "flex": 0,
                 "height": 26,
-                "margin": 1,
+                "marginLeft": 3,
                 "resizeMode": "stretch",
-                "width": 10,
+                "width": 26,
               }
             }
           />
@@ -539,7 +533,8 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                 "color": "#0e0e0e",
                 "flex": 7,
                 "fontFamily": "telegrama_raw",
-                "textAlign": "center",
+                "paddingLeft": 5,
+                "textAlign": "left",
               }
             }
           >
@@ -552,7 +547,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
             style={
               Object {
                 "color": "#0e0e0e",
-                "flex": 2,
+                "flex": 3,
                 "fontFamily": "telegrama_raw",
                 "textAlign": "center",
               }
@@ -586,159 +581,154 @@ exports[`Bidding (default props) => renders correctly 1`] = `
               style={
                 Object {
                   "flex": 1,
-                  "flexDirection": "column",
+                  "flexDirection": "row",
+                  "margin": 1,
+                  "maxHeight": 30,
                 }
               }
             >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 0,
+                    "height": 26,
+                    "margin": 1,
+                    "resizeMode": "stretch",
+                    "width": 26,
+                  }
+                }
+              />
               <View
                 style={
                   Object {
-                    "flex": 1,
-                    "flexDirection": "row",
-                    "margin": 1,
-                    "maxHeight": 30,
+                    "alignItems": "center",
+                    "flex": 8,
+                    "flexDirection": "column",
+                    "justifyContent": "center",
                   }
                 }
               >
-                <Image
-                  source={1}
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
                   style={
                     Object {
-                      "borderWidth": 1,
+                      "alignSelf": "center",
+                      "color": "green",
                       "flex": 1,
-                      "height": 26,
-                      "margin": 1,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 8,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
+                      "fontFamily": "telegrama_raw",
+                      "paddingTop": 3,
                     }
                   }
                 >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    Gondollieri
-                  </Text>
-                </View>
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 1,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
-                    }
-                  }
-                >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  />
-                </View>
+                  Gondollieri
+                </Text>
               </View>
               <View
                 style={
                   Object {
+                    "alignItems": "center",
                     "flex": 1,
-                    "flexDirection": "row",
-                    "margin": 1,
-                    "maxHeight": 30,
+                    "flexDirection": "column",
+                    "justifyContent": "center",
                   }
                 }
               >
-                <Image
-                  source={1}
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
                   style={
                     Object {
-                      "borderWidth": 1,
+                      "alignSelf": "center",
+                      "color": "green",
                       "flex": 1,
-                      "height": 26,
-                      "margin": 1,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "flex": 8,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
+                      "fontFamily": "telegrama_raw",
+                      "paddingTop": 3,
                     }
                   }
                 >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
-                    }
-                  >
-                    Simmons
-                  </Text>
-                </View>
-                <View
+                  1
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "margin": 1,
+                  "maxHeight": 30,
+                }
+              }
+            >
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "flex": 0,
+                    "height": 26,
+                    "margin": 1,
+                    "resizeMode": "stretch",
+                    "width": 26,
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 8,
+                    "flexDirection": "column",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
                   style={
                     Object {
-                      "alignItems": "center",
+                      "alignSelf": "center",
+                      "color": "green",
                       "flex": 1,
-                      "flexDirection": "column",
-                      "justifyContent": "center",
+                      "fontFamily": "telegrama_raw",
+                      "paddingTop": 3,
                     }
                   }
                 >
-                  <Text
-                    accessible={true}
-                    allowFontScaling={true}
-                    ellipsizeMode="tail"
-                    style={
-                      Object {
-                        "alignSelf": "center",
-                        "color": "green",
-                        "flex": 1,
-                        "fontFamily": "telegrama_raw",
-                        "paddingTop": 3,
-                      }
+                  Simmons
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "flexDirection": "column",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "alignSelf": "center",
+                      "color": "green",
+                      "flex": 1,
+                      "fontFamily": "telegrama_raw",
+                      "paddingTop": 3,
                     }
-                  />
-                </View>
+                  }
+                >
+                  9
+                </Text>
               </View>
             </View>
           </View>
@@ -747,7 +737,6 @@ exports[`Bidding (default props) => renders correctly 1`] = `
               Object {
                 "flex": 1,
                 "padding": 5,
-                "paddingRight": 8,
               }
             }
           >
@@ -756,8 +745,6 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                 Object {
                   "flex": 1,
                   "height": "100%",
-                  "marginLeft": 2,
-                  "marginRight": 2,
                   "width": "100%",
                 }
               }
@@ -784,7 +771,6 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                     },
                     Object {
                       "alignItems": "center",
-                      "alignSelf": "center",
                       "backgroundColor": "#141313",
                       "borderColor": "#329932",
                       "borderRadius": 0,
@@ -793,7 +779,6 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                       "flexDirection": "row",
                       "height": "100%",
                       "justifyContent": "center",
-                      "margin": 2,
                       "width": "100%",
                     },
                   ]
