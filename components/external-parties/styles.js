@@ -2,38 +2,8 @@ import { StyleSheet } from 'react-native'
 import common from '../common/styles'
 
 export default StyleSheet.create({
-  container: {
-    height: '100%',
-    padding: 15,
-    backgroundColor: common.backGround,
-    flexDirection: 'column'
-  },
-  titleItem: {
-    flex: 1,
-    margin: 4,
-    backgroundColor: common.foreGround,
-    flexDirection: 'row'
-  },
-  titleText: {
-    flex: 1,
-    alignSelf: 'center',
-    fontFamily: 'telegrama_raw',
-    fontSize: 25,
-    color: common.backGround,
-    backgroundColor: common.foreGround,
-    textAlign: 'center'
-  },
-  summaryBox: {
-    margin: 4,
-    flex: 9,
-    flexDirection: 'row'
-  },
-  boxContents: {
-    flex: 4,
-    flexDirection: 'column'
-  },
   playerList: {
-    flex: 1,
+    flex: 4,
     flexDirection: 'column'
   },
   participantIndication: {
@@ -77,11 +47,6 @@ export default StyleSheet.create({
   },
   buttonContainer: {
     flex: 1,
-    padding: 5,
-    paddingRight: 8
-  },
-  boxWithGap: {
-    flex: 1,
-    marginRight: 8
+    padding: 5
   }
 })
