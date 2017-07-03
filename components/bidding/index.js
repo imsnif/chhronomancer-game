@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { observer } from 'mobx-react/native'
-import { View, Text } from 'react-native'
+import { View, Text, StyleSheet } from 'react-native'
 import ExternalParties from '../external-parties'
 import styles from './styles'
 
@@ -48,9 +48,9 @@ export default class Bidding extends Component {
           <Text style={styles.titleText}>{timelineName}</Text>
         </View>
         <View style={styles.titleItem}>
-          <Text style={styles.titleTextStats}>{timeLeft}</Text>
-          <Text style={styles.titleTextStatsCenter}>{balance}</Text>
-          <Text style={styles.titleTextStats}>{percentage}%</Text>
+          <Text style={StyleSheet.flatten([styles.titleTextSmall, {flex: 2}])}>{timeLeft}</Text>
+          <Text style={StyleSheet.flatten([styles.titleTextSmall, {flex: 1}])}>{balance}</Text>
+          <Text style={StyleSheet.flatten([styles.titleTextSmall, {flex: 2}])}>{percentage}%</Text>
         </View>
         <View style={styles.summaryBox}>
           <View style={styles.boxWithGap}>
