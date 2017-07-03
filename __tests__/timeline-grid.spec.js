@@ -6,6 +6,13 @@ import '../server-mock'
 
 jest.mock('mobx-react/native', () => require('mobx-react/custom'))
 
+afterEach(() => {
+  const clockStore = require('../stores/clock').default
+  jest.useRealTimers()
+  clockStore.destroy()
+  jest.useFakeTimers()
+})
+
 test('TimelineGrid => renders correctly', () => {
   const tree = renderer.create(
     <TimelineGrid />
