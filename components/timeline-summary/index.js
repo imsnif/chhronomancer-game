@@ -37,10 +37,12 @@ export default class TimelineSummary extends Component {
         >
           <View style={styles.wrapper}>
             {
-            timeline.players.map(pId => {
-              const player = playerStore.players.find(p => p.id === pId)
-              return <Image key={player.name} style={styles.image} source={player.image} />
-            })
+            timeline.players
+              ? timeline.players.map(pId => {
+                const player = playerStore.players.find(p => p.id === pId)
+                return <Image key={player.name} style={styles.image} source={{uri: `http://10.0.0.6:3000/placeholders/${player.name}.png`}} />
+              })
+              : null
           }
           </View>
         </InfoBox>

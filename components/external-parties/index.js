@@ -20,7 +20,7 @@ export default class ExternalParties extends Component {
               const player = playerStore.getPlayer(id)
               return (
                 <View key={id} style={styles.participantIndication}>
-                  <Image source={player.image} style={styles.participantImage} />
+                  <Image source={{uri: `http://10.0.0.6:3000/placeholders/${player.name}.png`}} style={styles.participantImage} />
                   <View style={styles.nameTextBox}>
                     <Text style={styles.nameText}>{player.name}</Text>
                   </View>

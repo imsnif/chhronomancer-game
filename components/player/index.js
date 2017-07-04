@@ -54,7 +54,7 @@ export default class Player extends Component {
     const count = new Set(player.items.map(i => i.name)).size
     return (
       <TouchableHighlight onPress={() => this.navigate(player.id, timelineName)}>
-        <InfoBox title={player.name} image={player.image}>
+        <InfoBox title={player.name} image={{uri: `http://10.0.0.6:3000/placeholders/${player.name}.png`}}>
           <View style={{flex: 1, paddingTop: 25}}>
             {
               activePower

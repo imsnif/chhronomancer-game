@@ -4,13 +4,10 @@ class TimelineStore {
   @observable timelines = []
   @observable sortBy = 0
   @observable filterBy = 0
-  @action addTimeline (name, type) {
-    this.timelines.push({
-      name,
-      type,
-      sortBy: 'player',
-      players: []
-    })
+  @action addTimeline (timeline) {
+    this.timelines.push(Object.assign({}, timeline, {
+      sortBy: 'player'
+    }))
   }
   @action addPlayer (timelineName, id) {
     let timeline = this.getTimeline(timelineName)

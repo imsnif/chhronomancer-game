@@ -29,10 +29,10 @@ export default class Bidding extends Component {
     const timeLeft = powerStore.getTimeLeft(playerId, timelineName, time).get()
     const percentage = powerStore.getProgress(playerId, timelineName, time).get()
     const source = player.name
-    const sourceImage = player.image
+    const sourceImage = {uri: `http://10.0.0.6:3000/placeholders/${player.name}.png`}
     const destination = power.target
     const destinationImage = destination.type === 'player'
-      ? playerStore.getPlayer(destination.id).image
+      ? {uri: `http://10.0.0.6:3000/placeholders/${playerStore.getPlayer(destination.id).name}.png`}
       : images[timeline.type]
     const allies = power.allies
     const enemies = power.enemies

@@ -2,12 +2,11 @@ import { observable, action } from 'mobx'
 
 class PlayerStore {
   @observable players = []
-  @action addPlayer ({id, name, items, image}) {
+  @action addPlayer ({id, name, items}) {
     this.players.push({
       id,
       name,
-      items,
-      image
+      items
     })
   }
   @action removePlayer (id) {

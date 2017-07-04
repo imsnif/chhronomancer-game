@@ -27,7 +27,7 @@ export default class CharacterSheet extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.titleItem}>
-          <Image style={styles.playerImageBox} source={player.image} />
+          <Image style={styles.playerImageBox} source={{uri: `http://10.0.0.6:3000/placeholders/${player.name}.png`}} />
           <Text style={StyleSheet.flatten([styles.titleTextSmall, {flex: 5}])}>{player.name}</Text>
         </View>
         <View style={styles.titleItem}>
