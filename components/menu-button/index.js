@@ -24,7 +24,7 @@ export default class MenuButton extends Component {
     return (
       <View style={buttonContainerStyle}>
         <TouchableHighlight
-          onPress={() => {}}
+          onPress={this.props.onPress}
           underlayColor={commonStyles.foreGround}
           style={this.state.pressStatus ? styles.buttonPress : styles.button}
           onHideUnderlay={this._onHideUnderlay.bind(this)}

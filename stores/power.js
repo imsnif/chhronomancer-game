@@ -1,5 +1,6 @@
 import moment from 'moment'
 import clockStore from './clock'
+import statsStore from './stats'
 import { observable, action, computed } from 'mobx'
 
 class PowerStore {
@@ -14,7 +15,9 @@ class PowerStore {
     allies,
     enemies
   }) {
-    this.powers.push({
+    const power = this.getPower(playerId, timelineName) || {}
+    if (power.playerId && power.timelineName) this.removePower(power.playerId, power.timelineName)
+    this.powers.push(Object.assign({}, power, {
       playerId,
       timelineName,
       name,
@@ -23,6 +26,11 @@ class PowerStore {
       target,
       allies,
       enemies
+    }))
+  }
+  removePower (playerId, timelineName) {
+    this.powers = this.powers.filter(p => {
+      return (p.playerId !== playerId && p.timelineName !== timelineName)
     })
   }
   getPower (playerId, timelineName) {
@@ -53,6 +61,26 @@ class PowerStore {
       const duration = moment.duration(timeLeft)
       return moment.utc(duration.as('milliseconds')).format('HH:mm:ss')
     })
+  }
+  @action async assist (timelineName, targetPlayerId) {
+    try {
+      await fetch(`http://10.0.0.6:3000/bidding/assist/${timelineName}/${targetPlayerId}`, {
+        method: 'POST',
+        headers: {userId: statsStore.playerId}
+      })
+    } catch (e) {
+      console.error(e)
+    }
+  }
+  @action async prevent (timelineName, targetPlayerId) {
+    try {
+      await fetch(`http://10.0.0.6:3000/bidding/prevent/${timelineName}/${targetPlayerId}`, {
+        method: 'POST',
+        headers: {userId: statsStore.playerId}
+      })
+    } catch (e) {
+      console.error(e)
+    }
   }
 }
 

@@ -33,7 +33,7 @@ export default class ExternalParties extends Component {
           }
         </View>
         <View style={styles.buttonContainer}>
-          <MenuButton fontSize={80} title='+' />
+          <MenuButton fontSize={80} title='+' onPress={this.props.onPress}/>
         </View>
       </ListBox>
     )

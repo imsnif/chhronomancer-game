@@ -12,8 +12,8 @@ import statsStore from '../../stores/stats'
 export default class CharacterSheet extends Component {
   render () {
     const playerId = statsStore.playerId
-    const actions = statsStore.actions
     const player = playerStore.getPlayer(playerId)
+    const actions = player.actions
     const items = player.items.reduce((memo, item) => {
       const existingItem = memo.find(i => i.name === item.name)
       if (!existingItem) {

@@ -54,10 +54,10 @@ export default class Bidding extends Component {
         </View>
         <View style={styles.summaryBox}>
           <View style={styles.boxWithGap}>
-            <ExternalParties name={source} total={totalFor} image={sourceImage} parties={allies} />
+            <ExternalParties name={source} total={totalFor} image={sourceImage} parties={allies} onPress={() => powerStore.assist(timelineName, playerId)}/>
           </View>
           <View style={{flex: 1}}>
-            <ExternalParties name={destination.name} total={totalAgainst} image={destinationImage} parties={enemies} />
+            <ExternalParties name={destination.name} total={totalAgainst} image={destinationImage} parties={enemies} onPress={() => powerStore.prevent(timelineName, playerId)}/>
           </View>
         </View>
       </View>

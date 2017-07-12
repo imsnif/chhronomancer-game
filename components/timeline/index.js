@@ -53,15 +53,15 @@ export default class Timeline extends Component {
         <ControlPanel>
           <View style={styles.buttonPad}>
             <View style={styles.buttonRow}>
-              <MenuButton fontSize={20} style={{marginRight: 2}} title='Reset' onPress={() => {}} />
-              <MenuButton fontSize={20} style={{marginLeft: 2}} title='Quest' onPress={() => {}} />
+              <MenuButton fontSize={20} style={{marginRight: 2}} title='Reset' onPress={() => timelineStore.resetTimeline(name)} />
+              <MenuButton fontSize={20} style={{marginLeft: 2}} title='Quest' onPress={() => timelineStore.quest(name)} />
             </View>
             <View style={middleButtonRowStyle}>
-              <MenuButton fontSize={20} style={{marginRight: 2}} title='Lock' onPress={() => {}} />
-              <MenuButton fontSize={20} style={{marginLeft: 2}} title='Unlock' onPress={() => {}} />
+              <MenuButton fontSize={20} style={{marginRight: 2}} title='Lock' onPress={() => timelineStore.lockTimeline(name)} />
+              <MenuButton fontSize={20} style={{marginLeft: 2}} title='Unlock' onPress={() => timelineStore.unlockTimeline(name)} />
             </View>
             <View style={styles.buttonRow}>
-              <MenuButton fontSize={20} title='Travel Here' onPress={() => {}} />
+              <MenuButton fontSize={20} title='Travel Here' onPress={() => timelineStore.joinTimeline(name)} />
             </View>
           </View>
           <Switch selected={sortIndex} options={[

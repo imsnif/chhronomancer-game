@@ -2,12 +2,15 @@ import { observable, action } from 'mobx'
 
 class PlayerStore {
   @observable players = []
-  @action addPlayer ({id, name, items}) {
-    this.players.push({
+  @action addPlayer ({id, name, items, actions}) {
+    const player = this.getPlayer(id) || {}
+    if (player.id) this.removePlayer(player.id)
+    this.players.push(Object.assign({}, player, {
       id,
       name,
-      items
-    })
+      items,
+      actions
+    }))
   }
   @action removePlayer (id) {
     this.players = this.players.filter(p => {

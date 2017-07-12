@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import { View, Text, TouchableHighlight, BackAndroid } from 'react-native'
 import { observer } from 'mobx-react/native'
 
+import playersStore from '../../stores/player'
+import statsStore from '../../stores/stats'
+
 import commonStyles from '../common/styles'
 
 @observer
@@ -28,9 +31,15 @@ export default class NavBar extends Component {
     // TODO: refactor
     const screens = this.props.navigator.getCurrentRoutes()
     const { screenName } = screens[screens.length - 1]
+    const { playerId } = statsStore
+    const player = playersStore.getPlayer(playerId)
+    const actions = player ? player.actions : 'N/A'
     return (
       <View style={{flex: 1, flexDirection: 'column', alignItems: 'center', backgroundColor: '#141313'}}>
-        <View style={{flexDirection: 'column', height: 30, justifyContent: 'center', alignItems: 'center'}}>
+        <View style={{flexDirection: 'column', height: 45, justifyContent: 'center', alignItems: 'center'}}>
+          <Text
+            style={{flex: 0, color: '#329932', fontFamily: 'telegrama_raw', textAlign: 'center', textAlignVertical: 'bottom', includeFontPadding: false, lineHeight: 22, height: 19}}
+          >Actions: {actions}</Text>
           <View style={{height: 15, flexDirection: 'row', justifyContent: 'space-between'}}>
             <TouchableHighlight underlayColor={commonStyles.backgroundColor} onPress={() => this.navigate('character-sheet')} style={{flex: 1}}>
               <Text

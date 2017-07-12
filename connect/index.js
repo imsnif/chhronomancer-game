@@ -3,53 +3,31 @@ import timelineStore from '../stores/timeline'
 import powerStore from '../stores/power'
 import statsStore from '../stores/stats'
 
-var ws = new WebSocket('ws://10.0.0.6:3000')
+var ws = new WebSocket('ws://10.0.0.6:3000') // TODO: from config
 
-statsStore.changePlayerId(1) // TODO: remove statsStore
-statsStore.incrementActions(10)
-
-function updatePlayers (players) {
-  players.forEach(p => {
-    playerStore.addPlayer(p)
-  })
-}
-
-function updatePowers (powers) {
-  powers.forEach(p => {
-    powerStore.addPower(p)
-  })
-}
-
-function updateTimelines (timelines) {
-  timelines.forEach(t => {
-    timelineStore.addTimeline(t)
-  })
-}
+statsStore.changePlayerId(4) // TODO: merge statsStore with playersStore when connecting to FB
 
 ws.onmessage = (e) => {
   if (!e || !e.data) return
-  let data = {}
   try {
-    data = JSON.parse(e.data)
-  } catch (err) {
-  }
-  if (data.players) {
-    updatePlayers(data.players)
-  }
-  if (data.powers) {
-    updatePowers(data.powers)
-  }
-  if (data.timelines) {
-    updateTimelines(data.timelines)
-  }
-}
-
-ws.onerror = (e) => {
-  // an error occurred
-  console.log(e.message);
-}
-
-ws.onclose = (e) => {
-  // connection closed
-  console.log(e.code, e.reason);
+    const data = JSON.parse(e.data)
+    if (data.players) {
+      const playerData = Array.isArray(data.players)
+        ? data.players
+        : [data.players]
+      playerData.forEach(p => playerStore.addPlayer(p))
+    }
+    if (data.powers) {
+      const powersData = Array.isArray(data.powers)
+        ? data.powers
+        : [data.powers]
+      powersData.forEach(p => powerStore.addPower(p))
+    }
+    if (data.timelines) {
+      const timelinesData = Array.isArray(data.timelines)
+        ? data.timelines
+        : [data.timelines]
+      timelinesData.forEach(t => timelineStore.addTimeline(t))
+    }
+  } catch (err) {} // fail silently
 }
