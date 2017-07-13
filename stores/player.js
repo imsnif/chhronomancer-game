@@ -20,6 +20,9 @@ class PlayerStore {
   getPlayer (id) {
     return this.players.find(p => p.id === id)
   }
+  getPlayerByName (name) {
+    return this.players.find(p => p.name === name)
+  }
 }
 
 const playerStore = new PlayerStore()

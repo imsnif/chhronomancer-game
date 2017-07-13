@@ -3675,6 +3675,10 @@ react-native-button@^1.8.2:
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/react-native-button/-/react-native-button-1.8.2.tgz#49e5cadd22ee443adea52a85539d288aa2117ade"
 
+react-native-modalbox@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.npmjs.org/react-native-modalbox/-/react-native-modalbox-1.4.0.tgz#332f1d48c27c90cdde27ffa7f09fc8d18799a070"
+
 react-native@0.42.3:
   version "0.42.3"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.42.3.tgz#450c8a03a5e3e991a08a426f22776dd8feb80b26"

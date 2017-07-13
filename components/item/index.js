@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image } from 'react-native'
+import { Image, TouchableHighlight } from 'react-native'
 import styles from './styles'
 
 import assistEmpty from '../../assets/items/assist-green-empty.png'
@@ -40,6 +40,10 @@ export default function Item (props) {
   }
   const img = props.bright ? brightIcons[props.name] : icons[props.name]
   return (
-    <Image style={styles.item} source={img} />
+    <TouchableHighlight
+      onPress={props.onPress || function () {}}
+    >
+      <Image style={styles.item} source={img} />
+    </TouchableHighlight>
   )
 }

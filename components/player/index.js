@@ -10,6 +10,7 @@ import Power from '../power'
 
 import playerStore from '../../stores/player'
 import powerStore from '../../stores/power'
+import timelineStore from '../../stores/timeline'
 
 @observer
 export default class Player extends Component {
@@ -37,7 +38,8 @@ export default class Player extends Component {
     .map(item => ({
       name: item.name,
       fill: item.source,
-      bright: item.source === timelineName
+      bright: item.source === timelineName,
+      onPress: () => timelineStore.addModal(timelineName, {itemName: item.name, playerName: player.name})
     }))
     const midItems = Object.keys(_.pick(player.items, ['lock', 'unlock']))
       .map(item => ({name: item, fill: player.items[item], bright: player.items[item] === timelineName}))
@@ -48,7 +50,8 @@ export default class Player extends Component {
     .map(item => ({
       name: item.name,
       fill: item.source,
-      bright: item.source === timelineName
+      bright: item.source === timelineName,
+      onPress: () => timelineStore.addModal(timelineName, {itemName: item.name, playerName: player.name})
     }))
     const activePower = powerStore.getPower(player.id, timelineName)
     const count = new Set(player.items.map(i => i.name)).size

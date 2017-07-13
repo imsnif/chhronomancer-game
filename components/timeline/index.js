@@ -5,6 +5,7 @@ import ControlPanel from '../control-panel'
 import MenuButton from '../menu-button'
 import Player from '../player'
 import Switch from '../switch'
+import StealModal from '../steal-modal'
 import styles from './styles'
 import sortPlayers from './sort-players.js'
 
@@ -26,6 +27,7 @@ export default class Timeline extends Component {
     ])
     return (
       <View style={styles.container}>
+        <StealModal timelineName={name} modal={timelineStore.modals[name]} />
         <View style={styles.scrollContainer}>
           <ScrollView>
             {

@@ -3,6 +3,7 @@ import { View, Text, TouchableHighlight, BackAndroid } from 'react-native'
 import { observer } from 'mobx-react/native'
 
 import playersStore from '../../stores/player'
+import timelineStore from '../../stores/timeline'
 import statsStore from '../../stores/stats'
 
 import commonStyles from '../common/styles'
@@ -26,6 +27,7 @@ export default class NavBar extends Component {
   }
   navigate (screenName) {
     this.props.navigator.push({screenName})
+    timelineStore.clearAllModals()
   }
   render () {
     // TODO: refactor

@@ -1,10 +1,12 @@
 import { observable, action } from 'mobx'
 import statsStore from './stats'
+import playerStore from './player'
 
 class TimelineStore {
   @observable timelines = []
   @observable sortBy = 0
   @observable filterBy = 0
+  @observable modals = {}
   @action addTimeline (timelineStats) {
     const timeline = this.getTimeline(timelineStats.name) || {}
     if (timeline.name) this.removeTimeline(timeline.name)
@@ -39,6 +41,12 @@ class TimelineStore {
   }
   getTimeline (name) {
     return this.timelines.find(t => t.name === name)
+  }
+  @action addModal (timelineName, modal) {
+    this.modals[timelineName] = modal
+  }
+  @action clearAllModals () {
+    this.modals = {}
   }
   @action async joinTimeline (name) {
     try {
@@ -83,6 +91,18 @@ class TimelineStore {
   @action async quest (name) {
     try {
       await fetch(`http://10.0.0.6:3000/timeline/quest/${name}`, {
+        method: 'POST',
+        headers: {userId: statsStore.playerId}
+      })
+    } catch (e) {
+      console.error(e)
+    }
+  }
+  @action async stealItem (itemName, playerName) {
+    const player = playerStore.getPlayerByName(playerName)
+    const targetPlayerId = player.id
+    try {
+      await fetch(`http://10.0.0.6:3000/timeline/steal/${itemName}/${targetPlayerId}`, {
         method: 'POST',
         headers: {userId: statsStore.playerId}
       })
