@@ -32,7 +32,8 @@ export default StyleSheet.create({
     flex: 0,
     width: 272,
     color: common.foreGround,
-    fontSize: 17
+    fontSize: 17,
+    fontFamily: common.font
   },
   buttonPad: {
     flex: 2,
