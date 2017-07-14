@@ -110,6 +110,16 @@ class TimelineStore {
       console.error(e)
     }
   }
+  @action async combineItems (item1, item2, timelineName) {
+    try {
+      await fetch(`http://10.0.0.6:3000/timeline/combine/${item1}/${item2}/${timelineName}`, {
+        method: 'POST',
+        headers: {userId: statsStore.playerId}
+      })
+    } catch (e) {
+      console.error(e)
+    }
+  }
 }
 
 const timelineStore = new TimelineStore()

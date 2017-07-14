@@ -22,7 +22,7 @@ export default class Timeline extends Component {
       <Modal
         onClosed={() => timelineStore.clearAllModals()}
         animationDuration={0}
-        isOpen={modal ? true : false}
+        isOpen={modal && modal.modalType === 'steal' ? true : false}
         style={styles.modal}
         width={300}
         animated={false}

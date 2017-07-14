@@ -6,6 +6,7 @@ import MenuButton from '../menu-button'
 import Player from '../player'
 import Switch from '../switch'
 import StealModal from '../steal-modal'
+import CombineModal from '../combine-modal'
 import styles from './styles'
 import sortPlayers from './sort-players.js'
 
@@ -23,11 +24,12 @@ export default class Timeline extends Component {
     const sortIndex = sortBy === 'player' ? 0 : sortBy === 'type' ? 1 : 2
     const middleButtonRowStyle = StyleSheet.flatten([
       styles.buttonRow,
-      {marginTop: 4, marginBottom: 4}
+      {marginTop: 4}
     ])
     return (
       <View style={styles.container}>
         <StealModal timelineName={name} modal={timelineStore.modals[name]} />
+        <CombineModal timelineName={name} modal={timelineStore.modals[name]} />
         <View style={styles.scrollContainer}>
           <ScrollView>
             {
@@ -62,7 +64,10 @@ export default class Timeline extends Component {
               <MenuButton fontSize={20} style={{marginRight: 2}} title='Lock' onPress={() => timelineStore.lockTimeline(name)} />
               <MenuButton fontSize={20} style={{marginLeft: 2}} title='Unlock' onPress={() => timelineStore.unlockTimeline(name)} />
             </View>
-            <View style={styles.buttonRow}>
+            <View style={middleButtonRowStyle}>
+              <MenuButton fontSize={20} title='Combine Items' onPress={() => timelineStore.addModal(name, {modalType: 'combine'})} />
+            </View>
+            <View style={middleButtonRowStyle}>
               <MenuButton fontSize={20} title='Travel Here' onPress={() => timelineStore.joinTimeline(name)} />
             </View>
           </View>

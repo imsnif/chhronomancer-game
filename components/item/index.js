@@ -39,11 +39,17 @@ export default function Item (props) {
     unlock: unlockBright
   }
   const img = props.bright ? brightIcons[props.name] : icons[props.name]
-  return (
-    <TouchableHighlight
-      onPress={props.onPress || function () {}}
-    >
+  if (props.onPress) {
+    return (
+      <TouchableHighlight
+        onPress={props.onPress || function () {}}
+      >
+        <Image style={styles.item} source={img} />
+      </TouchableHighlight>
+    )
+  } else {
+    return (
       <Image style={styles.item} source={img} />
-    </TouchableHighlight>
-  )
+    )
+  }
 }
