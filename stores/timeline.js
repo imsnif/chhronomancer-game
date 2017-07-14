@@ -98,11 +98,11 @@ class TimelineStore {
       console.error(e)
     }
   }
-  @action async stealItem (itemName, playerName) {
+  @action async stealItem (itemName, playerName, timelineName) {
     const player = playerStore.getPlayerByName(playerName)
     const targetPlayerId = player.id
     try {
-      await fetch(`http://10.0.0.6:3000/timeline/steal/${itemName}/${targetPlayerId}`, {
+      await fetch(`http://10.0.0.6:3000/timeline/steal/${itemName}/${targetPlayerId}/${timelineName}`, {
         method: 'POST',
         headers: {userId: statsStore.playerId}
       })

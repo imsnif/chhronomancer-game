@@ -8,8 +8,8 @@ import styles from './styles'
 
 import timelineStore from '../../stores/timeline'
 
-function stealItem (modal) {
-  timelineStore.stealItem(modal.itemName, modal.playerName)
+function stealItem (modal, timelineName) {
+  timelineStore.stealItem(modal.itemName, modal.playerName, timelineName)
   timelineStore.clearAllModals()
 }
 
@@ -40,7 +40,7 @@ export default class Timeline extends Component {
             <Text style={[styles.text, {flex: 1}]}>{modal ? modal.playerName : null}?</Text>
             <View style={{flex: 1, flexDirection: 'row'}}>
               <View style={{flex: 1, marginRight: 2}}>
-                <MenuButton title='Yes' onPress={() => stealItem(modal)} />
+                <MenuButton title='Yes' onPress={() => stealItem(modal, timelineName)} />
               </View>
               <View style={{flex: 1, marginLeft: 2}}>
                 <MenuButton title='No' onPress={() => timelineStore.clearAllModals()} />

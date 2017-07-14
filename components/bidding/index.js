@@ -31,8 +31,9 @@ export default class Bidding extends Component {
     const source = player.name
     const sourceImage = {uri: `http://10.0.0.6:3000/placeholders/${player.name}.png`}
     const destination = power.target
+    const destinationPlayer = playerStore.getPlayer(destination.id)
     const destinationImage = destination.type === 'player'
-      ? {uri: `http://10.0.0.6:3000/placeholders/${playerStore.getPlayer(destination.id).name}.png`}
+      ? {uri: `http://10.0.0.6:3000/placeholders/${destinationPlayer.name}.png`}
       : images[timeline.type]
     const allies = power.allies
     const enemies = power.enemies
@@ -57,7 +58,7 @@ export default class Bidding extends Component {
             <ExternalParties name={source} total={totalFor} image={sourceImage} parties={allies} onPress={() => powerStore.assist(timelineName, playerId)}/>
           </View>
           <View style={{flex: 1}}>
-            <ExternalParties name={destination.name} total={totalAgainst} image={destinationImage} parties={enemies} onPress={() => powerStore.prevent(timelineName, playerId)}/>
+            <ExternalParties name={destinationPlayer.name} total={totalAgainst} image={destinationImage} parties={enemies} onPress={() => powerStore.prevent(timelineName, playerId)}/>
           </View>
         </View>
       </View>
