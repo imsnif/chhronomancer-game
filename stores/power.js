@@ -17,6 +17,7 @@ class PowerStore {
   }) {
     const power = this.getPower(playerId, timelineName) || {}
     if (power.playerId && power.timelineName) this.removePower(power.playerId, power.timelineName)
+    if (!name) return // empty power, just delete it
     this.powers.push(Object.assign({}, power, {
       playerId,
       timelineName,
