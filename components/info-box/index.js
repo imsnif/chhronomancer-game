@@ -20,7 +20,7 @@ export default class InfoBox extends Component {
               </Image>
             : <Image source={image} style={styles.imageBox} />
         }
-          <Text style={styles.titleText}>{title}</Text>
+          <Text numberOfLines={1} style={styles.titleText}>{title}</Text>
           { rightImage ? <Image source={rightImage} style={styles.imageBox} /> : null }
         </View>
         <View style={styles.contentBox}>{this.props.children}</View>

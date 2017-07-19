@@ -42,6 +42,7 @@ export default function Item (props) {
   if (props.onPress) {
     return (
       <TouchableHighlight
+        underlayColor='#141313'
         onPress={props.onPress || function () {}}
       >
         <Image style={styles.item} source={img} />

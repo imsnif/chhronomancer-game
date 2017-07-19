@@ -22,8 +22,8 @@ export default class ListBox extends Component {
                 : <Image source={image} style={styles.imageBox} />
               : null
           }
-          <Text style={subtitle ? styles.titleTextWithSubtitle : styles.titleText}>{title}</Text>
-          {subtitle ? <Text style={styles.subtitleText}>{subtitle}</Text> : null}
+          <Text numberOfLines={1} style={subtitle ? styles.titleTextWithSubtitle : styles.titleText}>{title}</Text>
+          {subtitle ? <Text numberOfLines={1} style={styles.subtitleText}>{subtitle}</Text> : null}
         </View>
         <View style={styles.contentBox}>{this.props.children}</View>
       </View>

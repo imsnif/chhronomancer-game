@@ -13,7 +13,7 @@ export default class ExternalParties extends Component {
     const parties = this.props.parties || []
     const { name, total, image } = this.props
     return (
-      <ListBox title={name} subtitle={total} image={Object.assign({}, image, {type: 'player'})}>
+      <ListBox title={name} subtitle={total} image={image.uri ? Object.assign({}, image, {type: 'player'}) : image}>
         <View style={styles.playerList}>
           {
             parties.map(({id, score}) => {
@@ -24,7 +24,7 @@ export default class ExternalParties extends Component {
                     <View style={{opacity: 0.5, width: '100%', height: '100%', backgroundColor: 'green'}} />
                   </Image>
                   <View style={styles.nameTextBox}>
-                    <Text style={styles.nameText}>{player.name}</Text>
+                    <Text numberOfLines={1} style={styles.nameText}>{player.name}</Text>
                   </View>
                   <View style={styles.scoreTextBox}>
                     <Text style={styles.scoreText}>{score}</Text>

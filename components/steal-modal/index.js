@@ -37,7 +37,7 @@ export default class StealModal extends Component {
               <Item name={modal ? modal.itemName : null} fill/>
             </View>
             <Text style={[styles.text, {flex: 1}]}>from</Text>
-            <Text style={[styles.text, {flex: 1}]}>{modal ? modal.playerName : null}?</Text>
+            <Text numberOfLines={1} style={[styles.text, {flex: 1}]}>{modal ? modal.playerName : null}?</Text>
             <View style={{flex: 1, flexDirection: 'row'}}>
               <View style={{flex: 1, marginRight: 2}}>
                 <MenuButton title='Yes' onPress={() => stealItem(modal, timelineName)} />

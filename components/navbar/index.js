@@ -43,13 +43,13 @@ export default class NavBar extends Component {
             style={{flex: 0, color: '#329932', fontFamily: 'telegrama_raw', textAlign: 'center', textAlignVertical: 'bottom', includeFontPadding: false, lineHeight: 22, height: 19}}
           >Actions: {actions}</Text>
           <View style={{height: 15, flexDirection: 'row', justifyContent: 'space-between'}}>
-            <TouchableHighlight underlayColor={commonStyles.backgroundColor} onPress={() => this.navigate('character-sheet')} style={{flex: 1}}>
+            <TouchableHighlight underlayColor={commonStyles.backGround} onPress={() => this.navigate('character-sheet')} style={{flex: 1}}>
               <Text
                 style={{flex: 1, color: '#329932', fontFamily: 'telegrama_raw', textAlign: 'center', textAlignVertical: 'bottom', includeFontPadding: false, lineHeight: 9, height: 9}}>
                 { screenName === 'character-sheet' ? '[ Character ]' : 'Character' }
               </Text>
             </TouchableHighlight>
-            <TouchableHighlight underlayColor={commonStyles.backgroundColor} onPress={() => this.navigate('timeline-grid')} style={{flex: 1}}>
+            <TouchableHighlight underlayColor={commonStyles.backGround} onPress={() => this.navigate('timeline-grid')} style={{flex: 1}}>
               <Text
                 style={{flex: 1, color: '#329932', fontFamily: 'telegrama_raw', textAlign: 'center', textAlignVertical: 'bottom', includeFontPadding: false, lineHeight: 9, height: 9}}>
                 { screenName === 'timeline-grid' ? '[ Timelines ]' : 'Timelines' }
