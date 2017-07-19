@@ -56,8 +56,11 @@ export default class Player extends Component {
     const activePower = powerStore.getPower(player.id, timelineName)
     const count = new Set(player.items.map(i => i.name)).size
     return (
-      <TouchableHighlight onPress={() => this.navigate(player.id, timelineName)}>
-        <InfoBox title={player.name} image={{uri: `http://10.0.0.6:3000/placeholders/${player.name}.png`}}>
+      <TouchableHighlight
+         underlayColor='#141313'
+         onPress={activePower ? () => this.navigate(player.id, timelineName) : () => {}}
+       >
+        <InfoBox title={player.name} image={{type: 'player', uri: player.picture}}>
           <View style={{flex: 1, paddingTop: 25}}>
             {
               activePower

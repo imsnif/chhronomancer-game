@@ -24,10 +24,13 @@ export default class CharacterSheet extends Component {
       return memo
     }, [])
     const itemCount = player.items.filter(i => i.source).length
+    const profilePic = player.picture
     return (
       <View style={styles.container}>
         <View style={styles.titleItem}>
-          <Image style={styles.playerImageBox} source={{uri: `http://10.0.0.6:3000/placeholders/${player.name}.png`}} />
+          <Image style={styles.playerImageBox} source={{uri: profilePic || `http://10.0.0.6:3000/placeholders/${player.name}.png`}}>
+            <View style={{width: '100%', height: '100%', backgroundColor: 'green', opacity: 0.5}} />
+          </Image>
           <Text style={StyleSheet.flatten([styles.titleTextSmall, {flex: 5}])}>{player.name}</Text>
         </View>
         <View style={styles.titleItem}>

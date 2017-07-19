@@ -20,7 +20,7 @@ export default class CombineModal extends Component {
   render () {
     const player = playerStore.getPlayer(statsStore.playerId)
     const timelineName = this.props.timelineName
-    const modal = this.props.modal
+    const modal = timelineStore.modals.get(timelineName)
     return (
       <Modal
         onClosed={() => timelineStore.clearAllModals()}

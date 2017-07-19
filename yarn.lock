@@ -2522,6 +2522,10 @@ istanbul-reports@^1.0.2:
   dependencies:
     handlebars "^4.0.3"
 
+itypeof@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npmjs.org/itypeof/-/itypeof-1.1.2.tgz#6fb22639dc78a414f594b3d553a5f2c2488fd022"
+
 jest-changed-files@^19.0.2:
   version "19.0.2"
   resolved "https://registry.yarnpkg.com/jest-changed-files/-/jest-changed-files-19.0.2.tgz#16c54c84c3270be408e06d2e8af3f3e37a885824"
@@ -3674,6 +3678,12 @@ react-dom@^15.5.4:
 react-native-button@^1.8.2:
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/react-native-button/-/react-native-button-1.8.2.tgz#49e5cadd22ee443adea52a85539d288aa2117ade"
+
+react-native-facebook-login@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.npmjs.org/react-native-facebook-login/-/react-native-facebook-login-1.5.0.tgz#539fa97e522c6303aa75658d6b56fcee744dd44e"
+  dependencies:
+    itypeof "^1.1.2"
 
 react-native-modalbox@^1.4.0:
   version "1.4.0"

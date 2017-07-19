@@ -14,10 +14,10 @@ function stealItem (modal, timelineName) {
 }
 
 @observer
-export default class Timeline extends Component {
+export default class StealModal extends Component {
   render () {
     const timelineName = this.props.timelineName
-    const modal = this.props.modal
+    const modal = timelineStore.modals.get(timelineName)
     return (
       <Modal
         onClosed={() => timelineStore.clearAllModals()}

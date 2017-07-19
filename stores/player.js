@@ -2,14 +2,25 @@ import { observable, action } from 'mobx'
 
 class PlayerStore {
   @observable players = []
-  @action addPlayer ({id, name, items, actions}) {
+  @action addPlayer ({id, name, items, actions, picture}) {
+    console.log('adding player:', id)
     const player = this.getPlayer(id) || {}
     if (player.id) this.removePlayer(player.id)
+    const pic = picture || 'http://10.0.0.6:3000/placeholders/nopic.png' // TODO: from config
+    console.log('pic is:', pic)
+    console.log('pushing:', Object.assign({}, player, {
+      id,
+      name,
+      items,
+      actions,
+      picture: pic
+    }))
     this.players.push(Object.assign({}, player, {
       id,
       name,
       items,
-      actions
+      actions,
+      picture: pic
     }))
   }
   @action removePlayer (id) {

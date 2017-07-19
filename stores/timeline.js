@@ -1,4 +1,4 @@
-import { observable, action } from 'mobx'
+import { observable, action, extendObservable } from 'mobx'
 import statsStore from './stats'
 import playerStore from './player'
 
@@ -6,7 +6,7 @@ class TimelineStore {
   @observable timelines = []
   @observable sortBy = 0
   @observable filterBy = 0
-  @observable modals = {}
+  @observable modals = new Map()
   @action addTimeline (timelineStats) {
     const timeline = this.getTimeline(timelineStats.name) || {}
     if (timeline.name) this.removeTimeline(timeline.name)
@@ -43,10 +43,10 @@ class TimelineStore {
     return this.timelines.find(t => t.name === name)
   }
   @action addModal (timelineName, modal) {
-    this.modals[timelineName] = modal
+    this.modals.set(timelineName, modal)
   }
   @action clearAllModals () {
-    this.modals = {}
+    this.modals.clear()
   }
   @action async joinTimeline (name) {
     try {

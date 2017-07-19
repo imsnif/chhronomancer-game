@@ -28,8 +28,8 @@ export default class Timeline extends Component {
     ])
     return (
       <View style={styles.container}>
-        <StealModal timelineName={name} modal={timelineStore.modals[name]} />
-        <CombineModal timelineName={name} modal={timelineStore.modals[name]} />
+        <StealModal timelineName={name} />
+        <CombineModal timelineName={name} />
         <View style={styles.scrollContainer}>
           <ScrollView>
             {

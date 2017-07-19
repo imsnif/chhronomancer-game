@@ -13,7 +13,15 @@ export default class ListBox extends Component {
     return (
       <View style={styles.outerBox}>
         <View style={styles.titleBar}>
-          {image ? <Image source={image} style={styles.imageBox} /> : null}
+          {
+            image
+              ? image.type && image.type === 'player'
+                ? <Image source={{uri: image.uri}} style={styles.imageBox}>
+                  <View style={{backgroundColor: 'green', width: '100%', height: '100%', opacity: 0.5}} />
+                </Image>
+                : <Image source={image} style={styles.imageBox} />
+              : null
+          }
           <Text style={subtitle ? styles.titleTextWithSubtitle : styles.titleText}>{title}</Text>
           {subtitle ? <Text style={styles.subtitleText}>{subtitle}</Text> : null}
         </View>
