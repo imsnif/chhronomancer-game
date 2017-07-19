@@ -28,7 +28,11 @@ export default class PlayerIterations extends Component {
               const progress = powerStore.getProgress(playerId, timelineName)
               const timeLeft = powerStore.getTimeLeft(playerId, timelineName)
               return (
-                <TouchableHighlight key={index} onPress={() => this.navigate(playerId, timelineName)}>
+                <TouchableHighlight
+                  underlayColor='#141313'
+                  key={index}
+                  onPress={() => this.navigate(playerId, timelineName)}
+                >
                   <View style={styles.iterationItem}>
                     <Text style={styles.timelineName}>{timelineName}</Text>
                     <View style={{flex: 1}}>
