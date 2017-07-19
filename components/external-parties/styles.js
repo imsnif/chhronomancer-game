@@ -19,7 +19,7 @@ export default StyleSheet.create({
     resizeMode: 'stretch'
   },
   nameTextBox: {
-    flex: 8,
+    flex: 3,
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center'
@@ -29,7 +29,9 @@ export default StyleSheet.create({
     fontFamily: 'telegrama_raw',
     flex: 1,
     alignSelf: 'center',
-    paddingTop: 3
+    paddingTop: 3,
+    paddingLeft: 3,
+    paddingRight: 5
   },
   scoreTextBox: {
     flex: 1,
@@ -42,7 +44,8 @@ export default StyleSheet.create({
     fontFamily: 'telegrama_raw',
     flex: 1,
     alignSelf: 'center',
-    paddingTop: 3
+    paddingTop: 3,
+    paddingRight: 1
   },
   buttonContainer: {
     flex: 1,
