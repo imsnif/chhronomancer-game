@@ -44,7 +44,7 @@ export default class CombineModal extends Component {
                 <Item name='lock' fill={player.items.map(i => i.name).includes('lock')} />
               </View>
             </TouchableHighlight>
-            <TouchableHighlight onPress={() => combineItems('reset', 'steal', timelineName)} style={{flex: 1}}>
+            <TouchableHighlight onPress={() => combineItems('steal', 'reset', timelineName)} style={{flex: 1}}>
               <View style={{flexDirection: 'row', flex: 1, alignItems: 'center', justifyContent: 'center'}}>
                 <Item name='reset' fill={player.items.map(i => i.name).includes('reset')} />
                 <Text style={{flex: 1, color: 'green', maxWidth: 10}}>+</Text>
