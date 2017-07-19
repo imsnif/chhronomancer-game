@@ -41,19 +41,21 @@ export default function ItemList (props) {
   return (
     <ListBox title='Items' subtitle={`Cap: ${itemCount}/7`}>
       {
-        items.map((item, index) => {
-          const itemCount = item.count
+        Object.keys(itemNames)
+        .map((itemName, index) => {
+          const item = items.find(i => i.name === itemName)
+          const itemCount = item && item.count ? item.count : 0
           const nameAndCountString = itemCount > 1
-            ? `${itemNames[item.name]} (x${itemCount})`
-            : itemNames[item.name]
+            ? `${itemNames[itemName]} (x${itemCount})`
+            : itemNames[itemName]
           return (
             <View key={index} style={styles.item}>
               <Image
-                source={item.source ? images[item.name] : imagesEmpty[item.name]}
+                source={item && item.source ? images[itemName] : imagesEmpty[itemName]}
                 style={styles.itemImageBox}
               />
               <View style={styles.itemName}>
-                <Text style={item.source ? styles.boldNameText : styles.nameText}>{nameAndCountString}</Text>
+                <Text style={item && item.source ? styles.boldNameText : styles.nameText}>{nameAndCountString}</Text>
                 <Text style={styles.details}>?</Text>
               </View>
             </View>
