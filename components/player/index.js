@@ -41,17 +41,16 @@ export default class Player extends Component {
       bright: item.source === timelineName,
       onPress: () => timelineStore.addModal(timelineName, {modalType: 'steal', itemName: item.name, playerName: player.name})
     }))
-    const midItems = Object.keys(_.pick(player.items, ['lock', 'unlock']))
-      .map(item => ({name: item, fill: player.items[item], bright: player.items[item] === timelineName}))
-    .filter(item => (
+    const midItems = player.items
+    .filter(item => ( // TODO: move this logic to a separate function
       item.name === 'lock' ||
-      item.name === 'unlock'
-    ))
+      item.name === 'unlock')
+    )
     .map(item => ({
       name: item.name,
       fill: item.source,
       bright: item.source === timelineName,
-      onPress: () => timelineStore.addModal(timelineName, {itemName: item.name, playerName: player.name})
+      onPress: () => timelineStore.addModal(timelineName, {modalType: 'steal', itemName: item.name, playerName: player.name})
     }))
     const activePower = powerStore.getPower(player.id, timelineName)
     const count = new Set(player.items.map(i => i.name)).size
