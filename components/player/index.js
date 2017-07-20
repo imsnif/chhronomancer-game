@@ -37,7 +37,7 @@ export default class Player extends Component {
     )
     .map(item => ({
       name: item.name,
-      fill: item.source,
+      fill: true,
       bright: item.source === timelineName,
       onPress: () => timelineStore.addModal(timelineName, {modalType: 'steal', itemName: item.name, playerName: player.name})
     }))
@@ -48,7 +48,7 @@ export default class Player extends Component {
     )
     .map(item => ({
       name: item.name,
-      fill: item.source,
+      fill: true,
       bright: item.source === timelineName,
       onPress: () => timelineStore.addModal(timelineName, {modalType: 'steal', itemName: item.name, playerName: player.name})
     }))
