@@ -15,14 +15,23 @@ class StatsStore {
   }
   @action async login (data) {
     try {
-      await fetch(`http://10.0.0.6:3000/player/update`, {
-        method: 'POST',
-        headers: {
-          userId: data.credentials.userId,
-          userPic: data.profile.picture.data.url,
-          name: data.profile.name
-        }
-      })
+      if (!data || !data.credentials || !data.credentials.userId) throw new Error('no userid!')
+      if (
+        data.profile &&
+        data.profile.name &&
+        data.profile.picture &&
+        data.profile.picture.data &&
+        data.profile.picture.data.url
+      ) { // TODO: fix this
+        await fetch(`http://10.0.0.6:3000/player/update`, {
+          method: 'POST',
+          headers: {
+            userId: data.credentials.userId,
+            userPic: data.profile.picture.data.url,
+            name: data.profile.name
+          }
+        })
+      }
       this.playerId = String(data.credentials.userId)
     } catch (e) {
       console.error(e)

@@ -50,9 +50,7 @@ class FBLoginView extends Component { // TODO: move elsewhere
 export default class chronomancer extends Component {
   render () {
     const loggedIn = statsStore.loggedIn
-    console.log('loggedIn:', loggedIn)
     if (loggedIn) {
-      console.log('in if')
       return (
         <Navigator
           style={{ flex: 1 }}
@@ -62,7 +60,6 @@ export default class chronomancer extends Component {
         />
       )
     } else if (statsStore.connected) {
-      console.log('els if...')
       return (
         <View style={{backgroundColor: 'black', height: '100%', width: '100%'}}>
           <Text style={{color: 'green', fontFamily: 'telegrama_raw'}}>Connected! Waiting for game... (playerId: {statsStore.playerId})</Text>
@@ -73,9 +70,7 @@ export default class chronomancer extends Component {
         <FBLogin style={{ marginBottom: 10, }}
           buttonView={<FBLoginView />}
           permissions={["email","user_friends"]}
-          loginBehavior={FBLoginManager.LoginBehaviors.Web}
           onLogin={function(data){
-            console.log("Logged in!", data)
             statsStore.login(data)
             connect(data.credentials.userId) // TODO: move to statsStore
             let reconnect = setInterval(() => { // TODO: fix this
@@ -87,8 +82,12 @@ export default class chronomancer extends Component {
             console.log("Logged out.");
           }}
           onLoginFound={function(data){
-            console.log("Existing login found.");
-            console.log(data);
+            statsStore.login(data)
+            connect(String(data.credentials.userId)) // TODO: move to statsStore
+            let reconnect = setInterval(() => { // TODO: fix this
+              if (statsStore.loggedIn) return clearInterval(reconnect)
+              connect(data.credentials.userId)
+            }, 500)
           }}
           onLoginNotFound={function(){
             console.log("No user logged in.");
