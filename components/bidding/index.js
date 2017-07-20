@@ -18,6 +18,14 @@ const images = {steal, assist, prevent, reset}
 
 @observer
 export default class Bidding extends Component {
+  componentDidUpdate () {
+    const playerId = this.props.playerId
+    const timelineName = this.props.timelineName
+    const power = powerStore.getPower(playerId, timelineName)
+    if (!power) {
+      this.props.navigator.pop()
+    }
+  }
   render () {
     const time = clockStore.time
     const playerId = this.props.playerId
@@ -25,13 +33,15 @@ export default class Bidding extends Component {
     const timelineName = this.props.timelineName
     const timeline = timelineStore.getTimeline(timelineName)
     const power = powerStore.getPower(playerId, timelineName)
+    if (!power) {
+      return null
+    }
     const powerName = power.name
     const timeLeft = powerStore.getTimeLeft(playerId, timelineName, time).get()
     const percentage = powerStore.getProgress(playerId, timelineName, time).get()
     const source = player.name
     const sourceImage = {uri: player.picture}
     const destination = power.target
-    console.log('power:', power)
     const destinationPlayer = playerStore.getPlayer(destination.id)
     const destinationImage = destination.type === 'player'
       ? {uri: destinationPlayer.picture}

@@ -132,11 +132,11 @@ export default class chronomancer extends Component {
           <Bidding
             playerId={route.playerId}
             timelineName={route.timelineName}
+            navigator={navigator}
           />
         </NavBar>
       )
     } else if (route.screenName === 'character-sheet') {
-      console.log('rendering char sheet', statsStore.playerId)
       return (
         <NavBar navigator={navigator}>
           <CharacterSheet playerId={statsStore.playerId} navigator={navigator} />
