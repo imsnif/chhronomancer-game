@@ -36,6 +36,10 @@ export default function connect (userId) { // TODO: add id as header
           : [data.timelines]
         timelinesData.forEach(t => timelineStore.addTimeline(t))
       }
+      if (data.games) {
+        const gameData = data.games[0]  || data.games // TODO: fix server to only report current game
+        if (gameData) statsStore.announceWinner(gameData.winnerId)
+      }
     } catch (err) {} // fail silently
   }
 }

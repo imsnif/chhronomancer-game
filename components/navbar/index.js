@@ -6,6 +6,8 @@ import playersStore from '../../stores/player'
 import timelineStore from '../../stores/timeline'
 import statsStore from '../../stores/stats'
 
+import GameOver from '../game-over'
+
 import commonStyles from '../common/styles'
 
 @observer
@@ -31,6 +33,12 @@ export default class NavBar extends Component {
   }
   render () {
     // TODO: refactor
+    const winnerId = statsStore.winnerId
+    if (winnerId) {
+      return (
+        <GameOver navigator={this.props.navigator} />
+      )
+    }
     const screens = this.props.navigator.getCurrentRoutes()
     const { screenName } = screens[screens.length - 1]
     const { playerId } = statsStore

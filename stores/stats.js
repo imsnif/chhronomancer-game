@@ -4,6 +4,7 @@ import playerStore from './player'
 class StatsStore {
   @observable playerId = null
   @observable connected = false
+  @observable winnerId = false
   @computed get loggedIn() {
     return playerStore.players.map(p => p.id).includes(this.playerId)
   }
@@ -12,6 +13,9 @@ class StatsStore {
   }
   @action connect () {
     this.connected = true
+  }
+  @action announceWinner (id) {
+    this.winnerId = id
   }
   @action async login (data) {
     try {

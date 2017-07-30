@@ -11,6 +11,7 @@ import Timeline from './timeline'
 import TimelineGrid from './timeline-grid'
 import Bidding from './bidding'
 import NavBar from './navbar'
+import GameOver from './game-over'
 import CharacterSheet from './character-sheet'
 import connect from '../connect'
 
