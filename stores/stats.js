@@ -5,6 +5,7 @@ class StatsStore {
   @observable playerId = null
   @observable connected = false
   @observable winnerId = false
+  @observable accessToken = false
   @computed get loggedIn() {
     return playerStore.players.map(p => p.id).includes(this.playerId)
   }
@@ -20,22 +21,13 @@ class StatsStore {
   @action async login (data) {
     try {
       if (!data || !data.credentials || !data.credentials.userId) throw new Error('no userid!')
-      if (
-        data.profile &&
-        data.profile.name &&
-        data.profile.picture &&
-        data.profile.picture.data &&
-        data.profile.picture.data.url
-      ) { // TODO: fix this
-        await fetch(`http://10.0.0.6:3000/player/update`, {
-          method: 'POST',
-          headers: {
-            userId: data.credentials.userId,
-            userPic: data.profile.picture.data.url,
-            name: data.profile.name
-          }
-        })
-      }
+      this.accessToken = data.credentials.token
+      await fetch(`http://10.0.0.6:3000/player/update`, {
+        method: 'POST',
+        headers: {
+          access_token: this.accessToken
+        }
+      })
       this.playerId = String(data.credentials.userId)
     } catch (e) {
       console.error(e)

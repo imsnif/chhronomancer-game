@@ -52,7 +52,7 @@ class TimelineStore {
     try {
       await fetch(`http://10.0.0.6:3000/timeline/join/${name}`, {
         method: 'POST',
-        headers: {userId: statsStore.playerId}
+        headers: {access_token: statsStore.accessToken}
       })
     } catch (e) {
       console.error(e)
@@ -62,7 +62,7 @@ class TimelineStore {
     try {
       await fetch(`http://10.0.0.6:3000/timeline/lock/${name}`, {
         method: 'POST',
-        headers: {userId: statsStore.playerId}
+        headers: {access_token: statsStore.accessToken}
       })
     } catch (e) {
       console.error(e)
@@ -72,7 +72,7 @@ class TimelineStore {
     try {
       await fetch(`http://10.0.0.6:3000/timeline/unlock/${name}`, {
         method: 'POST',
-        headers: {userId: statsStore.playerId}
+        headers: {access_token: statsStore.accessToken}
       })
     } catch (e) {
       console.error(e)
@@ -82,7 +82,7 @@ class TimelineStore {
     try {
       await fetch(`http://10.0.0.6:3000/timeline/reset/${name}`, {
         method: 'POST',
-        headers: {userId: statsStore.playerId}
+        headers: {access_token: statsStore.accessToken}
       })
     } catch (e) {
       console.error(e)
@@ -92,7 +92,7 @@ class TimelineStore {
     try {
       await fetch(`http://10.0.0.6:3000/timeline/quest/${name}`, {
         method: 'POST',
-        headers: {userId: statsStore.playerId}
+        headers: {access_token: statsStore.accessToken}
       })
     } catch (e) {
       console.error(e)
@@ -104,7 +104,7 @@ class TimelineStore {
     try {
       await fetch(`http://10.0.0.6:3000/timeline/steal/${itemName}/${targetPlayerId}/${timelineName}`, {
         method: 'POST',
-        headers: {userId: statsStore.playerId}
+        headers: {access_token: statsStore.accessToken}
       })
     } catch (e) {
       console.error(e)
@@ -114,7 +114,7 @@ class TimelineStore {
     try {
       await fetch(`http://10.0.0.6:3000/timeline/combine/${item1}/${item2}/${timelineName}`, {
         method: 'POST',
-        headers: {userId: statsStore.playerId}
+        headers: {access_token: statsStore.accessToken}
       })
     } catch (e) {
       console.error(e)

@@ -61,6 +61,7 @@ export default class chronomancer extends Component {
         />
       )
     } else if (statsStore.connected) {
+      // TODO: move below component elsewhere
       return (
         <View style={{backgroundColor: 'black', height: '100%', width: '100%'}}>
           <Text style={{color: 'green', fontFamily: 'telegrama_raw'}}>Connected! Waiting for game... (playerId: {statsStore.playerId})</Text>
@@ -71,6 +72,7 @@ export default class chronomancer extends Component {
         <FBLogin style={{ marginBottom: 10, }}
           buttonView={<FBLoginView />}
           permissions={["email","user_friends"]}
+          loginBehavior={FBLoginManager.LoginBehaviors.Web}
           onLogin={function(data){
             statsStore.login(data)
             connect(data.credentials.userId) // TODO: move to statsStore
@@ -79,9 +81,6 @@ export default class chronomancer extends Component {
               connect(data.credentials.userId)
             }, 500)
           }}
-          onLogout={function(){
-            console.log("Logged out.");
-          }}
           onLoginFound={function(data){
             statsStore.login(data)
             connect(String(data.credentials.userId)) // TODO: move to statsStore
@@ -89,20 +88,6 @@ export default class chronomancer extends Component {
               if (statsStore.loggedIn) return clearInterval(reconnect)
               connect(data.credentials.userId)
             }, 500)
-          }}
-          onLoginNotFound={function(){
-            console.log("No user logged in.");
-          }}
-          onError={function(data){
-            console.log("ERROR");
-            console.log(data);
-          }}
-          onCancel={function(){
-            console.log("User cancelled.");
-          }}
-          onPermissionsMissing={function(data){
-            console.log("Check permissions!");
-            console.log(data);
           }}
         />
       )
