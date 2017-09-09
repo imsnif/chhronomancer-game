@@ -13,13 +13,13 @@ export default class InfoBox extends Component {
     return (
       <View style={styles.outerBox}>
         <View style={styles.titleBar}>
-        {
-          image.type === 'player'
-            ? <Image style={styles.imageBox} source={{uri: image.uri}}>
+          {
+            image.type === 'player'
+              ? <Image style={styles.imageBox} source={{uri: image.uri}}>
                 <View style={{width: '100%', height: '100%', backgroundColor: 'green', opacity: 0.5}} />
               </Image>
-            : <Image source={image} style={styles.imageBox} />
-        }
+              : <Image source={image} style={styles.imageBox} />
+          }
           <Text numberOfLines={1} style={styles.titleText}>{title}</Text>
           { rightImage ? <Image source={rightImage} style={styles.imageBox} /> : null }
         </View>

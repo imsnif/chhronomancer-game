@@ -6,7 +6,7 @@ class StatsStore {
   @observable connected = false
   @observable winnerId = false
   @observable accessToken = false
-  @computed get loggedIn() {
+  @computed get loggedIn () {
     return playerStore.players.map(p => p.id).includes(this.playerId)
   }
   @action changePlayerId (id) {

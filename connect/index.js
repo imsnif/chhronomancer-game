@@ -7,9 +7,9 @@ let ws = false
 
 export default function connect (userId) { // TODO: add id as header
   if (ws) ws.close()
-    ws = new WebSocket('ws://10.0.0.6:3000/socket/feed', '', {
-      access_token: statsStore.accessToken
-    }) // TODO: from config
+  ws = new WebSocket('ws://10.0.0.6:3000/socket/feed', '', {
+    access_token: statsStore.accessToken
+  }) // TODO: from config
 
   ws.onopen = () => {
     statsStore.connect()
@@ -39,7 +39,7 @@ export default function connect (userId) { // TODO: add id as header
         timelinesData.forEach(t => timelineStore.addTimeline(t))
       }
       if (data.games) {
-        const gameData = data.games[0]  || data.games // TODO: fix server to only report current game
+        const gameData = data.games[0] || data.games // TODO: fix server to only report current game
         if (gameData) statsStore.announceWinner(gameData.winnerId)
       }
     } catch (err) {} // fail silently

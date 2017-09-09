@@ -15,7 +15,7 @@ export default StyleSheet.create({
     marginRight: 1,
     marginLeft: 16
   },
-  topBorder:{
+  topBorder: {
     paddingLeft: 15,
     paddingRight: 15,
     color: common.foreGround,

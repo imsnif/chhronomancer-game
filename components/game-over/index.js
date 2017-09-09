@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { observer } from 'mobx-react/native'
-import { View, Text, Image, StyleSheet } from 'react-native'
-import ItemList from '../item-list'
-import PlayerIterations from '../player-iterations'
+import { View, Text, Image } from 'react-native'
 import styles from './styles'
 
 import playerStore from '../../stores/player'

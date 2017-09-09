@@ -44,7 +44,9 @@
       "jest",
       "test",
       "beforeEach",
-      "afterEach"
+      "afterEach",
+      "WebSocket",
+      "fetch"
     ]
   },
   "jest": {

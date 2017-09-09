@@ -11,7 +11,6 @@ import Timeline from './timeline'
 import TimelineGrid from './timeline-grid'
 import Bidding from './bidding'
 import NavBar from './navbar'
-import GameOver from './game-over'
 import CharacterSheet from './character-sheet'
 import connect from '../connect'
 
@@ -37,12 +36,9 @@ const InstantTransition = { // TODO: move this somewhere else
 }
 
 class FBLoginView extends Component { // TODO: move elsewhere
-  constructor (props) {
-    super(props)
-  }
   render () {
     return (
-      <View style={{height: '100%', width: '100%', backgroundColor: 'black'}}/>
+      <View style={{height: '100%', width: '100%', backgroundColor: 'black'}} />
     )
   }
 }
@@ -69,11 +65,11 @@ export default class chronomancer extends Component {
       )
     } else {
       return (
-        <FBLogin style={{ marginBottom: 10, }}
+        <FBLogin style={{ marginBottom: 10 }}
           buttonView={<FBLoginView />}
-          permissions={["email","user_friends"]}
+          permissions={['email', 'user_friends']}
           loginBehavior={FBLoginManager.LoginBehaviors.Web}
-          onLogin={function(data){
+          onLogin={function (data) {
             statsStore.login(data)
             connect(data.credentials.userId) // TODO: move to statsStore
             let reconnect = setInterval(() => { // TODO: fix this
@@ -81,7 +77,7 @@ export default class chronomancer extends Component {
               connect(data.credentials.userId)
             }, 5000) // TODO: reconnect timeout from config
           }}
-          onLoginFound={function(data){
+          onLoginFound={function (data) {
             statsStore.login(data)
             connect(String(data.credentials.userId)) // TODO: move to statsStore
             let reconnect = setInterval(() => { // TODO: fix this

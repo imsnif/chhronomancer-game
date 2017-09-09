@@ -10,7 +10,7 @@ export default StyleSheet.create({
     width: 300,
     backgroundColor: common.backGround
   },
-  topBorder:{
+  topBorder: {
     color: common.foreGround,
     fontSize: 21,
     height: 15,
@@ -27,7 +27,7 @@ export default StyleSheet.create({
     marginRight: 1,
     marginLeft: 1
   },
-  text:{
+  text: {
     textAlign: 'center',
     flex: 0,
     width: 272,

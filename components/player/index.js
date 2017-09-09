@@ -1,4 +1,3 @@
-import _ from 'lodash'
 import React, { Component } from 'react'
 import { View, TouchableHighlight } from 'react-native'
 import { observer } from 'mobx-react/native'
@@ -56,9 +55,9 @@ export default class Player extends Component {
     const count = new Set(player.items.map(i => i.name)).size
     return (
       <TouchableHighlight
-         underlayColor='#141313'
-         onPress={activePower ? () => this.navigate(player.id, timelineName) : () => {}}
-       >
+        underlayColor='#141313'
+        onPress={activePower ? () => this.navigate(player.id, timelineName) : () => {}}
+      >
         <InfoBox title={player.name} image={{type: 'player', uri: player.picture}}>
           <View style={{flex: 1, paddingTop: 25}}>
             {

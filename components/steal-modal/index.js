@@ -22,11 +22,11 @@ export default class StealModal extends Component {
       <Modal
         onClosed={() => timelineStore.clearAllModals()}
         animationDuration={0}
-        isOpen={modal && modal.modalType === 'steal' ? true : false}
+        isOpen={!!(modal && modal.modalType === 'steal')}
         style={styles.modal}
         width={300}
         animated={false}
-        transparent={true}
+        transparent
       >
         <Text style={styles.topBorder}>+------------------------------------------------+</Text>
         <View style={{flexDirection: 'row'}}>
@@ -34,7 +34,7 @@ export default class StealModal extends Component {
           <View style={{flexDirection: 'column'}}>
             <Text style={[styles.text, {flex: 1}]}>Would you like to steal</Text>
             <View style={{flex: 1, marginTop: 5, alignSelf: 'center'}}>
-              <Item name={modal ? modal.itemName : null} fill/>
+              <Item name={modal ? modal.itemName : null} fill />
             </View>
             <Text style={[styles.text, {flex: 1}]}>from</Text>
             <Text numberOfLines={1} style={[styles.text, {flex: 1}]}>{modal ? modal.playerName : null}?</Text>

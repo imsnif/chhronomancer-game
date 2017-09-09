@@ -25,11 +25,11 @@ export default class CombineModal extends Component {
       <Modal
         onClosed={() => timelineStore.clearAllModals()}
         animationDuration={0}
-        isOpen={modal && modal.modalType === 'combine' ? true : false}
+        isOpen={!!(modal && modal.modalType === 'combine')}
         style={styles.modal}
         width={300}
         animated={false}
-        transparent={true}
+        transparent
       >
         <Text style={styles.topBorder}>+------------------------------------------------+</Text>
         <View style={{flexDirection: 'row'}}>
