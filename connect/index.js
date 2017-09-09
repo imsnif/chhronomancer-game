@@ -7,7 +7,9 @@ let ws = false
 
 export default function connect (userId) { // TODO: add id as header
   if (ws) ws.close()
-  ws = new WebSocket('ws://10.0.0.6:3000') // TODO: from config
+    ws = new WebSocket('ws://10.0.0.6:3000/socket/feed', '', {
+      access_token: statsStore.accessToken
+    }) // TODO: from config
 
   ws.onopen = () => {
     statsStore.connect()

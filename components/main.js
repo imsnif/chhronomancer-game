@@ -79,7 +79,7 @@ export default class chronomancer extends Component {
             let reconnect = setInterval(() => { // TODO: fix this
               if (statsStore.loggedIn) return clearInterval(reconnect)
               connect(data.credentials.userId)
-            }, 500)
+            }, 5000) // TODO: reconnect timeout from config
           }}
           onLoginFound={function(data){
             statsStore.login(data)
@@ -87,7 +87,7 @@ export default class chronomancer extends Component {
             let reconnect = setInterval(() => { // TODO: fix this
               if (statsStore.loggedIn) return clearInterval(reconnect)
               connect(data.credentials.userId)
-            }, 500)
+            }, 5000)
           }}
         />
       )
