@@ -38,11 +38,11 @@ Object {
   "allies": undefined,
   "endTime": undefined,
   "enemies": undefined,
-  "name": undefined,
+  "name": "foo",
   "playerId": 1,
   "startTime": undefined,
   "target": undefined,
-  "timelineName": "foo",
+  "timelineName": "bar",
 }
 `;
 

@@ -93,6 +93,7 @@ exports[`TimelineGrid => renders correctly 1`] = `
                 accessible={true}
                 allowFontScaling={true}
                 ellipsizeMode="tail"
+                numberOfLines={1}
                 style={
                   Object {
                     "color": "#0e0e0e",
@@ -147,7 +148,11 @@ exports[`TimelineGrid => renders correctly 1`] = `
                 }
               >
                 <Image
-                  source={1}
+                  source={
+                    Object {
+                      "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+                    }
+                  }
                   style={
                     Object {
                       "height": 30,
@@ -155,9 +160,24 @@ exports[`TimelineGrid => renders correctly 1`] = `
                       "width": 30,
                     }
                   }
-                />
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "green",
+                        "height": "100%",
+                        "opacity": 0.5,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </Image>
                 <Image
-                  source={1}
+                  source={
+                    Object {
+                      "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+                    }
+                  }
                   style={
                     Object {
                       "height": 30,
@@ -165,9 +185,24 @@ exports[`TimelineGrid => renders correctly 1`] = `
                       "width": 30,
                     }
                   }
-                />
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "green",
+                        "height": "100%",
+                        "opacity": 0.5,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </Image>
                 <Image
-                  source={1}
+                  source={
+                    Object {
+                      "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+                    }
+                  }
                   style={
                     Object {
                       "height": 30,
@@ -175,9 +210,24 @@ exports[`TimelineGrid => renders correctly 1`] = `
                       "width": 30,
                     }
                   }
-                />
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "green",
+                        "height": "100%",
+                        "opacity": 0.5,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </Image>
                 <Image
-                  source={1}
+                  source={
+                    Object {
+                      "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+                    }
+                  }
                   style={
                     Object {
                       "height": 30,
@@ -185,7 +235,18 @@ exports[`TimelineGrid => renders correctly 1`] = `
                       "width": 30,
                     }
                   }
-                />
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "green",
+                        "height": "100%",
+                        "opacity": 0.5,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </Image>
               </View>
             </View>
           </View>
@@ -259,6 +320,7 @@ exports[`TimelineGrid => renders correctly 1`] = `
                 accessible={true}
                 allowFontScaling={true}
                 ellipsizeMode="tail"
+                numberOfLines={1}
                 style={
                   Object {
                     "color": "#0e0e0e",
@@ -297,7 +359,11 @@ exports[`TimelineGrid => renders correctly 1`] = `
                 }
               >
                 <Image
-                  source={1}
+                  source={
+                    Object {
+                      "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+                    }
+                  }
                   style={
                     Object {
                       "height": 30,
@@ -305,9 +371,24 @@ exports[`TimelineGrid => renders correctly 1`] = `
                       "width": 30,
                     }
                   }
-                />
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "green",
+                        "height": "100%",
+                        "opacity": 0.5,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </Image>
                 <Image
-                  source={1}
+                  source={
+                    Object {
+                      "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+                    }
+                  }
                   style={
                     Object {
                       "height": 30,
@@ -315,7 +396,18 @@ exports[`TimelineGrid => renders correctly 1`] = `
                       "width": 30,
                     }
                   }
-                />
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "green",
+                        "height": "100%",
+                        "opacity": 0.5,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </Image>
               </View>
             </View>
           </View>
@@ -389,6 +481,7 @@ exports[`TimelineGrid => renders correctly 1`] = `
                 accessible={true}
                 allowFontScaling={true}
                 ellipsizeMode="tail"
+                numberOfLines={1}
                 style={
                   Object {
                     "color": "#0e0e0e",
@@ -427,7 +520,11 @@ exports[`TimelineGrid => renders correctly 1`] = `
                 }
               >
                 <Image
-                  source={1}
+                  source={
+                    Object {
+                      "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+                    }
+                  }
                   style={
                     Object {
                       "height": 30,
@@ -435,9 +532,24 @@ exports[`TimelineGrid => renders correctly 1`] = `
                       "width": 30,
                     }
                   }
-                />
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "green",
+                        "height": "100%",
+                        "opacity": 0.5,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </Image>
                 <Image
-                  source={1}
+                  source={
+                    Object {
+                      "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+                    }
+                  }
                   style={
                     Object {
                       "height": 30,
@@ -445,9 +557,24 @@ exports[`TimelineGrid => renders correctly 1`] = `
                       "width": 30,
                     }
                   }
-                />
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "green",
+                        "height": "100%",
+                        "opacity": 0.5,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </Image>
                 <Image
-                  source={1}
+                  source={
+                    Object {
+                      "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+                    }
+                  }
                   style={
                     Object {
                       "height": 30,
@@ -455,7 +582,18 @@ exports[`TimelineGrid => renders correctly 1`] = `
                       "width": 30,
                     }
                   }
-                />
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "green",
+                        "height": "100%",
+                        "opacity": 0.5,
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </Image>
               </View>
             </View>
           </View>
@@ -529,6 +667,7 @@ exports[`TimelineGrid => renders correctly 1`] = `
                 accessible={true}
                 allowFontScaling={true}
                 ellipsizeMode="tail"
+                numberOfLines={1}
                 style={
                   Object {
                     "color": "#0e0e0e",
@@ -750,19 +889,19 @@ exports[`TimelineGrid => renders correctly 1`] = `
         }
       >
          |
-         |
-         |
-         |
-         |
-         |
-         |
-         |
-         |
-         |
-         |
-         |
-         |
-        
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+
       </Text>
       <View
         style={

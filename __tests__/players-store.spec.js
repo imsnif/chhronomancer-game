@@ -6,7 +6,7 @@ const fakePlayer = {
   id: 1,
   name: 'foo',
   items: {a: 1, b: 2},
-  image: '123'
+  actions: 10
 }
 
 test('PlayersStore => is constructed properly', () => {
@@ -19,7 +19,12 @@ test('PlayersStore => can add a player', () => {
   const playerStore = require('../stores/player').default
   playerStore.addPlayer(fakePlayer)
   const players = playerStore.players.map(p => p)
-  expect(players).toEqual([fakePlayer])
+  const fakePlayerWithPicture = Object.assign(
+    {},
+    fakePlayer,
+    {picture: players[0].picture}
+  )
+  expect(players).toEqual([fakePlayerWithPicture])
 })
 
 test('TimelineStore => can remove a player', () => {

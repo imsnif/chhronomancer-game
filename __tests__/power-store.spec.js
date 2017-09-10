@@ -28,30 +28,34 @@ test('PowerStore => can add a power', () => {
 test('PowerStore => can get power', () => {
   const powerStore = require('../stores/power').default
   powerStore.addPower({
+    name: 'foo',
     playerId: 1,
-    timelineName: 'foo'
+    timelineName: 'bar'
   })
-  expect(powerStore.getPower(1, 'foo')).toMatchSnapshot()
+  expect(powerStore.getPower(1, 'bar')).toMatchSnapshot()
 })
 
 test('PowerStore => can get progress', () => {
+  // TODO: fake timers with sinon's lolex to test this properly
   const powerStore = require('../stores/power').default
   powerStore.addPower({
+    name: 'foo',
     playerId: 1,
-    timelineName: 'foo',
-    startTime: 1000,
-    endTime: 2000
+    timelineName: 'bar',
+    startTime: Date.now(),
+    endTime: Date.now() + 1000
   })
-  expect(powerStore.getProgress(1, 'foo', 1500).get()).toEqual(100)
+  expect(powerStore.getProgress(1, 'bar').get()).toEqual(0)
 })
 
 test('PowerStore => can get timeLeft', () => {
   const powerStore = require('../stores/power').default
   powerStore.addPower({
+    name: 'foo',
     playerId: 1,
-    timelineName: 'foo',
+    timelineName: 'bar',
     startTime: 10000,
     endTime: 20000
   })
-  expect(powerStore.getTimeLeft(1, 'foo', 15000)).toMatchSnapshot()
+  expect(powerStore.getTimeLeft(1, 'bar')).toMatchSnapshot()
 })

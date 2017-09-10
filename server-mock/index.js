@@ -4,10 +4,10 @@ import powerStore from '../stores/power'
 import statsStore from '../stores/stats'
 
 const timelines = [
-  {name: 'Timeline 1', type: 'steal'},
-  {name: 'Timeline 2', type: 'assist'},
-  {name: 'Timeline 3', type: 'prevent'},
-  {name: 'Timeline 4', type: 'reset'}
+  {name: 'Timeline 1', type: 'steal', players: []},
+  {name: 'Timeline 2', type: 'assist', players: []},
+  {name: 'Timeline 3', type: 'prevent', players: []},
+  {name: 'Timeline 4', type: 'reset', players: []}
 ]
 
 const players = [
@@ -24,6 +24,7 @@ const players = [
       {name: 'lock', source: false},
       {name: 'unlock', source: false}
     ],
+    actions: 10,
     image: require('../assets/placeholders/green_me_s.png')
   },
   {
@@ -37,6 +38,7 @@ const players = [
       {name: 'lock', source: 'Timeline 1'},
       {name: 'unlock', source: false}
     ],
+    actions: 10,
     image: require('../assets/placeholders/green_tom_s.png')
   },
   {
@@ -50,6 +52,7 @@ const players = [
       {name: 'lock', source: 'Timeline 3'},
       {name: 'unlock', source: 'Timeline 1'}
     ],
+    actions: 10,
     image: require('../assets/placeholders/green_gondollieri_s.png')
   },
   {
@@ -63,6 +66,7 @@ const players = [
       {name: 'lock', source: 'Timeline 2'},
       {name: 'unlock', source: 'Timeline 2'}
     ],
+    actions: 10,
     image: require('../assets/placeholders/green_simmons_s.png')
   }
 ]
@@ -165,16 +169,13 @@ const powers = [
   }
 ]
 
-timelines.forEach(t => {
-  timelineStore.addTimeline(t.name, t.type)
-})
+timelines.forEach((t) => timelineStore.addTimeline(t))
 
 players.forEach(p => {
   playerStore.addPlayer(p)
 })
 
 statsStore.changePlayerId(1)
-statsStore.incrementActions(10)
 
 timelineStore.addPlayer('Timeline 1', 1)
 timelineStore.addPlayer('Timeline 1', 2)

@@ -185,7 +185,11 @@ exports[`Bidding (default props) => renders correctly 1`] = `
           }
         >
           <Image
-            source={1}
+            source={
+              Object {
+                "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+              }
+            }
             style={
               Object {
                 "backgroundColor": "#141313",
@@ -196,11 +200,23 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                 "width": 26,
               }
             }
-          />
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "green",
+                  "height": "100%",
+                  "opacity": 0.5,
+                  "width": "100%",
+                }
+              }
+            />
+          </Image>
           <Text
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Object {
                 "color": "#0e0e0e",
@@ -217,6 +233,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Object {
                 "color": "#0e0e0e",
@@ -261,7 +278,11 @@ exports[`Bidding (default props) => renders correctly 1`] = `
               }
             >
               <Image
-                source={1}
+                source={
+                  Object {
+                    "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+                  }
+                }
                 style={
                   Object {
                     "flex": 0,
@@ -271,12 +292,23 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                     "width": 26,
                   }
                 }
-              />
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "green",
+                      "height": "100%",
+                      "opacity": 0.5,
+                      "width": "100%",
+                    }
+                  }
+                />
+              </Image>
               <View
                 style={
                   Object {
                     "alignItems": "center",
-                    "flex": 8,
+                    "flex": 3,
                     "flexDirection": "column",
                     "justifyContent": "center",
                   }
@@ -286,12 +318,15 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  numberOfLines={1}
                   style={
                     Object {
                       "alignSelf": "center",
                       "color": "green",
                       "flex": 1,
                       "fontFamily": "telegrama_raw",
+                      "paddingLeft": 3,
+                      "paddingRight": 5,
                       "paddingTop": 3,
                     }
                   }
@@ -319,6 +354,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                       "color": "green",
                       "flex": 1,
                       "fontFamily": "telegrama_raw",
+                      "paddingRight": 1,
                       "paddingTop": 3,
                     }
                   }
@@ -338,7 +374,11 @@ exports[`Bidding (default props) => renders correctly 1`] = `
               }
             >
               <Image
-                source={1}
+                source={
+                  Object {
+                    "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+                  }
+                }
                 style={
                   Object {
                     "flex": 0,
@@ -348,12 +388,23 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                     "width": 26,
                   }
                 }
-              />
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "green",
+                      "height": "100%",
+                      "opacity": 0.5,
+                      "width": "100%",
+                    }
+                  }
+                />
+              </Image>
               <View
                 style={
                   Object {
                     "alignItems": "center",
-                    "flex": 8,
+                    "flex": 3,
                     "flexDirection": "column",
                     "justifyContent": "center",
                   }
@@ -363,12 +414,15 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  numberOfLines={1}
                   style={
                     Object {
                       "alignSelf": "center",
                       "color": "green",
                       "flex": 1,
                       "fontFamily": "telegrama_raw",
+                      "paddingLeft": 3,
+                      "paddingRight": 5,
                       "paddingTop": 3,
                     }
                   }
@@ -396,6 +450,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                       "color": "green",
                       "flex": 1,
                       "fontFamily": "telegrama_raw",
+                      "paddingRight": 1,
                       "paddingTop": 3,
                     }
                   }
@@ -528,6 +583,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Object {
                 "color": "#0e0e0e",
@@ -544,6 +600,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Object {
                 "color": "#0e0e0e",
@@ -588,7 +645,11 @@ exports[`Bidding (default props) => renders correctly 1`] = `
               }
             >
               <Image
-                source={1}
+                source={
+                  Object {
+                    "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+                  }
+                }
                 style={
                   Object {
                     "flex": 0,
@@ -598,12 +659,23 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                     "width": 26,
                   }
                 }
-              />
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "green",
+                      "height": "100%",
+                      "opacity": 0.5,
+                      "width": "100%",
+                    }
+                  }
+                />
+              </Image>
               <View
                 style={
                   Object {
                     "alignItems": "center",
-                    "flex": 8,
+                    "flex": 3,
                     "flexDirection": "column",
                     "justifyContent": "center",
                   }
@@ -613,12 +685,15 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  numberOfLines={1}
                   style={
                     Object {
                       "alignSelf": "center",
                       "color": "green",
                       "flex": 1,
                       "fontFamily": "telegrama_raw",
+                      "paddingLeft": 3,
+                      "paddingRight": 5,
                       "paddingTop": 3,
                     }
                   }
@@ -646,6 +721,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                       "color": "green",
                       "flex": 1,
                       "fontFamily": "telegrama_raw",
+                      "paddingRight": 1,
                       "paddingTop": 3,
                     }
                   }
@@ -665,7 +741,11 @@ exports[`Bidding (default props) => renders correctly 1`] = `
               }
             >
               <Image
-                source={1}
+                source={
+                  Object {
+                    "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+                  }
+                }
                 style={
                   Object {
                     "flex": 0,
@@ -675,12 +755,23 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                     "width": 26,
                   }
                 }
-              />
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "green",
+                      "height": "100%",
+                      "opacity": 0.5,
+                      "width": "100%",
+                    }
+                  }
+                />
+              </Image>
               <View
                 style={
                   Object {
                     "alignItems": "center",
-                    "flex": 8,
+                    "flex": 3,
                     "flexDirection": "column",
                     "justifyContent": "center",
                   }
@@ -690,12 +781,15 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  numberOfLines={1}
                   style={
                     Object {
                       "alignSelf": "center",
                       "color": "green",
                       "flex": 1,
                       "fontFamily": "telegrama_raw",
+                      "paddingLeft": 3,
+                      "paddingRight": 5,
                       "paddingTop": 3,
                     }
                   }
@@ -723,6 +817,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                       "color": "green",
                       "flex": 1,
                       "fontFamily": "telegrama_raw",
+                      "paddingRight": 1,
                       "paddingTop": 3,
                     }
                   }

@@ -26,7 +26,11 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
     }
   >
     <Image
-      source={1}
+      source={
+        Object {
+          "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+        }
+      }
       style={
         Object {
           "backgroundColor": "#141313",
@@ -38,7 +42,18 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
           "resizeMode": "stretch",
         }
       }
-    />
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "green",
+            "height": "100%",
+            "opacity": 0.5,
+            "width": "100%",
+          }
+        }
+      />
+    </Image>
     <Text
       accessible={true}
       allowFontScaling={true}
@@ -152,6 +167,7 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Object {
                 "color": "#0e0e0e",
@@ -168,6 +184,7 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Object {
                 "color": "#0e0e0e",
@@ -193,6 +210,71 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
             }
           }
         >
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "marginTop": 2,
+                "minHeight": 27,
+              }
+            }
+          >
+            <Image
+              source={1}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "flex": 1,
+                  "height": undefined,
+                  "marginLeft": 3,
+                  "resizeMode": "stretch",
+                  "width": undefined,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "flex": 12,
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#00ff00",
+                    "flex": 5,
+                    "fontFamily": "telegrama_raw",
+                    "paddingLeft": 9,
+                    "paddingTop": 3,
+                  }
+                }
+              >
+                Steal
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#329932",
+                    "flex": 1,
+                    "fontFamily": "telegrama_raw",
+                    "paddingTop": 5,
+                  }
+                }
+              >
+                ?
+              </Text>
+            </View>
+          </View>
           <View
             style={
               Object {
@@ -426,71 +508,6 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
                 ellipsizeMode="tail"
                 style={
                   Object {
-                    "color": "#00ff00",
-                    "flex": 5,
-                    "fontFamily": "telegrama_raw",
-                    "paddingLeft": 9,
-                    "paddingTop": 3,
-                  }
-                }
-              >
-                Steal
-              </Text>
-              <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
-                style={
-                  Object {
-                    "color": "#329932",
-                    "flex": 1,
-                    "fontFamily": "telegrama_raw",
-                    "paddingTop": 5,
-                  }
-                }
-              >
-                ?
-              </Text>
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "flex": 1,
-                "flexDirection": "row",
-                "marginTop": 2,
-                "minHeight": 27,
-              }
-            }
-          >
-            <Image
-              source={1}
-              style={
-                Object {
-                  "backgroundColor": "transparent",
-                  "flex": 1,
-                  "height": undefined,
-                  "marginLeft": 3,
-                  "resizeMode": "stretch",
-                  "width": undefined,
-                }
-              }
-            />
-            <View
-              style={
-                Object {
-                  "flex": 12,
-                  "flexDirection": "row",
-                  "justifyContent": "space-between",
-                }
-              }
-            >
-              <Text
-                accessible={true}
-                allowFontScaling={true}
-                ellipsizeMode="tail"
-                style={
-                  Object {
                     "color": "#329932",
                     "flex": 5,
                     "fontFamily": "telegrama_raw",
@@ -621,6 +638,7 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Object {
                 "color": "#0e0e0e",
