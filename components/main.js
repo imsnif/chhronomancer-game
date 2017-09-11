@@ -1,13 +1,10 @@
 import React, { Component } from 'react'
-import {
-  View,
-  Text
-} from 'react-native'
 
 import { observer } from 'mobx-react/native'
 
 import Navigate from './navigate'
 import Login from './login'
+import WaitingForGame from './waiting-for-game'
 
 import statsStore from '../stores/stats'
 
@@ -20,11 +17,8 @@ export default class chronomancer extends Component {
         <Navigate renderScene={this.renderScene} />
       )
     } else if (statsStore.connected) {
-      // TODO: move below component elsewhere
       return (
-        <View style={{backgroundColor: 'black', height: '100%', width: '100%'}}>
-          <Text style={{color: 'green', fontFamily: 'telegrama_raw'}}>Connected! Waiting for game... (playerId: {statsStore.playerId})</Text>
-        </View>
+        <WaitingForGame />
       )
     } else {
       return (
