@@ -7,19 +7,9 @@ import {
 import { observer } from 'mobx-react/native'
 
 import Navigate from './navigate'
-import connect from '../connect'
+import Login from './login'
 
 import statsStore from '../stores/stats'
-
-const { FBLogin, FBLoginManager } = require('react-native-facebook-login')
-
-class FBLoginView extends Component { // TODO: move elsewhere
-  render () {
-    return (
-      <View style={{height: '100%', width: '100%', backgroundColor: 'black'}} />
-    )
-  }
-}
 
 @observer
 export default class chronomancer extends Component {
@@ -38,27 +28,7 @@ export default class chronomancer extends Component {
       )
     } else {
       return (
-        <FBLogin style={{ marginBottom: 10 }}
-          buttonView={<FBLoginView />}
-          permissions={['email', 'user_friends']}
-          loginBehavior={FBLoginManager.LoginBehaviors.Web}
-          onLogin={function (data) {
-            statsStore.login(data)
-            connect(data.credentials.userId) // TODO: move to statsStore
-            let reconnect = setInterval(() => { // TODO: fix this
-              if (statsStore.loggedIn) return clearInterval(reconnect)
-              connect(data.credentials.userId)
-            }, 5000) // TODO: reconnect timeout from config
-          }}
-          onLoginFound={function (data) {
-            statsStore.login(data)
-            connect(String(data.credentials.userId)) // TODO: move to statsStore
-            let reconnect = setInterval(() => { // TODO: fix this
-              if (statsStore.loggedIn) return clearInterval(reconnect)
-              connect(data.credentials.userId)
-            }, 5000)
-          }}
-        />
+        <Login />
       )
     }
   }

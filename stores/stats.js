@@ -1,5 +1,6 @@
 import { observable, action, computed } from 'mobx'
 import playerStore from './player'
+import connect from '../connect'
 
 class StatsStore {
   @observable playerId = null
@@ -28,6 +29,11 @@ class StatsStore {
           access_token: this.accessToken
         }
       })
+      connect(String(data.credentials.userId))
+      this.reconnectInterval = setInterval(() => {
+        if (this.loggedIn) return clearInterval(this.reconnectInterval)
+        connect(data.credentials.userId)
+      }, 5000) // TODO: interval from config
       this.playerId = String(data.credentials.userId)
     } catch (e) {
       console.error(e)
