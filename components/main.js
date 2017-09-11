@@ -1,39 +1,17 @@
 import React, { Component } from 'react'
 import {
-  Navigator,
   View,
   Text
 } from 'react-native'
 
 import { observer } from 'mobx-react/native'
 
-import Timeline from './timeline'
-import TimelineGrid from './timeline-grid'
-import Bidding from './bidding'
-import NavBar from './navbar'
-import CharacterSheet from './character-sheet'
+import Navigate from './navigate'
 import connect from '../connect'
 
 import statsStore from '../stores/stats'
 
 const { FBLogin, FBLoginManager } = require('react-native-facebook-login')
-
-const InstantTransition = { // TODO: move this somewhere else
-  gestures: null,
-  defaultTransitionVelocity: null,
-  springFriction: null,
-  springTension: 1000,
-  animationInterpolators: {
-    into: r => {
-      r.opacity = 1
-      return true
-    },
-    out: r => {
-      r.opacity = 1
-      return true
-    }
-  }
-}
 
 class FBLoginView extends Component { // TODO: move elsewhere
   render () {
@@ -49,12 +27,7 @@ export default class chronomancer extends Component {
     const loggedIn = statsStore.loggedIn
     if (loggedIn) {
       return (
-        <Navigator
-          style={{ flex: 1 }}
-          initialRoute={{ screenName: 'character-sheet' }}
-          renderScene={this.renderScene}
-          configureScene={() => InstantTransition}
-        />
+        <Navigate renderScene={this.renderScene} />
       )
     } else if (statsStore.connected) {
       // TODO: move below component elsewhere
@@ -86,42 +59,6 @@ export default class chronomancer extends Component {
             }, 5000)
           }}
         />
-      )
-    }
-  }
-  renderScene (route, navigator) {
-    if (route.screenName === 'timeline-grid') {
-      return (
-        <NavBar navigator={navigator}>
-          <TimelineGrid
-            navigator={navigator}
-          />
-        </NavBar>
-      )
-    } else if (route.screenName === 'Timeline') {
-      return (
-        <NavBar navigator={navigator}>
-          <Timeline
-            navigator={navigator}
-            name={route.timelineName}
-          />
-        </NavBar>
-      )
-    } else if (route.screenName === 'Bidding') {
-      return (
-        <NavBar navigator={navigator}>
-          <Bidding
-            playerId={route.playerId}
-            timelineName={route.timelineName}
-            navigator={navigator}
-          />
-        </NavBar>
-      )
-    } else if (route.screenName === 'character-sheet') {
-      return (
-        <NavBar navigator={navigator}>
-          <CharacterSheet playerId={statsStore.playerId} navigator={navigator} />
-        </NavBar>
       )
     }
   }
