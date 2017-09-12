@@ -48,7 +48,7 @@ class PowerStore {
       const power = this.getPower(playerId, timelineName)
       const whole = power.endTime - power.startTime
       const elapsed = clockStore.time - power.startTime
-      const progress = Math.round((elapsed / whole) * 100)
+      const progress = Math.ceil((elapsed / whole) * 100)
       return progress < 100 ? progress : 100
     })
   }
