@@ -13,6 +13,7 @@ export default class CharacterSheet extends Component {
   render () {
     const playerId = statsStore.playerId
     const player = playerStore.getPlayer(playerId)
+    if (!player) return null // TODO: change route
     const actions = player.actions
     const items = player.items.reduce((memo, item) => {
       const existingItem = memo.find(i => i.name === item.name)
