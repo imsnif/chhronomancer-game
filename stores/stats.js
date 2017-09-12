@@ -16,6 +16,9 @@ class StatsStore {
   @action connect () {
     this.connected = true
   }
+  @action disconnect () {
+    this.connected = false
+  }
   @action announceWinner (id) {
     this.winnerId = id
   }
