@@ -139,7 +139,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
         }
       }
     >
-      0
+      1
       %
     </Text>
   </View>

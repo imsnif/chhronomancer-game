@@ -186,7 +186,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                       }
                     }
                   >
-                    | |=-------------------------------------------------|   0% 00:01:39
+                    | |==------------------------------------------------|   1% 00:01:39
                   </Text>
                 </View>
               </View>
@@ -596,7 +596,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                       }
                     }
                   >
-                    | |=-------------------------------------------------|   0% 00:33:19
+                    | |==------------------------------------------------|   1% 00:33:19
                   </Text>
                 </View>
               </View>
@@ -1006,7 +1006,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                       }
                     }
                   >
-                    | |=-------------------------------------------------|   0% 00:01:39
+                    | |==------------------------------------------------|   1% 00:01:39
                   </Text>
                 </View>
               </View>
@@ -1416,7 +1416,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                       }
                     }
                   >
-                    | |=-------------------------------------------------|   0% 00:16:39
+                    | |==------------------------------------------------|   1% 00:16:39
                   </Text>
                 </View>
               </View>
@@ -2562,7 +2562,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                       }
                     }
                   >
-                    | |=-------------------------------------------------|   0% 00:01:39
+                    | |==------------------------------------------------|   1% 00:01:39
                   </Text>
                 </View>
               </View>
@@ -2972,7 +2972,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                       }
                     }
                   >
-                    | |=-------------------------------------------------|   0% 00:33:19
+                    | |==------------------------------------------------|   1% 00:33:19
                   </Text>
                 </View>
               </View>
@@ -3382,7 +3382,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                       }
                     }
                   >
-                    | |=-------------------------------------------------|   0% 00:01:39
+                    | |==------------------------------------------------|   1% 00:01:39
                   </Text>
                 </View>
               </View>
@@ -3792,7 +3792,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                       }
                     }
                   >
-                    | |=-------------------------------------------------|   0% 00:16:39
+                    | |==------------------------------------------------|   1% 00:16:39
                   </Text>
                 </View>
               </View>
@@ -4938,7 +4938,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                       }
                     }
                   >
-                    | |=-------------------------------------------------|   0% 00:01:39
+                    | |==------------------------------------------------|   1% 00:01:39
                   </Text>
                 </View>
               </View>
@@ -5348,7 +5348,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                       }
                     }
                   >
-                    | |=-------------------------------------------------|   0% 00:33:19
+                    | |==------------------------------------------------|   1% 00:33:19
                   </Text>
                 </View>
               </View>
@@ -5758,7 +5758,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                       }
                     }
                   >
-                    | |=-------------------------------------------------|   0% 00:01:39
+                    | |==------------------------------------------------|   1% 00:01:39
                   </Text>
                 </View>
               </View>
@@ -6168,7 +6168,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                       }
                     }
                   >
-                    | |=-------------------------------------------------|   0% 00:16:39
+                    | |==------------------------------------------------|   1% 00:16:39
                   </Text>
                 </View>
               </View>

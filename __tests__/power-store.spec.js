@@ -43,9 +43,9 @@ test('PowerStore => can get progress', () => {
     playerId: 1,
     timelineName: 'bar',
     startTime: Date.now(),
-    endTime: Date.now() + 1000
+    endTime: Date.now() + 10000
   })
-  expect(powerStore.getProgress(1, 'bar').get()).toEqual(0)
+  expect(powerStore.getProgress(1, 'bar').get()).toEqual(1)
 })
 
 test('PowerStore => can get timeLeft', () => {

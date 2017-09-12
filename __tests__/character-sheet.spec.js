@@ -16,7 +16,7 @@ afterEach(() => {
 test('Character-Sheet (default props) => renders correctly', () => {
   const CharacterSheet = require('../components/character-sheet').default
   const tree = renderer.create(
-    <CharacterSheet playerId={1} />
+    <CharacterSheet />
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })
