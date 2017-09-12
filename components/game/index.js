@@ -26,7 +26,7 @@ const InstantTransition = {
   }
 }
 
-export default function Navigate () {
+export default function Game () {
   return (
     <Navigator
       style={{ flex: 1 }}
