@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WaitingForGame component (with server mock) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "black",
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "green",
+        "fontFamily": "telegrama_raw",
+      }
+    }
+  >
+    Connected! Waiting for game... (playerId: 
+    1
+    )
+  </Text>
+</View>
+`;
