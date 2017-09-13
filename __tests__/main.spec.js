@@ -1,15 +1,7 @@
 import 'react-native'
 import React from 'react'
 import renderer from 'react-test-renderer'
-
-function mockFB () { // TODO: move to utils
-  const login = require('react-native-facebook-login')
-  const FBLogin = jest.fn()
-  FBLogin.mockReturnValue(null)
-  login.FBLogin = FBLogin
-  login.FBLoginManager = {LoginBehaviors: {Web: 2}}
-  return FBLogin
-}
+import { mockFB } from '../test-utils'
 
 jest.mock('mobx-react/native', () => require('mobx-react/custom'))
 

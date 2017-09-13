@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component (with server mock) => renders correctly 1`] = `
+Array [
+  Array [
+    Object {
+      "buttonView": <View
+        style={
+          Object {
+            "backgroundColor": "black",
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />,
+      "loginBehavior": 2,
+      "onLogin": [Function],
+      "onLoginFound": [Function],
+      "permissions": Array [
+        "email",
+        "user_friends",
+      ],
+      "style": Object {
+        "marginBottom": 10,
+      },
+    },
+    Object {},
+    Object {
+      "enqueueCallback": [Function],
+      "enqueueCallbackInternal": [Function],
+      "enqueueElementInternal": [Function],
+      "enqueueForceUpdate": [Function],
+      "enqueueReplaceState": [Function],
+      "enqueueSetState": [Function],
+      "isMounted": [Function],
+      "validateCallback": [Function],
+    },
+  ],
+]
+`;
