@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { observer } from 'mobx-react/native'
-import { View, Text, Image, StyleSheet } from 'react-native'
+import { View, Text, Image } from 'react-native'
 import ItemList from '../item-list'
 import PlayerIterations from '../player-iterations'
 import styles from './styles'
@@ -32,7 +32,7 @@ export default class CharacterSheet extends Component {
           <Image style={styles.playerImageBox} source={{uri: profilePic}}>
             <View style={styles.imageGreenOverlay} />
           </Image>
-          <Text style={StyleSheet.flatten([styles.titleTextSmall, {flex: 5}])}>{player.name}</Text>
+          <Text style={styles.titleTextImage}>{player.name}</Text>
         </View>
         <View style={styles.titleItem}>
           <Text style={styles.titleTextSmall}>Actions:</Text>

@@ -6,6 +6,10 @@ export default StyleSheet.create({
   titleItem: common.titleItem,
   titleText: common.titleText,
   titleTextSmall: common.titleTextSmall,
+  titleTextImage: StyleSheet.flatten([
+    common.titleTextSmall,
+    {flex: 5}
+  ]),
   playerImageBox: {
     height: '95%',
     margin: 1,
