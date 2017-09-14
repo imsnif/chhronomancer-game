@@ -886,3 +886,5 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
   </View>
 </View>
 `;
+
+exports[`Character-Sheet (no player) => renders empty 1`] = `null`;
