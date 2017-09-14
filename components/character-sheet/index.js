@@ -30,7 +30,7 @@ export default class CharacterSheet extends Component {
       <View style={styles.container}>
         <View style={styles.titleItem}>
           <Image style={styles.playerImageBox} source={{uri: profilePic}}>
-            <View style={{width: '100%', height: '100%', backgroundColor: 'green', opacity: 0.5}} />
+            <View style={styles.imageGreenOverlay} />
           </Image>
           <Text style={StyleSheet.flatten([styles.titleTextSmall, {flex: 5}])}>{player.name}</Text>
         </View>
@@ -39,10 +39,10 @@ export default class CharacterSheet extends Component {
           <Text style={styles.titleTextSmall}>{actions}</Text>
         </View>
         <View style={styles.summaryBox}>
-          <View style={{flex: 1, marginBottom: 2}}>
+          <View style={styles.boxContainerTop}>
             <ItemList itemCount={itemCount} items={items} />
           </View>
-          <View style={{flex: 1, marginTop: 2}}>
+          <View style={styles.boxContainerBottom}>
             <PlayerIterations playerId={playerId} navigator={this.props.navigator} />
           </View>
         </View>

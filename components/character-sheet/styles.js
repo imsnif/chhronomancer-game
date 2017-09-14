@@ -20,5 +20,19 @@ export default StyleSheet.create({
     paddingRight: 15,
     flex: 9,
     flexDirection: 'column'
+  },
+  imageGreenOverlay: {
+    width: '100%',
+    height: '100%',
+    backgroundColor: 'green',
+    opacity: 0.5
+  },
+  boxContainerTop: {
+    flex: 1,
+    marginBottom: 2
+  },
+  boxContainerBottom: {
+    flex: 1,
+    marginTop: 2
   }
 })
