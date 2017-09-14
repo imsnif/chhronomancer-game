@@ -42,7 +42,7 @@ test('PowerStore => can get progress', () => {
     name: 'foo',
     playerId: 1,
     timelineName: 'bar',
-    startTime: Date.now(),
+    startTime: Date.now() - 1,
     endTime: Date.now() + 10000
   })
   expect(powerStore.getProgress(1, 'bar').get()).toEqual(1)
