@@ -8,6 +8,18 @@ import styles from './styles'
 import playerStore from '../../stores/player'
 import statsStore from '../../stores/stats'
 
+function uniqueItemsWithCount (items) {
+  return items.reduce((memo, item) => {
+    const existingItem = memo.find(i => i.name === item.name)
+    if (!existingItem) {
+      memo.push(Object.assign({}, item, {count: 1}))
+    } else {
+      existingItem.count += 1
+    }
+    return memo
+  }, [])
+}
+
 @observer
 export default class CharacterSheet extends Component {
   render () {
@@ -15,15 +27,7 @@ export default class CharacterSheet extends Component {
     const player = playerStore.getPlayer(playerId)
     if (!player) return null
     const actions = player.actions
-    const items = player.items.reduce((memo, item) => {
-      const existingItem = memo.find(i => i.name === item.name)
-      if (!existingItem) {
-        memo.push(Object.assign({}, item, {count: 1}))
-      } else {
-        existingItem.count += 1
-      }
-      return memo
-    }, [])
+    const items = uniqueItemsWithCount(player.items)
     const itemCount = player.items.filter(i => i.source).length
     const profilePic = player.picture
     return (
