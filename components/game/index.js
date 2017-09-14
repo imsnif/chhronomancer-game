@@ -26,11 +26,11 @@ const InstantTransition = {
   }
 }
 
-export default function Game () {
+export default function Game (props) {
   return (
     <Navigator
       style={{ flex: 1 }}
-      initialRoute={{ screenName: 'character-sheet' }}
+      initialRoute={{ screenName: props.screenName }}
       renderScene={renderScene}
       configureScene={() => InstantTransition}
     />

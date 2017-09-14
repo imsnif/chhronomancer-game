@@ -11,7 +11,7 @@ import statsStore from '../stores/stats'
 @observer
 export default class chronomancer extends Component {
   render () {
-    if (statsStore.loggedIn) return <Game />
+    if (statsStore.loggedIn) return <Game screenName='character-sheet' />
     if (statsStore.connected) return <WaitingForGame />
     return <Login />
   }
