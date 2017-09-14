@@ -6,5 +6,10 @@ module.exports = {
     login.FBLogin = FBLogin
     login.FBLoginManager = {LoginBehaviors: {Web: 2}}
     return FBLogin
+  },
+  navigatorMock (timelineName) {
+    return {
+      getCurrentRoutes: () => [timelineName]
+    }
   }
 }
