@@ -22,6 +22,9 @@ class StatsStore {
   @action announceWinner (id) {
     this.winnerId = id
   }
+  @action clearWinner () {
+    this.winnerId = false
+  }
   @action async login (data) {
     try {
       if (!data || !data.credentials || !data.credentials.userId) throw new Error('no userid!')
