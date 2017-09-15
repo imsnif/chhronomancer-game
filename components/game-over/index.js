@@ -9,14 +9,11 @@ import statsStore from '../../stores/stats'
 @observer
 export default class CharacterSheet extends Component {
   componentDidUpdate () {
-    console.log('did update:')
     if (!statsStore.winnerId) {
-      console.log('bailing!')
       this.props.navigator.push({ screenName: 'character-sheet' })
     }
   }
   render () {
-    console.log('inside game over, winnerId:', statsStore.winnerId)
     if (!statsStore.winnerId) {
       return null
     }
