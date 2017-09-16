@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Horizontal Separator => renders correctly 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Object {
+      "color": "#329932",
+      "fontSize": 21,
+      "height": 15,
+      "includeFontPadding": false,
+      "lineHeight": 15,
+      "textAlignVertical": "top",
+    }
+  }
+>
+  +------------------------------------------+
+</Text>
+`;
