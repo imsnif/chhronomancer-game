@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameOver (no winner) => renders empty 1`] = `null`;
+
+exports[`GameOver (with winner) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#141313",
+      "flexDirection": "column",
+      "height": "100%",
+      "paddingBottom": 5,
+      "paddingTop": 5,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "fontSize": 21,
+        "height": 15,
+        "includeFontPadding": false,
+        "lineHeight": 15,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "textAlignVertical": "bottom",
+      }
+    }
+  >
+    +------------------------------------------------------+
+  </Text>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#329932",
+          "flex": 0,
+          "lineHeight": 13,
+          "marginLeft": 16,
+          "marginRight": 1,
+          "textAlignVertical": "top",
+          "width": 10,
+        }
+      }
+    >
+       |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+
+    </Text>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#141313",
+          "flexDirection": "column",
+          "height": "100%",
+          "maxWidth": 291,
+          "paddingBottom": 5,
+          "paddingTop": 5,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#141313",
+            "color": "#329932",
+            "flex": 1,
+            "fontFamily": "telegrama_raw",
+            "fontSize": 25,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+          }
+        }
+      >
+        GAME OVER
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#141313",
+            "color": "#329932",
+            "flex": 1,
+            "fontFamily": "telegrama_raw",
+            "fontSize": 25,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+          }
+        }
+      >
+        Winner: 
+        Aram
+      </Text>
+      <Image
+        source={
+          Object {
+            "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+          }
+        }
+        style={
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "#141313",
+            "borderColor": "black",
+            "flex": 2,
+            "marginBottom": 20,
+            "maxHeight": 200,
+            "maxWidth": 200,
+            "resizeMode": "stretch",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "green",
+              "height": "100%",
+              "opacity": 0.5,
+              "width": "100%",
+            }
+          }
+        />
+      </Image>
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#329932",
+          "flex": 0,
+          "lineHeight": 13,
+          "marginLeft": 16,
+          "marginRight": 1,
+          "textAlignVertical": "top",
+          "width": 10,
+        }
+      }
+    >
+       |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+
+    </Text>
+  </View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "fontSize": 21,
+        "height": 15,
+        "includeFontPadding": false,
+        "lineHeight": 15,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "textAlignVertical": "bottom",
+      }
+    }
+  >
+    +------------------------------------------------------+
+  </Text>
+</View>
+`;
