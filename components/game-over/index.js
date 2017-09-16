@@ -3,6 +3,7 @@ import { observer } from 'mobx-react/native'
 import { View, Text, Image } from 'react-native'
 
 import HorizontalSeparator from '../horizontal-separator'
+import VerticalSeparator from '../vertical-separator'
 import styles from './styles'
 
 import playerStore from '../../stores/player'
@@ -26,7 +27,7 @@ export default class GameOver extends Component {
       <View style={styles.container}>
         <HorizontalSeparator length={54} style={{paddingLeft: 15, paddingRight: 15}} />
         <View style={{flex: 1, flexDirection: 'row'}}>
-          <Text style={styles.verticalLine}>{' |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n'}</Text>
+          <VerticalSeparator length={41} />
           <View style={styles.innerContainer}>
             <Text style={styles.text}>GAME OVER</Text>
             <Text style={styles.text}>Winner: {winner.name}</Text>
@@ -34,7 +35,7 @@ export default class GameOver extends Component {
               <View style={{width: '100%', height: '100%', backgroundColor: 'green', opacity: 0.5}} />
             </Image>
           </View>
-          <Text style={styles.verticalLine}>{' |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n'}</Text>
+          <VerticalSeparator length={41} />
         </View>
         <HorizontalSeparator length={54} style={{paddingLeft: 15, paddingRight: 15}} />
       </View>

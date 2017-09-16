@@ -6,15 +6,6 @@ export default StyleSheet.create({
   innerContainer: StyleSheet.flatten([common.container, {maxWidth: 291}]),
   titleItem: common.titleItem,
   titleText: common.titleText,
-  verticalLine: {
-    width: 10,
-    textAlignVertical: 'top',
-    lineHeight: 13,
-    color: common.foreGround,
-    flex: 0,
-    marginRight: 1,
-    marginLeft: 16
-  },
   topBorder: {
     paddingLeft: 15,
     paddingRight: 15,
