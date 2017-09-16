@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListBox (with title and picture) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#329932",
+      "borderColor": "#329932",
+      "borderRadius": 0,
+      "borderWidth": 0.5,
+      "flex": 1,
+      "flexDirection": "column",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "minHeight": 30,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "http://foo.bar/baz",
+        }
+      }
+      style={
+        Object {
+          "backgroundColor": "#141313",
+          "flex": 0,
+          "height": 26,
+          "marginLeft": 3,
+          "resizeMode": "stretch",
+          "width": 26,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "green",
+            "height": "100%",
+            "opacity": 0.5,
+            "width": "100%",
+          }
+        }
+      />
+    </Image>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#0e0e0e",
+          "flex": 7,
+          "fontFamily": "telegrama_raw",
+          "textAlign": "center",
+        }
+      }
+    >
+      foo
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#141313",
+        "borderColor": "#141313",
+        "borderRadius": 0,
+        "borderWidth": 0.5,
+        "flex": 13,
+        "flexDirection": "column",
+        "margin": 1,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`ListBox (with title and subtitle) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#329932",
+      "borderColor": "#329932",
+      "borderRadius": 0,
+      "borderWidth": 0.5,
+      "flex": 1,
+      "flexDirection": "column",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "minHeight": 30,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#0e0e0e",
+          "flex": 7,
+          "fontFamily": "telegrama_raw",
+          "paddingLeft": 5,
+          "textAlign": "left",
+        }
+      }
+    >
+      foo
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#0e0e0e",
+          "flex": 3,
+          "fontFamily": "telegrama_raw",
+          "textAlign": "center",
+        }
+      }
+    >
+      bar
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#141313",
+        "borderColor": "#141313",
+        "borderRadius": 0,
+        "borderWidth": 0.5,
+        "flex": 13,
+        "flexDirection": "column",
+        "margin": 1,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`ListBox (with title) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#329932",
+      "borderColor": "#329932",
+      "borderRadius": 0,
+      "borderWidth": 0.5,
+      "flex": 1,
+      "flexDirection": "column",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "minHeight": 30,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#0e0e0e",
+          "flex": 7,
+          "fontFamily": "telegrama_raw",
+          "textAlign": "center",
+        }
+      }
+    >
+      foo
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#141313",
+        "borderColor": "#141313",
+        "borderRadius": 0,
+        "borderWidth": 0.5,
+        "flex": 13,
+        "flexDirection": "column",
+        "margin": 1,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`ListBox (with title, subtitle and picture) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#329932",
+      "borderColor": "#329932",
+      "borderRadius": 0,
+      "borderWidth": 0.5,
+      "flex": 1,
+      "flexDirection": "column",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "minHeight": 30,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "http://foo.bar/baz",
+        }
+      }
+      style={
+        Object {
+          "backgroundColor": "#141313",
+          "flex": 0,
+          "height": 26,
+          "marginLeft": 3,
+          "resizeMode": "stretch",
+          "width": 26,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "green",
+            "height": "100%",
+            "opacity": 0.5,
+            "width": "100%",
+          }
+        }
+      />
+    </Image>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#0e0e0e",
+          "flex": 7,
+          "fontFamily": "telegrama_raw",
+          "paddingLeft": 5,
+          "textAlign": "left",
+        }
+      }
+    >
+      foo
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#0e0e0e",
+          "flex": 3,
+          "fontFamily": "telegrama_raw",
+          "textAlign": "center",
+        }
+      }
+    >
+      bar
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#141313",
+        "borderColor": "#141313",
+        "borderRadius": 0,
+        "borderWidth": 0.5,
+        "flex": 13,
+        "flexDirection": "column",
+        "margin": 1,
+      }
+    }
+  />
+</View>
+`;
