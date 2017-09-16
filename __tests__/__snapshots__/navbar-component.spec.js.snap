@@ -551,7 +551,7 @@ exports[`Navbar (winner declared) => renders correctly 1`] = `
         "lineHeight": 15,
         "paddingLeft": 15,
         "paddingRight": 15,
-        "textAlignVertical": "bottom",
+        "textAlignVertical": "top",
       }
     }
   >
@@ -780,7 +780,7 @@ exports[`Navbar (winner declared) => renders correctly 1`] = `
         "lineHeight": 15,
         "paddingLeft": 15,
         "paddingRight": 15,
-        "textAlignVertical": "bottom",
+        "textAlignVertical": "top",
       }
     }
   >

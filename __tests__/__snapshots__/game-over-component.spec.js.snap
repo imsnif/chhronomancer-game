@@ -28,7 +28,7 @@ exports[`GameOver (with winner) => renders correctly 1`] = `
         "lineHeight": 15,
         "paddingLeft": 15,
         "paddingRight": 15,
-        "textAlignVertical": "bottom",
+        "textAlignVertical": "top",
       }
     }
   >
@@ -257,7 +257,7 @@ exports[`GameOver (with winner) => renders correctly 1`] = `
         "lineHeight": 15,
         "paddingLeft": 15,
         "paddingRight": 15,
-        "textAlignVertical": "bottom",
+        "textAlignVertical": "top",
       }
     }
   >

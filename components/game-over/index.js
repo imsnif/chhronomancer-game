@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { observer } from 'mobx-react/native'
 import { View, Text, Image } from 'react-native'
+
+import HorizontalSeparator from '../horizontal-separator'
 import styles from './styles'
 
 import playerStore from '../../stores/player'
@@ -22,7 +24,7 @@ export default class GameOver extends Component {
     return (
       // TODO: refactor
       <View style={styles.container}>
-        <Text style={styles.topBorder}>+------------------------------------------------------+</Text>
+        <HorizontalSeparator length={54} style={{paddingLeft: 15, paddingRight: 15}} />
         <View style={{flex: 1, flexDirection: 'row'}}>
           <Text style={styles.verticalLine}>{' |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n'}</Text>
           <View style={styles.innerContainer}>
@@ -34,7 +36,7 @@ export default class GameOver extends Component {
           </View>
           <Text style={styles.verticalLine}>{' |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n'}</Text>
         </View>
-        <Text style={styles.topBorder}>+------------------------------------------------------+</Text>
+        <HorizontalSeparator length={54} style={{paddingLeft: 15, paddingRight: 15}} />
       </View>
     )
   }
