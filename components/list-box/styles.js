@@ -3,6 +3,7 @@ import { StyleSheet } from 'react-native'
 import common from '../common/styles'
 
 module.exports = StyleSheet.create({
+  imageOverlay: common.imageOverlay,
   outerBox: {
     width: '100%',
     flex: 1,
