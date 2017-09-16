@@ -17,37 +17,44 @@ import resetEmpty from '../../assets/items/reset-green-empty.png'
 import lockEmpty from '../../assets/items/padlock-green-empty.png'
 import unlockEmpty from '../../assets/items/unlock-green-empty.png'
 
-const images = {steal, assist, prevent, reset, lock, unlock}
+const images = {
+  Steal: steal,
+  Assist: assist,
+  Prevent: prevent,
+  Reset: reset,
+  Lock: lock,
+  Unlock: unlock
+}
 const imagesEmpty = {
-  steal: stealEmpty,
-  assist: assistEmpty,
-  prevent: preventEmpty,
-  reset: resetEmpty,
-  lock: lockEmpty,
-  unlock: unlockEmpty
+  Steal: stealEmpty,
+  Assist: assistEmpty,
+  Prevent: preventEmpty,
+  Reset: resetEmpty,
+  Lock: lockEmpty,
+  Unlock: unlockEmpty
 }
 
-const itemNames = {
-  steal: 'Steal',
-  assist: 'Assist',
-  prevent: 'Prevent',
-  reset: 'Reset',
-  lock: 'Lock',
-  unlock: 'Unlock'
-}
+const itemNames = [
+  'Steal',
+  'Assist',
+  'Prevent',
+  'Reset',
+  'Lock',
+  'Unlock'
+]
 
 export default function ItemList (props) {
   const { itemCount, items } = props
   return (
     <ListBox title='Items' subtitle={`Cap: ${itemCount}/7`}>
       {
-        Object.keys(itemNames)
+        itemNames
         .map((itemName, index) => {
-          const item = items.find(i => i.name === itemName)
+          const item = items.find(i => i.name === itemName.toLowerCase())
           const itemCount = item && item.count ? item.count : 0
           const nameAndCountString = itemCount > 1
-            ? `${itemNames[itemName]} (x${itemCount})`
-            : itemNames[itemName]
+            ? `${itemName} (x${itemCount})`
+            : itemName
           return (
             <View key={index} style={styles.item}>
               <Image
@@ -55,7 +62,10 @@ export default function ItemList (props) {
                 style={styles.itemImageBox}
               />
               <View style={styles.itemName}>
-                <Text style={item && item.source ? styles.boldNameText : styles.nameText}>{nameAndCountString}</Text>
+                <Text style={item && item.source
+                  ? styles.boldNameText
+                  : styles.nameText
+                }>{nameAndCountString}</Text>
                 <Text style={styles.details}>?</Text>
               </View>
             </View>
