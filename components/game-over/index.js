@@ -17,27 +17,24 @@ export default class GameOver extends Component {
     }
   }
   render () {
-    if (!statsStore.winnerId) {
-      return null
-    }
+    if (!statsStore.winnerId) return null
     const winnerId = statsStore.winnerId
     const winner = playerStore.getPlayer(winnerId)
     return (
-      // TODO: refactor
       <View style={styles.container}>
-        <HorizontalSeparator length={54} style={{paddingLeft: 15, paddingRight: 15}} />
-        <View style={{flex: 1, flexDirection: 'row'}}>
+        <HorizontalSeparator length={54} style={styles.paddedSides} />
+        <View style={styles.midSection}>
           <VerticalSeparator length={41} />
           <View style={styles.innerContainer}>
             <Text style={styles.text}>GAME OVER</Text>
             <Text style={styles.text}>Winner: {winner.name}</Text>
             <Image style={styles.playerImageBox} source={{uri: winner.picture}}>
-              <View style={{width: '100%', height: '100%', backgroundColor: 'green', opacity: 0.5}} />
+              <View style={styles.imageOverlay} />
             </Image>
           </View>
           <VerticalSeparator length={41} />
         </View>
-        <HorizontalSeparator length={54} style={{paddingLeft: 15, paddingRight: 15}} />
+        <HorizontalSeparator length={54} style={styles.paddedSides} />
       </View>
     )
   }

@@ -12,6 +12,10 @@ export default {
   altText,
   font,
   boldText,
+  paddedSides: {
+    paddingLeft: 15,
+    paddingRight: 15
+  },
   container: {
     height: '100%',
     width: '100%',
@@ -50,5 +54,11 @@ export default {
     color: backGround,
     backgroundColor: foreGround,
     textAlign: 'center'
+  },
+  imageOverlay: {
+    width: '100%',
+    height: '100%',
+    backgroundColor: 'green',
+    opacity: 0.5
   }
 }

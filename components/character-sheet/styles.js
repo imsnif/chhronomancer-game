@@ -3,6 +3,7 @@ import common from '../common/styles'
 
 export default StyleSheet.create({
   container: common.container,
+  imageOverlay: common.imageOverlay,
   titleItem: common.titleItem,
   titleText: common.titleText,
   titleTextSmall: common.titleTextSmall,
@@ -24,12 +25,6 @@ export default StyleSheet.create({
     paddingRight: 15,
     flex: 9,
     flexDirection: 'column'
-  },
-  imageGreenOverlay: {
-    width: '100%',
-    height: '100%',
-    backgroundColor: 'green',
-    opacity: 0.5
   },
   boxContainerTop: {
     flex: 1,

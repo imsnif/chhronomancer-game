@@ -34,7 +34,7 @@ export default class CharacterSheet extends Component {
       <View style={styles.container}>
         <View style={styles.titleItem}>
           <Image style={styles.playerImageBox} source={{uri: profilePic}}>
-            <View style={styles.imageGreenOverlay} />
+            <View style={styles.imageOverlay} />
           </Image>
           <Text style={styles.titleTextImage}>{player.name}</Text>
         </View>
