@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Player Iterations => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#329932",
+      "borderColor": "#329932",
+      "borderRadius": 0,
+      "borderWidth": 0.5,
+      "flex": 1,
+      "flexDirection": "column",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "minHeight": 30,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#0e0e0e",
+          "flex": 7,
+          "fontFamily": "telegrama_raw",
+          "textAlign": "center",
+        }
+      }
+    >
+      Iterations
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#141313",
+        "borderColor": "#141313",
+        "borderRadius": 0,
+        "borderWidth": 0.5,
+        "flex": 13,
+        "flexDirection": "column",
+        "margin": 1,
+      }
+    }
+  >
+    <RCTScrollView>
+      <View>
+        <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          hasTVPreferredFocus={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+              },
+              undefined,
+            ]
+          }
+          testID={undefined}
+          tvParallaxProperties={undefined}
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "column",
+                "height": 25,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#00ff00",
+                  "flex": 1,
+                  "fontFamily": "telegrama_raw",
+                  "fontSize": 8,
+                  "marginTop": 5,
+                  "paddingRight": 9,
+                  "paddingTop": 2,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Timeline 1
+            </Text>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#329932",
+                      "flex": 1,
+                      "fontFamily": "telegrama_raw",
+                      "fontSize": 6,
+                      "marginLeft": 9,
+                      "paddingTop": 2,
+                      "textAlign": "left",
+                    }
+                  }
+                >
+                  Resetting
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#329932",
+                      "flex": 7,
+                      "fontFamily": "telegrama_raw",
+                      "fontSize": 6,
+                      "paddingTop": 2,
+                      "textAlign": "left",
+                    }
+                  }
+                >
+                  | |==------------------------------------------------|   1% 00:01:39
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          hasTVPreferredFocus={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+              },
+              undefined,
+            ]
+          }
+          testID={undefined}
+          tvParallaxProperties={undefined}
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "column",
+                "height": 25,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#00ff00",
+                  "flex": 1,
+                  "fontFamily": "telegrama_raw",
+                  "fontSize": 8,
+                  "marginTop": 5,
+                  "paddingRight": 9,
+                  "paddingTop": 2,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Timeline 2
+            </Text>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#329932",
+                      "flex": 1,
+                      "fontFamily": "telegrama_raw",
+                      "fontSize": 6,
+                      "marginLeft": 9,
+                      "paddingTop": 2,
+                      "textAlign": "left",
+                    }
+                  }
+                >
+                  Locking
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#329932",
+                      "flex": 7,
+                      "fontFamily": "telegrama_raw",
+                      "fontSize": 6,
+                      "paddingTop": 2,
+                      "textAlign": "left",
+                    }
+                  }
+                >
+                  | |==------------------------------------------------|   1% 00:06:39
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
