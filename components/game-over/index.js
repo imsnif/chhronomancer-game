@@ -7,7 +7,7 @@ import playerStore from '../../stores/player'
 import statsStore from '../../stores/stats'
 
 @observer
-export default class CharacterSheet extends Component {
+export default class GameOver extends Component {
   componentDidUpdate () {
     if (!statsStore.winnerId) {
       this.props.navigator.push({ screenName: 'character-sheet' })
