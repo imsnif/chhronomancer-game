@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, StyleSheet } from 'react-native'
 import styles from './styles'
 
 const spinnerChars = [ '|', '/', '-', '\\', '|', '/', '-', '\\' ]
@@ -52,7 +52,7 @@ export default class Power extends Component {
     const paddedProgress = padProgress(progress)
     const barString = `${spinChar} |${bar}| ${paddedProgress}% ${timeLeft}`
     return (
-      <View style={{flexDirection: 'row'}}>
+      <View style={StyleSheet.flatten([{flexDirection: 'row'}, this.props.style || {}])}>
         <Text key={1} style={styles.name}>{name}</Text>
         <Text key={2} style={styles.barLine}>{barString}</Text>
       </View>
