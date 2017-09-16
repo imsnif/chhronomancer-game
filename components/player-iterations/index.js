@@ -3,7 +3,9 @@ import { observer } from 'mobx-react/native'
 import { View, ScrollView, Text, TouchableHighlight } from 'react-native'
 import ListBox from '../list-box'
 import Power from '../power'
+
 import styles from './styles'
+import commonStyles from '../common/styles'
 
 import powerStore from '../../stores/power'
 
@@ -29,21 +31,20 @@ export default class PlayerIterations extends Component {
               const timeLeft = powerStore.getTimeLeft(playerId, timelineName)
               return (
                 <TouchableHighlight
-                  underlayColor='#141313'
+                  underlayColor={commonStyles.backGround}
                   key={index}
                   onPress={() => this.navigate(playerId, timelineName)}
                 >
                   <View style={styles.iterationItem}>
                     <Text style={styles.timelineName}>{timelineName}</Text>
-                    <View style={{flex: 1}}>
-                      <Power
-                        name={power.name}
-                        progress={progress.get()}
-                        timeLeft={timeLeft.get()}
-                        alliedPlayers={power.alliedPlayers}
-                        enemyPlayers={power.enemyPlayers}
-                      />
-                    </View>
+                    <Power
+                      style={{flex: 1}}
+                      name={power.name}
+                      progress={progress.get()}
+                      timeLeft={timeLeft.get()}
+                      alliedPlayers={power.alliedPlayers}
+                      enemyPlayers={power.enemyPlayers}
+                    />
                   </View>
                 </TouchableHighlight>
               )
