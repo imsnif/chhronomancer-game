@@ -1,0 +1,466 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item list => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#329932",
+      "borderColor": "#329932",
+      "borderRadius": 0,
+      "borderWidth": 0.5,
+      "flex": 1,
+      "flexDirection": "column",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "minHeight": 30,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#0e0e0e",
+          "flex": 7,
+          "fontFamily": "telegrama_raw",
+          "paddingLeft": 5,
+          "textAlign": "left",
+        }
+      }
+    >
+      Items
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#0e0e0e",
+          "flex": 3,
+          "fontFamily": "telegrama_raw",
+          "textAlign": "center",
+        }
+      }
+    >
+      Cap: 6/7
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#141313",
+        "borderColor": "#141313",
+        "borderRadius": 0,
+        "borderWidth": 0.5,
+        "flex": 13,
+        "flexDirection": "column",
+        "margin": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "marginTop": 2,
+          "minHeight": 27,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "flex": 1,
+            "height": undefined,
+            "marginLeft": 3,
+            "resizeMode": "stretch",
+            "width": undefined,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 12,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#00ff00",
+              "flex": 5,
+              "fontFamily": "telegrama_raw",
+              "paddingLeft": 9,
+              "paddingTop": 3,
+            }
+          }
+        >
+          Steal
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#329932",
+              "flex": 1,
+              "fontFamily": "telegrama_raw",
+              "paddingTop": 5,
+            }
+          }
+        >
+          ?
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "marginTop": 2,
+          "minHeight": 27,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "flex": 1,
+            "height": undefined,
+            "marginLeft": 3,
+            "resizeMode": "stretch",
+            "width": undefined,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 12,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#329932",
+              "flex": 5,
+              "fontFamily": "telegrama_raw",
+              "paddingLeft": 9,
+              "paddingTop": 3,
+            }
+          }
+        >
+          Assist
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#329932",
+              "flex": 1,
+              "fontFamily": "telegrama_raw",
+              "paddingTop": 5,
+            }
+          }
+        >
+          ?
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "marginTop": 2,
+          "minHeight": 27,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "flex": 1,
+            "height": undefined,
+            "marginLeft": 3,
+            "resizeMode": "stretch",
+            "width": undefined,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 12,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#00ff00",
+              "flex": 5,
+              "fontFamily": "telegrama_raw",
+              "paddingLeft": 9,
+              "paddingTop": 3,
+            }
+          }
+        >
+          Prevent (x2)
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#329932",
+              "flex": 1,
+              "fontFamily": "telegrama_raw",
+              "paddingTop": 5,
+            }
+          }
+        >
+          ?
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "marginTop": 2,
+          "minHeight": 27,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "flex": 1,
+            "height": undefined,
+            "marginLeft": 3,
+            "resizeMode": "stretch",
+            "width": undefined,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 12,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#00ff00",
+              "flex": 5,
+              "fontFamily": "telegrama_raw",
+              "paddingLeft": 9,
+              "paddingTop": 3,
+            }
+          }
+        >
+          Reset (x2)
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#329932",
+              "flex": 1,
+              "fontFamily": "telegrama_raw",
+              "paddingTop": 5,
+            }
+          }
+        >
+          ?
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "marginTop": 2,
+          "minHeight": 27,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "flex": 1,
+            "height": undefined,
+            "marginLeft": 3,
+            "resizeMode": "stretch",
+            "width": undefined,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 12,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#329932",
+              "flex": 5,
+              "fontFamily": "telegrama_raw",
+              "paddingLeft": 9,
+              "paddingTop": 3,
+            }
+          }
+        >
+          Lock
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#329932",
+              "flex": 1,
+              "fontFamily": "telegrama_raw",
+              "paddingTop": 5,
+            }
+          }
+        >
+          ?
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "marginTop": 2,
+          "minHeight": 27,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "flex": 1,
+            "height": undefined,
+            "marginLeft": 3,
+            "resizeMode": "stretch",
+            "width": undefined,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 12,
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#329932",
+              "flex": 5,
+              "fontFamily": "telegrama_raw",
+              "paddingLeft": 9,
+              "paddingTop": 3,
+            }
+          }
+        >
+          Unlock
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#329932",
+              "flex": 1,
+              "fontFamily": "telegrama_raw",
+              "paddingTop": 5,
+            }
+          }
+        >
+          ?
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
