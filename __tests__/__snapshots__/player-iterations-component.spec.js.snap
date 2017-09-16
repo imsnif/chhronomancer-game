@@ -113,52 +113,45 @@ exports[`Player Iterations => renders correctly 1`] = `
               style={
                 Object {
                   "flex": 1,
+                  "flexDirection": "row",
                 }
               }
             >
-              <View
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
                 style={
                   Object {
-                    "flexDirection": "row",
+                    "color": "#329932",
+                    "flex": 1,
+                    "fontFamily": "telegrama_raw",
+                    "fontSize": 6,
+                    "marginLeft": 9,
+                    "paddingTop": 2,
+                    "textAlign": "left",
                   }
                 }
               >
-                <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
-                  style={
-                    Object {
-                      "color": "#329932",
-                      "flex": 1,
-                      "fontFamily": "telegrama_raw",
-                      "fontSize": 6,
-                      "marginLeft": 9,
-                      "paddingTop": 2,
-                      "textAlign": "left",
-                    }
+                Resetting
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#329932",
+                    "flex": 7,
+                    "fontFamily": "telegrama_raw",
+                    "fontSize": 6,
+                    "paddingTop": 2,
+                    "textAlign": "left",
                   }
-                >
-                  Resetting
-                </Text>
-                <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
-                  style={
-                    Object {
-                      "color": "#329932",
-                      "flex": 7,
-                      "fontFamily": "telegrama_raw",
-                      "fontSize": 6,
-                      "paddingTop": 2,
-                      "textAlign": "left",
-                    }
-                  }
-                >
-                  | |==------------------------------------------------|   1% 00:01:39
-                </Text>
-              </View>
+                }
+              >
+                | |==------------------------------------------------|   1% 00:01:39
+              </Text>
             </View>
           </View>
         </View>
@@ -219,52 +212,45 @@ exports[`Player Iterations => renders correctly 1`] = `
               style={
                 Object {
                   "flex": 1,
+                  "flexDirection": "row",
                 }
               }
             >
-              <View
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
                 style={
                   Object {
-                    "flexDirection": "row",
+                    "color": "#329932",
+                    "flex": 1,
+                    "fontFamily": "telegrama_raw",
+                    "fontSize": 6,
+                    "marginLeft": 9,
+                    "paddingTop": 2,
+                    "textAlign": "left",
                   }
                 }
               >
-                <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
-                  style={
-                    Object {
-                      "color": "#329932",
-                      "flex": 1,
-                      "fontFamily": "telegrama_raw",
-                      "fontSize": 6,
-                      "marginLeft": 9,
-                      "paddingTop": 2,
-                      "textAlign": "left",
-                    }
+                Locking
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#329932",
+                    "flex": 7,
+                    "fontFamily": "telegrama_raw",
+                    "fontSize": 6,
+                    "paddingTop": 2,
+                    "textAlign": "left",
                   }
-                >
-                  Locking
-                </Text>
-                <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
-                  style={
-                    Object {
-                      "color": "#329932",
-                      "flex": 7,
-                      "fontFamily": "telegrama_raw",
-                      "fontSize": 6,
-                      "paddingTop": 2,
-                      "textAlign": "left",
-                    }
-                  }
-                >
-                  | |==------------------------------------------------|   1% 00:06:39
-                </Text>
-              </View>
+                }
+              >
+                | |==------------------------------------------------|   1% 00:06:39
+              </Text>
             </View>
           </View>
         </View>
