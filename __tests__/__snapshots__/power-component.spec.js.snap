@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Power progress indicator => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 1,
+        "fontFamily": "telegrama_raw",
+        "fontSize": 6,
+        "marginLeft": 9,
+        "paddingTop": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    foo
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 7,
+        "fontFamily": "telegrama_raw",
+        "fontSize": 6,
+        "paddingTop": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    | |==========================------------------------|  50% 00:42:12
+  </Text>
+</View>
+`;
