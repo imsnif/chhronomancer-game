@@ -1,3 +1,7 @@
+import powerStore from '../../stores/power'
+import playerStore from '../../stores/player'
+import timelineStore from '../../stores/timeline'
+
 function getSortParams (player1, player2, activePowers, sortBy) {
   if (sortBy === 'player') {
     return {
@@ -18,15 +22,17 @@ function getSortParams (player1, player2, activePowers, sortBy) {
   }
 }
 
-export default function sortPlayers (player1Id, player2Id, playerStore, powerStore, clockStore, sortBy, timelineName) {
-  const player1 = playerStore.players.find(p => p.id === player1Id)
-  const player2 = playerStore.players.find(p => p.id === player2Id)
+export default function sortPlayers (player1Id, player2Id, timelineName) {
+  const timeline = timelineStore.getTimeline(timelineName)
+  const sortBy = timeline.sortBy
+  const player1 = playerStore.getPlayer(player1Id)
+  const player2 = playerStore.getPlayer(player2Id)
   const activePowers = {
     player1: Object.assign({}, powerStore.getPower(player1Id, timelineName), {
-      timeLeft: powerStore.getTimeLeft(player1Id, timelineName, clockStore.time)
+      timeLeft: powerStore.getTimeLeft(player1Id, timelineName)
     }),
     player2: Object.assign({}, powerStore.getPower(player2Id, timelineName), {
-      timeLeft: powerStore.getTimeLeft(player2Id, timelineName, clockStore.time)
+      timeLeft: powerStore.getTimeLeft(player2Id, timelineName)
     })
   }
   const sortParams = getSortParams(player1, player2, activePowers, sortBy)

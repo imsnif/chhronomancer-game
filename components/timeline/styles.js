@@ -17,5 +17,19 @@ export default StyleSheet.create({
     width: '100%',
     flexDirection: 'row',
     justifyContent: 'space-between'
+  },
+  middleButtonRow: {
+    flex: 1,
+    height: '100%',
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 4
+  },
+  leftButton: {
+    marginRight: 2
+  },
+  rightButton: {
+    marginLeft: 2
   }
 })
