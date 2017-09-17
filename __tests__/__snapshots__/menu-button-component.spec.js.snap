@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuButton (pressed) => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hasTVPreferredFocus={undefined}
+    hitSlop={undefined}
+    isTVSelectable={true}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#329932",
+          "borderColor": "#329932",
+          "borderRadius": 0,
+          "borderWidth": 1,
+          "flex": 1,
+          "flexDirection": "row",
+          "height": "100%",
+          "justifyContent": "center",
+          "width": "100%",
+        },
+      ]
+    }
+    testID={undefined}
+    tvParallaxProperties={undefined}
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#0e0e0e",
+          "fontFamily": "telegrama_raw",
+          "textAlign": "center",
+        }
+      }
+    >
+      foo
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`MenuButton => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hasTVPreferredFocus={undefined}
+    hitSlop={undefined}
+    isTVSelectable={true}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#141313",
+          "borderColor": "#329932",
+          "borderRadius": 0,
+          "borderWidth": 1,
+          "flex": 1,
+          "flexDirection": "row",
+          "height": "100%",
+          "justifyContent": "center",
+          "width": "100%",
+        },
+      ]
+    }
+    testID={undefined}
+    tvParallaxProperties={undefined}
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#329932",
+          "flex": 1,
+          "fontFamily": "telegrama_raw",
+          "textAlign": "center",
+        }
+      }
+    >
+      foo
+    </Text>
+  </View>
+</View>
+`;
