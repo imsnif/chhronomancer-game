@@ -1686,7 +1686,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
           "alignSelf": "center",
           "color": "#329932",
           "fontSize": 21,
-          "height": 13,
+          "height": 15,
           "includeFontPadding": false,
           "lineHeight": 15,
           "marginTop": 5,
@@ -2175,7 +2175,9 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
             "flex": 0,
             "lineHeight": 13,
             "marginLeft": 4,
-            "marginRight": 5,
+            "marginRight": 1,
+            "textAlignVertical": "top",
+            "width": 10,
           }
         }
       >
@@ -4062,7 +4064,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
           "alignSelf": "center",
           "color": "#329932",
           "fontSize": 21,
-          "height": 13,
+          "height": 15,
           "includeFontPadding": false,
           "lineHeight": 15,
           "marginTop": 5,
@@ -4551,7 +4553,9 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
             "flex": 0,
             "lineHeight": 13,
             "marginLeft": 4,
-            "marginRight": 5,
+            "marginRight": 1,
+            "textAlignVertical": "top",
+            "width": 10,
           }
         }
       >
@@ -6438,7 +6442,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
           "alignSelf": "center",
           "color": "#329932",
           "fontSize": 21,
-          "height": 13,
+          "height": 15,
           "includeFontPadding": false,
           "lineHeight": 15,
           "marginTop": 5,
@@ -6927,7 +6931,9 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
             "flex": 0,
             "lineHeight": 13,
             "marginLeft": 4,
-            "marginRight": 5,
+            "marginRight": 1,
+            "textAlignVertical": "top",
+            "width": 10,
           }
         }
       >
