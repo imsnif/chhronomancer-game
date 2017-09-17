@@ -33,8 +33,8 @@ export default class TimelineSummary extends Component {
       <TouchableHighlight onPress={this.navigate}>
         <ListBox title={this.props.name}
           image={imageToRender}
-          rightImage={this.props.isLocked ? lockedImage : false}
-          style={{marginBottom: 7, height: 120}}
+          rightImage={timeline.isLocked ? lockedImage : false}
+          style={styles.listBox}
         >
           <View style={styles.wrapper}>
             {
@@ -43,7 +43,7 @@ export default class TimelineSummary extends Component {
                 const player = playerStore.players.find(p => p.id === pId)
                 return (
                   <Image key={player.id} style={styles.image} source={{uri: player.picture}}>
-                    <View style={{width: '100%', height: '100%', backgroundColor: 'green', opacity: 0.5}} />
+                    <View style={styles.imageOverlay} />
                   </Image>
                 )
               })

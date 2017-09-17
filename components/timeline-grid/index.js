@@ -36,10 +36,8 @@ export default class TimelineGrid extends Component {
               .filter(filterTimelines)
               .map(timeline => {
                 return <TimelineSummary
-                  isLocked={timeline.isLocked}
                   key={timeline.name}
                   name={timeline.name}
-                  type={timeline.type}
                   navigator={this.props.navigator}
                 />
               })
