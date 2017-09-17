@@ -7,7 +7,7 @@ import commonStyles from '../common/styles'
 export default class MenuButton extends Component {
   constructor (props) {
     super(props)
-    this.state = { pressStatus: false }
+    this.state = { pressStatus: props.pressStatus }
   }
   _onHideUnderlay () {
     this.setState({ pressStatus: false })
