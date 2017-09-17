@@ -364,9 +364,11 @@ exports[`Game renderScene (Bidding) => renders correctly 1`] = `
                 style={
                   Object {
                     "backgroundColor": "#141313",
+                    "borderColor": "black",
+                    "borderWidth": 1,
                     "flex": 0,
-                    "height": 26,
-                    "marginLeft": 3,
+                    "height": 28,
+                    "margin": 1,
                     "resizeMode": "stretch",
                     "width": 26,
                   }
@@ -742,9 +744,11 @@ exports[`Game renderScene (Bidding) => renders correctly 1`] = `
                 style={
                   Object {
                     "backgroundColor": "#141313",
+                    "borderColor": "black",
+                    "borderWidth": 1,
                     "flex": 0,
-                    "height": 26,
-                    "marginLeft": 3,
+                    "height": 28,
+                    "margin": 1,
                     "resizeMode": "stretch",
                     "width": 26,
                   }

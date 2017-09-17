@@ -1454,8 +1454,10 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                       <View
                         style={
                           Object {
-                            "flex": 1,
+                            "alignItems": "center",
                             "flexDirection": "row",
+                            "justifyContent": "center",
+                            "minHeight": 30,
                           }
                         }
                       >
@@ -1465,13 +1467,12 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                             Object {
                               "backgroundColor": "#141313",
                               "borderColor": "black",
-                              "borderRadius": 0,
                               "borderWidth": 1,
-                              "flex": 1,
+                              "flex": 0,
                               "height": 28,
                               "margin": 1,
                               "resizeMode": "stretch",
-                              "width": 10,
+                              "width": 26,
                             }
                           }
                         />
@@ -1483,10 +1484,8 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                           style={
                             Object {
                               "color": "#0e0e0e",
-                              "flex": 9,
+                              "flex": 7,
                               "fontFamily": "telegrama_raw",
-                              "paddingRight": 30,
-                              "paddingTop": 6,
                               "textAlign": "center",
                             }
                           }
@@ -1499,13 +1498,12 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                             Object {
                               "backgroundColor": "#141313",
                               "borderColor": "black",
-                              "borderRadius": 0,
                               "borderWidth": 1,
-                              "flex": 1,
+                              "flex": 0,
                               "height": 28,
                               "margin": 1,
                               "resizeMode": "stretch",
-                              "width": 10,
+                              "width": 26,
                             }
                           }
                         />
@@ -1517,7 +1515,7 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                             "borderColor": "#141313",
                             "borderRadius": 0,
                             "borderWidth": 0.5,
-                            "flex": 3,
+                            "flex": 13,
                             "flexDirection": "column",
                             "margin": 1,
                           }
@@ -1681,8 +1679,10 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                       <View
                         style={
                           Object {
-                            "flex": 1,
+                            "alignItems": "center",
                             "flexDirection": "row",
+                            "justifyContent": "center",
+                            "minHeight": 30,
                           }
                         }
                       >
@@ -1692,13 +1692,12 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                             Object {
                               "backgroundColor": "#141313",
                               "borderColor": "black",
-                              "borderRadius": 0,
                               "borderWidth": 1,
-                              "flex": 1,
+                              "flex": 0,
                               "height": 28,
                               "margin": 1,
                               "resizeMode": "stretch",
-                              "width": 10,
+                              "width": 26,
                             }
                           }
                         />
@@ -1710,10 +1709,8 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                           style={
                             Object {
                               "color": "#0e0e0e",
-                              "flex": 9,
+                              "flex": 7,
                               "fontFamily": "telegrama_raw",
-                              "paddingRight": 30,
-                              "paddingTop": 6,
                               "textAlign": "center",
                             }
                           }
@@ -1728,7 +1725,7 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                             "borderColor": "#141313",
                             "borderRadius": 0,
                             "borderWidth": 0.5,
-                            "flex": 3,
+                            "flex": 13,
                             "flexDirection": "column",
                             "margin": 1,
                           }
@@ -1842,8 +1839,10 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                       <View
                         style={
                           Object {
-                            "flex": 1,
+                            "alignItems": "center",
                             "flexDirection": "row",
+                            "justifyContent": "center",
+                            "minHeight": 30,
                           }
                         }
                       >
@@ -1853,13 +1852,12 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                             Object {
                               "backgroundColor": "#141313",
                               "borderColor": "black",
-                              "borderRadius": 0,
                               "borderWidth": 1,
-                              "flex": 1,
+                              "flex": 0,
                               "height": 28,
                               "margin": 1,
                               "resizeMode": "stretch",
-                              "width": 10,
+                              "width": 26,
                             }
                           }
                         />
@@ -1871,10 +1869,8 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                           style={
                             Object {
                               "color": "#0e0e0e",
-                              "flex": 9,
+                              "flex": 7,
                               "fontFamily": "telegrama_raw",
-                              "paddingRight": 30,
-                              "paddingTop": 6,
                               "textAlign": "center",
                             }
                           }
@@ -1889,7 +1885,7 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                             "borderColor": "#141313",
                             "borderRadius": 0,
                             "borderWidth": 0.5,
-                            "flex": 3,
+                            "flex": 13,
                             "flexDirection": "column",
                             "margin": 1,
                           }
@@ -2028,8 +2024,10 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                       <View
                         style={
                           Object {
-                            "flex": 1,
+                            "alignItems": "center",
                             "flexDirection": "row",
+                            "justifyContent": "center",
+                            "minHeight": 30,
                           }
                         }
                       >
@@ -2039,13 +2037,12 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                             Object {
                               "backgroundColor": "#141313",
                               "borderColor": "black",
-                              "borderRadius": 0,
                               "borderWidth": 1,
-                              "flex": 1,
+                              "flex": 0,
                               "height": 28,
                               "margin": 1,
                               "resizeMode": "stretch",
-                              "width": 10,
+                              "width": 26,
                             }
                           }
                         />
@@ -2057,10 +2054,8 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                           style={
                             Object {
                               "color": "#0e0e0e",
-                              "flex": 9,
+                              "flex": 7,
                               "fontFamily": "telegrama_raw",
-                              "paddingRight": 30,
-                              "paddingTop": 6,
                               "textAlign": "center",
                             }
                           }
@@ -2075,7 +2070,7 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                             "borderColor": "#141313",
                             "borderRadius": 0,
                             "borderWidth": 0.5,
-                            "flex": 3,
+                            "flex": 13,
                             "flexDirection": "column",
                             "margin": 1,
                           }

@@ -21,8 +21,10 @@ module.exports = StyleSheet.create({
   },
   imageBox: {
     width: 26,
-    height: 26,
-    marginLeft: 3,
+    height: 28,
+    borderColor: 'black',
+    borderWidth: 1,
+    margin: 1,
     flex: 0,
     backgroundColor: common.backGround,
     resizeMode: 'stretch'

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { observer } from 'mobx-react/native'
 import { View, Image, TouchableHighlight } from 'react-native'
-import InfoBox from '../info-box'
+import ListBox from '../list-box'
 import styles from './styles'
 
 import steal from '../../assets/items/steal-green.png'
@@ -31,9 +31,10 @@ export default class TimelineSummary extends Component {
     const imageToRender = images[timeline.type]
     return (
       <TouchableHighlight onPress={this.navigate}>
-        <InfoBox title={this.props.name}
+        <ListBox title={this.props.name}
           image={imageToRender}
           rightImage={this.props.isLocked ? lockedImage : false}
+          style={{marginBottom: 7, height: 120}}
         >
           <View style={styles.wrapper}>
             {
@@ -49,7 +50,7 @@ export default class TimelineSummary extends Component {
               : null
           }
           </View>
-        </InfoBox>
+        </ListBox>
       </TouchableHighlight>
     )
   }
