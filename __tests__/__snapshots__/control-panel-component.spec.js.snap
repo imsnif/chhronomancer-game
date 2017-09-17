@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Control Panel => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "alignSelf": "center",
+        "color": "#329932",
+        "fontSize": 21,
+        "height": 13,
+        "includeFontPadding": false,
+        "lineHeight": 15,
+        "marginTop": 5,
+        "textAlignVertical": "top",
+      }
+    }
+  >
+    +-------------------------------------+------------------+
+  </Text>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "paddingLeft": 15,
+        "paddingRight": 15,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 2,
+          "marginTop": 5,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        foo
+      </Text>
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#329932",
+          "flex": 0,
+          "lineHeight": 13,
+          "marginLeft": 4,
+          "marginRight": 5,
+        }
+      }
+    >
+       |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+
+    </Text>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginTop": 5,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        bar
+      </Text>
+    </View>
+  </View>
+</View>
+`;
