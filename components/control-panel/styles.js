@@ -1,19 +1,23 @@
 import { StyleSheet } from 'react-native'
-import common from '../common/styles'
 
 export default StyleSheet.create({
   container: {
-    height: '100%',
-    paddingTop: 5,
-    paddingLeft: 15,
-    paddingRight: 15,
-    paddingBottom: 5,
-    backgroundColor: common.backGround,
+    flex: 1,
     flexDirection: 'column'
   },
-  timelineScroll: {
-    width: '100%',
-    flexDirection: 'column'
+  contentContainer: {
+    flex: 1,
+    flexDirection: 'row',
+    paddingLeft: 15,
+    paddingRight: 15
+  },
+  leftPanelContainer: {
+    flex: 2,
+    marginTop: 5
+  },
+  rightPanelContainer: {
+    flex: 1,
+    marginTop: 5
   },
   separatingLine: {
     color: '#329932',
