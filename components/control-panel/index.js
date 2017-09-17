@@ -1,5 +1,8 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View } from 'react-native'
+
+import VerticalSeparator from '../vertical-separator'
+import HorizontalSeparator from '../horizontal-separator'
 import styles from './styles'
 
 export default function ControlPanel (props) {
@@ -7,12 +10,12 @@ export default function ControlPanel (props) {
   const rightPanel = props.children[1]
   return (
     <View style={styles.container}>
-      <Text style={styles.separatingLine}>+-------------------------------------+------------------+</Text>
+      <HorizontalSeparator length={56} plusAt={[37]} style={styles.horizontalLine} />
       <View style={styles.contentContainer}>
         <View style={styles.leftPanelContainer}>
           {leftPanel}
         </View>
-        <Text style={styles.verticalLine}>{' |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n'}</Text>
+        <VerticalSeparator length={13} style={styles.verticalLine} />
         <View style={styles.rightPanelContainer}>
           {rightPanel}
         </View>
