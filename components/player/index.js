@@ -11,6 +11,9 @@ import playerStore from '../../stores/player'
 import powerStore from '../../stores/power'
 import timelineStore from '../../stores/timeline'
 
+import commonStyles from '../common/styles'
+import styles from './styles'
+
 @observer
 export default class Player extends Component {
   constructor (props) {
@@ -55,11 +58,11 @@ export default class Player extends Component {
     const count = new Set(player.items.map(i => i.name)).size
     return (
       <TouchableHighlight
-        underlayColor='#141313'
+        underlayColor={commonStyles.backGround}
         onPress={activePower ? () => this.navigate(player.id, timelineName) : () => {}}
       >
         <InfoBox title={player.name} image={{type: 'player', uri: player.picture}}>
-          <View style={{flex: 1, paddingTop: 25}}>
+          <View style={styles.powerPad}>
             {
               activePower
                 ? <Power
@@ -69,10 +72,10 @@ export default class Player extends Component {
                   alliedPlayers={activePower.alliedPlayers}
                   enemyPlayers={activePower.enemyPlayers}
                   />
-                : <View style={{flex: 1}} />
+                : <View style={styles.emptyPower} />
             }
           </View>
-          <View style={{flex: 1, flexDirection: 'row'}}>
+          <View style={styles.lowerBar}>
             <LowItems items={lowItems} />
             <MidItems items={midItems} />
             <InventoryCount count={count} />
