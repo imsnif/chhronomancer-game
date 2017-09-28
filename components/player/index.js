@@ -20,6 +20,7 @@ const midItemNames = [ 'lock', 'unlock' ]
 
 @observer
 export default class Player extends Component {
+  // TODO: CONTINUE HERE! TEST THIS, then all child components, then go back to Timeline
   constructor (props) {
     super(props)
     this.navigate = this.navigate.bind(this)
@@ -37,7 +38,7 @@ export default class Player extends Component {
     const lowItems = formatItems(player.items, lowItemNames, timelineName, player.name)
     const midItems = formatItems(player.items, midItemNames, timelineName, player.name)
     const activePower = powerStore.getPower(player.id, timelineName)
-    const count = new Set(player.items.map(i => i.name)).size
+    const count = player.items.length
     return (
       <TouchableHighlight
         underlayColor={commonStyles.backGround}
