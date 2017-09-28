@@ -20,7 +20,6 @@ const midItemNames = [ 'lock', 'unlock' ]
 
 @observer
 export default class Player extends Component {
-  // TODO: CONTINUE HERE! TEST THIS, then all child components, then go back to Timeline
   constructor (props) {
     super(props)
     this.navigate = this.navigate.bind(this)
