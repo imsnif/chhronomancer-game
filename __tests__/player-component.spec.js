@@ -26,3 +26,14 @@ test('Player component => renders correctly', () => {
   ).toJSON()
   expect(tree).toMatchSnapshot()
 })
+
+test('Player component => renders correctly without active power', () => {
+  const timelineName = 'Timeline 2'
+  const playerId = 2
+  const Player = require('../components/player').default
+  require('../server-mock') // TODO: export a function like a normal Human being
+  const tree = renderer.create(
+    <Player timelineName={timelineName} id={playerId} navigator={navigatorMock()} />
+  ).toJSON()
+  expect(tree).toMatchSnapshot()
+})
