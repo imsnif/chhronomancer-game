@@ -1682,7 +1682,7 @@ exports[`Game renderScene (Timeline) => renders correctly 1`] = `
                           }
                         }
                       >
-                        6
+                        8
                         /7
                       </Text>
                     </View>

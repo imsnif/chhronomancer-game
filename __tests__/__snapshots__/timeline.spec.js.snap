@@ -427,7 +427,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                       }
                     }
                   >
-                    6
+                    8
                     /7
                   </Text>
                 </View>
@@ -2801,7 +2801,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                       }
                     }
                   >
-                    6
+                    8
                     /7
                   </Text>
                 </View>
@@ -5175,7 +5175,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                       }
                     }
                   >
-                    6
+                    8
                     /7
                   </Text>
                 </View>
