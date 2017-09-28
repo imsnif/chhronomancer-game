@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Inventory-Count component => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 1,
+        "flexDirection": "row",
+        "fontFamily": "telegrama_raw",
+        "fontSize": 8,
+        "marginTop": 10,
+      }
+    }
+  >
+    Artifacts: 
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 1,
+        "flexDirection": "row",
+        "fontFamily": "telegrama_raw",
+        "fontSize": 8,
+        "marginTop": 10,
+      }
+    }
+  >
+    4
+    /7
+  </Text>
+</View>
+`;
