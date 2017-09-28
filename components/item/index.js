@@ -21,6 +21,17 @@ import unlockEmpty from '../../assets/items/unlock-green-empty.png'
 import unlockBright from '../../assets/items/unlock-green-bright.png'
 import unlock from '../../assets/items/unlock-green.png'
 
+import commonStyles from '../common/styles'
+
+const brightIcons = {
+  assist: assistBright,
+  prevent: preventBright,
+  reset: resetBright,
+  steal: stealBright,
+  lock: lockBright,
+  unlock: unlockBright
+}
+
 export default function Item (props) {
   const icons = {
     assist: props.fill ? assist : assistEmpty,
@@ -30,19 +41,11 @@ export default function Item (props) {
     lock: props.fill ? lock : lockEmpty,
     unlock: props.fill ? unlock : unlockEmpty
   }
-  const brightIcons = {
-    assist: assistBright,
-    prevent: preventBright,
-    reset: resetBright,
-    steal: stealBright,
-    lock: lockBright,
-    unlock: unlockBright
-  }
   const img = props.bright ? brightIcons[props.name] : icons[props.name]
   if (props.onPress) {
     return (
       <TouchableHighlight
-        underlayColor='#141313'
+        underlayColor={commonStyles.backGround}
         onPress={props.onPress || function () {}}
       >
         <Image style={styles.item} source={img} />
