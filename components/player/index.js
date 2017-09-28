@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { View, TouchableHighlight } from 'react-native'
 import { observer } from 'mobx-react/native'
-import InfoBox from '../info-box'
+import ListBox from '../list-box'
 import LowItems from '../low-items'
 import MidItems from '../mid-items'
 import InventoryCount from '../inventory-count'
@@ -9,13 +9,18 @@ import Power from '../power'
 
 import playerStore from '../../stores/player'
 import powerStore from '../../stores/power'
-import timelineStore from '../../stores/timeline'
 
 import commonStyles from '../common/styles'
 import styles from './styles'
 
+import formatItems from './format-items'
+
+const lowItemNames = [ 'assist', 'prevent', 'reset', 'steal' ]
+const midItemNames = [ 'lock', 'unlock' ]
+
 @observer
 export default class Player extends Component {
+  // TODO: CONTINUE HERE! TEST THIS, then all child components, then go back to Timeline
   constructor (props) {
     super(props)
     this.navigate = this.navigate.bind(this)
@@ -30,30 +35,8 @@ export default class Player extends Component {
   render () {
     const timelineName = this.props.timelineName
     const player = playerStore.getPlayer(this.props.id)
-    const lowItems = player.items
-    .filter(item => ( // TODO: move this logic to a separate function
-      item.name === 'assist' ||
-      item.name === 'prevent' ||
-      item.name === 'reset' ||
-      item.name === 'steal')
-    )
-    .map(item => ({
-      name: item.name,
-      fill: true,
-      bright: item.source === timelineName,
-      onPress: () => timelineStore.addModal(timelineName, {modalType: 'steal', itemName: item.name, playerName: player.name})
-    }))
-    const midItems = player.items
-    .filter(item => ( // TODO: move this logic to a separate function
-      item.name === 'lock' ||
-      item.name === 'unlock')
-    )
-    .map(item => ({
-      name: item.name,
-      fill: true,
-      bright: item.source === timelineName,
-      onPress: () => timelineStore.addModal(timelineName, {modalType: 'steal', itemName: item.name, playerName: player.name})
-    }))
+    const lowItems = formatItems(player.items, lowItemNames, timelineName, player.name)
+    const midItems = formatItems(player.items, midItemNames, timelineName, player.name)
     const activePower = powerStore.getPower(player.id, timelineName)
     const count = new Set(player.items.map(i => i.name)).size
     return (
@@ -61,7 +44,7 @@ export default class Player extends Component {
         underlayColor={commonStyles.backGround}
         onPress={activePower ? () => this.navigate(player.id, timelineName) : () => {}}
       >
-        <InfoBox title={player.name} image={{type: 'player', uri: player.picture}}>
+        <ListBox style={styles.box} title={player.name} image={{type: 'player', uri: player.picture}}>
           <View style={styles.powerPad}>
             {
               activePower
@@ -80,7 +63,7 @@ export default class Player extends Component {
             <MidItems items={midItems} />
             <InventoryCount count={count} />
           </View>
-        </InfoBox>
+        </ListBox>
       </TouchableHighlight>
     )
   }
