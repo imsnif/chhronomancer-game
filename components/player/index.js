@@ -41,9 +41,16 @@ export default class Player extends Component {
     return (
       <TouchableHighlight
         underlayColor={commonStyles.backGround}
-        onPress={activePower ? () => this.navigate(player.id, timelineName) : () => {}}
+        onPress={activePower
+          ? () => this.navigate(player.id, timelineName)
+          : () => {}
+        }
       >
-        <ListBox style={styles.box} title={player.name} image={{type: 'player', uri: player.picture}}>
+        <ListBox
+          style={styles.box}
+          title={player.name}
+          image={{type: 'player', uri: player.picture}}
+        >
           <View style={styles.powerPad}>
             {
               activePower

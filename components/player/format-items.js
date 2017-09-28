@@ -6,7 +6,11 @@ function itemFormatter (timelineName, playerName) {
       name: item.name,
       fill: true,
       bright: item.source === timelineName,
-      onPress: () => timelineStore.addModal(timelineName, {modalType: 'steal', itemName: item.name, playerName})
+      onPress: () => timelineStore.addModal(timelineName, {
+        modalType: 'steal',
+        itemName: item.name,
+        playerName
+      })
     }
   }
 }
