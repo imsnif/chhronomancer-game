@@ -4,7 +4,7 @@ import styles from './styles'
 
 export default function InventoryCount (props) {
   return (
-    <View style={{flex: 1, flexDirection: 'row'}}>
+    <View style={styles.countContainer}>
       <Text style={styles.text}>Artifacts: </Text>
       <Text style={styles.text}>{props.count}/7</Text>
     </View>
