@@ -1,5 +1,373 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Power progress indicator => renders correctly (eighth spin) 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 1,
+        "fontFamily": "telegrama_raw",
+        "fontSize": 6,
+        "marginLeft": 9,
+        "paddingTop": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    foo
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 7,
+        "fontFamily": "telegrama_raw",
+        "fontSize": 6,
+        "paddingTop": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    | |==========================------------------------|  50% 00:42:12
+  </Text>
+</View>
+`;
+
+exports[`Power progress indicator => renders correctly (fifth spin) 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 1,
+        "fontFamily": "telegrama_raw",
+        "fontSize": 6,
+        "marginLeft": 9,
+        "paddingTop": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    foo
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 7,
+        "fontFamily": "telegrama_raw",
+        "fontSize": 6,
+        "paddingTop": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    / |==========================------------------------|  50% 00:42:12
+  </Text>
+</View>
+`;
+
+exports[`Power progress indicator => renders correctly (first spin) 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 1,
+        "fontFamily": "telegrama_raw",
+        "fontSize": 6,
+        "marginLeft": 9,
+        "paddingTop": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    foo
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 7,
+        "fontFamily": "telegrama_raw",
+        "fontSize": 6,
+        "paddingTop": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    / |==========================------------------------|  50% 00:42:12
+  </Text>
+</View>
+`;
+
+exports[`Power progress indicator => renders correctly (fourth spin) 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 1,
+        "fontFamily": "telegrama_raw",
+        "fontSize": 6,
+        "marginLeft": 9,
+        "paddingTop": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    foo
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 7,
+        "fontFamily": "telegrama_raw",
+        "fontSize": 6,
+        "paddingTop": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    | |==========================------------------------|  50% 00:42:12
+  </Text>
+</View>
+`;
+
+exports[`Power progress indicator => renders correctly (second spin) 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 1,
+        "fontFamily": "telegrama_raw",
+        "fontSize": 6,
+        "marginLeft": 9,
+        "paddingTop": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    foo
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 7,
+        "fontFamily": "telegrama_raw",
+        "fontSize": 6,
+        "paddingTop": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - |==========================------------------------|  50% 00:42:12
+  </Text>
+</View>
+`;
+
+exports[`Power progress indicator => renders correctly (seventh spin) 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 1,
+        "fontFamily": "telegrama_raw",
+        "fontSize": 6,
+        "marginLeft": 9,
+        "paddingTop": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    foo
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 7,
+        "fontFamily": "telegrama_raw",
+        "fontSize": 6,
+        "paddingTop": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    \\ |==========================------------------------|  50% 00:42:12
+  </Text>
+</View>
+`;
+
+exports[`Power progress indicator => renders correctly (sixth spin) 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 1,
+        "fontFamily": "telegrama_raw",
+        "fontSize": 6,
+        "marginLeft": 9,
+        "paddingTop": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    foo
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 7,
+        "fontFamily": "telegrama_raw",
+        "fontSize": 6,
+        "paddingTop": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    - |==========================------------------------|  50% 00:42:12
+  </Text>
+</View>
+`;
+
+exports[`Power progress indicator => renders correctly (third spin) 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 1,
+        "fontFamily": "telegrama_raw",
+        "fontSize": 6,
+        "marginLeft": 9,
+        "paddingTop": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    foo
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#329932",
+        "flex": 7,
+        "fontFamily": "telegrama_raw",
+        "fontSize": 6,
+        "paddingTop": 2,
+        "textAlign": "left",
+      }
+    }
+  >
+    \\ |==========================------------------------|  50% 00:42:12
+  </Text>
+</View>
+`;
+
 exports[`Power progress indicator => renders correctly 1`] = `
 <View
   style={
