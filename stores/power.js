@@ -67,7 +67,7 @@ class PowerStore {
     try {
       await fetch(`http://10.0.0.6:3000/bidding/assist/${timelineName}/${targetPlayerId}`, {
         method: 'POST',
-        headers: {userId: statsStore.playerId}
+        headers: {access_token: statsStore.accessToken}
       })
     } catch (e) {
       console.error(e)
@@ -77,7 +77,7 @@ class PowerStore {
     try {
       await fetch(`http://10.0.0.6:3000/bidding/prevent/${timelineName}/${targetPlayerId}`, {
         method: 'POST',
-        headers: {userId: statsStore.playerId}
+        headers: {access_token: statsStore.accessToken}
       })
     } catch (e) {
       console.error(e)
