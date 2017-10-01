@@ -21,7 +21,7 @@ export default class ExternalParties extends Component {
               return (
                 <View key={id} style={styles.participantIndication}>
                   <Image source={{uri: player.picture}} style={styles.participantImage}>
-                    <View style={{opacity: 0.5, width: '100%', height: '100%', backgroundColor: 'green'}} />
+                    <View style={styles.imageOverlay} />
                   </Image>
                   <View style={styles.nameTextBox}>
                     <Text numberOfLines={1} style={styles.nameText}>{player.name}</Text>
