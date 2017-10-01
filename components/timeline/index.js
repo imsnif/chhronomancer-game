@@ -15,9 +15,9 @@ import timelineStore from '../../stores/timeline'
 @observer
 export default class Timeline extends Component {
   render () {
-    const name = this.props.name
+    const { name } = this.props
     const timeline = timelineStore.getTimeline(name)
-    const sortBy = timeline.sortBy
+    const { sortBy } = timeline
     const sortIndex = sortBy === 'player' ? 0 : sortBy === 'type' ? 1 : 2
     return (
       <View style={styles.container}>
