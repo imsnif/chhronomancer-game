@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 import styles from './styles'
+import padStart from 'string.prototype.padstart'
 
 const spinnerChars = [ '|', '/', '-', '\\', '|', '/', '-', '\\' ]
 
@@ -9,22 +10,9 @@ function createTextBar (progress) {
   return Array(50).fill().map((n, i) => i <= fillCount ? '=' : '-').join('')
 }
 
-function padProgress (progress) {
-  if (progress < 100 && progress > 9) {
-    return ` ${progress}`
-  } else if (progress < 10) {
-    return `  ${progress}`
-  } else {
-    return `${progress}`
-  }
-}
-
 export default class Power extends Component {
-  constructor (props) {
-    super(props)
-    this.state = {
-      spinCharIndex: 0
-    }
+  state = {
+    spinCharIndex: 0
   }
   componentDidMount () {
     clearInterval(this.interval)
@@ -40,7 +28,9 @@ export default class Power extends Component {
   }
   progressSpinChar () {
     const currentIndex = this.state.spinCharIndex
-    const nextIndex = currentIndex + 1 >= spinnerChars.length ? 0 : currentIndex + 1
+    const nextIndex = currentIndex + 1 >= spinnerChars.length
+      ? 0
+      : currentIndex + 1
     this.setState({spinCharIndex: nextIndex})
   }
   render () {
@@ -49,7 +39,7 @@ export default class Power extends Component {
     const spinChar = spinnerChars[this.state.spinCharIndex]
     const progress = this.props.progress
     const bar = createTextBar(progress)
-    const paddedProgress = padProgress(progress)
+    const paddedProgress = padStart(progress, 3)
     const barString = `${spinChar} |${bar}| ${paddedProgress}% ${timeLeft}`
     return (
       <View style={StyleSheet.flatten([{flexDirection: 'row'}, this.props.style || {}])}>
