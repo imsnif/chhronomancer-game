@@ -3,6 +3,8 @@ import { View, Text } from 'react-native'
 import Modal from 'react-native-modalbox'
 import { observer } from 'mobx-react/native'
 import Item from '../item'
+import HorizontalSeparator from '../horizontal-separator'
+import VerticalSeparator from '../vertical-separator'
 import MenuButton from '../menu-button'
 import styles from './styles'
 
@@ -28,28 +30,28 @@ export default class StealModal extends Component {
         animated={false}
         transparent
       >
-        <Text style={styles.topBorder}>+------------------------------------------------+</Text>
+        <HorizontalSeparator length={48} style={styles.topBorder} />
         <View style={{flexDirection: 'row'}}>
-          <Text style={styles.verticalLine}>{' |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n'}</Text>
+          <VerticalSeparator length={12} style={styles.verticalLine} />
           <View style={{flexDirection: 'column'}}>
             <Text style={[styles.text, {flex: 1}]}>Would you like to steal</Text>
-            <View style={{flex: 1, marginTop: 5, alignSelf: 'center'}}>
+            <View style={styles.itemContainer}>
               <Item name={modal ? modal.itemName : null} fill />
             </View>
             <Text style={[styles.text, {flex: 1}]}>from</Text>
             <Text numberOfLines={1} style={[styles.text, {flex: 1}]}>{modal ? modal.playerName : null}?</Text>
-            <View style={{flex: 1, flexDirection: 'row'}}>
-              <View style={{flex: 1, marginRight: 2}}>
+            <View style={styles.buttonRow}>
+              <View style={styles.buttonLeft}>
                 <MenuButton title='Yes' onPress={() => stealItem(modal, timelineName)} />
               </View>
-              <View style={{flex: 1, marginLeft: 2}}>
+              <View style={styles.buttonRight}>
                 <MenuButton title='No' onPress={() => timelineStore.clearAllModals()} />
               </View>
             </View>
           </View>
-          <Text style={styles.verticalLine}>{' |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n |\n'}</Text>
+          <VerticalSeparator length={12} style={styles.verticalLine} />
         </View>
-        <Text style={styles.topBorder}>+------------------------------------------------+</Text>
+        <HorizontalSeparator length={48} style={styles.topBorder} />
       </Modal>
     )
   }

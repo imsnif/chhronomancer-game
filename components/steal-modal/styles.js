@@ -5,6 +5,23 @@ import common from '../common/styles'
 export default StyleSheet.create({
   container: common.container,
   scrollContainer: common.scrollContainer,
+  itemContainer: {
+    flex: 1,
+    marginTop: 5,
+    alignSelf: 'center'
+  },
+  buttonRow: {
+    flex: 1,
+    flexDirection: 'row'
+  },
+  buttonLeft: {
+    flex: 1,
+    marginRight: 2
+  },
+  buttonRight: {
+    flex: 1,
+    marginLeft: 2
+  },
   modal: {
     height: 200,
     width: 300,
@@ -40,12 +57,5 @@ export default StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'space-between',
     alignItems: 'center'
-  },
-  buttonRow: {
-    flex: 1,
-    height: '100%',
-    width: '100%',
-    flexDirection: 'row',
-    justifyContent: 'space-between'
   }
 })
