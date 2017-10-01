@@ -5,6 +5,17 @@ import common from '../common/styles'
 export default StyleSheet.create({
   container: common.container,
   scrollContainer: common.scrollContainer,
+  contentContainer: {
+    flexDirection: 'column',
+    flex: 0,
+    width: 272
+  },
+  rowContainer: {
+    flexDirection: 'row',
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
   modal: {
     height: 200,
     width: 300,
@@ -28,11 +39,18 @@ export default StyleSheet.create({
     marginLeft: 1
   },
   text: {
-    textAlign: 'center',
-    flex: 0,
-    width: 272,
-    color: common.foreGround,
-    fontSize: 17,
+    flex: 1,
+    color: 'green',
+    maxWidth: 10
+  },
+  winText: {
+    flex: 1,
+    color: 'green',
+    minWidth: 10,
+    marginLeft: 3,
+    marginTop: 5,
+    maxWidth: 10,
+    fontSize: 5,
     fontFamily: common.font
   },
   buttonPad: {
