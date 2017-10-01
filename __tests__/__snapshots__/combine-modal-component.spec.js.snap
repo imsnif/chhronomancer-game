@@ -219,7 +219,7 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 ellipsizeMode="tail"
                 style={
                   Object {
-                    "color": "green",
+                    "color": "#329932",
                     "flex": 1,
                     "maxWidth": 10,
                   }
@@ -243,7 +243,7 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 ellipsizeMode="tail"
                 style={
                   Object {
-                    "color": "green",
+                    "color": "#329932",
                     "flex": 1,
                     "maxWidth": 10,
                   }
@@ -317,7 +317,7 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 ellipsizeMode="tail"
                 style={
                   Object {
-                    "color": "green",
+                    "color": "#329932",
                     "flex": 1,
                     "maxWidth": 10,
                   }
@@ -341,7 +341,7 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 ellipsizeMode="tail"
                 style={
                   Object {
-                    "color": "green",
+                    "color": "#329932",
                     "flex": 1,
                     "maxWidth": 10,
                   }
@@ -415,7 +415,7 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 ellipsizeMode="tail"
                 style={
                   Object {
-                    "color": "green",
+                    "color": "#329932",
                     "flex": 1,
                     "maxWidth": 10,
                   }
@@ -439,7 +439,7 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 ellipsizeMode="tail"
                 style={
                   Object {
-                    "color": "green",
+                    "color": "#329932",
                     "flex": 1,
                     "maxWidth": 10,
                   }
@@ -453,7 +453,7 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 ellipsizeMode="tail"
                 style={
                   Object {
-                    "color": "green",
+                    "color": "#329932",
                     "flex": 1,
                     "fontFamily": "telegrama_raw",
                     "fontSize": 5,

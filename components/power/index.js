@@ -11,7 +11,6 @@ function createTextBar (progress) {
 }
 
 export default class Power extends Component {
-  // TODO: CONTINUE HERE! Test this, then refactor, then finished player! Go back to timeline, refactor it(!) then test its other child components after player
   state = {
     spinCharIndex: 0
   }

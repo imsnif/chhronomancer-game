@@ -40,12 +40,12 @@ export default StyleSheet.create({
   },
   text: {
     flex: 1,
-    color: 'green',
+    color: common.foreGround,
     maxWidth: 10
   },
   winText: {
     flex: 1,
-    color: 'green',
+    color: common.foreGround,
     minWidth: 10,
     marginLeft: 3,
     marginTop: 5,
