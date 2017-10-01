@@ -13,7 +13,6 @@ export default function connect (userId) { // TODO: add id as header
 
   ws.onopen = () => {
     statsStore.connect()
-    ws.send(userId)
   }
 
   ws.onmessage = (e) => {
