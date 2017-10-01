@@ -169,24 +169,21 @@ const powers = [
   }
 ]
 
-timelines.forEach((t) => timelineStore.addTimeline(t))
-
-players.forEach(p => {
-  playerStore.addPlayer(p)
-})
-
-statsStore.changePlayerId(1)
-
-timelineStore.addPlayer('Timeline 1', 1)
-timelineStore.addPlayer('Timeline 1', 2)
-timelineStore.addPlayer('Timeline 2', 2)
-timelineStore.addPlayer('Timeline 3', 2)
-timelineStore.addPlayer('Timeline 1', 3)
-timelineStore.addPlayer('Timeline 2', 3)
-timelineStore.addPlayer('Timeline 3', 3)
-timelineStore.addPlayer('Timeline 1', 4)
-timelineStore.addPlayer('Timeline 3', 4)
-
-powers.forEach(p => powerStore.addPower(p))
-
-timelineStore.changeTimelineLock('Timeline 1', true)
+export default function mockServer () {
+  timelines.forEach((t) => timelineStore.addTimeline(t))
+  players.forEach(p => {
+    playerStore.addPlayer(p)
+  })
+  statsStore.changePlayerId(1)
+  timelineStore.addPlayer('Timeline 1', 1)
+  timelineStore.addPlayer('Timeline 1', 2)
+  timelineStore.addPlayer('Timeline 2', 2)
+  timelineStore.addPlayer('Timeline 3', 2)
+  timelineStore.addPlayer('Timeline 1', 3)
+  timelineStore.addPlayer('Timeline 2', 3)
+  timelineStore.addPlayer('Timeline 3', 3)
+  timelineStore.addPlayer('Timeline 1', 4)
+  timelineStore.addPlayer('Timeline 3', 4)
+  powers.forEach(p => powerStore.addPower(p))
+  timelineStore.changeTimelineLock('Timeline 1', true)
+}

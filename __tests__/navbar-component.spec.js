@@ -1,6 +1,7 @@
 import React from 'react'
 import 'react-native'
 import renderer from 'react-test-renderer'
+import serverMock from '../server-mock'
 import { navigatorMock } from '../test-utils'
 import statsStore from '../stores/stats'
 
@@ -8,6 +9,7 @@ jest.mock('mobx-react/native', () => require('mobx-react/custom'))
 
 beforeEach(() => {
   jest.useFakeTimers()
+  serverMock()
 })
 
 afterEach(() => {
@@ -19,7 +21,6 @@ afterEach(() => {
 })
 
 test('Navbar (character-sheet) => renders correctly', () => {
-  require('../server-mock') // TODO: export a function like a normal Human being
   const NavBar = require('../components/navbar').default
   const tree = renderer.create(
     <NavBar navigator={navigatorMock({screenName: 'character-sheet'})} />
@@ -28,7 +29,6 @@ test('Navbar (character-sheet) => renders correctly', () => {
 })
 
 test('Navbar (timeline-grid) => renders correctly', () => {
-  require('../server-mock') // TODO: export a function like a normal Human being
   const NavBar = require('../components/navbar').default
   const tree = renderer.create(
     <NavBar navigator={navigatorMock({screenName: 'timeline-grid'})} />
@@ -37,7 +37,6 @@ test('Navbar (timeline-grid) => renders correctly', () => {
 })
 
 test('Navbar (different route) => renders correctly', () => {
-  require('../server-mock') // TODO: export a function like a normal Human being
   const NavBar = require('../components/navbar').default
   const tree = renderer.create(
     <NavBar navigator={navigatorMock({screenName: 'foo'})} />
@@ -46,7 +45,6 @@ test('Navbar (different route) => renders correctly', () => {
 })
 
 test('Navbar (winner declared) => renders correctly', () => {
-  require('../server-mock') // TODO: export a function like a normal Human being
   statsStore.announceWinner(1)
   const NavBar = require('../components/navbar').default
   const tree = renderer.create(

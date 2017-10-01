@@ -2,9 +2,13 @@ import 'react-native'
 import React from 'react'
 import TimelineGrid from '../components/timeline-grid'
 import renderer from 'react-test-renderer'
-import '../server-mock'
+import serverMock from '../server-mock'
 
 jest.mock('mobx-react/native', () => require('mobx-react/custom'))
+
+beforeEach(() => {
+  serverMock()
+})
 
 afterEach(() => {
   const clockStore = require('../stores/clock').default

@@ -1,11 +1,13 @@
 import 'react-native'
 import renderer from 'react-test-renderer'
+import serverMock from '../server-mock'
 import { navigatorMock } from '../test-utils'
 
 jest.mock('mobx-react/native', () => require('mobx-react/custom'))
 
 beforeEach(() => {
   jest.useFakeTimers()
+  serverMock()
 })
 
 afterEach(() => {
@@ -22,7 +24,6 @@ test('Game renderScene (Timeline) => renders correctly', () => {
     screenName: 'Timeline',
     timelineName
   }
-  require('../server-mock') // TODO: export a function like a normal Human being
   const tree = renderer.create(
     renderScene(route, navigatorMock(timelineName))
   ).toJSON()
@@ -37,7 +38,6 @@ test('Game renderScene (Bidding) => renders correctly', () => {
     playerId: 1,
     timelineName
   }
-  require('../server-mock') // TODO: export a function like a normal Human being
   const tree = renderer.create(
     renderScene(route, navigatorMock(timelineName))
   ).toJSON()

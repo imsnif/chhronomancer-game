@@ -1,6 +1,7 @@
 import React from 'react'
 import 'react-native'
 import renderer from 'react-test-renderer'
+import serverMock from '../server-mock'
 import { navigatorMock } from '../test-utils'
 import statsStore from '../stores/stats'
 
@@ -8,6 +9,7 @@ jest.mock('mobx-react/native', () => require('mobx-react/custom'))
 
 beforeEach(() => {
   jest.useFakeTimers()
+  serverMock()
 })
 
 afterEach(() => {
@@ -19,7 +21,6 @@ afterEach(() => {
 })
 
 test('GameOver (with winner) => renders correctly', () => {
-  require('../server-mock') // TODO: export a function like a normal Human being
   statsStore.announceWinner(1)
   const GameOver = require('../components/game-over').default
   const tree = renderer.create(
@@ -29,7 +30,6 @@ test('GameOver (with winner) => renders correctly', () => {
 })
 
 test('GameOver (no winner) => renders empty', () => {
-  require('../server-mock') // TODO: export a function like a normal Human being
   statsStore.clearWinner()
   const GameOver = require('../components/game-over').default
   const tree = renderer.create(

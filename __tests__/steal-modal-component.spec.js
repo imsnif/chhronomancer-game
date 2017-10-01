@@ -1,11 +1,13 @@
 import React from 'react'
 import 'react-native'
+import serverMock from '../server-mock'
 import renderer from 'react-test-renderer'
 
 jest.mock('mobx-react/native', () => require('mobx-react/custom'))
 
 beforeEach(() => {
   jest.useFakeTimers()
+  serverMock()
 })
 
 afterEach(() => {
@@ -20,7 +22,6 @@ afterEach(() => {
 test('Steal Modal component => renders correctly when open', () => {
   const timelineName = 'Timeline 1'
   const StealModal = require('../components/steal-modal').default
-  require('../server-mock') // TODO: export a function like a normal Human being
   const timelineStore = require('../stores/timeline').default
   timelineStore.addModal(timelineName, {
     modalType: 'steal',
@@ -36,7 +37,6 @@ test('Steal Modal component => renders correctly when open', () => {
 test('Steal Modal component => renders correctly when closed', () => {
   const timelineName = 'Timeline 1'
   const StealModal = require('../components/steal-modal').default
-  require('../server-mock') // TODO: export a function like a normal Human being
   const tree = renderer.create(
     <StealModal timelineName={timelineName} />
   ).toJSON()
