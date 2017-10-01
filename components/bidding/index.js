@@ -4,7 +4,6 @@ import { View, Text, StyleSheet } from 'react-native'
 import ExternalParties from '../external-parties'
 import styles from './styles'
 
-import clockStore from '../../stores/clock'
 import powerStore from '../../stores/power'
 import playerStore from '../../stores/player'
 import timelineStore from '../../stores/timeline'
@@ -27,18 +26,15 @@ export default class Bidding extends Component {
     }
   }
   render () {
-    const time = clockStore.time
-    const playerId = this.props.playerId
+    const { playerId, timelineName } = this.props
     const player = playerStore.getPlayer(playerId)
-    const timelineName = this.props.timelineName
     const timeline = timelineStore.getTimeline(timelineName)
     const power = powerStore.getPower(playerId, timelineName)
     if (!power) {
       return null
     }
-    const powerName = power.name
-    const timeLeft = powerStore.getTimeLeft(playerId, timelineName, time).get()
-    const percentage = powerStore.getProgress(playerId, timelineName, time).get()
+    const timeLeft = powerStore.getTimeLeft(playerId, timelineName).get()
+    const percentage = powerStore.getProgress(playerId, timelineName).get()
     const source = player.name
     const sourceImage = {uri: player.picture}
     const destination = power.target
@@ -46,15 +42,14 @@ export default class Bidding extends Component {
     const destinationImage = destination.type === 'player'
       ? {uri: destinationPlayer.picture}
       : images[timeline.type]
-    const allies = power.allies
-    const enemies = power.enemies
+    const { allies, enemies } = power
     const totalFor = allies.map(a => a.score).reduce((a, b) => a + b, 0)
     const totalAgainst = enemies.map(a => a.score).reduce((a, b) => a + b, 0)
     const balance = totalFor - totalAgainst
     return (
       <View style={styles.container}>
         <View style={styles.titleItem}>
-          <Text style={styles.titleText}>{powerName}</Text>
+          <Text style={styles.titleText}>{power.name}</Text>
         </View>
         <View style={styles.titleItem}>
           <Text style={styles.titleText}>{timelineName}</Text>
@@ -66,10 +61,22 @@ export default class Bidding extends Component {
         </View>
         <View style={styles.summaryBox}>
           <View style={styles.boxWithGap}>
-            <ExternalParties name={source} total={totalFor} image={sourceImage} parties={allies} onPress={() => powerStore.assist(timelineName, playerId)} />
+            <ExternalParties
+              name={source}
+              total={totalFor}
+              image={sourceImage}
+              parties={allies}
+              onPress={() => powerStore.assist(timelineName, playerId)}
+            />
           </View>
           <View style={{flex: 1}}>
-            <ExternalParties name={destination.name || destinationPlayer.name} total={totalAgainst} image={destinationImage} parties={enemies} onPress={() => powerStore.prevent(timelineName, playerId)} />
+            <ExternalParties
+              name={destination.name || destinationPlayer.name}
+              total={totalAgainst}
+              image={destinationImage}
+              parties={enemies}
+              onPress={() => powerStore.prevent(timelineName, playerId)}
+            />
           </View>
         </View>
       </View>
