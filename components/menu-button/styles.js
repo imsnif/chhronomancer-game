@@ -42,7 +42,6 @@ export default StyleSheet.create({
     borderWidth: 1
   },
   buttonPress: {
-    // margin: 2,
     height: '100%',
     width: '100%',
     alignSelf: 'center',

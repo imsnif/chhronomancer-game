@@ -9,14 +9,16 @@ export default StyleSheet.create({
     flex: 2,
     flexDirection: 'column',
     justifyContent: 'space-between',
-    alignItems: 'center'
+    alignItems: 'center',
+    backgroundColor: common.backGround
   },
   buttonRow: {
     flex: 1,
     height: '100%',
     width: '100%',
     flexDirection: 'row',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    backgroundColor: common.backGround
   },
   middleButtonRow: {
     flex: 1,
@@ -24,7 +26,8 @@ export default StyleSheet.create({
     width: '100%',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginTop: 4
+    marginTop: 4,
+    backgroundColor: common.backGround
   },
   leftButton: {
     marginRight: 2

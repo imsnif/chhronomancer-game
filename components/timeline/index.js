@@ -50,7 +50,7 @@ export default class Timeline extends Component {
               <MenuButton fontSize={20} style={styles.rightButton} title='Unlock' onPress={() => timelineStore.unlockTimeline(name)} />
             </View>
             <View style={styles.middleButtonRow}>
-              <MenuButton fontSize={20} title='Combine Items' onPress={() => timelineStore.addModal(name, {modalType: 'combine'})} />
+              <MenuButton fontSize={20} title='Combine Items' syncAction onPress={() => timelineStore.addModal(name, {modalType: 'combine'})} />
             </View>
             <View style={styles.middleButtonRow}>
               <MenuButton fontSize={20} title='Travel Here' onPress={() => timelineStore.joinTimeline(name)} />
