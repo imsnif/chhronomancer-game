@@ -1,0 +1,298 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner => renders correctly (eighth spin) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#329932",
+      "borderWidth": 1,
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#141313",
+        "flex": 1,
+        "fontFamily": "telegrama_raw",
+        "textAlign": "center",
+      }
+    }
+  >
+    /
+  </Text>
+</View>
+`;
+
+exports[`Spinner => renders correctly (fifth spin) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#329932",
+      "borderWidth": 1,
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#141313",
+        "flex": 1,
+        "fontFamily": "telegrama_raw",
+        "textAlign": "center",
+      }
+    }
+  >
+    -
+  </Text>
+</View>
+`;
+
+exports[`Spinner => renders correctly (first spin) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#329932",
+      "borderWidth": 1,
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#141313",
+        "flex": 1,
+        "fontFamily": "telegrama_raw",
+        "textAlign": "center",
+      }
+    }
+  >
+    /
+  </Text>
+</View>
+`;
+
+exports[`Spinner => renders correctly (fourth spin) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#329932",
+      "borderWidth": 1,
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#141313",
+        "flex": 1,
+        "fontFamily": "telegrama_raw",
+        "textAlign": "center",
+      }
+    }
+  >
+    /
+  </Text>
+</View>
+`;
+
+exports[`Spinner => renders correctly (second spin) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#329932",
+      "borderWidth": 1,
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#141313",
+        "flex": 1,
+        "fontFamily": "telegrama_raw",
+        "textAlign": "center",
+      }
+    }
+  >
+    -
+  </Text>
+</View>
+`;
+
+exports[`Spinner => renders correctly (seventh spin) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#329932",
+      "borderWidth": 1,
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#141313",
+        "flex": 1,
+        "fontFamily": "telegrama_raw",
+        "textAlign": "center",
+      }
+    }
+  >
+    |
+  </Text>
+</View>
+`;
+
+exports[`Spinner => renders correctly (sixth spin) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#329932",
+      "borderWidth": 1,
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#141313",
+        "flex": 1,
+        "fontFamily": "telegrama_raw",
+        "textAlign": "center",
+      }
+    }
+  >
+    \\
+  </Text>
+</View>
+`;
+
+exports[`Spinner => renders correctly (third spin) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#329932",
+      "borderWidth": 1,
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#141313",
+        "flex": 1,
+        "fontFamily": "telegrama_raw",
+        "textAlign": "center",
+      }
+    }
+  >
+    \\
+  </Text>
+</View>
+`;
+
+exports[`Spinner => renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#329932",
+      "borderWidth": 1,
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#141313",
+        "flex": 1,
+        "fontFamily": "telegrama_raw",
+        "textAlign": "center",
+      }
+    }
+  >
+    |
+  </Text>
+</View>
+`;

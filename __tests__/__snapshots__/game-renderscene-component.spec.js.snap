@@ -2969,6 +2969,7 @@ exports[`Game renderScene (Timeline) => renders correctly 1`] = `
               style={
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#141313",
                   "flex": 2,
                   "flexDirection": "column",
                   "justifyContent": "space-between",
@@ -2978,6 +2979,7 @@ exports[`Game renderScene (Timeline) => renders correctly 1`] = `
               <View
                 style={
                   Object {
+                    "backgroundColor": "#141313",
                     "flex": 1,
                     "flexDirection": "row",
                     "height": "100%",
@@ -3120,6 +3122,7 @@ exports[`Game renderScene (Timeline) => renders correctly 1`] = `
               <View
                 style={
                   Object {
+                    "backgroundColor": "#141313",
                     "flex": 1,
                     "flexDirection": "row",
                     "height": "100%",
@@ -3263,6 +3266,7 @@ exports[`Game renderScene (Timeline) => renders correctly 1`] = `
               <View
                 style={
                   Object {
+                    "backgroundColor": "#141313",
                     "flex": 1,
                     "flexDirection": "row",
                     "height": "100%",
@@ -3340,6 +3344,7 @@ exports[`Game renderScene (Timeline) => renders correctly 1`] = `
               <View
                 style={
                   Object {
+                    "backgroundColor": "#141313",
                     "flex": 1,
                     "flexDirection": "row",
                     "height": "100%",

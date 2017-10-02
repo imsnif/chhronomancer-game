@@ -1714,6 +1714,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
           style={
             Object {
               "alignItems": "center",
+              "backgroundColor": "#141313",
               "flex": 2,
               "flexDirection": "column",
               "justifyContent": "space-between",
@@ -1723,6 +1724,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
           <View
             style={
               Object {
+                "backgroundColor": "#141313",
                 "flex": 1,
                 "flexDirection": "row",
                 "height": "100%",
@@ -1865,6 +1867,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
           <View
             style={
               Object {
+                "backgroundColor": "#141313",
                 "flex": 1,
                 "flexDirection": "row",
                 "height": "100%",
@@ -2008,6 +2011,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
           <View
             style={
               Object {
+                "backgroundColor": "#141313",
                 "flex": 1,
                 "flexDirection": "row",
                 "height": "100%",
@@ -2085,6 +2089,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
           <View
             style={
               Object {
+                "backgroundColor": "#141313",
                 "flex": 1,
                 "flexDirection": "row",
                 "height": "100%",
@@ -4088,6 +4093,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
           style={
             Object {
               "alignItems": "center",
+              "backgroundColor": "#141313",
               "flex": 2,
               "flexDirection": "column",
               "justifyContent": "space-between",
@@ -4097,6 +4103,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
           <View
             style={
               Object {
+                "backgroundColor": "#141313",
                 "flex": 1,
                 "flexDirection": "row",
                 "height": "100%",
@@ -4239,6 +4246,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
           <View
             style={
               Object {
+                "backgroundColor": "#141313",
                 "flex": 1,
                 "flexDirection": "row",
                 "height": "100%",
@@ -4382,6 +4390,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
           <View
             style={
               Object {
+                "backgroundColor": "#141313",
                 "flex": 1,
                 "flexDirection": "row",
                 "height": "100%",
@@ -4459,6 +4468,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
           <View
             style={
               Object {
+                "backgroundColor": "#141313",
                 "flex": 1,
                 "flexDirection": "row",
                 "height": "100%",
@@ -6462,6 +6472,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
           style={
             Object {
               "alignItems": "center",
+              "backgroundColor": "#141313",
               "flex": 2,
               "flexDirection": "column",
               "justifyContent": "space-between",
@@ -6471,6 +6482,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
           <View
             style={
               Object {
+                "backgroundColor": "#141313",
                 "flex": 1,
                 "flexDirection": "row",
                 "height": "100%",
@@ -6613,6 +6625,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
           <View
             style={
               Object {
+                "backgroundColor": "#141313",
                 "flex": 1,
                 "flexDirection": "row",
                 "height": "100%",
@@ -6756,6 +6769,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
           <View
             style={
               Object {
+                "backgroundColor": "#141313",
                 "flex": 1,
                 "flexDirection": "row",
                 "height": "100%",
@@ -6833,6 +6847,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
           <View
             style={
               Object {
+                "backgroundColor": "#141313",
                 "flex": 1,
                 "flexDirection": "row",
                 "height": "100%",
