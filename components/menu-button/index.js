@@ -38,20 +38,21 @@ export default class MenuButton extends Component {
   }
   render () {
     const { fontSize, style } = this.props
-    const textStyle = fontSize ? StyleSheet.flatten([styles.text, {fontSize}]) : styles.text
-    const pressedTextStyle = fontSize ? StyleSheet.flatten([styles.textPress, {fontSize}]) : styles.textPress
-    const buttonContainerStyle = style ? StyleSheet.flatten([styles.buttonContainer, style]) : styles.buttonContainer
-    const loading = this.state.loading
-    if (loading) {
-      return (
-        <View style={buttonContainerStyle}>
-          <Spinner />
-        </View>
-      )
-    } else {
-      return (
-        <View style={buttonContainerStyle}>
-          <TouchableHighlight
+    const textStyle = fontSize
+      ? StyleSheet.flatten([styles.text, {fontSize}])
+      : styles.text
+    const pressedTextStyle = fontSize
+      ? StyleSheet.flatten([styles.textPress, {fontSize}])
+      : styles.textPress
+    const buttonContainerStyle = style
+      ? StyleSheet.flatten([styles.buttonContainer, style])
+      : styles.buttonContainer
+    return (
+      <View style={buttonContainerStyle}>
+        {
+          this.state.loading
+          ? <Spinner />
+          : <TouchableHighlight
             onPress={this._pressAction.bind(this)}
             underlayColor={commonStyles.foreGround}
             style={this.state.pressStatus ? styles.buttonPress : styles.button}
@@ -60,8 +61,8 @@ export default class MenuButton extends Component {
           >
             <Text style={this.state.pressStatus ? pressedTextStyle : textStyle}>{this.props.title}</Text>
           </TouchableHighlight>
-        </View>
-      )
-    }
+        }
+      </View>
+    )
   }
 }
