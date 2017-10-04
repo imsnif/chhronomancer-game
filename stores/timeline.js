@@ -50,8 +50,6 @@ class TimelineStore {
     this.modals.clear()
   }
   @action async joinTimeline (name) {
-    // TODO: CONTINUE FROM HERE - do the same for all the other requests, wrap in some method or something, then test, commit and do the same in biding
-    // once error messages are finished (change text in serer, etc.), move to newsfeed
     await sendRequest(`/timeline/join/${name}`)
   }
   @action async lockTimeline (name) {
