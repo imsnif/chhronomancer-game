@@ -24,6 +24,18 @@ export default StyleSheet.create({
     lineHeight: 22,
     height: 19
   },
+  error: {
+    flex: 0,
+    color: '#329932',
+    fontFamily: 'telegrama_raw',
+    textAlign: 'center',
+    textAlignVertical: 'center',
+    includeFontPadding: false,
+    backgroundColor: 'red',
+    lineHeight: 22,
+    height: 22,
+    marginTop: 11
+  },
   navigationMenu: {
     height: 15,
     flexDirection: 'row',

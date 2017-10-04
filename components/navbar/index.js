@@ -40,22 +40,29 @@ export default class NavBar extends Component {
     const actions = player ? player.actions : 'N/A'
     return (
       <View style={styles.wholeScreen}>
-        <View style={styles.topBar}>
-          <Text style={styles.actionBar}>Actions: {actions}</Text>
-          <View style={styles.navigationMenu}>
-            <MenuTextSelection
-              selected={screenName === 'character-sheet'}
-              text='Character'
-              onPress={() => this.navigate('character-sheet')}
-            />
-            <MenuTextSelection
-              selected={screenName === 'timeline-grid'}
-              text='Timelines'
-              onPress={() => this.navigate('timeline-grid')}
-            />
-          </View>
-          <HorizontalSeparator length={56} />
-        </View>
+        {
+          statsStore.error
+            ? <View style={styles.topBar}>
+              <Text style={styles.error}>{statsStore.error}</Text>
+              <HorizontalSeparator length={56} />
+            </View>
+            : <View style={styles.topBar}>
+              <Text style={styles.actionBar}>Actions: {actions}</Text>
+              <View style={styles.navigationMenu}>
+                <MenuTextSelection
+                  selected={screenName === 'character-sheet'}
+                  text='Character'
+                  onPress={() => this.navigate('character-sheet')}
+                />
+                <MenuTextSelection
+                  selected={screenName === 'timeline-grid'}
+                  text='Timelines'
+                  onPress={() => this.navigate('timeline-grid')}
+                />
+              </View>
+              <HorizontalSeparator length={56} />
+            </View>
+        }
         <View style={{flex: 2}}>
           {this.props.children}
         </View>

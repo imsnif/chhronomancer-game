@@ -7,6 +7,7 @@ class StatsStore {
   @observable connected = false
   @observable winnerId = false
   @observable accessToken = false
+  @observable error = false
   @computed get loggedIn () {
     return playerStore.players.map(p => p.id).includes(this.playerId)
   }
@@ -24,6 +25,13 @@ class StatsStore {
   }
   @action clearWinner () {
     this.winnerId = false
+  }
+  @action addError (error) {
+    this.error = error
+    setTimeout(() => this.clearError(), 5000) // TODO: debounce
+  }
+  @action clearError () {
+    this.error = false
   }
   @action async login (data) {
     try {

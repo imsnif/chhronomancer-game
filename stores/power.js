@@ -1,6 +1,6 @@
 import moment from 'moment'
 import clockStore from './clock'
-import statsStore from './stats'
+import sendRequest from '../connect/send-request'
 import { observable, action, computed } from 'mobx'
 
 class PowerStore {
@@ -64,24 +64,10 @@ class PowerStore {
     })
   }
   @action async assist (timelineName, targetPlayerId) {
-    try {
-      await fetch(`http://10.0.0.6:3000/bidding/assist/${timelineName}/${targetPlayerId}`, {
-        method: 'POST',
-        headers: {access_token: statsStore.accessToken}
-      })
-    } catch (e) {
-      console.error(e)
-    }
+    await sendRequest(`/bidding/assist/${timelineName}/${targetPlayerId}`)
   }
   @action async prevent (timelineName, targetPlayerId) {
-    try {
-      await fetch(`http://10.0.0.6:3000/bidding/prevent/${timelineName}/${targetPlayerId}`, {
-        method: 'POST',
-        headers: {access_token: statsStore.accessToken}
-      })
-    } catch (e) {
-      console.error(e)
-    }
+    await sendRequest(`/bidding/prevent/${timelineName}/${targetPlayerId}`)
   }
 }
 

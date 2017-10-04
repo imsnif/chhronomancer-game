@@ -1,6 +1,7 @@
 import { observable, action } from 'mobx'
 import statsStore from './stats'
 import playerStore from './player'
+import sendRequest from '../connect/send-request'
 
 class TimelineStore {
   @observable timelines = []
@@ -49,76 +50,29 @@ class TimelineStore {
     this.modals.clear()
   }
   @action async joinTimeline (name) {
-    try {
-      await fetch(`http://10.0.0.6:3000/timeline/join/${name}`, {
-        method: 'POST',
-        headers: {access_token: statsStore.accessToken}
-      })
-    } catch (e) {
-      console.error(e)
-    }
+    // TODO: CONTINUE FROM HERE - do the same for all the other requests, wrap in some method or something, then test, commit and do the same in biding
+    // once error messages are finished (change text in serer, etc.), move to newsfeed
+    await sendRequest(`/timeline/join/${name}`)
   }
   @action async lockTimeline (name) {
-    try {
-      await fetch(`http://10.0.0.6:3000/timeline/lock/${name}`, {
-        method: 'POST',
-        headers: {access_token: statsStore.accessToken}
-      })
-    } catch (e) {
-      console.error(e)
-    }
+    await sendRequest(`/timeline/lock/${name}`)
   }
   @action async unlockTimeline (name) {
-    try {
-      await fetch(`http://10.0.0.6:3000/timeline/unlock/${name}`, {
-        method: 'POST',
-        headers: {access_token: statsStore.accessToken}
-      })
-    } catch (e) {
-      console.error(e)
-    }
+    await sendRequest(`/timeline/unlock/${name}`)
   }
   @action async resetTimeline (name) {
-    try {
-      await fetch(`http://10.0.0.6:3000/timeline/reset/${name}`, {
-        method: 'POST',
-        headers: {access_token: statsStore.accessToken}
-      })
-    } catch (e) {
-      console.error(e)
-    }
+    await sendRequest(`/timeline/reset/${name}`)
   }
   @action async quest (name) {
-    try {
-      await fetch(`http://10.0.0.6:3000/timeline/quest/${name}`, {
-        method: 'POST',
-        headers: {access_token: statsStore.accessToken}
-      })
-    } catch (e) {
-      console.error(e)
-    }
+    await sendRequest(`/timeline/quest/${name}`)
   }
   @action async stealItem (itemName, playerName, timelineName) {
     const player = playerStore.getPlayerByName(playerName)
     const targetPlayerId = player.id
-    try {
-      await fetch(`http://10.0.0.6:3000/timeline/steal/${itemName}/${targetPlayerId}/${timelineName}`, {
-        method: 'POST',
-        headers: {access_token: statsStore.accessToken}
-      })
-    } catch (e) {
-      console.error(e)
-    }
+    await sendRequest(`/timeline/steal/${itemName}/${targetPlayerId}/${timelineName}`)
   }
   @action async combineItems (item1, item2, timelineName) {
-    try {
-      await fetch(`http://10.0.0.6:3000/timeline/combine/${item1}/${item2}/${timelineName}`, {
-        method: 'POST',
-        headers: {access_token: statsStore.accessToken}
-      })
-    } catch (e) {
-      console.error(e)
-    }
+    await sendRequest(`/timeline/combine/${item1}/${item2}/${timelineName}`)
   }
 }
 
