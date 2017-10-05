@@ -1,5 +1,4 @@
 import { observable, action } from 'mobx'
-import statsStore from './stats'
 import playerStore from './player'
 import sendRequest from '../connect/send-request'
 

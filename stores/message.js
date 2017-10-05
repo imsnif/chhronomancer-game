@@ -7,21 +7,21 @@ class MessageStore {
   @observable messages = [
     {
       id: 1,
-      playerId: '10212316237037679',
+      playerId: 1,
       text: 'is locking the timeline',
       timelineName: 'Timeline 0-1',
       startTime: '111'
     },
     {
       id: 2,
-      playerId: '10212316237037679',
+      playerId: 1,
       text: 'is locking the timeline',
       timelineName: 'Timeline 0-1',
       startTime: '111'
     },
     {
       id: 3,
-      playerId: '10212316237037679',
+      playerId: 1,
       text: 'is locking the timeline',
       timelineName: 'Timeline 0-1',
       startTime: '111'
