@@ -8,6 +8,8 @@ jest.mock('mobx-react/native', () => require('mobx-react/custom'))
 
 beforeEach(() => {
   jest.useFakeTimers()
+  const messageStore = require('../stores/message')
+  messageStore.default.markAllAsRead = jest.fn()
   serverMock()
 })
 

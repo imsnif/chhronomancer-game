@@ -33,11 +33,13 @@ exports[`MenuTextSelection (selected) => renders correctly 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={1}
     style={
       Object {
         "color": "#329932",
         "flex": 1,
         "fontFamily": "telegrama_raw",
+        "fontSize": 13,
         "height": 9,
         "includeFontPadding": false,
         "lineHeight": 9,
@@ -84,11 +86,13 @@ exports[`MenuTextSelection (unselected) => renders correctly 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={1}
     style={
       Object {
         "color": "#329932",
         "flex": 1,
         "fontFamily": "telegrama_raw",
+        "fontSize": 13,
         "height": 9,
         "includeFontPadding": false,
         "lineHeight": 9,

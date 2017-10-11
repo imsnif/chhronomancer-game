@@ -8,6 +8,8 @@ jest.useFakeTimers()
 
 beforeEach(() => {
   serverMock()
+  const messageStore = require('../stores/message')
+  messageStore.default.markAllAsRead = jest.fn()
 })
 
 afterEach(() => {

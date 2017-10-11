@@ -82,11 +82,13 @@ exports[`Game renderScene (Bidding) => renders correctly 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Object {
               "color": "#329932",
               "flex": 1,
               "fontFamily": "telegrama_raw",
+              "fontSize": 13,
               "height": 9,
               "includeFontPadding": false,
               "lineHeight": 9,
@@ -130,11 +132,13 @@ exports[`Game renderScene (Bidding) => renders correctly 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Object {
               "color": "#329932",
               "flex": 1,
               "fontFamily": "telegrama_raw",
+              "fontSize": 13,
               "height": 9,
               "includeFontPadding": false,
               "lineHeight": 9,
@@ -144,6 +148,56 @@ exports[`Game renderScene (Bidding) => renders correctly 1`] = `
           }
         >
           Timelines
+        </Text>
+      </View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hasTVPreferredFocus={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#329932",
+              "flex": 1,
+              "fontFamily": "telegrama_raw",
+              "fontSize": 13,
+              "height": 9,
+              "includeFontPadding": false,
+              "lineHeight": 9,
+              "textAlign": "center",
+              "textAlignVertical": "bottom",
+            }
+          }
+        >
+          Feed (2)
         </Text>
       </View>
     </View>
@@ -1166,11 +1220,13 @@ exports[`Game renderScene (Timeline) => renders correctly 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Object {
               "color": "#329932",
               "flex": 1,
               "fontFamily": "telegrama_raw",
+              "fontSize": 13,
               "height": 9,
               "includeFontPadding": false,
               "lineHeight": 9,
@@ -1214,11 +1270,13 @@ exports[`Game renderScene (Timeline) => renders correctly 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Object {
               "color": "#329932",
               "flex": 1,
               "fontFamily": "telegrama_raw",
+              "fontSize": 13,
               "height": 9,
               "includeFontPadding": false,
               "lineHeight": 9,
@@ -1228,6 +1286,56 @@ exports[`Game renderScene (Timeline) => renders correctly 1`] = `
           }
         >
           Timelines
+        </Text>
+      </View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hasTVPreferredFocus={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#329932",
+              "flex": 1,
+              "fontFamily": "telegrama_raw",
+              "fontSize": 13,
+              "height": 9,
+              "includeFontPadding": false,
+              "lineHeight": 9,
+              "textAlign": "center",
+              "textAlignVertical": "bottom",
+            }
+          }
+        >
+          Feed (2)
         </Text>
       </View>
     </View>
