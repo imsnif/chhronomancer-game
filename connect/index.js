@@ -41,6 +41,12 @@ export default function connect (userId) { // TODO: add id as header
         const gameData = data.games[0] || data.games // TODO: fix server to only report current game
         if (gameData) statsStore.announceWinner(gameData.winnerId)
       }
+      if (data.messages) {
+        const messageData = Array.isArray(data.messages)
+          ? data.messages
+          : [data.messages]
+        messageData.forEach(m => messageStore.addMessage(m))
+      }
     } catch (err) {} // fail silently
   }
 }

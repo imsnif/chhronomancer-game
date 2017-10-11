@@ -2,6 +2,7 @@ import playerStore from '../stores/player'
 import timelineStore from '../stores/timeline'
 import powerStore from '../stores/power'
 import statsStore from '../stores/stats'
+import messageStore from '../stores/message'
 
 const timelines = [
   {name: 'Timeline 1', type: 'steal', players: []},
@@ -169,6 +170,23 @@ const powers = [
   }
 ]
 
+const messages = [
+  {
+    id: 1,
+    playerId: 1,
+    text: 'is locking the timeline',
+    timelineName: 'Timeline 0-1',
+    startTime: 111
+  },
+  {
+    id: 2,
+    playerId: 1,
+    text: 'has travelled here',
+    timelineName: 'Timeline 0-1',
+    startTime: 111
+  }
+]
+
 export default function mockServer () {
   timelines.forEach((t) => timelineStore.addTimeline(t))
   players.forEach(p => {
@@ -185,5 +203,6 @@ export default function mockServer () {
   timelineStore.addPlayer('Timeline 1', 4)
   timelineStore.addPlayer('Timeline 3', 4)
   powers.forEach(p => powerStore.addPower(p))
+  messages.forEach(m => messageStore.addMessage(m))
   timelineStore.changeTimelineLock('Timeline 1', true)
 }

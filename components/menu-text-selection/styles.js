@@ -10,6 +10,7 @@ export default StyleSheet.create({
     textAlignVertical: 'bottom',
     includeFontPadding: false,
     lineHeight: 9,
-    height: 9
+    height: 9,
+    fontSize: 13
   }
 })

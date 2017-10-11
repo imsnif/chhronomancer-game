@@ -5,6 +5,7 @@ import { observer } from 'mobx-react/native'
 import playersStore from '../../stores/player'
 import timelineStore from '../../stores/timeline'
 import statsStore from '../../stores/stats'
+import messageStore from '../../stores/message'
 
 import GameOver from '../game-over'
 import MenuTextSelection from '../menu-text-selection'
@@ -38,6 +39,7 @@ export default class NavBar extends Component {
     const { playerId } = statsStore
     const player = playersStore.getPlayer(playerId)
     const actions = player ? player.actions : 'N/A'
+    const newMessages = messageStore.unreadMessages
     return (
       <View style={styles.wholeScreen}>
         {

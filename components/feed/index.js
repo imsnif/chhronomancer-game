@@ -8,13 +8,18 @@ import messageStore from '../../stores/message'
 
 @observer
 export default class Feed extends Component {
+  componentDidMount () {
+    messageStore.markAllAsRead()
+  }
   render () {
     return (
       <View style={styles.container}>
         <View style={styles.scrollContainer}>
           <ScrollView>
             {
-              messageStore.messages.map(message => {
+              messageStore.messages
+              .sort((a, b) => a.startTime > b.startTime ? -1 : 1)
+              .map(message => {
                 const player = playerStore.getPlayer(message.playerId)
                 return (
                   <View key={message.id} style={styles.messageContainer}>
