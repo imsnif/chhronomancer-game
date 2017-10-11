@@ -687,6 +687,235 @@ exports[`Navbar (timeline-grid) => renders correctly 1`] = `
 </View>
 `;
 
+exports[`Navbar (timeline-grid) => renders correctly 2`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#141313",
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "column",
+        "height": 45,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#329932",
+          "flex": 0,
+          "fontFamily": "telegrama_raw",
+          "height": 19,
+          "includeFontPadding": false,
+          "lineHeight": 22,
+          "textAlign": "center",
+          "textAlignVertical": "bottom",
+        }
+      }
+    >
+      Actions: 
+      10
+    </Text>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 15,
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hasTVPreferredFocus={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#329932",
+              "flex": 1,
+              "fontFamily": "telegrama_raw",
+              "fontSize": 13,
+              "height": 9,
+              "includeFontPadding": false,
+              "lineHeight": 9,
+              "textAlign": "center",
+              "textAlignVertical": "bottom",
+            }
+          }
+        >
+          Character
+        </Text>
+      </View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hasTVPreferredFocus={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#329932",
+              "flex": 1,
+              "fontFamily": "telegrama_raw",
+              "fontSize": 13,
+              "height": 9,
+              "includeFontPadding": false,
+              "lineHeight": 9,
+              "textAlign": "center",
+              "textAlignVertical": "bottom",
+            }
+          }
+        >
+          Timelines
+        </Text>
+      </View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hasTVPreferredFocus={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#329932",
+              "flex": 1,
+              "fontFamily": "telegrama_raw",
+              "fontSize": 13,
+              "height": 9,
+              "includeFontPadding": false,
+              "lineHeight": 9,
+              "textAlign": "center",
+              "textAlignVertical": "bottom",
+            }
+          }
+        >
+          [ Feed (2) ]
+        </Text>
+      </View>
+    </View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#329932",
+          "fontSize": 21,
+          "height": 15,
+          "includeFontPadding": false,
+          "lineHeight": 15,
+          "textAlignVertical": "top",
+        }
+      }
+    >
+      +--------------------------------------------------------+
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 2,
+      }
+    }
+  />
+</View>
+`;
+
 exports[`Navbar (winner declared) => renders correctly 1`] = `
 <View
   style={

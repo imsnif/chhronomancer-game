@@ -36,6 +36,14 @@ test('Navbar (timeline-grid) => renders correctly', () => {
   expect(tree).toMatchSnapshot()
 })
 
+test('Navbar (timeline-grid) => renders correctly', () => {
+  const NavBar = require('../components/navbar').default
+  const tree = renderer.create(
+    <NavBar navigator={navigatorMock({screenName: 'feed'})} />
+  ).toJSON()
+  expect(tree).toMatchSnapshot()
+})
+
 test('Navbar (different route) => renders correctly', () => {
   const NavBar = require('../components/navbar').default
   const tree = renderer.create(
