@@ -7,6 +7,7 @@ import TimelineGrid from '../timeline-grid'
 import Bidding from '../bidding'
 import NavBar from '../navbar'
 import CharacterSheet from '../character-sheet'
+import Feed from '../feed'
 
 export default function renderScene (route, navigator) {
   return (
@@ -37,6 +38,13 @@ export default function renderScene (route, navigator) {
           case 'character-sheet':
             return (
               <CharacterSheet
+                playerId={statsStore.playerId}
+                navigator={navigator}
+              />
+            )
+          case 'feed':
+            return (
+              <Feed
                 playerId={statsStore.playerId}
                 navigator={navigator}
               />

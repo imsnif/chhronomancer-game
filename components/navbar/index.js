@@ -61,6 +61,11 @@ export default class NavBar extends Component {
                   text='Timelines'
                   onPress={() => this.navigate('timeline-grid')}
                 />
+                <MenuTextSelection
+                  selected={screenName === 'feed'}
+                  text={newMessages ? `Feed (${newMessages})` : 'Feed'}
+                  onPress={() => this.navigate('feed')}
+                />
               </View>
               <HorizontalSeparator length={56} />
             </View>
