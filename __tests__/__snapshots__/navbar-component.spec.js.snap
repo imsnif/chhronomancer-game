@@ -208,8 +208,8 @@ exports[`Navbar (character-sheet) => renders correctly 1`] = `
       style={
         Object {
           "color": "#329932",
-          "fontSize": 21,
-          "height": 15,
+          "fontSize": 45.911331934501746,
+          "height": 40.019999999999996,
           "includeFontPadding": false,
           "lineHeight": 15,
           "textAlignVertical": "top",
@@ -437,8 +437,8 @@ exports[`Navbar (different route) => renders correctly 1`] = `
       style={
         Object {
           "color": "#329932",
-          "fontSize": 21,
-          "height": 15,
+          "fontSize": 45.911331934501746,
+          "height": 40.019999999999996,
           "includeFontPadding": false,
           "lineHeight": 15,
           "textAlignVertical": "top",
@@ -666,8 +666,8 @@ exports[`Navbar (timeline-grid) => renders correctly 1`] = `
       style={
         Object {
           "color": "#329932",
-          "fontSize": 21,
-          "height": 15,
+          "fontSize": 45.911331934501746,
+          "height": 40.019999999999996,
           "includeFontPadding": false,
           "lineHeight": 15,
           "textAlignVertical": "top",
@@ -895,8 +895,8 @@ exports[`Navbar (timeline-grid) => renders correctly 2`] = `
       style={
         Object {
           "color": "#329932",
-          "fontSize": 21,
-          "height": 15,
+          "fontSize": 45.911331934501746,
+          "height": 40.019999999999996,
           "includeFontPadding": false,
           "lineHeight": 15,
           "textAlignVertical": "top",
@@ -936,8 +936,8 @@ exports[`Navbar (winner declared) => renders correctly 1`] = `
     style={
       Object {
         "color": "#329932",
-        "fontSize": 21,
-        "height": 15,
+        "fontSize": 45.911331934501746,
+        "height": 40.019999999999996,
         "includeFontPadding": false,
         "lineHeight": 15,
         "paddingLeft": 15,
@@ -965,54 +965,52 @@ exports[`Navbar (winner declared) => renders correctly 1`] = `
           "color": "#329932",
           "flex": 0,
           "lineHeight": 13,
-          "marginLeft": 16,
-          "marginRight": 1,
           "textAlignVertical": "top",
-          "width": 10,
+          "width": 22.5,
         }
       }
     >
-       |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
+       | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
 
     </Text>
     <View
@@ -1107,54 +1105,52 @@ exports[`Navbar (winner declared) => renders correctly 1`] = `
           "color": "#329932",
           "flex": 0,
           "lineHeight": 13,
-          "marginLeft": 16,
-          "marginRight": 1,
           "textAlignVertical": "top",
-          "width": 10,
+          "width": 22.5,
         }
       }
     >
-       |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
+       | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
 
     </Text>
   </View>
@@ -1165,8 +1161,8 @@ exports[`Navbar (winner declared) => renders correctly 1`] = `
     style={
       Object {
         "color": "#329932",
-        "fontSize": 21,
-        "height": 15,
+        "fontSize": 45.911331934501746,
+        "height": 40.019999999999996,
         "includeFontPadding": false,
         "lineHeight": 15,
         "paddingLeft": 15,

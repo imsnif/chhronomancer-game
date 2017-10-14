@@ -142,18 +142,18 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
             }
           }
         >
-           |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
+           | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
 
         </Text>
         <View
@@ -559,18 +559,18 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
             }
           }
         >
-           |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
+           | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
 
         </Text>
       </View>

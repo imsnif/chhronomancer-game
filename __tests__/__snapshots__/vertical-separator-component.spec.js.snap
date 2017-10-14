@@ -10,55 +10,53 @@ exports[`Vertical Separator => renders correctly 1`] = `
       "color": "#329932",
       "flex": 0,
       "lineHeight": 13,
-      "marginLeft": 16,
-      "marginRight": 1,
       "textAlignVertical": "top",
-      "width": 10,
+      "width": 22.5,
     }
   }
 >
-   |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
+   | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
 
 </Text>
 `;

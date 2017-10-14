@@ -109,8 +109,8 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
         style={
           Object {
             "color": "#329932",
-            "fontSize": 21,
-            "height": 15,
+            "fontSize": 45.911331934501746,
+            "height": 40.019999999999996,
             "includeFontPadding": false,
             "lineHeight": 15,
             "textAlignVertical": "bottom",
@@ -142,18 +142,18 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
             }
           }
         >
-           |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
+           | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
 
         </Text>
         <View
@@ -421,18 +421,18 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
             }
           }
         >
-           |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
+           | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
 
         </Text>
       </View>
@@ -443,8 +443,8 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
         style={
           Object {
             "color": "#329932",
-            "fontSize": 21,
-            "height": 15,
+            "fontSize": 45.911331934501746,
+            "height": 40.019999999999996,
             "includeFontPadding": false,
             "lineHeight": 15,
             "textAlignVertical": "bottom",

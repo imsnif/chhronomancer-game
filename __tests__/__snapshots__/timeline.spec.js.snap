@@ -1681,8 +1681,8 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
         Object {
           "alignSelf": "center",
           "color": "#329932",
-          "fontSize": 21,
-          "height": 15,
+          "fontSize": 45.911331934501746,
+          "height": 40.019999999999996,
           "includeFontPadding": false,
           "lineHeight": 15,
           "marginTop": 5,
@@ -1690,7 +1690,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
         }
       }
     >
-      +-------------------------------------+------------------+
+      +------------------------------------+-----------------+
     </Text>
     <View
       style={
@@ -2176,25 +2176,24 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
             "flex": 0,
             "lineHeight": 13,
             "marginLeft": 4,
-            "marginRight": 1,
             "textAlignVertical": "top",
-            "width": 10,
+            "width": 22.5,
           }
         }
       >
-         |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
+         | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
 
       </Text>
       <View
@@ -4060,8 +4059,8 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
         Object {
           "alignSelf": "center",
           "color": "#329932",
-          "fontSize": 21,
-          "height": 15,
+          "fontSize": 45.911331934501746,
+          "height": 40.019999999999996,
           "includeFontPadding": false,
           "lineHeight": 15,
           "marginTop": 5,
@@ -4069,7 +4068,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
         }
       }
     >
-      +-------------------------------------+------------------+
+      +------------------------------------+-----------------+
     </Text>
     <View
       style={
@@ -4555,25 +4554,24 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
             "flex": 0,
             "lineHeight": 13,
             "marginLeft": 4,
-            "marginRight": 1,
             "textAlignVertical": "top",
-            "width": 10,
+            "width": 22.5,
           }
         }
       >
-         |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
+         | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
 
       </Text>
       <View
@@ -6439,8 +6437,8 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
         Object {
           "alignSelf": "center",
           "color": "#329932",
-          "fontSize": 21,
-          "height": 15,
+          "fontSize": 45.911331934501746,
+          "height": 40.019999999999996,
           "includeFontPadding": false,
           "lineHeight": 15,
           "marginTop": 5,
@@ -6448,7 +6446,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
         }
       }
     >
-      +-------------------------------------+------------------+
+      +------------------------------------+-----------------+
     </Text>
     <View
       style={
@@ -6934,25 +6932,24 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
             "flex": 0,
             "lineHeight": 13,
             "marginLeft": 4,
-            "marginRight": 1,
             "textAlignVertical": "top",
-            "width": 10,
+            "width": 22.5,
           }
         }
       >
-         |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
+         | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
 
       </Text>
       <View

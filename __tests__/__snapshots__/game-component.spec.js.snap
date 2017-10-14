@@ -291,8 +291,8 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
             style={
               Object {
                 "color": "#329932",
-                "fontSize": 21,
-                "height": 15,
+                "fontSize": 45.911331934501746,
+                "height": 40.019999999999996,
                 "includeFontPadding": false,
                 "lineHeight": 15,
                 "textAlignVertical": "top",
@@ -1477,8 +1477,8 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
             style={
               Object {
                 "color": "#329932",
-                "fontSize": 21,
-                "height": 15,
+                "fontSize": 45.911331934501746,
+                "height": 40.019999999999996,
                 "includeFontPadding": false,
                 "lineHeight": 15,
                 "textAlignVertical": "top",
@@ -2216,8 +2216,8 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                   Object {
                     "alignSelf": "center",
                     "color": "#329932",
-                    "fontSize": 21,
-                    "height": 15,
+                    "fontSize": 45.911331934501746,
+                    "height": 40.019999999999996,
                     "includeFontPadding": false,
                     "lineHeight": 15,
                     "marginTop": 5,
@@ -2225,7 +2225,7 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                   }
                 }
               >
-                +-------------------------------------+------------------+
+                +------------------------------------+-----------------+
               </Text>
               <View
                 style={
@@ -2373,25 +2373,24 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                       "flex": 0,
                       "lineHeight": 13,
                       "marginLeft": 4,
-                      "marginRight": 1,
                       "textAlignVertical": "top",
-                      "width": 10,
+                      "width": 22.5,
                     }
                   }
                 >
-                   |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
+                   | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
 
                 </Text>
                 <View
