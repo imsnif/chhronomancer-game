@@ -10,7 +10,7 @@ export default function ControlPanel (props) {
   const rightPanel = props.children[1]
   return (
     <View style={styles.container}>
-      <HorizontalSeparator length={56} plusAt={[37]} style={styles.horizontalLine} />
+      <HorizontalSeparator length={54} plusAt={[36]} style={styles.horizontalLine} />
       <View style={styles.contentContainer}>
         <View style={styles.leftPanelContainer}>
           {leftPanel}

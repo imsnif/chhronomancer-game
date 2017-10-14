@@ -29,11 +29,8 @@ export default StyleSheet.create({
   },
   topBorder: {
     color: common.foreGround,
-    fontSize: 21,
-    height: 15,
     textAlignVertical: 'bottom',
-    includeFontPadding: false,
-    lineHeight: 15
+    includeFontPadding: false
   },
   verticalLine: {
     width: 10,

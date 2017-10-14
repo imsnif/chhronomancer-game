@@ -4013,7 +4013,13 @@ react-native-modalbox@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/react-native-modalbox/-/react-native-modalbox-1.4.0.tgz#332f1d48c27c90cdde27ffa7f09fc8d18799a070"
 
-react-native@0.42.3:
+react-native-responsive-dimensions@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/react-native-responsive-dimensions/-/react-native-responsive-dimensions-1.0.1.tgz#4b7109460a90bf8cd0b73ad1e54e5a744e12d30e"
+  dependencies:
+    react-native x
+
+react-native@0.42.3, react-native@x:
   version "0.42.3"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.42.3.tgz#450c8a03a5e3e991a08a426f22776dd8feb80b26"
   dependencies:
