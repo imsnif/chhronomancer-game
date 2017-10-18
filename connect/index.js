@@ -2,6 +2,7 @@ import playerStore from '../stores/player'
 import timelineStore from '../stores/timeline'
 import powerStore from '../stores/power'
 import statsStore from '../stores/stats'
+import messageStore from '../stores/message'
 
 let ws = false
 

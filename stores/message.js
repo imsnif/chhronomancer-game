@@ -6,7 +6,13 @@ class MessageStore {
   @action addMessage (message) {
     const existingMessage = this.getMessage(message.id)
     if (existingMessage) {
-      existingMessage.read = message.read
+      if (message.name === false) {
+        this.messages = this.messages.filter(m => {
+          return m.id !== message.id
+        })
+      } else {
+        existingMessage.read = message.read
+      }
     } else {
       this.messages.push(message)
     }
@@ -23,6 +29,11 @@ class MessageStore {
   }
   getMessage (messageId) {
     return this.messages.find(m => m.id === messageId)
+  }
+  removeMessage (id) {
+    this.messages = this.messages.filter(m => {
+      return m.id !== id
+    })
   }
 }
 

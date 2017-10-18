@@ -10,7 +10,9 @@ class TimelineStore {
   @action addTimeline (timelineStats) {
     const timeline = this.getTimeline(timelineStats.name) || {}
     if (timeline.name) this.removeTimeline(timeline.name)
-    this.timelines.push(Object.assign({}, timelineStats, {sortBy: timeline.sortBy || 'player'}))
+    if (timelineStats.name) {
+      this.timelines.push(Object.assign({}, timelineStats, {sortBy: timeline.sortBy || 'player'}))
+    }
   }
   @action removeTimeline (name) {
     this.timelines = this.timelines.filter(p => {
