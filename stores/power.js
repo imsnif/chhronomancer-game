@@ -31,7 +31,7 @@ class PowerStore {
   }
   removePower (playerId, timelineName) {
     this.powers = this.powers.filter(p => {
-      return (p.playerId !== playerId && p.timelineName !== timelineName)
+      return !(p.playerId === playerId && p.timelineName === timelineName)
     })
   }
   getPower (playerId, timelineName) {
