@@ -6,14 +6,31 @@ import messageStore from '../stores/message'
 
 let ws = false
 
+function reconnect (userId) {
+  setTimeout(() => {
+    if (!ws) return connect(userId)
+    if (ws.readyState === ws.CLOSED) {
+      connect(userId)
+    }
+  }, 1000)
+}
+
 export default function connect (userId) { // TODO: add id as header
-  if (ws) ws.close()
+  if (ws) {
+    ws.onopen = () => {}
+    ws.onclose = () => {}
+    ws.close()
+  }
   ws = new WebSocket('ws://10.0.0.6:3000/socket/feed', '', {
     access_token: statsStore.accessToken
   }) // TODO: from config
 
   ws.onopen = () => {
     statsStore.connect()
+  }
+
+  ws.onclose = () => {
+    reconnect(userId)
   }
 
   ws.onmessage = (e) => {
