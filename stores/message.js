@@ -5,14 +5,12 @@ class MessageStore {
   @observable messages = []
   @action addMessage (message) {
     const existingMessage = this.getMessage(message.id)
-    if (existingMessage) {
-      if (message.name === false) {
-        this.messages = this.messages.filter(m => {
-          return m.id !== message.id
-        })
-      } else {
-        existingMessage.read = message.read
-      }
+    if (message.name === false) {
+      this.messages = this.messages.filter(m => {
+        return m.id !== message.id
+      })
+    } else if (existingMessage) {
+      existingMessage.read = message.read
     } else {
       this.messages.push(message)
     }
