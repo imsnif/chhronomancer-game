@@ -89,7 +89,7 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
       style={
         Object {
           "backgroundColor": "#141313",
-          "height": 200,
+          "height": "50%",
           "transform": Array [
             Object {
               "translateY": 1334,
@@ -98,64 +98,31 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
               "translateX": 0,
             },
           ],
-          "width": 300,
+          "width": "90%",
         }
       }
     >
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
+      <Image
+        source={1}
         style={
           Object {
-            "color": "#329932",
-            "fontSize": 45.911331934501746,
-            "height": 40.019999999999996,
-            "includeFontPadding": false,
-            "lineHeight": 15,
-            "textAlignVertical": "bottom",
+            "height": "10%",
+            "resizeMode": "stretch",
+            "width": "100%",
           }
         }
-      >
-        +------------------------------------------------+
-      </Text>
+      />
       <View
         style={
           Object {
+            "alignItems": "center",
             "flexDirection": "row",
+            "height": "80%",
+            "justifyContent": "center",
+            "width": "100%",
           }
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Object {
-              "color": "#329932",
-              "flex": 0,
-              "lineHeight": 13,
-              "marginLeft": 1,
-              "marginRight": 1,
-              "textAlignVertical": "top",
-              "width": 10,
-            }
-          }
-        >
-           | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
-
-        </Text>
         <View
           style={
             Object {
@@ -173,9 +140,9 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
                   "color": "#329932",
                   "flex": 0,
                   "fontFamily": "telegrama_raw",
-                  "fontSize": 17,
+                  "fontSize": 45.911331934501746,
                   "textAlign": "center",
-                  "width": 272,
+                  "width": "100%",
                 },
                 Object {
                   "flex": 1,
@@ -190,7 +157,7 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
               Object {
                 "alignSelf": "center",
                 "flex": 1,
-                "marginTop": 5,
+                "justifyContent": "center",
               }
             }
           >
@@ -198,8 +165,9 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
               source={1}
               style={
                 Object {
+                  "alignSelf": "center",
                   "height": 16,
-                  "marginRight": 4,
+                  "marginRight": 0,
                   "width": 16,
                 }
               }
@@ -215,9 +183,9 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
                   "color": "#329932",
                   "flex": 0,
                   "fontFamily": "telegrama_raw",
-                  "fontSize": 17,
+                  "fontSize": 45.911331934501746,
                   "textAlign": "center",
-                  "width": 272,
+                  "width": "100%",
                 },
                 Object {
                   "flex": 1,
@@ -238,9 +206,9 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
                   "color": "#329932",
                   "flex": 0,
                   "fontFamily": "telegrama_raw",
-                  "fontSize": 17,
+                  "fontSize": 45.911331934501746,
                   "textAlign": "center",
-                  "width": 272,
+                  "width": "100%",
                 },
                 Object {
                   "flex": 1,
@@ -254,8 +222,10 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
           <View
             style={
               Object {
+                "alignSelf": "center",
                 "flex": 1,
                 "flexDirection": "row",
+                "width": "90%",
               }
             }
           >
@@ -405,54 +375,17 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
             </View>
           </View>
         </View>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Object {
-              "color": "#329932",
-              "flex": 0,
-              "lineHeight": 13,
-              "marginLeft": 1,
-              "marginRight": 1,
-              "textAlignVertical": "top",
-              "width": 10,
-            }
-          }
-        >
-           | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
-
-        </Text>
       </View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
+      <Image
+        source={1}
         style={
           Object {
-            "color": "#329932",
-            "fontSize": 45.911331934501746,
-            "height": 40.019999999999996,
-            "includeFontPadding": false,
-            "lineHeight": 15,
-            "textAlignVertical": "bottom",
+            "height": "10%",
+            "resizeMode": "stretch",
+            "width": "100%",
           }
         }
-      >
-        +------------------------------------------------+
-      </Text>
+      />
     </View>
   </View>
 </View>

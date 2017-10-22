@@ -16,7 +16,7 @@ exports[`Navbar (character-sheet) => renders correctly 1`] = `
       Object {
         "alignItems": "center",
         "flexDirection": "column",
-        "height": 45,
+        "height": "15%",
         "justifyContent": "center",
       }
     }
@@ -30,7 +30,8 @@ exports[`Navbar (character-sheet) => renders correctly 1`] = `
           "color": "#329932",
           "flex": 0,
           "fontFamily": "telegrama_raw",
-          "height": 19,
+          "fontSize": 27.546799160701053,
+          "height": "20%",
           "includeFontPadding": false,
           "lineHeight": 22,
           "textAlign": "center",
@@ -44,8 +45,9 @@ exports[`Navbar (character-sheet) => renders correctly 1`] = `
     <View
       style={
         Object {
+          "alignSelf": "center",
           "flexDirection": "row",
-          "height": 15,
+          "height": "30%",
           "justifyContent": "space-between",
         }
       }
@@ -88,7 +90,7 @@ exports[`Navbar (character-sheet) => renders correctly 1`] = `
               "color": "#329932",
               "flex": 1,
               "fontFamily": "telegrama_raw",
-              "fontSize": 13,
+              "fontSize": 27.546799160701053,
               "height": 9,
               "includeFontPadding": false,
               "lineHeight": 9,
@@ -138,7 +140,7 @@ exports[`Navbar (character-sheet) => renders correctly 1`] = `
               "color": "#329932",
               "flex": 1,
               "fontFamily": "telegrama_raw",
-              "fontSize": 13,
+              "fontSize": 27.546799160701053,
               "height": 9,
               "includeFontPadding": false,
               "lineHeight": 9,
@@ -188,7 +190,7 @@ exports[`Navbar (character-sheet) => renders correctly 1`] = `
               "color": "#329932",
               "flex": 1,
               "fontFamily": "telegrama_raw",
-              "fontSize": 13,
+              "fontSize": 27.546799160701053,
               "height": 9,
               "includeFontPadding": false,
               "lineHeight": 9,
@@ -201,23 +203,16 @@ exports[`Navbar (character-sheet) => renders correctly 1`] = `
         </Text>
       </View>
     </View>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <Image
+      source={1}
       style={
         Object {
-          "color": "#329932",
-          "fontSize": 45.911331934501746,
-          "height": 40.019999999999996,
-          "includeFontPadding": false,
-          "lineHeight": 15,
-          "textAlignVertical": "top",
+          "height": "30%",
+          "resizeMode": "stretch",
+          "width": "100%",
         }
       }
-    >
-      +--------------------------------------------------------+
-    </Text>
+    />
   </View>
   <View
     style={
@@ -245,7 +240,7 @@ exports[`Navbar (different route) => renders correctly 1`] = `
       Object {
         "alignItems": "center",
         "flexDirection": "column",
-        "height": 45,
+        "height": "15%",
         "justifyContent": "center",
       }
     }
@@ -259,7 +254,8 @@ exports[`Navbar (different route) => renders correctly 1`] = `
           "color": "#329932",
           "flex": 0,
           "fontFamily": "telegrama_raw",
-          "height": 19,
+          "fontSize": 27.546799160701053,
+          "height": "20%",
           "includeFontPadding": false,
           "lineHeight": 22,
           "textAlign": "center",
@@ -273,8 +269,9 @@ exports[`Navbar (different route) => renders correctly 1`] = `
     <View
       style={
         Object {
+          "alignSelf": "center",
           "flexDirection": "row",
-          "height": 15,
+          "height": "30%",
           "justifyContent": "space-between",
         }
       }
@@ -317,7 +314,7 @@ exports[`Navbar (different route) => renders correctly 1`] = `
               "color": "#329932",
               "flex": 1,
               "fontFamily": "telegrama_raw",
-              "fontSize": 13,
+              "fontSize": 27.546799160701053,
               "height": 9,
               "includeFontPadding": false,
               "lineHeight": 9,
@@ -367,7 +364,7 @@ exports[`Navbar (different route) => renders correctly 1`] = `
               "color": "#329932",
               "flex": 1,
               "fontFamily": "telegrama_raw",
-              "fontSize": 13,
+              "fontSize": 27.546799160701053,
               "height": 9,
               "includeFontPadding": false,
               "lineHeight": 9,
@@ -417,7 +414,7 @@ exports[`Navbar (different route) => renders correctly 1`] = `
               "color": "#329932",
               "flex": 1,
               "fontFamily": "telegrama_raw",
-              "fontSize": 13,
+              "fontSize": 27.546799160701053,
               "height": 9,
               "includeFontPadding": false,
               "lineHeight": 9,
@@ -430,23 +427,16 @@ exports[`Navbar (different route) => renders correctly 1`] = `
         </Text>
       </View>
     </View>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <Image
+      source={1}
       style={
         Object {
-          "color": "#329932",
-          "fontSize": 45.911331934501746,
-          "height": 40.019999999999996,
-          "includeFontPadding": false,
-          "lineHeight": 15,
-          "textAlignVertical": "top",
+          "height": "30%",
+          "resizeMode": "stretch",
+          "width": "100%",
         }
       }
-    >
-      +--------------------------------------------------------+
-    </Text>
+    />
   </View>
   <View
     style={
@@ -474,7 +464,7 @@ exports[`Navbar (timeline-grid) => renders correctly 1`] = `
       Object {
         "alignItems": "center",
         "flexDirection": "column",
-        "height": 45,
+        "height": "15%",
         "justifyContent": "center",
       }
     }
@@ -488,7 +478,8 @@ exports[`Navbar (timeline-grid) => renders correctly 1`] = `
           "color": "#329932",
           "flex": 0,
           "fontFamily": "telegrama_raw",
-          "height": 19,
+          "fontSize": 27.546799160701053,
+          "height": "20%",
           "includeFontPadding": false,
           "lineHeight": 22,
           "textAlign": "center",
@@ -502,8 +493,9 @@ exports[`Navbar (timeline-grid) => renders correctly 1`] = `
     <View
       style={
         Object {
+          "alignSelf": "center",
           "flexDirection": "row",
-          "height": 15,
+          "height": "30%",
           "justifyContent": "space-between",
         }
       }
@@ -546,7 +538,7 @@ exports[`Navbar (timeline-grid) => renders correctly 1`] = `
               "color": "#329932",
               "flex": 1,
               "fontFamily": "telegrama_raw",
-              "fontSize": 13,
+              "fontSize": 27.546799160701053,
               "height": 9,
               "includeFontPadding": false,
               "lineHeight": 9,
@@ -596,7 +588,7 @@ exports[`Navbar (timeline-grid) => renders correctly 1`] = `
               "color": "#329932",
               "flex": 1,
               "fontFamily": "telegrama_raw",
-              "fontSize": 13,
+              "fontSize": 27.546799160701053,
               "height": 9,
               "includeFontPadding": false,
               "lineHeight": 9,
@@ -646,7 +638,7 @@ exports[`Navbar (timeline-grid) => renders correctly 1`] = `
               "color": "#329932",
               "flex": 1,
               "fontFamily": "telegrama_raw",
-              "fontSize": 13,
+              "fontSize": 27.546799160701053,
               "height": 9,
               "includeFontPadding": false,
               "lineHeight": 9,
@@ -659,23 +651,16 @@ exports[`Navbar (timeline-grid) => renders correctly 1`] = `
         </Text>
       </View>
     </View>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <Image
+      source={1}
       style={
         Object {
-          "color": "#329932",
-          "fontSize": 45.911331934501746,
-          "height": 40.019999999999996,
-          "includeFontPadding": false,
-          "lineHeight": 15,
-          "textAlignVertical": "top",
+          "height": "30%",
+          "resizeMode": "stretch",
+          "width": "100%",
         }
       }
-    >
-      +--------------------------------------------------------+
-    </Text>
+    />
   </View>
   <View
     style={
@@ -703,7 +688,7 @@ exports[`Navbar (timeline-grid) => renders correctly 2`] = `
       Object {
         "alignItems": "center",
         "flexDirection": "column",
-        "height": 45,
+        "height": "15%",
         "justifyContent": "center",
       }
     }
@@ -717,7 +702,8 @@ exports[`Navbar (timeline-grid) => renders correctly 2`] = `
           "color": "#329932",
           "flex": 0,
           "fontFamily": "telegrama_raw",
-          "height": 19,
+          "fontSize": 27.546799160701053,
+          "height": "20%",
           "includeFontPadding": false,
           "lineHeight": 22,
           "textAlign": "center",
@@ -731,8 +717,9 @@ exports[`Navbar (timeline-grid) => renders correctly 2`] = `
     <View
       style={
         Object {
+          "alignSelf": "center",
           "flexDirection": "row",
-          "height": 15,
+          "height": "30%",
           "justifyContent": "space-between",
         }
       }
@@ -775,7 +762,7 @@ exports[`Navbar (timeline-grid) => renders correctly 2`] = `
               "color": "#329932",
               "flex": 1,
               "fontFamily": "telegrama_raw",
-              "fontSize": 13,
+              "fontSize": 27.546799160701053,
               "height": 9,
               "includeFontPadding": false,
               "lineHeight": 9,
@@ -825,7 +812,7 @@ exports[`Navbar (timeline-grid) => renders correctly 2`] = `
               "color": "#329932",
               "flex": 1,
               "fontFamily": "telegrama_raw",
-              "fontSize": 13,
+              "fontSize": 27.546799160701053,
               "height": 9,
               "includeFontPadding": false,
               "lineHeight": 9,
@@ -875,7 +862,7 @@ exports[`Navbar (timeline-grid) => renders correctly 2`] = `
               "color": "#329932",
               "flex": 1,
               "fontFamily": "telegrama_raw",
-              "fontSize": 13,
+              "fontSize": 27.546799160701053,
               "height": 9,
               "includeFontPadding": false,
               "lineHeight": 9,
@@ -888,23 +875,16 @@ exports[`Navbar (timeline-grid) => renders correctly 2`] = `
         </Text>
       </View>
     </View>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <Image
+      source={1}
       style={
         Object {
-          "color": "#329932",
-          "fontSize": 45.911331934501746,
-          "height": 40.019999999999996,
-          "includeFontPadding": false,
-          "lineHeight": 15,
-          "textAlignVertical": "top",
+          "height": "30%",
+          "resizeMode": "stretch",
+          "width": "100%",
         }
       }
-    >
-      +--------------------------------------------------------+
-    </Text>
+    />
   </View>
   <View
     style={
@@ -929,25 +909,18 @@ exports[`Navbar (winner declared) => renders correctly 1`] = `
     }
   }
 >
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
+  <Image
+    source={1}
     style={
       Object {
-        "color": "#329932",
-        "fontSize": 45.911331934501746,
-        "height": 40.019999999999996,
-        "includeFontPadding": false,
-        "lineHeight": 15,
+        "height": "100%",
         "paddingLeft": 15,
         "paddingRight": 15,
-        "textAlignVertical": "top",
+        "resizeMode": "stretch",
+        "width": "100%",
       }
     }
-  >
-    +------------------------------------------------------+
-  </Text>
+  />
   <View
     style={
       Object {
@@ -956,63 +929,24 @@ exports[`Navbar (winner declared) => renders correctly 1`] = `
       }
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <View
       style={
         Object {
-          "color": "#329932",
-          "flex": 0,
-          "lineHeight": 13,
-          "textAlignVertical": "top",
-          "width": 22.5,
+          "height": "100%",
+          "width": "100%",
         }
       }
     >
-       | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
-
-    </Text>
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
     <View
       style={
         Object {
@@ -1096,82 +1030,36 @@ exports[`Navbar (winner declared) => renders correctly 1`] = `
         />
       </Image>
     </View>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <View
       style={
         Object {
-          "color": "#329932",
-          "flex": 0,
-          "lineHeight": 13,
-          "textAlignVertical": "top",
-          "width": 22.5,
+          "height": "100%",
+          "width": "100%",
         }
       }
     >
-       | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
-
-    </Text>
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
   </View>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
+  <Image
+    source={1}
     style={
       Object {
-        "color": "#329932",
-        "fontSize": 45.911331934501746,
-        "height": 40.019999999999996,
-        "includeFontPadding": false,
-        "lineHeight": 15,
+        "height": "100%",
         "paddingLeft": 15,
         "paddingRight": 15,
-        "textAlignVertical": "top",
+        "resizeMode": "stretch",
+        "width": "100%",
       }
     }
-  >
-    +------------------------------------------------------+
-  </Text>
+  />
 </View>
 `;

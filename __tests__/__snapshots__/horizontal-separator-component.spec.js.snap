@@ -1,21 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Horizontal Separator => renders correctly 1`] = `
-<Text
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
+<Image
+  source={1}
   style={
     Object {
-      "color": "#329932",
-      "fontSize": 45.911331934501746,
-      "height": 40.019999999999996,
-      "includeFontPadding": false,
-      "lineHeight": 15,
-      "textAlignVertical": "top",
+      "height": "100%",
+      "resizeMode": "stretch",
+      "width": "100%",
     }
   }
->
-  +------------------------------------------+
-</Text>
+/>
 `;

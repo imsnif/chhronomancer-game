@@ -166,7 +166,7 @@ exports[`Main component (with server mock) => renders correctly 1`] = `
             Object {
               "alignItems": "center",
               "flexDirection": "column",
-              "height": 45,
+              "height": "15%",
               "justifyContent": "center",
             }
           }
@@ -180,7 +180,8 @@ exports[`Main component (with server mock) => renders correctly 1`] = `
                 "color": "#329932",
                 "flex": 0,
                 "fontFamily": "telegrama_raw",
-                "height": 19,
+                "fontSize": 27.546799160701053,
+                "height": "20%",
                 "includeFontPadding": false,
                 "lineHeight": 22,
                 "textAlign": "center",
@@ -194,8 +195,9 @@ exports[`Main component (with server mock) => renders correctly 1`] = `
           <View
             style={
               Object {
+                "alignSelf": "center",
                 "flexDirection": "row",
-                "height": 15,
+                "height": "30%",
                 "justifyContent": "space-between",
               }
             }
@@ -238,7 +240,7 @@ exports[`Main component (with server mock) => renders correctly 1`] = `
                     "color": "#329932",
                     "flex": 1,
                     "fontFamily": "telegrama_raw",
-                    "fontSize": 13,
+                    "fontSize": 27.546799160701053,
                     "height": 9,
                     "includeFontPadding": false,
                     "lineHeight": 9,
@@ -288,7 +290,7 @@ exports[`Main component (with server mock) => renders correctly 1`] = `
                     "color": "#329932",
                     "flex": 1,
                     "fontFamily": "telegrama_raw",
-                    "fontSize": 13,
+                    "fontSize": 27.546799160701053,
                     "height": 9,
                     "includeFontPadding": false,
                     "lineHeight": 9,
@@ -338,7 +340,7 @@ exports[`Main component (with server mock) => renders correctly 1`] = `
                     "color": "#329932",
                     "flex": 1,
                     "fontFamily": "telegrama_raw",
-                    "fontSize": 13,
+                    "fontSize": 27.546799160701053,
                     "height": 9,
                     "includeFontPadding": false,
                     "lineHeight": 9,
@@ -351,23 +353,16 @@ exports[`Main component (with server mock) => renders correctly 1`] = `
               </Text>
             </View>
           </View>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+          <Image
+            source={1}
             style={
               Object {
-                "color": "#329932",
-                "fontSize": 45.911331934501746,
-                "height": 40.019999999999996,
-                "includeFontPadding": false,
-                "lineHeight": 15,
-                "textAlignVertical": "top",
+                "height": "30%",
+                "resizeMode": "stretch",
+                "width": "100%",
               }
             }
-          >
-            +--------------------------------------------------------+
-          </Text>
+          />
         </View>
         <View
           style={

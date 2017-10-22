@@ -15,25 +15,18 @@ exports[`GameOver (with winner) => renders correctly 1`] = `
     }
   }
 >
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
+  <Image
+    source={1}
     style={
       Object {
-        "color": "#329932",
-        "fontSize": 45.911331934501746,
-        "height": 40.019999999999996,
-        "includeFontPadding": false,
-        "lineHeight": 15,
+        "height": "100%",
         "paddingLeft": 15,
         "paddingRight": 15,
-        "textAlignVertical": "top",
+        "resizeMode": "stretch",
+        "width": "100%",
       }
     }
-  >
-    +------------------------------------------------------+
-  </Text>
+  />
   <View
     style={
       Object {
@@ -42,63 +35,24 @@ exports[`GameOver (with winner) => renders correctly 1`] = `
       }
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <View
       style={
         Object {
-          "color": "#329932",
-          "flex": 0,
-          "lineHeight": 13,
-          "textAlignVertical": "top",
-          "width": 22.5,
+          "height": "100%",
+          "width": "100%",
         }
       }
     >
-       | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
-
-    </Text>
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
     <View
       style={
         Object {
@@ -182,82 +136,36 @@ exports[`GameOver (with winner) => renders correctly 1`] = `
         />
       </Image>
     </View>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <View
       style={
         Object {
-          "color": "#329932",
-          "flex": 0,
-          "lineHeight": 13,
-          "textAlignVertical": "top",
-          "width": 22.5,
+          "height": "100%",
+          "width": "100%",
         }
       }
     >
-       | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
-
-    </Text>
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
   </View>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
+  <Image
+    source={1}
     style={
       Object {
-        "color": "#329932",
-        "fontSize": 45.911331934501746,
-        "height": 40.019999999999996,
-        "includeFontPadding": false,
-        "lineHeight": 15,
+        "height": "100%",
         "paddingLeft": 15,
         "paddingRight": 15,
-        "textAlignVertical": "top",
+        "resizeMode": "stretch",
+        "width": "100%",
       }
     }
-  >
-    +------------------------------------------------------+
-  </Text>
+  />
 </View>
 `;

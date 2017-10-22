@@ -1,62 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Vertical Separator => renders correctly 1`] = `
-<Text
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
+<View
   style={
     Object {
-      "color": "#329932",
-      "flex": 0,
-      "lineHeight": 13,
-      "textAlignVertical": "top",
-      "width": 22.5,
+      "height": "100%",
+      "width": "100%",
     }
   }
 >
-   | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
-
-</Text>
+  <Image
+    source={1}
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  />
+</View>
 `;

@@ -1673,25 +1673,16 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
       }
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <Image
+      source={1}
       style={
         Object {
-          "alignSelf": "center",
-          "color": "#329932",
-          "fontSize": 45.911331934501746,
-          "height": 40.019999999999996,
-          "includeFontPadding": false,
-          "lineHeight": 15,
-          "marginTop": 5,
-          "textAlignVertical": "top",
+          "height": "20%",
+          "resizeMode": "stretch",
+          "width": "100%",
         }
       }
-    >
-      +------------------------------------+-----------------+
-    </Text>
+    />
     <View
       style={
         Object {
@@ -2166,36 +2157,13 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
           </View>
         </View>
       </View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
+      <View
         style={
           Object {
-            "color": "#329932",
-            "flex": 0,
-            "lineHeight": 13,
             "marginLeft": 4,
-            "textAlignVertical": "top",
-            "width": 22.5,
           }
         }
-      >
-         | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
-
-      </Text>
+      />
       <View
         style={
           Object {
@@ -4051,25 +4019,16 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
       }
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <Image
+      source={1}
       style={
         Object {
-          "alignSelf": "center",
-          "color": "#329932",
-          "fontSize": 45.911331934501746,
-          "height": 40.019999999999996,
-          "includeFontPadding": false,
-          "lineHeight": 15,
-          "marginTop": 5,
-          "textAlignVertical": "top",
+          "height": "20%",
+          "resizeMode": "stretch",
+          "width": "100%",
         }
       }
-    >
-      +------------------------------------+-----------------+
-    </Text>
+    />
     <View
       style={
         Object {
@@ -4544,36 +4503,13 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
           </View>
         </View>
       </View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
+      <View
         style={
           Object {
-            "color": "#329932",
-            "flex": 0,
-            "lineHeight": 13,
             "marginLeft": 4,
-            "textAlignVertical": "top",
-            "width": 22.5,
           }
         }
-      >
-         | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
-
-      </Text>
+      />
       <View
         style={
           Object {
@@ -6429,25 +6365,16 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
       }
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <Image
+      source={1}
       style={
         Object {
-          "alignSelf": "center",
-          "color": "#329932",
-          "fontSize": 45.911331934501746,
-          "height": 40.019999999999996,
-          "includeFontPadding": false,
-          "lineHeight": 15,
-          "marginTop": 5,
-          "textAlignVertical": "top",
+          "height": "20%",
+          "resizeMode": "stretch",
+          "width": "100%",
         }
       }
-    >
-      +------------------------------------+-----------------+
-    </Text>
+    />
     <View
       style={
         Object {
@@ -6922,36 +6849,13 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
           </View>
         </View>
       </View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
+      <View
         style={
           Object {
-            "color": "#329932",
-            "flex": 0,
-            "lineHeight": 13,
             "marginLeft": 4,
-            "textAlignVertical": "top",
-            "width": 22.5,
           }
         }
-      >
-         | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
- | 
-
-      </Text>
+      />
       <View
         style={
           Object {
