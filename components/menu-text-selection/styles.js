@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native'
+import { responsiveFontSize } from 'react-native-responsive-dimensions'
 import common from '../common/styles'
 
 export default StyleSheet.create({
@@ -11,6 +12,6 @@ export default StyleSheet.create({
     includeFontPadding: false,
     lineHeight: 9,
     height: 9,
-    fontSize: 13
+    fontSize: responsiveFontSize(1.8)
   }
 })

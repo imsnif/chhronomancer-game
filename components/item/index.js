@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, TouchableHighlight } from 'react-native'
+import { Image, TouchableHighlight, StyleSheet } from 'react-native'
 import styles from './styles'
 
 import assistEmpty from '../../assets/items/assist-green-empty.png'
@@ -48,12 +48,12 @@ export default function Item (props) {
         underlayColor={commonStyles.backGround}
         onPress={props.onPress || function () {}}
       >
-        <Image style={styles.item} source={img} />
+        <Image style={StyleSheet.flatten([styles.item, props.style])} source={img} />
       </TouchableHighlight>
     )
   } else {
     return (
-      <Image style={styles.item} source={img} />
+      <Image style={StyleSheet.flatten([styles.item, props.style])} source={img} />
     )
   }
 }

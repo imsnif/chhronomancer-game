@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native'
+import { responsiveFontSize } from 'react-native-responsive-dimensions'
 import common from '../common/styles'
 
 export default StyleSheet.create({
@@ -10,7 +11,7 @@ export default StyleSheet.create({
   },
   topBar: {
     flexDirection: 'column',
-    height: 45,
+    height: '15%',
     justifyContent: 'center',
     alignItems: 'center'
   },
@@ -22,22 +23,25 @@ export default StyleSheet.create({
     textAlignVertical: 'bottom',
     includeFontPadding: false,
     lineHeight: 22,
-    height: 19
+    height: '20%',
+    fontSize: responsiveFontSize(1.8)
   },
   error: {
     flex: 0,
+    height: '30%',
+    justifyContent: 'center',
+    alignItems: 'center',
     color: '#329932',
     fontFamily: 'telegrama_raw',
     textAlign: 'center',
     textAlignVertical: 'center',
     includeFontPadding: false,
     backgroundColor: 'red',
-    lineHeight: 22,
-    height: 22,
-    marginTop: 11
+    fontSize: responsiveFontSize(1.8)
   },
   navigationMenu: {
-    height: 15,
+    alignSelf: 'center',
+    height: '30%',
     flexDirection: 'row',
     justifyContent: 'space-between'
   }

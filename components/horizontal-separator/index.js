@@ -1,13 +1,10 @@
 import React from 'react'
-import { Text, StyleSheet } from 'react-native'
-import styles from './styles'
+import { StyleSheet, Image } from 'react-native'
+import horizontalBarImg from '../../assets/horizontal-bar.png'
 
 export default function HorizontalSeparator (props) {
-  const plusAt = props.plusAt || []
-  const line = Array(props.length).fill('-').map((m, i) => plusAt.includes(i) ? '+' : m).join('')
+  // TODO: solve ths issue where this flickers when rerendering the component
   return (
-    <Text
-      style={StyleSheet.flatten([styles.separator, props.style || {}])}
-    >{`+${line}+`}</Text>
+    <Image source={horizontalBarImg} style={StyleSheet.flatten([{width: '100%', resizeMode: 'stretch', height: '100%'}, props.style])} />
   )
 }

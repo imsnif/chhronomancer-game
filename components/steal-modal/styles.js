@@ -1,4 +1,7 @@
 import { StyleSheet } from 'react-native'
+import {
+  responsiveFontSize
+} from 'react-native-responsive-dimensions'
 
 import common from '../common/styles'
 
@@ -7,12 +10,14 @@ export default StyleSheet.create({
   scrollContainer: common.scrollContainer,
   itemContainer: {
     flex: 1,
-    marginTop: 5,
-    alignSelf: 'center'
+    alignSelf: 'center',
+    justifyContent: 'center'
   },
   buttonRow: {
     flex: 1,
-    flexDirection: 'row'
+    flexDirection: 'row',
+    width: '90%',
+    alignSelf: 'center'
   },
   buttonLeft: {
     flex: 1,
@@ -23,30 +28,23 @@ export default StyleSheet.create({
     marginLeft: 2
   },
   modal: {
-    height: 200,
-    width: 300,
+    height: '50%',
+    width: '90%',
     backgroundColor: common.backGround
   },
   topBorder: {
-    color: common.foreGround,
-    textAlignVertical: 'bottom',
-    includeFontPadding: false
+    height: '10%'
   },
   verticalLine: {
-    width: 10,
-    textAlignVertical: 'top',
-    lineHeight: 13,
-    color: common.foreGround,
-    flex: 0,
-    marginRight: 1,
-    marginLeft: 1
+    height: '90%',
+    width: '5%'
   },
   text: {
     textAlign: 'center',
     flex: 0,
-    width: 272,
+    width: '100%',
     color: common.foreGround,
-    fontSize: 17,
+    fontSize: responsiveFontSize(3),
     fontFamily: common.font
   },
   buttonPad: {
