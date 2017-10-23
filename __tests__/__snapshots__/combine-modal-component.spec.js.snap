@@ -89,7 +89,7 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
       style={
         Object {
           "backgroundColor": "#141313",
-          "height": 200,
+          "height": "70%",
           "transform": Array [
             Object {
               "translateY": 1334,
@@ -98,25 +98,10 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
               "translateX": 0,
             },
           ],
-          "width": 300,
+          "width": "90%",
         }
       }
     >
-      <Image
-        source={1}
-        style={
-          Object {
-            "color": "#329932",
-            "fontSize": 21,
-            "height": 15,
-            "includeFontPadding": false,
-            "lineHeight": 15,
-            "resizeMode": "stretch",
-            "textAlignVertical": "bottom",
-            "width": "100%",
-          }
-        }
-      />
       <View
         style={
           Object {
@@ -127,14 +112,12 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
         <View
           style={
             Object {
-              "color": "#329932",
-              "flex": 0,
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flexDirection": "column",
               "height": "100%",
-              "lineHeight": 13,
-              "marginLeft": 1,
-              "marginRight": 1,
-              "textAlignVertical": "top",
-              "width": 10,
+              "justifyContent": "center",
+              "width": "100%",
             }
           }
         >
@@ -142,21 +125,12 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
             source={1}
             style={
               Object {
-                "height": "100%",
+                "height": "10%",
+                "resizeMode": "stretch",
                 "width": "100%",
               }
             }
           />
-        </View>
-        <View
-          style={
-            Object {
-              "flex": 0,
-              "flexDirection": "column",
-              "width": 272,
-            }
-          }
-        >
           <View
             accessibilityComponentType={undefined}
             accessibilityLabel={undefined}
@@ -192,6 +166,8 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                   "flex": 1,
                   "flexDirection": "row",
                   "justifyContent": "center",
+                  "padding": 10,
+                  "width": "90%",
                 }
               }
             >
@@ -199,9 +175,11 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 source={1}
                 style={
                   Object {
-                    "height": 16,
+                    "flex": 1,
+                    "height": "100%",
                     "marginRight": 4,
-                    "width": 16,
+                    "resizeMode": "stretch",
+                    "width": "100%",
                   }
                 }
               />
@@ -212,8 +190,10 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 style={
                   Object {
                     "color": "#329932",
-                    "flex": 1,
-                    "maxWidth": 10,
+                    "flex": 0,
+                    "fontSize": 45.911331934501746,
+                    "textAlign": "center",
+                    "width": 50,
                   }
                 }
               >
@@ -223,9 +203,11 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 source={1}
                 style={
                   Object {
-                    "height": 16,
+                    "flex": 1,
+                    "height": "100%",
                     "marginRight": 4,
-                    "width": 16,
+                    "resizeMode": "stretch",
+                    "width": "100%",
                   }
                 }
               />
@@ -236,8 +218,10 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 style={
                   Object {
                     "color": "#329932",
-                    "flex": 1,
-                    "maxWidth": 10,
+                    "flex": 0,
+                    "fontSize": 45.911331934501746,
+                    "textAlign": "center",
+                    "width": 50,
                   }
                 }
               >
@@ -247,9 +231,11 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 source={1}
                 style={
                   Object {
-                    "height": 16,
+                    "flex": 1,
+                    "height": "100%",
                     "marginRight": 4,
-                    "width": 16,
+                    "resizeMode": "stretch",
+                    "width": "100%",
                   }
                 }
               />
@@ -290,6 +276,8 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                   "flex": 1,
                   "flexDirection": "row",
                   "justifyContent": "center",
+                  "padding": 10,
+                  "width": "90%",
                 }
               }
             >
@@ -297,9 +285,11 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 source={1}
                 style={
                   Object {
-                    "height": 16,
+                    "flex": 1,
+                    "height": "100%",
                     "marginRight": 4,
-                    "width": 16,
+                    "resizeMode": "stretch",
+                    "width": "100%",
                   }
                 }
               />
@@ -310,8 +300,10 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 style={
                   Object {
                     "color": "#329932",
-                    "flex": 1,
-                    "maxWidth": 10,
+                    "flex": 0,
+                    "fontSize": 45.911331934501746,
+                    "textAlign": "center",
+                    "width": 50,
                   }
                 }
               >
@@ -321,9 +313,11 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 source={1}
                 style={
                   Object {
-                    "height": 16,
+                    "flex": 1,
+                    "height": "100%",
                     "marginRight": 4,
-                    "width": 16,
+                    "resizeMode": "stretch",
+                    "width": "100%",
                   }
                 }
               />
@@ -334,8 +328,10 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 style={
                   Object {
                     "color": "#329932",
-                    "flex": 1,
-                    "maxWidth": 10,
+                    "flex": 0,
+                    "fontSize": 45.911331934501746,
+                    "textAlign": "center",
+                    "width": 50,
                   }
                 }
               >
@@ -345,9 +341,11 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 source={1}
                 style={
                   Object {
-                    "height": 16,
+                    "flex": 1,
+                    "height": "100%",
                     "marginRight": 4,
-                    "width": 16,
+                    "resizeMode": "stretch",
+                    "width": "100%",
                   }
                 }
               />
@@ -388,6 +386,8 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                   "flex": 1,
                   "flexDirection": "row",
                   "justifyContent": "center",
+                  "padding": 10,
+                  "width": "90%",
                 }
               }
             >
@@ -395,9 +395,11 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 source={1}
                 style={
                   Object {
-                    "height": 16,
+                    "flex": 1,
+                    "height": "100%",
                     "marginRight": 4,
-                    "width": 16,
+                    "resizeMode": "stretch",
+                    "width": "100%",
                   }
                 }
               />
@@ -408,8 +410,10 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 style={
                   Object {
                     "color": "#329932",
-                    "flex": 1,
-                    "maxWidth": 10,
+                    "flex": 0,
+                    "fontSize": 45.911331934501746,
+                    "textAlign": "center",
+                    "width": 50,
                   }
                 }
               >
@@ -419,9 +423,11 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 source={1}
                 style={
                   Object {
-                    "height": 16,
+                    "flex": 1,
+                    "height": "100%",
                     "marginRight": 4,
-                    "width": 16,
+                    "resizeMode": "stretch",
+                    "width": "100%",
                   }
                 }
               />
@@ -432,8 +438,10 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 style={
                   Object {
                     "color": "#329932",
-                    "flex": 1,
-                    "maxWidth": 10,
+                    "flex": 0,
+                    "fontSize": 45.911331934501746,
+                    "textAlign": "center",
+                    "width": 50,
                   }
                 }
               >
@@ -445,14 +453,15 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 ellipsizeMode="tail"
                 style={
                   Object {
-                    "color": "#329932",
+                    "backgroundColor": "#329932",
+                    "color": "#141313",
                     "flex": 1,
                     "fontFamily": "telegrama_raw",
-                    "fontSize": 5,
-                    "marginLeft": 3,
-                    "marginTop": 5,
-                    "maxWidth": 10,
-                    "minWidth": 10,
+                    "fontSize": 45.911331934501746,
+                    "height": "100%",
+                    "textAlign": "center",
+                    "textAlignVertical": "center",
+                    "width": "100%",
                   }
                 }
               >
@@ -467,6 +476,9 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 "flex": 1,
                 "flexDirection": "row",
                 "justifyContent": "center",
+                "paddingBottom": 10,
+                "paddingTop": 10,
+                "width": "90%",
               }
             }
           >
@@ -525,6 +537,7 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                       "color": "#329932",
                       "flex": 1,
                       "fontFamily": "telegrama_raw",
+                      "fontSize": 61.21510924600233,
                       "textAlign": "center",
                     }
                   }
@@ -534,47 +547,18 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
               </View>
             </View>
           </View>
-        </View>
-        <View
-          style={
-            Object {
-              "color": "#329932",
-              "flex": 0,
-              "height": "100%",
-              "lineHeight": 13,
-              "marginLeft": 1,
-              "marginRight": 1,
-              "textAlignVertical": "top",
-              "width": 10,
-            }
-          }
-        >
           <Image
             source={1}
             style={
               Object {
-                "height": "100%",
+                "height": "10%",
+                "resizeMode": "stretch",
                 "width": "100%",
               }
             }
           />
         </View>
       </View>
-      <Image
-        source={1}
-        style={
-          Object {
-            "color": "#329932",
-            "fontSize": 21,
-            "height": 15,
-            "includeFontPadding": false,
-            "lineHeight": 15,
-            "resizeMode": "stretch",
-            "textAlignVertical": "bottom",
-            "width": "100%",
-          }
-        }
-      />
     </View>
   </View>
 </View>
