@@ -1,4 +1,7 @@
 import { StyleSheet } from 'react-native'
+import {
+  responsiveFontSize
+} from 'react-native-responsive-dimensions'
 
 import common from '../common/styles'
 
@@ -6,64 +9,64 @@ export default StyleSheet.create({
   container: common.container,
   scrollContainer: common.scrollContainer,
   contentContainer: {
+    alignSelf: 'center',
     flexDirection: 'column',
-    flex: 0,
-    width: 272
+    width: '100%',
+    height: '100%',
+    alignItems: 'center',
+    justifyContent: 'center'
   },
   rowContainer: {
     flexDirection: 'row',
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    width: '90%',
+    padding: 10
+  },
+  cancelContainer: {
+    flexDirection: 'row',
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '90%',
+    paddingTop: 10,
+    paddingBottom: 10
+  },
+  cancelText: {
+    fontSize: responsiveFontSize(3)
   },
   modal: {
-    height: 200,
-    width: 300,
+    height: '70%',
+    width: '90%',
     backgroundColor: common.backGround
   },
   topBorder: {
-    color: common.foreGround,
-    fontSize: 21,
-    height: 15,
-    textAlignVertical: 'bottom',
-    includeFontPadding: false,
-    lineHeight: 15
-  },
-  verticalLine: {
-    width: 10,
-    textAlignVertical: 'top',
-    lineHeight: 13,
-    color: common.foreGround,
-    flex: 0,
-    marginRight: 1,
-    marginLeft: 1
+    height: '10%'
   },
   text: {
-    flex: 1,
+    flex: 0,
     color: common.foreGround,
-    maxWidth: 10
+    width: 50,
+    textAlign: 'center',
+    fontSize: responsiveFontSize(3)
+    // maxWidth: 10
   },
   winText: {
-    flex: 1,
-    color: common.foreGround,
-    minWidth: 10,
-    marginLeft: 3,
-    marginTop: 5,
-    maxWidth: 10,
-    fontSize: 5,
-    fontFamily: common.font
-  },
-  buttonPad: {
-    flex: 2,
-    flexDirection: 'column',
-    justifyContent: 'space-between',
-    alignItems: 'center'
-  },
-  buttonRow: {
+    color: common.backGround,
+    backgroundColor: common.foreGround,
+    fontSize: responsiveFontSize(3),
+    fontFamily: common.font,
     flex: 1,
     height: '100%',
     width: '100%',
-    flexDirection: 'row',
-    justifyContent: 'space-between'
+    textAlign: 'center',
+    textAlignVertical: 'center'
+  },
+  item: {
+    flex: 1,
+    height: '100%',
+    width: '100%',
+    resizeMode: 'stretch'
   }
 })
