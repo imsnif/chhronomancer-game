@@ -1,9 +1,10 @@
 import statsStore from '../stores/stats'
 
+const { serverAddress } = require('../config.json')
 // TODO: test this and its derivatives
 export default async function sendRequest (path) {
   try {
-    const response = await fetch(`http://10.0.0.6:3000${path}`, {
+    const response = await fetch(`http://${serverAddress}${path}`, {
       method: 'POST',
       headers: {access_token: statsStore.accessToken}
     })

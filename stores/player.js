@@ -1,11 +1,13 @@
 import { observable, action } from 'mobx'
 
+const { serverAddress } = require('../config.json')
+
 class PlayerStore {
   @observable players = []
   @action addPlayer ({id, name, items, actions, picture}) {
     const player = this.getPlayer(id) || {}
     if (player.id) this.removePlayer(player.id)
-    const pic = picture || 'http://10.0.0.6:3000/placeholders/nopic.png' // TODO: from config
+    const pic = picture || `http://${serverAddress}/placeholders/nopic.png`
     this.players.push(Object.assign({}, player, {
       id,
       name,

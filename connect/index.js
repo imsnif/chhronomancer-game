@@ -4,6 +4,8 @@ import powerStore from '../stores/power'
 import statsStore from '../stores/stats'
 import messageStore from '../stores/message'
 
+const { serverAddress } = require('../config.json')
+
 let ws = false
 
 function reconnect (userId) {
@@ -21,7 +23,7 @@ export default function connect (userId) { // TODO: add id as header
     ws.onclose = () => {}
     ws.close()
   }
-  ws = new WebSocket('ws://10.0.0.6:3000/socket/feed', '', {
+  ws = new WebSocket(`ws://${serverAddress}/socket/feed`, '', {
     access_token: statsStore.accessToken
   }) // TODO: from config
 

@@ -2,6 +2,8 @@ import { observable, action, computed } from 'mobx'
 import playerStore from './player'
 import connect from '../connect'
 
+const { serverAddress } = require('../config.json')
+
 class StatsStore {
   @observable playerId = null
   @observable connected = false
@@ -37,7 +39,7 @@ class StatsStore {
     try {
       if (!data || !data.credentials || !data.credentials.userId) throw new Error('no userid!')
       this.accessToken = data.credentials.token
-      await fetch(`http://10.0.0.6:3000/player/update`, {
+      await fetch(`http://${serverAddress}/player/update`, {
         method: 'POST',
         headers: {
           access_token: this.accessToken
