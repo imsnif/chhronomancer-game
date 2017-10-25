@@ -3,7 +3,6 @@ import { observer } from 'mobx-react/native'
 import { View, Text, Image } from 'react-native'
 
 import HorizontalSeparator from '../horizontal-separator'
-import VerticalSeparator from '../vertical-separator'
 import styles from './styles'
 
 import playerStore from '../../stores/player'
@@ -22,19 +21,15 @@ export default class GameOver extends Component {
     const winner = playerStore.getPlayer(winnerId)
     return (
       <View style={styles.container}>
-        <HorizontalSeparator length={54} style={styles.paddedSides} />
+        <HorizontalSeparator style={{height: '8%'}} />
         <View style={styles.midSection}>
-          <VerticalSeparator length={41} />
-          <View style={styles.innerContainer}>
-            <Text style={styles.text}>GAME OVER</Text>
-            <Text style={styles.text}>Winner: {winner.name}</Text>
-            <Image style={styles.playerImageBox} source={{uri: winner.picture}}>
-              <View style={styles.imageOverlay} />
-            </Image>
-          </View>
-          <VerticalSeparator length={41} />
+          <Text style={styles.text}>GAME OVER</Text>
+          <Text style={styles.text}>Winner: {winner.name}</Text>
+          <Image style={styles.playerImageBox} source={{uri: winner.picture}}>
+            <View style={styles.imageOverlay} />
+          </Image>
         </View>
-        <HorizontalSeparator length={54} style={styles.paddedSides} />
+        <HorizontalSeparator style={{height: '8%'}} />
       </View>
     )
   }
