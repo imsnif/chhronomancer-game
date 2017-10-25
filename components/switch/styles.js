@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native'
+import { responsiveFontSize } from 'react-native-responsive-dimensions'
 import common from '../common/styles'
 
 export default StyleSheet.create({
@@ -35,13 +36,13 @@ export default StyleSheet.create({
     color: common.altText,
     textAlign: 'center',
     textAlignVertical: 'center',
-    fontSize: 20
+    fontSize: responsiveFontSize(3)
   },
   unSelectedText: {
     fontFamily: 'telegrama_raw',
     color: common.foreGround,
     textAlign: 'center',
     textAlignVertical: 'center',
-    fontSize: 20
+    fontSize: responsiveFontSize(3)
   }
 })

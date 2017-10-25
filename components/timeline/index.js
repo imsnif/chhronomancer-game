@@ -11,6 +11,7 @@ import styles from './styles'
 import sortPlayers from './sort-players.js'
 
 import timelineStore from '../../stores/timeline'
+import { responsiveFontSize } from 'react-native-responsive-dimensions'
 
 @observer
 export default class Timeline extends Component {
@@ -42,18 +43,18 @@ export default class Timeline extends Component {
         <ControlPanel>
           <View style={styles.buttonPad}>
             <View style={styles.buttonRow}>
-              <MenuButton fontSize={20} style={styles.leftButton} title='Reset' onPress={() => timelineStore.resetTimeline(name)} />
-              <MenuButton fontSize={20} style={styles.rightButton} title='Quest' onPress={() => timelineStore.quest(name)} />
+              <MenuButton fontSize={responsiveFontSize(3)} style={styles.leftButton} title='Reset' onPress={() => timelineStore.resetTimeline(name)} />
+              <MenuButton fontSize={responsiveFontSize(3)} style={styles.rightButton} title='Quest' onPress={() => timelineStore.quest(name)} />
             </View>
             <View style={styles.middleButtonRow}>
-              <MenuButton fontSize={20} style={styles.leftButton} title='Lock' onPress={() => timelineStore.lockTimeline(name)} />
-              <MenuButton fontSize={20} style={styles.rightButton} title='Unlock' onPress={() => timelineStore.unlockTimeline(name)} />
+              <MenuButton fontSize={responsiveFontSize(3)} style={styles.leftButton} title='Lock' onPress={() => timelineStore.lockTimeline(name)} />
+              <MenuButton fontSize={responsiveFontSize(3)} style={styles.rightButton} title='Unlock' onPress={() => timelineStore.unlockTimeline(name)} />
             </View>
             <View style={styles.middleButtonRow}>
-              <MenuButton fontSize={20} title='Combine Items' syncAction onPress={() => timelineStore.addModal(name, {modalType: 'combine'})} />
+              <MenuButton fontSize={responsiveFontSize(3)} title='Combine Items' syncAction onPress={() => timelineStore.addModal(name, {modalType: 'combine'})} />
             </View>
             <View style={styles.middleButtonRow}>
-              <MenuButton fontSize={20} title='Travel Here' onPress={() => timelineStore.joinTimeline(name)} />
+              <MenuButton fontSize={responsiveFontSize(3)} title='Travel Here' onPress={() => timelineStore.joinTimeline(name)} />
             </View>
           </View>
           <Switch selected={sortIndex} options={[
