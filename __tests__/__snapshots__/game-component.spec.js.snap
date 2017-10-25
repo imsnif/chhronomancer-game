@@ -2282,7 +2282,7 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                           Object {
                             "color": "#0e0e0e",
                             "fontFamily": "telegrama_raw",
-                            "fontSize": 20,
+                            "fontSize": 45.911331934501746,
                             "textAlign": "center",
                             "textAlignVertical": "center",
                           }
@@ -2333,7 +2333,7 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                           Object {
                             "color": "#329932",
                             "fontFamily": "telegrama_raw",
-                            "fontSize": 20,
+                            "fontSize": 45.911331934501746,
                             "textAlign": "center",
                             "textAlignVertical": "center",
                           }
@@ -2415,7 +2415,7 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                           Object {
                             "color": "#0e0e0e",
                             "fontFamily": "telegrama_raw",
-                            "fontSize": 20,
+                            "fontSize": 45.911331934501746,
                             "textAlign": "center",
                             "textAlignVertical": "center",
                           }
@@ -2466,7 +2466,7 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                           Object {
                             "color": "#329932",
                             "fontFamily": "telegrama_raw",
-                            "fontSize": 20,
+                            "fontSize": 45.911331934501746,
                             "textAlign": "center",
                             "textAlignVertical": "center",
                           }
