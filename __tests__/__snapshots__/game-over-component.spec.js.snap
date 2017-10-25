@@ -19,9 +19,7 @@ exports[`GameOver (with winner) => renders correctly 1`] = `
     source={1}
     style={
       Object {
-        "height": "100%",
-        "paddingLeft": 15,
-        "paddingRight": 15,
+        "height": "8%",
         "resizeMode": "stretch",
         "width": "100%",
       }
@@ -30,138 +28,87 @@ exports[`GameOver (with winner) => renders correctly 1`] = `
   <View
     style={
       Object {
+        "alignSelf": "center",
         "flex": 1,
-        "flexDirection": "row",
+        "flexDirection": "column",
       }
     }
   >
-    <View
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
       style={
         Object {
-          "height": "100%",
-          "width": "100%",
-        }
-      }
-    >
-      <Image
-        source={1}
-        style={
-          Object {
-            "height": "100%",
-            "width": "100%",
-          }
-        }
-      />
-    </View>
-    <View
-      style={
-        Object {
+          "alignSelf": "center",
           "backgroundColor": "#141313",
-          "flexDirection": "column",
-          "height": "100%",
-          "maxWidth": 291,
-          "paddingBottom": 5,
-          "paddingTop": 5,
-          "width": "100%",
+          "color": "#329932",
+          "flex": 1,
+          "fontFamily": "telegrama_raw",
+          "fontSize": 61.21510924600233,
+          "textAlign": "center",
+          "textAlignVertical": "center",
         }
       }
     >
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Object {
-            "alignSelf": "center",
-            "backgroundColor": "#141313",
-            "color": "#329932",
-            "flex": 1,
-            "fontFamily": "telegrama_raw",
-            "fontSize": 25,
-            "textAlign": "center",
-            "textAlignVertical": "center",
-          }
-        }
-      >
-        GAME OVER
-      </Text>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Object {
-            "alignSelf": "center",
-            "backgroundColor": "#141313",
-            "color": "#329932",
-            "flex": 1,
-            "fontFamily": "telegrama_raw",
-            "fontSize": 25,
-            "textAlign": "center",
-            "textAlignVertical": "center",
-          }
-        }
-      >
-        Winner: 
-        Aram
-      </Text>
-      <Image
-        source={
-          Object {
-            "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
-          }
-        }
-        style={
-          Object {
-            "alignSelf": "center",
-            "backgroundColor": "#141313",
-            "borderColor": "black",
-            "flex": 2,
-            "marginBottom": 20,
-            "maxHeight": 200,
-            "maxWidth": 200,
-            "resizeMode": "stretch",
-          }
-        }
-      >
-        <View
-          style={
-            Object {
-              "backgroundColor": "green",
-              "height": "100%",
-              "opacity": 0.5,
-              "width": "100%",
-            }
-          }
-        />
-      </Image>
-    </View>
-    <View
+      GAME OVER
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
       style={
         Object {
-          "height": "100%",
-          "width": "100%",
+          "alignSelf": "center",
+          "backgroundColor": "#141313",
+          "color": "#329932",
+          "flex": 1,
+          "fontFamily": "telegrama_raw",
+          "fontSize": 61.21510924600233,
+          "textAlign": "center",
+          "textAlignVertical": "center",
         }
       }
     >
-      <Image
-        source={1}
+      Winner: 
+      Aram
+    </Text>
+    <Image
+      source={
+        Object {
+          "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+        }
+      }
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#141313",
+          "borderColor": "black",
+          "flex": 2,
+          "marginBottom": 20,
+          "maxHeight": 200,
+          "maxWidth": 200,
+          "resizeMode": "stretch",
+        }
+      }
+    >
+      <View
         style={
           Object {
+            "backgroundColor": "green",
             "height": "100%",
+            "opacity": 0.5,
             "width": "100%",
           }
         }
       />
-    </View>
+    </Image>
   </View>
   <Image
     source={1}
     style={
       Object {
-        "height": "100%",
-        "paddingLeft": 15,
-        "paddingRight": 15,
+        "height": "8%",
         "resizeMode": "stretch",
         "width": "100%",
       }
