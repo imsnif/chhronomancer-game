@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native'
-
+import { responsiveFontSize } from 'react-native-responsive-dimensions'
 import common from '../common/styles'
 
 module.exports = StyleSheet.create({
@@ -14,7 +14,7 @@ module.exports = StyleSheet.create({
     borderRadius: common.borderRadius
   },
   titleBar: {
-    minHeight: 30,
+    height: 35,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center'
@@ -34,16 +34,19 @@ module.exports = StyleSheet.create({
     fontFamily: 'telegrama_raw',
     color: common.altText,
     flex: 7,
+    fontSize: responsiveFontSize(2),
     textAlign: 'left'
   },
   titleText: {
     fontFamily: 'telegrama_raw',
     color: common.altText,
     flex: 7,
-    textAlign: 'center'
+    textAlign: 'center',
+    fontSize: responsiveFontSize(2)
   },
   subtitleText: {
     fontFamily: 'telegrama_raw',
+    fontSize: responsiveFontSize(2),
     color: common.altText,
     flex: 3,
     textAlign: 'center'
@@ -51,6 +54,7 @@ module.exports = StyleSheet.create({
   contentBox: {
     margin: 1,
     flex: 13,
+    justifyContent: 'space-between',
     flexDirection: 'column',
     backgroundColor: common.backGround,
     borderColor: common.backGround,

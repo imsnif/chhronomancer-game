@@ -1,3 +1,5 @@
+import { responsiveFontSize } from 'react-native-responsive-dimensions'
+
 const borderRadius = 0
 const foreGround = '#329932'
 const backGround = '#141313'
@@ -50,7 +52,7 @@ export default {
     flex: 1,
     alignSelf: 'center',
     fontFamily: 'telegrama_raw',
-    fontSize: 18,
+    fontSize: responsiveFontSize(3),
     color: backGround,
     backgroundColor: foreGround,
     textAlign: 'center'

@@ -1,19 +1,20 @@
 import { StyleSheet } from 'react-native'
+import { responsiveHeight } from 'react-native-responsive-dimensions'
 import common from '../common/styles'
 
 export default StyleSheet.create({
   itemImageBox: {
-    width: undefined,
-    height: undefined,
-    flex: 1,
+    width: responsiveHeight(3.5),
+    height: responsiveHeight(3.5),
+    flex: 0,
     backgroundColor: 'transparent',
     resizeMode: 'stretch',
-    marginLeft: 3
+    marginLeft: 4
   },
   item: {
-    flex: 1,
+    flex: 0,
+    height: responsiveHeight(3.5) + 2,
     marginTop: 2,
-    minHeight: 27,
     flexDirection: 'row'
   },
   itemName: {

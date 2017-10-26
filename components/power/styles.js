@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native'
+import { responsiveFontSize } from 'react-native-responsive-dimensions'
 
 import common from '../common/styles'
 
@@ -7,17 +8,17 @@ module.exports = StyleSheet.create({
     fontFamily: common.font,
     color: common.foreGround,
     flex: 7,
-    textAlign: 'left',
+    textAlign: 'center',
     paddingTop: 2,
-    fontSize: 6
+    fontSize: responsiveFontSize(0.8)
   },
   name: {
     flex: 1,
     fontFamily: common.font,
     color: common.foreGround,
     marginLeft: 9,
-    textAlign: 'left',
+    textAlign: 'center',
     paddingTop: 2,
-    fontSize: 6
+    fontSize: responsiveFontSize(0.8)
   }
 })

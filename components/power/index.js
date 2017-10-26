@@ -42,7 +42,7 @@ export default class Power extends Component {
     const paddedProgress = padStart(progress, 3)
     const barString = `${spinChar} |${bar}| ${paddedProgress}% ${timeLeft}`
     return (
-      <View style={StyleSheet.flatten([{flexDirection: 'row'}, this.props.style || {}])}>
+      <View style={StyleSheet.flatten([{justifyContent: 'space-around', flexDirection: 'row'}, this.props.style || {}])}>
         <Text key={1} style={styles.name}>{name}</Text>
         <Text key={2} style={styles.barLine}>{barString}</Text>
       </View>
