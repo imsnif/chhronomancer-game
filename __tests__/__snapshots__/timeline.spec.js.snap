@@ -72,8 +72,8 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                 Object {
                   "alignItems": "center",
                   "flexDirection": "row",
+                  "height": 35,
                   "justifyContent": "center",
-                  "minHeight": 30,
                 }
               }
             >
@@ -117,6 +117,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                     "color": "#0e0e0e",
                     "flex": 7,
                     "fontFamily": "telegrama_raw",
+                    "fontSize": 30.607554623001164,
                     "textAlign": "center",
                   }
                 }
@@ -133,6 +134,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                   "borderWidth": 0.5,
                   "flex": 13,
                   "flexDirection": "column",
+                  "justifyContent": "space-between",
                   "margin": 1,
                 }
               }
@@ -149,6 +151,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                   style={
                     Object {
                       "flexDirection": "row",
+                      "justifyContent": "space-around",
                     }
                   }
                 >
@@ -161,10 +164,10 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                         "color": "#329932",
                         "flex": 1,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "marginLeft": 9,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -179,9 +182,9 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                         "color": "#329932",
                         "flex": 7,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -481,8 +484,8 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                 Object {
                   "alignItems": "center",
                   "flexDirection": "row",
+                  "height": 35,
                   "justifyContent": "center",
-                  "minHeight": 30,
                 }
               }
             >
@@ -526,6 +529,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                     "color": "#0e0e0e",
                     "flex": 7,
                     "fontFamily": "telegrama_raw",
+                    "fontSize": 30.607554623001164,
                     "textAlign": "center",
                   }
                 }
@@ -542,6 +546,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                   "borderWidth": 0.5,
                   "flex": 13,
                   "flexDirection": "column",
+                  "justifyContent": "space-between",
                   "margin": 1,
                 }
               }
@@ -558,6 +563,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                   style={
                     Object {
                       "flexDirection": "row",
+                      "justifyContent": "space-around",
                     }
                   }
                 >
@@ -570,10 +576,10 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                         "color": "#329932",
                         "flex": 1,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "marginLeft": 9,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -588,9 +594,9 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                         "color": "#329932",
                         "flex": 7,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -890,8 +896,8 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                 Object {
                   "alignItems": "center",
                   "flexDirection": "row",
+                  "height": 35,
                   "justifyContent": "center",
-                  "minHeight": 30,
                 }
               }
             >
@@ -935,6 +941,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                     "color": "#0e0e0e",
                     "flex": 7,
                     "fontFamily": "telegrama_raw",
+                    "fontSize": 30.607554623001164,
                     "textAlign": "center",
                   }
                 }
@@ -951,6 +958,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                   "borderWidth": 0.5,
                   "flex": 13,
                   "flexDirection": "column",
+                  "justifyContent": "space-between",
                   "margin": 1,
                 }
               }
@@ -967,6 +975,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                   style={
                     Object {
                       "flexDirection": "row",
+                      "justifyContent": "space-around",
                     }
                   }
                 >
@@ -979,10 +988,10 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                         "color": "#329932",
                         "flex": 1,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "marginLeft": 9,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -997,9 +1006,9 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                         "color": "#329932",
                         "flex": 7,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -1299,8 +1308,8 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                 Object {
                   "alignItems": "center",
                   "flexDirection": "row",
+                  "height": 35,
                   "justifyContent": "center",
-                  "minHeight": 30,
                 }
               }
             >
@@ -1344,6 +1353,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                     "color": "#0e0e0e",
                     "flex": 7,
                     "fontFamily": "telegrama_raw",
+                    "fontSize": 30.607554623001164,
                     "textAlign": "center",
                   }
                 }
@@ -1360,6 +1370,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                   "borderWidth": 0.5,
                   "flex": 13,
                   "flexDirection": "column",
+                  "justifyContent": "space-between",
                   "margin": 1,
                 }
               }
@@ -1376,6 +1387,7 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                   style={
                     Object {
                       "flexDirection": "row",
+                      "justifyContent": "space-around",
                     }
                   }
                 >
@@ -1388,10 +1400,10 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                         "color": "#329932",
                         "flex": 1,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "marginLeft": 9,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -1406,9 +1418,9 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                         "color": "#329932",
                         "flex": 7,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -2418,8 +2430,8 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                 Object {
                   "alignItems": "center",
                   "flexDirection": "row",
+                  "height": 35,
                   "justifyContent": "center",
-                  "minHeight": 30,
                 }
               }
             >
@@ -2463,6 +2475,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                     "color": "#0e0e0e",
                     "flex": 7,
                     "fontFamily": "telegrama_raw",
+                    "fontSize": 30.607554623001164,
                     "textAlign": "center",
                   }
                 }
@@ -2479,6 +2492,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                   "borderWidth": 0.5,
                   "flex": 13,
                   "flexDirection": "column",
+                  "justifyContent": "space-between",
                   "margin": 1,
                 }
               }
@@ -2495,6 +2509,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                   style={
                     Object {
                       "flexDirection": "row",
+                      "justifyContent": "space-around",
                     }
                   }
                 >
@@ -2507,10 +2522,10 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                         "color": "#329932",
                         "flex": 1,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "marginLeft": 9,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -2525,9 +2540,9 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                         "color": "#329932",
                         "flex": 7,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -2827,8 +2842,8 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                 Object {
                   "alignItems": "center",
                   "flexDirection": "row",
+                  "height": 35,
                   "justifyContent": "center",
-                  "minHeight": 30,
                 }
               }
             >
@@ -2872,6 +2887,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                     "color": "#0e0e0e",
                     "flex": 7,
                     "fontFamily": "telegrama_raw",
+                    "fontSize": 30.607554623001164,
                     "textAlign": "center",
                   }
                 }
@@ -2888,6 +2904,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                   "borderWidth": 0.5,
                   "flex": 13,
                   "flexDirection": "column",
+                  "justifyContent": "space-between",
                   "margin": 1,
                 }
               }
@@ -2904,6 +2921,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                   style={
                     Object {
                       "flexDirection": "row",
+                      "justifyContent": "space-around",
                     }
                   }
                 >
@@ -2916,10 +2934,10 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                         "color": "#329932",
                         "flex": 1,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "marginLeft": 9,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -2934,9 +2952,9 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                         "color": "#329932",
                         "flex": 7,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -3236,8 +3254,8 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                 Object {
                   "alignItems": "center",
                   "flexDirection": "row",
+                  "height": 35,
                   "justifyContent": "center",
-                  "minHeight": 30,
                 }
               }
             >
@@ -3281,6 +3299,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                     "color": "#0e0e0e",
                     "flex": 7,
                     "fontFamily": "telegrama_raw",
+                    "fontSize": 30.607554623001164,
                     "textAlign": "center",
                   }
                 }
@@ -3297,6 +3316,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                   "borderWidth": 0.5,
                   "flex": 13,
                   "flexDirection": "column",
+                  "justifyContent": "space-between",
                   "margin": 1,
                 }
               }
@@ -3313,6 +3333,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                   style={
                     Object {
                       "flexDirection": "row",
+                      "justifyContent": "space-around",
                     }
                   }
                 >
@@ -3325,10 +3346,10 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                         "color": "#329932",
                         "flex": 1,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "marginLeft": 9,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -3343,9 +3364,9 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                         "color": "#329932",
                         "flex": 7,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -3645,8 +3666,8 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                 Object {
                   "alignItems": "center",
                   "flexDirection": "row",
+                  "height": 35,
                   "justifyContent": "center",
-                  "minHeight": 30,
                 }
               }
             >
@@ -3690,6 +3711,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                     "color": "#0e0e0e",
                     "flex": 7,
                     "fontFamily": "telegrama_raw",
+                    "fontSize": 30.607554623001164,
                     "textAlign": "center",
                   }
                 }
@@ -3706,6 +3728,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                   "borderWidth": 0.5,
                   "flex": 13,
                   "flexDirection": "column",
+                  "justifyContent": "space-between",
                   "margin": 1,
                 }
               }
@@ -3722,6 +3745,7 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                   style={
                     Object {
                       "flexDirection": "row",
+                      "justifyContent": "space-around",
                     }
                   }
                 >
@@ -3734,10 +3758,10 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                         "color": "#329932",
                         "flex": 1,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "marginLeft": 9,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -3752,9 +3776,9 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                         "color": "#329932",
                         "flex": 7,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -4764,8 +4788,8 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                 Object {
                   "alignItems": "center",
                   "flexDirection": "row",
+                  "height": 35,
                   "justifyContent": "center",
-                  "minHeight": 30,
                 }
               }
             >
@@ -4809,6 +4833,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                     "color": "#0e0e0e",
                     "flex": 7,
                     "fontFamily": "telegrama_raw",
+                    "fontSize": 30.607554623001164,
                     "textAlign": "center",
                   }
                 }
@@ -4825,6 +4850,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                   "borderWidth": 0.5,
                   "flex": 13,
                   "flexDirection": "column",
+                  "justifyContent": "space-between",
                   "margin": 1,
                 }
               }
@@ -4841,6 +4867,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                   style={
                     Object {
                       "flexDirection": "row",
+                      "justifyContent": "space-around",
                     }
                   }
                 >
@@ -4853,10 +4880,10 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                         "color": "#329932",
                         "flex": 1,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "marginLeft": 9,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -4871,9 +4898,9 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                         "color": "#329932",
                         "flex": 7,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -5173,8 +5200,8 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                 Object {
                   "alignItems": "center",
                   "flexDirection": "row",
+                  "height": 35,
                   "justifyContent": "center",
-                  "minHeight": 30,
                 }
               }
             >
@@ -5218,6 +5245,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                     "color": "#0e0e0e",
                     "flex": 7,
                     "fontFamily": "telegrama_raw",
+                    "fontSize": 30.607554623001164,
                     "textAlign": "center",
                   }
                 }
@@ -5234,6 +5262,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                   "borderWidth": 0.5,
                   "flex": 13,
                   "flexDirection": "column",
+                  "justifyContent": "space-between",
                   "margin": 1,
                 }
               }
@@ -5250,6 +5279,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                   style={
                     Object {
                       "flexDirection": "row",
+                      "justifyContent": "space-around",
                     }
                   }
                 >
@@ -5262,10 +5292,10 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                         "color": "#329932",
                         "flex": 1,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "marginLeft": 9,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -5280,9 +5310,9 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                         "color": "#329932",
                         "flex": 7,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -5582,8 +5612,8 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                 Object {
                   "alignItems": "center",
                   "flexDirection": "row",
+                  "height": 35,
                   "justifyContent": "center",
-                  "minHeight": 30,
                 }
               }
             >
@@ -5627,6 +5657,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                     "color": "#0e0e0e",
                     "flex": 7,
                     "fontFamily": "telegrama_raw",
+                    "fontSize": 30.607554623001164,
                     "textAlign": "center",
                   }
                 }
@@ -5643,6 +5674,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                   "borderWidth": 0.5,
                   "flex": 13,
                   "flexDirection": "column",
+                  "justifyContent": "space-between",
                   "margin": 1,
                 }
               }
@@ -5659,6 +5691,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                   style={
                     Object {
                       "flexDirection": "row",
+                      "justifyContent": "space-around",
                     }
                   }
                 >
@@ -5671,10 +5704,10 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                         "color": "#329932",
                         "flex": 1,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "marginLeft": 9,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -5689,9 +5722,9 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                         "color": "#329932",
                         "flex": 7,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -5991,8 +6024,8 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                 Object {
                   "alignItems": "center",
                   "flexDirection": "row",
+                  "height": 35,
                   "justifyContent": "center",
-                  "minHeight": 30,
                 }
               }
             >
@@ -6036,6 +6069,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                     "color": "#0e0e0e",
                     "flex": 7,
                     "fontFamily": "telegrama_raw",
+                    "fontSize": 30.607554623001164,
                     "textAlign": "center",
                   }
                 }
@@ -6052,6 +6086,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                   "borderWidth": 0.5,
                   "flex": 13,
                   "flexDirection": "column",
+                  "justifyContent": "space-between",
                   "margin": 1,
                 }
               }
@@ -6068,6 +6103,7 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                   style={
                     Object {
                       "flexDirection": "row",
+                      "justifyContent": "space-around",
                     }
                   }
                 >
@@ -6080,10 +6116,10 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                         "color": "#329932",
                         "flex": 1,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "marginLeft": 9,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >
@@ -6098,9 +6134,9 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                         "color": "#329932",
                         "flex": 7,
                         "fontFamily": "telegrama_raw",
-                        "fontSize": 6,
+                        "fontSize": 12.243021849200467,
                         "paddingTop": 2,
-                        "textAlign": "left",
+                        "textAlign": "center",
                       }
                     }
                   >

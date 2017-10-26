@@ -98,7 +98,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
           "color": "#141313",
           "flex": 2,
           "fontFamily": "telegrama_raw",
-          "fontSize": 18,
+          "fontSize": 45.911331934501746,
           "textAlign": "center",
         }
       }
@@ -116,7 +116,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
           "color": "#141313",
           "flex": 1,
           "fontFamily": "telegrama_raw",
-          "fontSize": 18,
+          "fontSize": 45.911331934501746,
           "textAlign": "center",
         }
       }
@@ -134,7 +134,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
           "color": "#141313",
           "flex": 2,
           "fontFamily": "telegrama_raw",
-          "fontSize": 18,
+          "fontSize": 45.911331934501746,
           "textAlign": "center",
         }
       }
@@ -179,8 +179,8 @@ exports[`Bidding (default props) => renders correctly 1`] = `
             Object {
               "alignItems": "center",
               "flexDirection": "row",
+              "height": 35,
               "justifyContent": "center",
-              "minHeight": 30,
             }
           }
         >
@@ -224,6 +224,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                 "color": "#0e0e0e",
                 "flex": 7,
                 "fontFamily": "telegrama_raw",
+                "fontSize": 30.607554623001164,
                 "paddingLeft": 5,
                 "textAlign": "left",
               }
@@ -241,6 +242,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                 "color": "#0e0e0e",
                 "flex": 3,
                 "fontFamily": "telegrama_raw",
+                "fontSize": 30.607554623001164,
                 "textAlign": "center",
               }
             }
@@ -257,6 +259,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
               "borderWidth": 0.5,
               "flex": 13,
               "flexDirection": "column",
+              "justifyContent": "space-between",
               "margin": 1,
             }
           }
@@ -563,8 +566,8 @@ exports[`Bidding (default props) => renders correctly 1`] = `
             Object {
               "alignItems": "center",
               "flexDirection": "row",
+              "height": 35,
               "justifyContent": "center",
-              "minHeight": 30,
             }
           }
         >
@@ -593,6 +596,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                 "color": "#0e0e0e",
                 "flex": 7,
                 "fontFamily": "telegrama_raw",
+                "fontSize": 30.607554623001164,
                 "paddingLeft": 5,
                 "textAlign": "left",
               }
@@ -610,6 +614,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
                 "color": "#0e0e0e",
                 "flex": 3,
                 "fontFamily": "telegrama_raw",
+                "fontSize": 30.607554623001164,
                 "textAlign": "center",
               }
             }
@@ -626,6 +631,7 @@ exports[`Bidding (default props) => renders correctly 1`] = `
               "borderWidth": 0.5,
               "flex": 13,
               "flexDirection": "column",
+              "justifyContent": "space-between",
               "margin": 1,
             }
           }

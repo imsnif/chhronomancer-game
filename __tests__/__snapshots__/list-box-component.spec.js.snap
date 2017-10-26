@@ -19,8 +19,8 @@ exports[`ListBox (with title and picture) => renders correctly 1`] = `
       Object {
         "alignItems": "center",
         "flexDirection": "row",
+        "height": 35,
         "justifyContent": "center",
-        "minHeight": 30,
       }
     }
   >
@@ -64,6 +64,7 @@ exports[`ListBox (with title and picture) => renders correctly 1`] = `
           "color": "#0e0e0e",
           "flex": 7,
           "fontFamily": "telegrama_raw",
+          "fontSize": 30.607554623001164,
           "textAlign": "center",
         }
       }
@@ -80,6 +81,7 @@ exports[`ListBox (with title and picture) => renders correctly 1`] = `
         "borderWidth": 0.5,
         "flex": 13,
         "flexDirection": "column",
+        "justifyContent": "space-between",
         "margin": 1,
       }
     }
@@ -106,8 +108,8 @@ exports[`ListBox (with title and subtitle) => renders correctly 1`] = `
       Object {
         "alignItems": "center",
         "flexDirection": "row",
+        "height": 35,
         "justifyContent": "center",
-        "minHeight": 30,
       }
     }
   >
@@ -121,6 +123,7 @@ exports[`ListBox (with title and subtitle) => renders correctly 1`] = `
           "color": "#0e0e0e",
           "flex": 7,
           "fontFamily": "telegrama_raw",
+          "fontSize": 30.607554623001164,
           "paddingLeft": 5,
           "textAlign": "left",
         }
@@ -138,6 +141,7 @@ exports[`ListBox (with title and subtitle) => renders correctly 1`] = `
           "color": "#0e0e0e",
           "flex": 3,
           "fontFamily": "telegrama_raw",
+          "fontSize": 30.607554623001164,
           "textAlign": "center",
         }
       }
@@ -154,6 +158,7 @@ exports[`ListBox (with title and subtitle) => renders correctly 1`] = `
         "borderWidth": 0.5,
         "flex": 13,
         "flexDirection": "column",
+        "justifyContent": "space-between",
         "margin": 1,
       }
     }
@@ -180,8 +185,8 @@ exports[`ListBox (with title) => renders correctly 1`] = `
       Object {
         "alignItems": "center",
         "flexDirection": "row",
+        "height": 35,
         "justifyContent": "center",
-        "minHeight": 30,
       }
     }
   >
@@ -195,6 +200,7 @@ exports[`ListBox (with title) => renders correctly 1`] = `
           "color": "#0e0e0e",
           "flex": 7,
           "fontFamily": "telegrama_raw",
+          "fontSize": 30.607554623001164,
           "textAlign": "center",
         }
       }
@@ -211,6 +217,7 @@ exports[`ListBox (with title) => renders correctly 1`] = `
         "borderWidth": 0.5,
         "flex": 13,
         "flexDirection": "column",
+        "justifyContent": "space-between",
         "margin": 1,
       }
     }
@@ -237,8 +244,8 @@ exports[`ListBox (with title, subtitle and picture) => renders correctly 1`] = `
       Object {
         "alignItems": "center",
         "flexDirection": "row",
+        "height": 35,
         "justifyContent": "center",
-        "minHeight": 30,
       }
     }
   >
@@ -282,6 +289,7 @@ exports[`ListBox (with title, subtitle and picture) => renders correctly 1`] = `
           "color": "#0e0e0e",
           "flex": 7,
           "fontFamily": "telegrama_raw",
+          "fontSize": 30.607554623001164,
           "paddingLeft": 5,
           "textAlign": "left",
         }
@@ -299,6 +307,7 @@ exports[`ListBox (with title, subtitle and picture) => renders correctly 1`] = `
           "color": "#0e0e0e",
           "flex": 3,
           "fontFamily": "telegrama_raw",
+          "fontSize": 30.607554623001164,
           "textAlign": "center",
         }
       }
@@ -315,6 +324,7 @@ exports[`ListBox (with title, subtitle and picture) => renders correctly 1`] = `
         "borderWidth": 0.5,
         "flex": 13,
         "flexDirection": "column",
+        "justifyContent": "space-between",
         "margin": 1,
       }
     }

@@ -320,8 +320,9 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
               style={
                 Object {
                   "backgroundColor": "#329932",
-                  "flex": 1,
+                  "flex": 0,
                   "flexDirection": "row",
+                  "height": 52,
                   "marginBottom": 4,
                   "marginLeft": 15,
                   "marginRight": 15,
@@ -339,10 +340,12 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                     "backgroundColor": "#141313",
                     "borderColor": "black",
                     "borderWidth": 1,
-                    "flex": 1,
-                    "height": "95%",
+                    "flex": 0,
+                    "height": 50,
                     "margin": 1,
-                    "resizeMode": "stretch",
+                    "overflow": "hidden",
+                    "resizeMode": "cover",
+                    "width": 50,
                   }
                 }
               >
@@ -368,7 +371,7 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                     "color": "#141313",
                     "flex": 5,
                     "fontFamily": "telegrama_raw",
-                    "fontSize": 18,
+                    "fontSize": 45.911331934501746,
                     "textAlign": "center",
                   }
                 }
@@ -380,8 +383,9 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
               style={
                 Object {
                   "backgroundColor": "#329932",
-                  "flex": 1,
+                  "flex": 0,
                   "flexDirection": "row",
+                  "height": 52,
                   "marginBottom": 4,
                   "marginLeft": 15,
                   "marginRight": 15,
@@ -399,7 +403,7 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                     "color": "#141313",
                     "flex": 1,
                     "fontFamily": "telegrama_raw",
-                    "fontSize": 18,
+                    "fontSize": 45.911331934501746,
                     "textAlign": "center",
                   }
                 }
@@ -417,7 +421,7 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                     "color": "#141313",
                     "flex": 1,
                     "fontFamily": "telegrama_raw",
-                    "fontSize": 18,
+                    "fontSize": 45.911331934501746,
                     "textAlign": "center",
                   }
                 }
@@ -428,7 +432,7 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
             <View
               style={
                 Object {
-                  "flex": 9,
+                  "flex": 1,
                   "flexDirection": "column",
                   "paddingLeft": 15,
                   "paddingRight": 15,
@@ -438,7 +442,10 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
               <View
                 style={
                   Object {
-                    "flex": 1,
+                    "alignItems": "center",
+                    "flex": 0,
+                    "height": 342.14000000000004,
+                    "justifyContent": "center",
                     "marginBottom": 2,
                   }
                 }
@@ -461,8 +468,8 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                       Object {
                         "alignItems": "center",
                         "flexDirection": "row",
+                        "height": 35,
                         "justifyContent": "center",
-                        "minHeight": 30,
                       }
                     }
                   >
@@ -476,6 +483,7 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                           "color": "#0e0e0e",
                           "flex": 7,
                           "fontFamily": "telegrama_raw",
+                          "fontSize": 30.607554623001164,
                           "paddingLeft": 5,
                           "textAlign": "left",
                         }
@@ -493,6 +501,7 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                           "color": "#0e0e0e",
                           "flex": 3,
                           "fontFamily": "telegrama_raw",
+                          "fontSize": 30.607554623001164,
                           "textAlign": "center",
                         }
                       }
@@ -509,6 +518,7 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                         "borderWidth": 0.5,
                         "flex": 13,
                         "flexDirection": "column",
+                        "justifyContent": "space-between",
                         "margin": 1,
                       }
                     }
@@ -516,10 +526,10 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                     <View
                       style={
                         Object {
-                          "flex": 1,
+                          "flex": 0,
                           "flexDirection": "row",
+                          "height": 48.690000000000005,
                           "marginTop": 2,
-                          "minHeight": 27,
                         }
                       }
                     >
@@ -528,11 +538,11 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                         style={
                           Object {
                             "backgroundColor": "transparent",
-                            "flex": 1,
-                            "height": undefined,
-                            "marginLeft": 3,
+                            "flex": 0,
+                            "height": 46.690000000000005,
+                            "marginLeft": 4,
                             "resizeMode": "stretch",
-                            "width": undefined,
+                            "width": 46.690000000000005,
                           }
                         }
                       />
@@ -581,10 +591,10 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                     <View
                       style={
                         Object {
-                          "flex": 1,
+                          "flex": 0,
                           "flexDirection": "row",
+                          "height": 48.690000000000005,
                           "marginTop": 2,
-                          "minHeight": 27,
                         }
                       }
                     >
@@ -593,11 +603,11 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                         style={
                           Object {
                             "backgroundColor": "transparent",
-                            "flex": 1,
-                            "height": undefined,
-                            "marginLeft": 3,
+                            "flex": 0,
+                            "height": 46.690000000000005,
+                            "marginLeft": 4,
                             "resizeMode": "stretch",
-                            "width": undefined,
+                            "width": 46.690000000000005,
                           }
                         }
                       />
@@ -646,10 +656,10 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                     <View
                       style={
                         Object {
-                          "flex": 1,
+                          "flex": 0,
                           "flexDirection": "row",
+                          "height": 48.690000000000005,
                           "marginTop": 2,
-                          "minHeight": 27,
                         }
                       }
                     >
@@ -658,11 +668,11 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                         style={
                           Object {
                             "backgroundColor": "transparent",
-                            "flex": 1,
-                            "height": undefined,
-                            "marginLeft": 3,
+                            "flex": 0,
+                            "height": 46.690000000000005,
+                            "marginLeft": 4,
                             "resizeMode": "stretch",
-                            "width": undefined,
+                            "width": 46.690000000000005,
                           }
                         }
                       />
@@ -711,10 +721,10 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                     <View
                       style={
                         Object {
-                          "flex": 1,
+                          "flex": 0,
                           "flexDirection": "row",
+                          "height": 48.690000000000005,
                           "marginTop": 2,
-                          "minHeight": 27,
                         }
                       }
                     >
@@ -723,11 +733,11 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                         style={
                           Object {
                             "backgroundColor": "transparent",
-                            "flex": 1,
-                            "height": undefined,
-                            "marginLeft": 3,
+                            "flex": 0,
+                            "height": 46.690000000000005,
+                            "marginLeft": 4,
                             "resizeMode": "stretch",
-                            "width": undefined,
+                            "width": 46.690000000000005,
                           }
                         }
                       />
@@ -776,10 +786,10 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                     <View
                       style={
                         Object {
-                          "flex": 1,
+                          "flex": 0,
                           "flexDirection": "row",
+                          "height": 48.690000000000005,
                           "marginTop": 2,
-                          "minHeight": 27,
                         }
                       }
                     >
@@ -788,11 +798,11 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                         style={
                           Object {
                             "backgroundColor": "transparent",
-                            "flex": 1,
-                            "height": undefined,
-                            "marginLeft": 3,
+                            "flex": 0,
+                            "height": 46.690000000000005,
+                            "marginLeft": 4,
                             "resizeMode": "stretch",
-                            "width": undefined,
+                            "width": 46.690000000000005,
                           }
                         }
                       />
@@ -841,10 +851,10 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                     <View
                       style={
                         Object {
-                          "flex": 1,
+                          "flex": 0,
                           "flexDirection": "row",
+                          "height": 48.690000000000005,
                           "marginTop": 2,
-                          "minHeight": 27,
                         }
                       }
                     >
@@ -853,11 +863,11 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                         style={
                           Object {
                             "backgroundColor": "transparent",
-                            "flex": 1,
-                            "height": undefined,
-                            "marginLeft": 3,
+                            "flex": 0,
+                            "height": 46.690000000000005,
+                            "marginLeft": 4,
                             "resizeMode": "stretch",
-                            "width": undefined,
+                            "width": 46.690000000000005,
                           }
                         }
                       />
@@ -932,8 +942,8 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                       Object {
                         "alignItems": "center",
                         "flexDirection": "row",
+                        "height": 35,
                         "justifyContent": "center",
-                        "minHeight": 30,
                       }
                     }
                   >
@@ -947,6 +957,7 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                           "color": "#0e0e0e",
                           "flex": 7,
                           "fontFamily": "telegrama_raw",
+                          "fontSize": 30.607554623001164,
                           "textAlign": "center",
                         }
                       }
@@ -963,6 +974,7 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                         "borderWidth": 0.5,
                         "flex": 13,
                         "flexDirection": "column",
+                        "justifyContent": "space-between",
                         "margin": 1,
                       }
                     }
@@ -998,8 +1010,11 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                           <View
                             style={
                               Object {
+                                "alignItems": "center",
+                                "alignSelf": "center",
                                 "flexDirection": "column",
-                                "height": 25,
+                                "height": 53.36,
+                                "justifyContent": "space-around",
                               }
                             }
                           >
@@ -1012,7 +1027,7 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                                   "color": "#00ff00",
                                   "flex": 1,
                                   "fontFamily": "telegrama_raw",
-                                  "fontSize": 8,
+                                  "fontSize": 15.303777311500582,
                                   "marginTop": 5,
                                   "paddingRight": 9,
                                   "paddingTop": 2,
@@ -1027,6 +1042,7 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                                 Object {
                                   "flex": 1,
                                   "flexDirection": "row",
+                                  "justifyContent": "space-around",
                                 }
                               }
                             >
@@ -1039,10 +1055,10 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                                     "color": "#329932",
                                     "flex": 1,
                                     "fontFamily": "telegrama_raw",
-                                    "fontSize": 6,
+                                    "fontSize": 12.243021849200467,
                                     "marginLeft": 9,
                                     "paddingTop": 2,
-                                    "textAlign": "left",
+                                    "textAlign": "center",
                                   }
                                 }
                               >
@@ -1057,9 +1073,9 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                                     "color": "#329932",
                                     "flex": 7,
                                     "fontFamily": "telegrama_raw",
-                                    "fontSize": 6,
+                                    "fontSize": 12.243021849200467,
                                     "paddingTop": 2,
-                                    "textAlign": "left",
+                                    "textAlign": "center",
                                   }
                                 }
                               >
@@ -1097,8 +1113,11 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                           <View
                             style={
                               Object {
+                                "alignItems": "center",
+                                "alignSelf": "center",
                                 "flexDirection": "column",
-                                "height": 25,
+                                "height": 53.36,
+                                "justifyContent": "space-around",
                               }
                             }
                           >
@@ -1111,7 +1130,7 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                                   "color": "#00ff00",
                                   "flex": 1,
                                   "fontFamily": "telegrama_raw",
-                                  "fontSize": 8,
+                                  "fontSize": 15.303777311500582,
                                   "marginTop": 5,
                                   "paddingRight": 9,
                                   "paddingTop": 2,
@@ -1126,6 +1145,7 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                                 Object {
                                   "flex": 1,
                                   "flexDirection": "row",
+                                  "justifyContent": "space-around",
                                 }
                               }
                             >
@@ -1138,10 +1158,10 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                                     "color": "#329932",
                                     "flex": 1,
                                     "fontFamily": "telegrama_raw",
-                                    "fontSize": 6,
+                                    "fontSize": 12.243021849200467,
                                     "marginLeft": 9,
                                     "paddingTop": 2,
-                                    "textAlign": "left",
+                                    "textAlign": "center",
                                   }
                                 }
                               >
@@ -1156,9 +1176,9 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                                     "color": "#329932",
                                     "flex": 7,
                                     "fontFamily": "telegrama_raw",
-                                    "fontSize": 6,
+                                    "fontSize": 12.243021849200467,
                                     "paddingTop": 2,
-                                    "textAlign": "left",
+                                    "textAlign": "center",
                                   }
                                 }
                               >
@@ -1554,8 +1574,8 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                           Object {
                             "alignItems": "center",
                             "flexDirection": "row",
+                            "height": 35,
                             "justifyContent": "center",
-                            "minHeight": 30,
                           }
                         }
                       >
@@ -1584,6 +1604,7 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                               "color": "#0e0e0e",
                               "flex": 7,
                               "fontFamily": "telegrama_raw",
+                              "fontSize": 30.607554623001164,
                               "textAlign": "center",
                             }
                           }
@@ -1615,6 +1636,7 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                             "borderWidth": 0.5,
                             "flex": 13,
                             "flexDirection": "column",
+                            "justifyContent": "space-between",
                             "margin": 1,
                           }
                         }
@@ -1779,8 +1801,8 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                           Object {
                             "alignItems": "center",
                             "flexDirection": "row",
+                            "height": 35,
                             "justifyContent": "center",
-                            "minHeight": 30,
                           }
                         }
                       >
@@ -1809,6 +1831,7 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                               "color": "#0e0e0e",
                               "flex": 7,
                               "fontFamily": "telegrama_raw",
+                              "fontSize": 30.607554623001164,
                               "textAlign": "center",
                             }
                           }
@@ -1825,6 +1848,7 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                             "borderWidth": 0.5,
                             "flex": 13,
                             "flexDirection": "column",
+                            "justifyContent": "space-between",
                             "margin": 1,
                           }
                         }
@@ -1939,8 +1963,8 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                           Object {
                             "alignItems": "center",
                             "flexDirection": "row",
+                            "height": 35,
                             "justifyContent": "center",
-                            "minHeight": 30,
                           }
                         }
                       >
@@ -1969,6 +1993,7 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                               "color": "#0e0e0e",
                               "flex": 7,
                               "fontFamily": "telegrama_raw",
+                              "fontSize": 30.607554623001164,
                               "textAlign": "center",
                             }
                           }
@@ -1985,6 +2010,7 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                             "borderWidth": 0.5,
                             "flex": 13,
                             "flexDirection": "column",
+                            "justifyContent": "space-between",
                             "margin": 1,
                           }
                         }
@@ -2124,8 +2150,8 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                           Object {
                             "alignItems": "center",
                             "flexDirection": "row",
+                            "height": 35,
                             "justifyContent": "center",
-                            "minHeight": 30,
                           }
                         }
                       >
@@ -2154,6 +2180,7 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                               "color": "#0e0e0e",
                               "flex": 7,
                               "fontFamily": "telegrama_raw",
+                              "fontSize": 30.607554623001164,
                               "textAlign": "center",
                             }
                           }
@@ -2170,6 +2197,7 @@ exports[`Game component (timeline-grid) => renders correctly 1`] = `
                             "borderWidth": 0.5,
                             "flex": 13,
                             "flexDirection": "column",
+                            "justifyContent": "space-between",
                             "margin": 1,
                           }
                         }

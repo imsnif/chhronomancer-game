@@ -19,8 +19,8 @@ exports[`Item list => renders correctly 1`] = `
       Object {
         "alignItems": "center",
         "flexDirection": "row",
+        "height": 35,
         "justifyContent": "center",
-        "minHeight": 30,
       }
     }
   >
@@ -34,6 +34,7 @@ exports[`Item list => renders correctly 1`] = `
           "color": "#0e0e0e",
           "flex": 7,
           "fontFamily": "telegrama_raw",
+          "fontSize": 30.607554623001164,
           "paddingLeft": 5,
           "textAlign": "left",
         }
@@ -51,6 +52,7 @@ exports[`Item list => renders correctly 1`] = `
           "color": "#0e0e0e",
           "flex": 3,
           "fontFamily": "telegrama_raw",
+          "fontSize": 30.607554623001164,
           "textAlign": "center",
         }
       }
@@ -67,6 +69,7 @@ exports[`Item list => renders correctly 1`] = `
         "borderWidth": 0.5,
         "flex": 13,
         "flexDirection": "column",
+        "justifyContent": "space-between",
         "margin": 1,
       }
     }
@@ -74,10 +77,10 @@ exports[`Item list => renders correctly 1`] = `
     <View
       style={
         Object {
-          "flex": 1,
+          "flex": 0,
           "flexDirection": "row",
+          "height": 48.690000000000005,
           "marginTop": 2,
-          "minHeight": 27,
         }
       }
     >
@@ -86,11 +89,11 @@ exports[`Item list => renders correctly 1`] = `
         style={
           Object {
             "backgroundColor": "transparent",
-            "flex": 1,
-            "height": undefined,
-            "marginLeft": 3,
+            "flex": 0,
+            "height": 46.690000000000005,
+            "marginLeft": 4,
             "resizeMode": "stretch",
-            "width": undefined,
+            "width": 46.690000000000005,
           }
         }
       />
@@ -139,10 +142,10 @@ exports[`Item list => renders correctly 1`] = `
     <View
       style={
         Object {
-          "flex": 1,
+          "flex": 0,
           "flexDirection": "row",
+          "height": 48.690000000000005,
           "marginTop": 2,
-          "minHeight": 27,
         }
       }
     >
@@ -151,11 +154,11 @@ exports[`Item list => renders correctly 1`] = `
         style={
           Object {
             "backgroundColor": "transparent",
-            "flex": 1,
-            "height": undefined,
-            "marginLeft": 3,
+            "flex": 0,
+            "height": 46.690000000000005,
+            "marginLeft": 4,
             "resizeMode": "stretch",
-            "width": undefined,
+            "width": 46.690000000000005,
           }
         }
       />
@@ -204,10 +207,10 @@ exports[`Item list => renders correctly 1`] = `
     <View
       style={
         Object {
-          "flex": 1,
+          "flex": 0,
           "flexDirection": "row",
+          "height": 48.690000000000005,
           "marginTop": 2,
-          "minHeight": 27,
         }
       }
     >
@@ -216,11 +219,11 @@ exports[`Item list => renders correctly 1`] = `
         style={
           Object {
             "backgroundColor": "transparent",
-            "flex": 1,
-            "height": undefined,
-            "marginLeft": 3,
+            "flex": 0,
+            "height": 46.690000000000005,
+            "marginLeft": 4,
             "resizeMode": "stretch",
-            "width": undefined,
+            "width": 46.690000000000005,
           }
         }
       />
@@ -269,10 +272,10 @@ exports[`Item list => renders correctly 1`] = `
     <View
       style={
         Object {
-          "flex": 1,
+          "flex": 0,
           "flexDirection": "row",
+          "height": 48.690000000000005,
           "marginTop": 2,
-          "minHeight": 27,
         }
       }
     >
@@ -281,11 +284,11 @@ exports[`Item list => renders correctly 1`] = `
         style={
           Object {
             "backgroundColor": "transparent",
-            "flex": 1,
-            "height": undefined,
-            "marginLeft": 3,
+            "flex": 0,
+            "height": 46.690000000000005,
+            "marginLeft": 4,
             "resizeMode": "stretch",
-            "width": undefined,
+            "width": 46.690000000000005,
           }
         }
       />
@@ -334,10 +337,10 @@ exports[`Item list => renders correctly 1`] = `
     <View
       style={
         Object {
-          "flex": 1,
+          "flex": 0,
           "flexDirection": "row",
+          "height": 48.690000000000005,
           "marginTop": 2,
-          "minHeight": 27,
         }
       }
     >
@@ -346,11 +349,11 @@ exports[`Item list => renders correctly 1`] = `
         style={
           Object {
             "backgroundColor": "transparent",
-            "flex": 1,
-            "height": undefined,
-            "marginLeft": 3,
+            "flex": 0,
+            "height": 46.690000000000005,
+            "marginLeft": 4,
             "resizeMode": "stretch",
-            "width": undefined,
+            "width": 46.690000000000005,
           }
         }
       />
@@ -399,10 +402,10 @@ exports[`Item list => renders correctly 1`] = `
     <View
       style={
         Object {
-          "flex": 1,
+          "flex": 0,
           "flexDirection": "row",
+          "height": 48.690000000000005,
           "marginTop": 2,
-          "minHeight": 27,
         }
       }
     >
@@ -411,11 +414,11 @@ exports[`Item list => renders correctly 1`] = `
         style={
           Object {
             "backgroundColor": "transparent",
-            "flex": 1,
-            "height": undefined,
-            "marginLeft": 3,
+            "flex": 0,
+            "height": 46.690000000000005,
+            "marginLeft": 4,
             "resizeMode": "stretch",
-            "width": undefined,
+            "width": 46.690000000000005,
           }
         }
       />
