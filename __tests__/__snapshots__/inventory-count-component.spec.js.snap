@@ -19,12 +19,12 @@ exports[`Inventory-Count component => renders correctly 1`] = `
         "flex": 1,
         "flexDirection": "row",
         "fontFamily": "telegrama_raw",
-        "fontSize": 8,
-        "marginTop": 10,
+        "fontSize": 30.607554623001164,
+        "textAlignVertical": "center",
       }
     }
   >
-    Artifacts: 
+    Cap: 
   </Text>
   <Text
     accessible={true}
@@ -36,8 +36,8 @@ exports[`Inventory-Count component => renders correctly 1`] = `
         "flex": 1,
         "flexDirection": "row",
         "fontFamily": "telegrama_raw",
-        "fontSize": 8,
-        "marginTop": 10,
+        "fontSize": 30.607554623001164,
+        "textAlignVertical": "center",
       }
     }
   >

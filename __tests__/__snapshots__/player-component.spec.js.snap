@@ -118,7 +118,8 @@ exports[`Player component => renders correctly 1`] = `
         style={
           Object {
             "flex": 1,
-            "paddingTop": 25,
+            "justifyContent": "center",
+            "paddingTop": 10,
           }
         }
       >
@@ -143,6 +144,7 @@ exports[`Player component => renders correctly 1`] = `
                 "marginLeft": 9,
                 "paddingTop": 2,
                 "textAlign": "center",
+                "textAlignVertical": "center",
               }
             }
           >
@@ -160,6 +162,7 @@ exports[`Player component => renders correctly 1`] = `
                 "fontSize": 12.243021849200467,
                 "paddingTop": 2,
                 "textAlign": "center",
+                "textAlignVertical": "center",
               }
             }
           >
@@ -170,8 +173,9 @@ exports[`Player component => renders correctly 1`] = `
       <View
         style={
           Object {
-            "flex": 1,
+            "flex": 2,
             "flexDirection": "row",
+            "justifyContent": "space-between",
           }
         }
       >
@@ -179,9 +183,10 @@ exports[`Player component => renders correctly 1`] = `
           style={
             Object {
               "alignItems": "center",
-              "flex": 1,
+              "flex": 0,
               "flexDirection": "row",
               "justifyContent": "center",
+              "margin": 5,
             }
           }
         >
@@ -215,9 +220,9 @@ exports[`Player component => renders correctly 1`] = `
               source={1}
               style={
                 Object {
-                  "height": 16,
+                  "height": 30,
                   "marginRight": 4,
-                  "width": 16,
+                  "width": 30,
                 }
               }
             />
@@ -252,9 +257,9 @@ exports[`Player component => renders correctly 1`] = `
               source={1}
               style={
                 Object {
-                  "height": 16,
+                  "height": 30,
                   "marginRight": 4,
-                  "width": 16,
+                  "width": 30,
                 }
               }
             />
@@ -289,9 +294,9 @@ exports[`Player component => renders correctly 1`] = `
               source={1}
               style={
                 Object {
-                  "height": 16,
+                  "height": 30,
                   "marginRight": 4,
-                  "width": 16,
+                  "width": 30,
                 }
               }
             />
@@ -326,9 +331,9 @@ exports[`Player component => renders correctly 1`] = `
               source={1}
               style={
                 Object {
-                  "height": 16,
+                  "height": 30,
                   "marginRight": 4,
-                  "width": 16,
+                  "width": 30,
                 }
               }
             />
@@ -348,9 +353,9 @@ exports[`Player component => renders correctly 1`] = `
             source={1}
             style={
               Object {
-                "height": 16,
+                "height": 30,
                 "marginRight": 4,
-                "width": 16,
+                "width": 30,
               }
             }
           />
@@ -358,9 +363,9 @@ exports[`Player component => renders correctly 1`] = `
             source={1}
             style={
               Object {
-                "height": 16,
+                "height": 30,
                 "marginRight": 4,
-                "width": 16,
+                "width": 30,
               }
             }
           />
@@ -383,12 +388,12 @@ exports[`Player component => renders correctly 1`] = `
                 "flex": 1,
                 "flexDirection": "row",
                 "fontFamily": "telegrama_raw",
-                "fontSize": 8,
-                "marginTop": 10,
+                "fontSize": 30.607554623001164,
+                "textAlignVertical": "center",
               }
             }
           >
-            Artifacts: 
+            Cap: 
           </Text>
           <Text
             accessible={true}
@@ -400,8 +405,8 @@ exports[`Player component => renders correctly 1`] = `
                 "flex": 1,
                 "flexDirection": "row",
                 "fontFamily": "telegrama_raw",
-                "fontSize": 8,
-                "marginTop": 10,
+                "fontSize": 30.607554623001164,
+                "textAlignVertical": "center",
               }
             }
           >
@@ -533,7 +538,8 @@ exports[`Player component => renders correctly without active power 1`] = `
         style={
           Object {
             "flex": 1,
-            "paddingTop": 25,
+            "justifyContent": "center",
+            "paddingTop": 10,
           }
         }
       >
@@ -548,8 +554,9 @@ exports[`Player component => renders correctly without active power 1`] = `
       <View
         style={
           Object {
-            "flex": 1,
+            "flex": 2,
             "flexDirection": "row",
+            "justifyContent": "space-between",
           }
         }
       >
@@ -557,9 +564,10 @@ exports[`Player component => renders correctly without active power 1`] = `
           style={
             Object {
               "alignItems": "center",
-              "flex": 1,
+              "flex": 0,
               "flexDirection": "row",
               "justifyContent": "center",
+              "margin": 5,
             }
           }
         >
@@ -593,9 +601,9 @@ exports[`Player component => renders correctly without active power 1`] = `
               source={1}
               style={
                 Object {
-                  "height": 16,
+                  "height": 30,
                   "marginRight": 4,
-                  "width": 16,
+                  "width": 30,
                 }
               }
             />
@@ -630,9 +638,9 @@ exports[`Player component => renders correctly without active power 1`] = `
               source={1}
               style={
                 Object {
-                  "height": 16,
+                  "height": 30,
                   "marginRight": 4,
-                  "width": 16,
+                  "width": 30,
                 }
               }
             />
@@ -667,9 +675,9 @@ exports[`Player component => renders correctly without active power 1`] = `
               source={1}
               style={
                 Object {
-                  "height": 16,
+                  "height": 30,
                   "marginRight": 4,
-                  "width": 16,
+                  "width": 30,
                 }
               }
             />
@@ -704,9 +712,9 @@ exports[`Player component => renders correctly without active power 1`] = `
               source={1}
               style={
                 Object {
-                  "height": 16,
+                  "height": 30,
                   "marginRight": 4,
-                  "width": 16,
+                  "width": 30,
                 }
               }
             />
@@ -726,9 +734,9 @@ exports[`Player component => renders correctly without active power 1`] = `
             source={1}
             style={
               Object {
-                "height": 16,
+                "height": 30,
                 "marginRight": 4,
-                "width": 16,
+                "width": 30,
               }
             }
           />
@@ -736,9 +744,9 @@ exports[`Player component => renders correctly without active power 1`] = `
             source={1}
             style={
               Object {
-                "height": 16,
+                "height": 30,
                 "marginRight": 4,
-                "width": 16,
+                "width": 30,
               }
             }
           />
@@ -761,12 +769,12 @@ exports[`Player component => renders correctly without active power 1`] = `
                 "flex": 1,
                 "flexDirection": "row",
                 "fontFamily": "telegrama_raw",
-                "fontSize": 8,
-                "marginTop": 10,
+                "fontSize": 30.607554623001164,
+                "textAlignVertical": "center",
               }
             }
           >
-            Artifacts: 
+            Cap: 
           </Text>
           <Text
             accessible={true}
@@ -778,8 +786,8 @@ exports[`Player component => renders correctly without active power 1`] = `
                 "flex": 1,
                 "flexDirection": "row",
                 "fontFamily": "telegrama_raw",
-                "fontSize": 8,
-                "marginTop": 10,
+                "fontSize": 30.607554623001164,
+                "textAlignVertical": "center",
               }
             }
           >

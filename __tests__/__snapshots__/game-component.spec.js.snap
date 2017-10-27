@@ -1059,6 +1059,7 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                                     "marginLeft": 9,
                                     "paddingTop": 2,
                                     "textAlign": "center",
+                                    "textAlignVertical": "center",
                                   }
                                 }
                               >
@@ -1076,6 +1077,7 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                                     "fontSize": 12.243021849200467,
                                     "paddingTop": 2,
                                     "textAlign": "center",
+                                    "textAlignVertical": "center",
                                   }
                                 }
                               >
@@ -1162,6 +1164,7 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                                     "marginLeft": 9,
                                     "paddingTop": 2,
                                     "textAlign": "center",
+                                    "textAlignVertical": "center",
                                   }
                                 }
                               >
@@ -1179,6 +1182,7 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                                     "fontSize": 12.243021849200467,
                                     "paddingTop": 2,
                                     "textAlign": "center",
+                                    "textAlignVertical": "center",
                                   }
                                 }
                               >

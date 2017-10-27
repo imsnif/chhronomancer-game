@@ -5,9 +5,10 @@ exports[`Low-Items component => renders correctly 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "flex": 1,
+      "flex": 0,
       "flexDirection": "row",
       "justifyContent": "center",
+      "margin": 5,
     }
   }
 >
@@ -15,9 +16,9 @@ exports[`Low-Items component => renders correctly 1`] = `
     source={1}
     style={
       Object {
-        "height": 16,
+        "height": 30,
         "marginRight": 4,
-        "width": 16,
+        "width": 30,
       }
     }
   />
@@ -25,9 +26,9 @@ exports[`Low-Items component => renders correctly 1`] = `
     source={1}
     style={
       Object {
-        "height": 16,
+        "height": 30,
         "marginRight": 4,
-        "width": 16,
+        "width": 30,
       }
     }
   />
@@ -35,9 +36,9 @@ exports[`Low-Items component => renders correctly 1`] = `
     source={1}
     style={
       Object {
-        "height": 16,
+        "height": 30,
         "marginRight": 4,
-        "width": 16,
+        "width": 30,
       }
     }
   />
@@ -45,9 +46,9 @@ exports[`Low-Items component => renders correctly 1`] = `
     source={1}
     style={
       Object {
-        "height": 16,
+        "height": 30,
         "marginRight": 4,
-        "width": 16,
+        "width": 30,
       }
     }
   />

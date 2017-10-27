@@ -22,6 +22,7 @@ exports[`Power progress indicator => renders correctly (eighth spin) 1`] = `
         "marginLeft": 9,
         "paddingTop": 2,
         "textAlign": "center",
+        "textAlignVertical": "center",
       }
     }
   >
@@ -39,6 +40,7 @@ exports[`Power progress indicator => renders correctly (eighth spin) 1`] = `
         "fontSize": 12.243021849200467,
         "paddingTop": 2,
         "textAlign": "center",
+        "textAlignVertical": "center",
       }
     }
   >
@@ -69,6 +71,7 @@ exports[`Power progress indicator => renders correctly (fifth spin) 1`] = `
         "marginLeft": 9,
         "paddingTop": 2,
         "textAlign": "center",
+        "textAlignVertical": "center",
       }
     }
   >
@@ -86,6 +89,7 @@ exports[`Power progress indicator => renders correctly (fifth spin) 1`] = `
         "fontSize": 12.243021849200467,
         "paddingTop": 2,
         "textAlign": "center",
+        "textAlignVertical": "center",
       }
     }
   >
@@ -116,6 +120,7 @@ exports[`Power progress indicator => renders correctly (first spin) 1`] = `
         "marginLeft": 9,
         "paddingTop": 2,
         "textAlign": "center",
+        "textAlignVertical": "center",
       }
     }
   >
@@ -133,6 +138,7 @@ exports[`Power progress indicator => renders correctly (first spin) 1`] = `
         "fontSize": 12.243021849200467,
         "paddingTop": 2,
         "textAlign": "center",
+        "textAlignVertical": "center",
       }
     }
   >
@@ -163,6 +169,7 @@ exports[`Power progress indicator => renders correctly (fourth spin) 1`] = `
         "marginLeft": 9,
         "paddingTop": 2,
         "textAlign": "center",
+        "textAlignVertical": "center",
       }
     }
   >
@@ -180,6 +187,7 @@ exports[`Power progress indicator => renders correctly (fourth spin) 1`] = `
         "fontSize": 12.243021849200467,
         "paddingTop": 2,
         "textAlign": "center",
+        "textAlignVertical": "center",
       }
     }
   >
@@ -210,6 +218,7 @@ exports[`Power progress indicator => renders correctly (second spin) 1`] = `
         "marginLeft": 9,
         "paddingTop": 2,
         "textAlign": "center",
+        "textAlignVertical": "center",
       }
     }
   >
@@ -227,6 +236,7 @@ exports[`Power progress indicator => renders correctly (second spin) 1`] = `
         "fontSize": 12.243021849200467,
         "paddingTop": 2,
         "textAlign": "center",
+        "textAlignVertical": "center",
       }
     }
   >
@@ -257,6 +267,7 @@ exports[`Power progress indicator => renders correctly (seventh spin) 1`] = `
         "marginLeft": 9,
         "paddingTop": 2,
         "textAlign": "center",
+        "textAlignVertical": "center",
       }
     }
   >
@@ -274,6 +285,7 @@ exports[`Power progress indicator => renders correctly (seventh spin) 1`] = `
         "fontSize": 12.243021849200467,
         "paddingTop": 2,
         "textAlign": "center",
+        "textAlignVertical": "center",
       }
     }
   >
@@ -304,6 +316,7 @@ exports[`Power progress indicator => renders correctly (sixth spin) 1`] = `
         "marginLeft": 9,
         "paddingTop": 2,
         "textAlign": "center",
+        "textAlignVertical": "center",
       }
     }
   >
@@ -321,6 +334,7 @@ exports[`Power progress indicator => renders correctly (sixth spin) 1`] = `
         "fontSize": 12.243021849200467,
         "paddingTop": 2,
         "textAlign": "center",
+        "textAlignVertical": "center",
       }
     }
   >
@@ -351,6 +365,7 @@ exports[`Power progress indicator => renders correctly (third spin) 1`] = `
         "marginLeft": 9,
         "paddingTop": 2,
         "textAlign": "center",
+        "textAlignVertical": "center",
       }
     }
   >
@@ -368,6 +383,7 @@ exports[`Power progress indicator => renders correctly (third spin) 1`] = `
         "fontSize": 12.243021849200467,
         "paddingTop": 2,
         "textAlign": "center",
+        "textAlignVertical": "center",
       }
     }
   >
@@ -398,6 +414,7 @@ exports[`Power progress indicator => renders correctly 1`] = `
         "marginLeft": 9,
         "paddingTop": 2,
         "textAlign": "center",
+        "textAlignVertical": "center",
       }
     }
   >
@@ -415,6 +432,7 @@ exports[`Power progress indicator => renders correctly 1`] = `
         "fontSize": 12.243021849200467,
         "paddingTop": 2,
         "textAlign": "center",
+        "textAlignVertical": "center",
       }
     }
   >
