@@ -27,262 +27,288 @@ exports[`Feed => renders correctly 1`] = `
         <View
           style={
             Object {
-              "flexDirection": "row",
-              "height": 30,
+              "backgroundColor": "#329932",
+              "flexDirection": "column",
+              "height": 60,
               "marginBottom": 5,
               "width": "100%",
             }
           }
         >
-          <Image
-            source={
-              Object {
-                "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
-              }
-            }
+          <View
             style={
               Object {
-                "flex": 0,
-                "height": 26,
-                "margin": 1,
-                "resizeMode": "stretch",
-                "width": 26,
+                "flexDirection": "row",
+                "width": "100%",
               }
             }
           >
+            <Image
+              source={
+                Object {
+                  "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+                }
+              }
+              style={
+                Object {
+                  "borderColor": "black",
+                  "borderWidth": 1,
+                  "flex": 0,
+                  "height": 26,
+                  "margin": 1,
+                  "resizeMode": "stretch",
+                  "width": 26,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "green",
+                    "height": "100%",
+                    "opacity": 0.5,
+                    "width": "100%",
+                  }
+                }
+              />
+            </Image>
             <View
               style={
                 Object {
-                  "backgroundColor": "green",
-                  "height": "100%",
-                  "opacity": 0.5,
-                  "width": "100%",
+                  "flex": 1,
+                  "flexDirection": "column",
                 }
               }
-            />
-          </Image>
-          <View
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "alignSelf": "flex-start",
+                    "color": "#141313",
+                    "flex": 1,
+                    "fontFamily": "telegrama_raw",
+                    "fontSize": 22.955665967250873,
+                    "paddingBottom": 3,
+                    "paddingLeft": 3,
+                    "paddingRight": 5,
+                    "textAlignVertical": "center",
+                  }
+                }
+              >
+                Aram
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "color": "#141313",
+                    "flex": 1,
+                    "fontFamily": "telegrama_raw",
+                    "fontSize": 22.955665967250873,
+                    "textAlignVertical": "center",
+                  }
+                }
+              >
+                Timeline 0-1
+              </Text>
+            </View>
+          </View>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Object {
+                "alignSelf": "flex-start",
+                "color": "#141313",
                 "flex": 1,
-                "flexDirection": "column",
+                "fontFamily": "telegrama_raw",
+                "fontSize": 19.894910504950758,
+                "textAlignVertical": "center",
               }
             }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              numberOfLines={1}
-              style={
-                Object {
-                  "alignSelf": "flex-start",
-                  "color": "#329932",
-                  "flex": 1,
-                  "fontFamily": "telegrama_raw",
-                  "fontSize": 11,
-                  "paddingBottom": 3,
-                  "paddingLeft": 3,
-                  "paddingRight": 5,
-                }
-              }
-            >
-              Aram
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              numberOfLines={1}
-              style={
-                Object {
-                  "alignSelf": "flex-start",
-                  "color": "#329932",
-                  "flex": 1,
-                  "fontFamily": "telegrama_raw",
-                  "fontSize": 9,
-                  "marginBottom": 3,
-                  "paddingLeft": 3,
-                  "paddingRight": 5,
-                }
-              }
-            >
-              has travelled here
-            </Text>
-          </View>
-          <View
+            has travelled here
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Object {
+                "alignSelf": "flex-start",
+                "color": "#141313",
                 "flex": 1,
-                "flexDirection": "column",
+                "fontFamily": "telegrama_raw",
+                "fontSize": 15.303777311500582,
+                "textAlignVertical": "bottom",
               }
             }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              numberOfLines={1}
-              style={
-                Object {
-                  "alignSelf": "center",
-                  "color": "#329932",
-                  "flex": 1,
-                  "fontFamily": "telegrama_raw",
-                  "fontSize": 14,
-                }
-              }
-            >
-              Timeline 0-1
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              numberOfLines={1}
-              style={
-                Object {
-                  "alignSelf": "center",
-                  "color": "#329932",
-                  "flex": 1,
-                  "fontFamily": "telegrama_raw",
-                  "fontSize": 9,
-                }
-              }
-            >
-              111
-            </Text>
-          </View>
+            111
+          </Text>
         </View>
         <View
           style={
             Object {
-              "flexDirection": "row",
-              "height": 30,
+              "backgroundColor": "#329932",
+              "flexDirection": "column",
+              "height": 60,
               "marginBottom": 5,
               "width": "100%",
             }
           }
         >
-          <Image
-            source={
-              Object {
-                "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
-              }
-            }
+          <View
             style={
               Object {
-                "flex": 0,
-                "height": 26,
-                "margin": 1,
-                "resizeMode": "stretch",
-                "width": 26,
+                "flexDirection": "row",
+                "width": "100%",
               }
             }
           >
+            <Image
+              source={
+                Object {
+                  "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+                }
+              }
+              style={
+                Object {
+                  "borderColor": "black",
+                  "borderWidth": 1,
+                  "flex": 0,
+                  "height": 26,
+                  "margin": 1,
+                  "resizeMode": "stretch",
+                  "width": 26,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "green",
+                    "height": "100%",
+                    "opacity": 0.5,
+                    "width": "100%",
+                  }
+                }
+              />
+            </Image>
             <View
               style={
                 Object {
-                  "backgroundColor": "green",
-                  "height": "100%",
-                  "opacity": 0.5,
-                  "width": "100%",
+                  "flex": 1,
+                  "flexDirection": "column",
                 }
               }
-            />
-          </Image>
-          <View
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "alignSelf": "flex-start",
+                    "color": "#141313",
+                    "flex": 1,
+                    "fontFamily": "telegrama_raw",
+                    "fontSize": 22.955665967250873,
+                    "paddingBottom": 3,
+                    "paddingLeft": 3,
+                    "paddingRight": 5,
+                    "textAlignVertical": "center",
+                  }
+                }
+              >
+                Aram
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "color": "#141313",
+                    "flex": 1,
+                    "fontFamily": "telegrama_raw",
+                    "fontSize": 22.955665967250873,
+                    "textAlignVertical": "center",
+                  }
+                }
+              >
+                Timeline 0-1
+              </Text>
+            </View>
+          </View>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Object {
+                "alignSelf": "flex-start",
+                "color": "#141313",
                 "flex": 1,
-                "flexDirection": "column",
+                "fontFamily": "telegrama_raw",
+                "fontSize": 19.894910504950758,
+                "textAlignVertical": "center",
               }
             }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              numberOfLines={1}
-              style={
-                Object {
-                  "alignSelf": "flex-start",
-                  "color": "#329932",
-                  "flex": 1,
-                  "fontFamily": "telegrama_raw",
-                  "fontSize": 11,
-                  "paddingBottom": 3,
-                  "paddingLeft": 3,
-                  "paddingRight": 5,
-                }
-              }
-            >
-              Aram
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              numberOfLines={1}
-              style={
-                Object {
-                  "alignSelf": "flex-start",
-                  "color": "#329932",
-                  "flex": 1,
-                  "fontFamily": "telegrama_raw",
-                  "fontSize": 9,
-                  "marginBottom": 3,
-                  "paddingLeft": 3,
-                  "paddingRight": 5,
-                }
-              }
-            >
-              is locking the timeline
-            </Text>
-          </View>
-          <View
+            is locking the timeline
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Object {
+                "alignSelf": "flex-start",
+                "color": "#141313",
                 "flex": 1,
-                "flexDirection": "column",
+                "fontFamily": "telegrama_raw",
+                "fontSize": 15.303777311500582,
+                "textAlignVertical": "bottom",
               }
             }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              numberOfLines={1}
-              style={
-                Object {
-                  "alignSelf": "center",
-                  "color": "#329932",
-                  "flex": 1,
-                  "fontFamily": "telegrama_raw",
-                  "fontSize": 14,
-                }
-              }
-            >
-              Timeline 0-1
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              numberOfLines={1}
-              style={
-                Object {
-                  "alignSelf": "center",
-                  "color": "#329932",
-                  "flex": 1,
-                  "fontFamily": "telegrama_raw",
-                  "fontSize": 9,
-                }
-              }
-            >
-              111
-            </Text>
-          </View>
+            111
+          </Text>
         </View>
       </View>
     </RCTScrollView>
