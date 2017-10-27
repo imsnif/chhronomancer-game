@@ -374,26 +374,80 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                     }
                   }
                 >
-                  <Image
-                    source={1}
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
-                  <Image
-                    source={1}
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
                 </View>
                 <View
                   style={
@@ -791,26 +845,80 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                     }
                   }
                 >
-                  <Image
-                    source={1}
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
-                  <Image
-                    source={1}
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
                 </View>
                 <View
                   style={
@@ -1208,26 +1316,80 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                     }
                   }
                 >
-                  <Image
-                    source={1}
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
-                  <Image
-                    source={1}
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
                 </View>
                 <View
                   style={
@@ -1625,26 +1787,80 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                     }
                   }
                 >
-                  <Image
-                    source={1}
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
-                  <Image
-                    source={1}
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
                 </View>
                 <View
                   style={
@@ -2752,26 +2968,80 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                     }
                   }
                 >
-                  <Image
-                    source={1}
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
-                  <Image
-                    source={1}
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
                 </View>
                 <View
                   style={
@@ -3169,26 +3439,80 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                     }
                   }
                 >
-                  <Image
-                    source={1}
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
-                  <Image
-                    source={1}
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
                 </View>
                 <View
                   style={
@@ -3586,26 +3910,80 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                     }
                   }
                 >
-                  <Image
-                    source={1}
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
-                  <Image
-                    source={1}
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
                 </View>
                 <View
                   style={
@@ -4003,26 +4381,80 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                     }
                   }
                 >
-                  <Image
-                    source={1}
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
-                  <Image
-                    source={1}
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
                 </View>
                 <View
                   style={
@@ -5130,26 +5562,80 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                     }
                   }
                 >
-                  <Image
-                    source={1}
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
-                  <Image
-                    source={1}
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
                 </View>
                 <View
                   style={
@@ -5547,26 +6033,80 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                     }
                   }
                 >
-                  <Image
-                    source={1}
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
-                  <Image
-                    source={1}
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
                 </View>
                 <View
                   style={
@@ -5964,26 +6504,80 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                     }
                   }
                 >
-                  <Image
-                    source={1}
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
-                  <Image
-                    source={1}
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
                 </View>
                 <View
                   style={
@@ -6381,26 +6975,80 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                     }
                   }
                 >
-                  <Image
-                    source={1}
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
-                  <Image
-                    source={1}
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
                     style={
-                      Object {
-                        "height": 30,
-                        "marginRight": 4,
-                        "width": 30,
-                      }
+                      Array [
+                        Object {
+                          "backgroundColor": "transparent",
+                        },
+                        undefined,
+                      ]
                     }
-                  />
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Image
+                      source={1}
+                      style={
+                        Object {
+                          "height": 30,
+                          "marginRight": 4,
+                          "width": 30,
+                        }
+                      }
+                    />
+                  </View>
                 </View>
                 <View
                   style={
