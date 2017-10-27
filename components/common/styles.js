@@ -43,7 +43,7 @@ export default {
     flex: 1,
     alignSelf: 'center',
     fontFamily: 'telegrama_raw',
-    fontSize: 25,
+    fontSize: responsiveFontSize(4),
     color: backGround,
     backgroundColor: foreGround,
     textAlign: 'center'
