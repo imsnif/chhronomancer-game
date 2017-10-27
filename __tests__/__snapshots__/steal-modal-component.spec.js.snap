@@ -138,10 +138,10 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
               Array [
                 Object {
                   "color": "#329932",
-                  "flex": 0,
                   "fontFamily": "telegrama_raw",
-                  "fontSize": 45.911331934501746,
+                  "fontSize": 38.259443278751455,
                   "textAlign": "center",
+                  "textAlignVertical": "center",
                   "width": "100%",
                 },
                 Object {
@@ -166,9 +166,10 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
               style={
                 Object {
                   "alignSelf": "center",
-                  "height": 16,
-                  "marginRight": 0,
-                  "width": 16,
+                  "height": 30,
+                  "margin": 0,
+                  "marginRight": 4,
+                  "width": 30,
                 }
               }
             />
@@ -181,10 +182,10 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
               Array [
                 Object {
                   "color": "#329932",
-                  "flex": 0,
                   "fontFamily": "telegrama_raw",
-                  "fontSize": 45.911331934501746,
+                  "fontSize": 38.259443278751455,
                   "textAlign": "center",
+                  "textAlignVertical": "center",
                   "width": "100%",
                 },
                 Object {
@@ -204,10 +205,10 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
               Array [
                 Object {
                   "color": "#329932",
-                  "flex": 0,
                   "fontFamily": "telegrama_raw",
-                  "fontSize": 45.911331934501746,
+                  "fontSize": 38.259443278751455,
                   "textAlign": "center",
+                  "textAlignVertical": "center",
                   "width": "100%",
                 },
                 Object {
@@ -292,6 +293,7 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
                         "color": "#329932",
                         "flex": 1,
                         "fontFamily": "telegrama_raw",
+                        "fontSize": 45.911331934501746,
                         "textAlign": "center",
                       }
                     }
@@ -364,6 +366,7 @@ exports[`Steal Modal component => renders correctly when open 1`] = `
                         "color": "#329932",
                         "flex": 1,
                         "fontFamily": "telegrama_raw",
+                        "fontSize": 45.911331934501746,
                         "textAlign": "center",
                       }
                     }
