@@ -534,7 +534,8 @@ exports[`Main component (with server mock) => renders correctly 1`] = `
                         }
                       }
                     >
-                      111
+                      48 years
+                       ago
                     </Text>
                   </View>
                   <View
@@ -677,7 +678,8 @@ exports[`Main component (with server mock) => renders correctly 1`] = `
                         }
                       }
                     >
-                      111
+                      48 years
+                       ago
                     </Text>
                   </View>
                 </View>
