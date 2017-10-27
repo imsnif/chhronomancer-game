@@ -456,7 +456,7 @@ exports[`Player component => renders correctly without active power 1`] = `
         "borderWidth": 0.5,
         "flex": 1,
         "flexDirection": "column",
-        "height": 120,
+        "height": 80,
         "marginBottom": 7,
         "width": "100%",
       }
@@ -535,21 +535,9 @@ exports[`Player component => renders correctly without active power 1`] = `
       }
     >
       <View
-        style={
-          Object {
-            "flex": 1,
-            "justifyContent": "center",
-            "paddingTop": 10,
-          }
-        }
+        style={Object {}}
       >
-        <View
-          style={
-            Object {
-              "flex": 1,
-            }
-          }
-        />
+        <View />
       </View>
       <View
         style={
