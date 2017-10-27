@@ -20,32 +20,32 @@ module.exports = StyleSheet.create({
     justifyContent: 'center'
   },
   imageBox: {
-    width: 26,
-    height: 28,
+    width: 32,
+    height: 32,
     borderColor: 'black',
     borderWidth: 1,
     margin: 1,
     flex: 0,
     backgroundColor: common.backGround,
-    resizeMode: 'stretch'
+    resizeMode: 'contain'
   },
   titleTextWithSubtitle: {
     paddingLeft: 5,
-    fontFamily: 'telegrama_raw',
+    fontFamily: common.font,
     color: common.altText,
     flex: 7,
     fontSize: responsiveFontSize(2),
     textAlign: 'left'
   },
   titleText: {
-    fontFamily: 'telegrama_raw',
+    fontFamily: common.font,
     color: common.altText,
     flex: 7,
     textAlign: 'center',
     fontSize: responsiveFontSize(2)
   },
   subtitleText: {
-    fontFamily: 'telegrama_raw',
+    fontFamily: common.font,
     fontSize: responsiveFontSize(2),
     color: common.altText,
     flex: 3,
