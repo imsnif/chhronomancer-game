@@ -47,11 +47,11 @@ export default class Player extends Component {
         }
       >
         <ListBox
-          style={styles.box}
+          style={activePower ? styles.box : styles.smallBox}
           title={player.name}
           image={{type: 'player', uri: player.picture}}
         >
-          <View style={styles.powerPad}>
+          <View style={activePower ? styles.powerPad : styles.noPowerPad}>
             {
               activePower
                 ? <Power
@@ -61,7 +61,7 @@ export default class Player extends Component {
                   alliedPlayers={activePower.alliedPlayers}
                   enemyPlayers={activePower.enemyPlayers}
                   />
-                : <View style={styles.emptyPower} />
+                : <View />
             }
           </View>
           <View style={styles.lowerBar}>
