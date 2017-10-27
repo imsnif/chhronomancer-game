@@ -23,17 +23,19 @@ export default class Feed extends Component {
                 const player = playerStore.getPlayer(message.playerId)
                 return (
                   <View key={message.id} style={styles.messageContainer}>
-                    <Image source={{uri: player.picture}} style={styles.participantImage}>
-                      <View style={styles.imageOverlay} />
-                    </Image>
-                    <View style={styles.section}>
-                      <Text numberOfLines={1} style={styles.nameText}>{player.name}</Text>
-                      <Text numberOfLines={1} style={styles.actionText}>{message.text}</Text>
+                    <View key={message.id} style={styles.messageTitleLine}>
+                      <Image source={{uri: player.picture}} style={styles.participantImage}>
+                        <View style={styles.imageOverlay} />
+                      </Image>
+                      <View style={styles.section}>
+                        <Text numberOfLines={1} style={styles.nameText}>{player.name}</Text>
+                      </View>
+                      <View style={styles.section}>
+                        <Text numberOfLines={1} style={styles.timelineText}>{message.timelineName}</Text>
+                      </View>
                     </View>
-                    <View style={styles.section}>
-                      <Text numberOfLines={1} style={styles.timelineText}>{message.timelineName}</Text>
-                      <Text numberOfLines={1} style={styles.timeLeftText}>{message.startTime}</Text>
-                    </View>
+                    <Text numberOfLines={1} style={styles.actionText}>{message.text}</Text>
+                    <Text numberOfLines={1} style={styles.timeLeftText}>{message.startTime}</Text>
                   </View>
                 )
               })
