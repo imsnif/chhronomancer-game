@@ -64,10 +64,10 @@ exports[`Player component => renders correctly 1`] = `
             "borderColor": "black",
             "borderWidth": 1,
             "flex": 0,
-            "height": 28,
+            "height": 32,
             "margin": 1,
-            "resizeMode": "stretch",
-            "width": 26,
+            "resizeMode": "contain",
+            "width": 32,
           }
         }
       >
@@ -479,10 +479,10 @@ exports[`Player component => renders correctly without active power 1`] = `
             "borderColor": "black",
             "borderWidth": 1,
             "flex": 0,
-            "height": 28,
+            "height": 32,
             "margin": 1,
-            "resizeMode": "stretch",
-            "width": 26,
+            "resizeMode": "contain",
+            "width": 32,
           }
         }
       >

@@ -89,10 +89,10 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                     "borderColor": "black",
                     "borderWidth": 1,
                     "flex": 0,
-                    "height": 28,
+                    "height": 32,
                     "margin": 1,
-                    "resizeMode": "stretch",
-                    "width": 26,
+                    "resizeMode": "contain",
+                    "width": 32,
                   }
                 }
               >
@@ -501,10 +501,10 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                     "borderColor": "black",
                     "borderWidth": 1,
                     "flex": 0,
-                    "height": 28,
+                    "height": 32,
                     "margin": 1,
-                    "resizeMode": "stretch",
-                    "width": 26,
+                    "resizeMode": "contain",
+                    "width": 32,
                   }
                 }
               >
@@ -913,10 +913,10 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                     "borderColor": "black",
                     "borderWidth": 1,
                     "flex": 0,
-                    "height": 28,
+                    "height": 32,
                     "margin": 1,
-                    "resizeMode": "stretch",
-                    "width": 26,
+                    "resizeMode": "contain",
+                    "width": 32,
                   }
                 }
               >
@@ -1325,10 +1325,10 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
                     "borderColor": "black",
                     "borderWidth": 1,
                     "flex": 0,
-                    "height": 28,
+                    "height": 32,
                     "margin": 1,
-                    "resizeMode": "stretch",
-                    "width": 26,
+                    "resizeMode": "contain",
+                    "width": 32,
                   }
                 }
               >
@@ -2447,10 +2447,10 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                     "borderColor": "black",
                     "borderWidth": 1,
                     "flex": 0,
-                    "height": 28,
+                    "height": 32,
                     "margin": 1,
-                    "resizeMode": "stretch",
-                    "width": 26,
+                    "resizeMode": "contain",
+                    "width": 32,
                   }
                 }
               >
@@ -2859,10 +2859,10 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                     "borderColor": "black",
                     "borderWidth": 1,
                     "flex": 0,
-                    "height": 28,
+                    "height": 32,
                     "margin": 1,
-                    "resizeMode": "stretch",
-                    "width": 26,
+                    "resizeMode": "contain",
+                    "width": 32,
                   }
                 }
               >
@@ -3271,10 +3271,10 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                     "borderColor": "black",
                     "borderWidth": 1,
                     "flex": 0,
-                    "height": 28,
+                    "height": 32,
                     "margin": 1,
-                    "resizeMode": "stretch",
-                    "width": 26,
+                    "resizeMode": "contain",
+                    "width": 32,
                   }
                 }
               >
@@ -3683,10 +3683,10 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
                     "borderColor": "black",
                     "borderWidth": 1,
                     "flex": 0,
-                    "height": 28,
+                    "height": 32,
                     "margin": 1,
-                    "resizeMode": "stretch",
-                    "width": 26,
+                    "resizeMode": "contain",
+                    "width": 32,
                   }
                 }
               >
@@ -4805,10 +4805,10 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                     "borderColor": "black",
                     "borderWidth": 1,
                     "flex": 0,
-                    "height": 28,
+                    "height": 32,
                     "margin": 1,
-                    "resizeMode": "stretch",
-                    "width": 26,
+                    "resizeMode": "contain",
+                    "width": 32,
                   }
                 }
               >
@@ -5217,10 +5217,10 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                     "borderColor": "black",
                     "borderWidth": 1,
                     "flex": 0,
-                    "height": 28,
+                    "height": 32,
                     "margin": 1,
-                    "resizeMode": "stretch",
-                    "width": 26,
+                    "resizeMode": "contain",
+                    "width": 32,
                   }
                 }
               >
@@ -5629,10 +5629,10 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                     "borderColor": "black",
                     "borderWidth": 1,
                     "flex": 0,
-                    "height": 28,
+                    "height": 32,
                     "margin": 1,
-                    "resizeMode": "stretch",
-                    "width": 26,
+                    "resizeMode": "contain",
+                    "width": 32,
                   }
                 }
               >
@@ -6041,10 +6041,10 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
                     "borderColor": "black",
                     "borderWidth": 1,
                     "flex": 0,
-                    "height": 28,
+                    "height": 32,
                     "margin": 1,
-                    "resizeMode": "stretch",
-                    "width": 26,
+                    "resizeMode": "contain",
+                    "width": 32,
                   }
                 }
               >
