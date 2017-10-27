@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { ScrollView, View } from 'react-native'
+import { ScrollView, View, Text } from 'react-native'
 import { observer } from 'mobx-react/native'
 import ControlPanel from '../control-panel'
 import MenuButton from '../menu-button'
@@ -24,6 +24,9 @@ export default class Timeline extends Component {
       <View style={styles.container}>
         <StealModal timelineName={name} />
         <CombineModal timelineName={name} />
+        <View style={styles.titleItem}>
+          <Text style={styles.titleText}>{timeline.name}</Text>
+        </View>
         <View style={styles.scrollContainer}>
           <ScrollView>
             {

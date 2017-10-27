@@ -5,6 +5,8 @@ import common from '../common/styles'
 export default StyleSheet.create({
   container: common.container,
   scrollContainer: common.scrollContainer,
+  titleItem: StyleSheet.flatten([common.titleItem, {height: 40, flex: 0}]),
+  titleText: common.titleText,
   buttonPad: {
     flex: 2,
     flexDirection: 'column',
