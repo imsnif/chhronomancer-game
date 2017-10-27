@@ -175,10 +175,11 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 source={1}
                 style={
                   Object {
+                    "alignSelf": "center",
                     "flex": 1,
                     "height": "100%",
                     "marginRight": 4,
-                    "resizeMode": "stretch",
+                    "resizeMode": "contain",
                     "width": "100%",
                   }
                 }
@@ -203,10 +204,11 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 source={1}
                 style={
                   Object {
+                    "alignSelf": "center",
                     "flex": 1,
                     "height": "100%",
                     "marginRight": 4,
-                    "resizeMode": "stretch",
+                    "resizeMode": "contain",
                     "width": "100%",
                   }
                 }
@@ -231,10 +233,11 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 source={1}
                 style={
                   Object {
+                    "alignSelf": "center",
                     "flex": 1,
                     "height": "100%",
                     "marginRight": 4,
-                    "resizeMode": "stretch",
+                    "resizeMode": "contain",
                     "width": "100%",
                   }
                 }
@@ -285,10 +288,11 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 source={1}
                 style={
                   Object {
+                    "alignSelf": "center",
                     "flex": 1,
                     "height": "100%",
                     "marginRight": 4,
-                    "resizeMode": "stretch",
+                    "resizeMode": "contain",
                     "width": "100%",
                   }
                 }
@@ -313,10 +317,11 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 source={1}
                 style={
                   Object {
+                    "alignSelf": "center",
                     "flex": 1,
                     "height": "100%",
                     "marginRight": 4,
-                    "resizeMode": "stretch",
+                    "resizeMode": "contain",
                     "width": "100%",
                   }
                 }
@@ -341,10 +346,11 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 source={1}
                 style={
                   Object {
+                    "alignSelf": "center",
                     "flex": 1,
                     "height": "100%",
                     "marginRight": 4,
-                    "resizeMode": "stretch",
+                    "resizeMode": "contain",
                     "width": "100%",
                   }
                 }
@@ -395,10 +401,11 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 source={1}
                 style={
                   Object {
+                    "alignSelf": "center",
                     "flex": 1,
                     "height": "100%",
                     "marginRight": 4,
-                    "resizeMode": "stretch",
+                    "resizeMode": "contain",
                     "width": "100%",
                   }
                 }
@@ -423,10 +430,11 @@ exports[`Combine Modal component => renders correctly when open 1`] = `
                 source={1}
                 style={
                   Object {
+                    "alignSelf": "center",
                     "flex": 1,
                     "height": "100%",
                     "marginRight": 4,
-                    "resizeMode": "stretch",
+                    "resizeMode": "contain",
                     "width": "100%",
                   }
                 }
