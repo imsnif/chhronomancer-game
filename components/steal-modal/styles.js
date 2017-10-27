@@ -13,6 +13,12 @@ export default StyleSheet.create({
     alignSelf: 'center',
     justifyContent: 'center'
   },
+  item: {
+    alignSelf: 'center',
+    margin: 0,
+    width: 30,
+    height: 30
+  },
   buttonRow: {
     flex: 1,
     flexDirection: 'row',
@@ -40,11 +46,11 @@ export default StyleSheet.create({
     width: '5%'
   },
   text: {
+    textAlignVertical: 'center',
     textAlign: 'center',
-    flex: 0,
     width: '100%',
     color: common.foreGround,
-    fontSize: responsiveFontSize(3),
+    fontSize: responsiveFontSize(2.5),
     fontFamily: common.font
   },
   buttonPad: {
@@ -52,5 +58,12 @@ export default StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'space-between',
     alignItems: 'center'
+  },
+  contentContainer: {
+    flexDirection: 'row',
+    width: '100%',
+    height: '80%',
+    alignItems: 'center',
+    justifyContent: 'center'
   }
 })
