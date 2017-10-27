@@ -50,7 +50,6 @@ export default StyleSheet.create({
     width: 50,
     textAlign: 'center',
     fontSize: responsiveFontSize(3)
-    // maxWidth: 10
   },
   winText: {
     color: common.backGround,
@@ -67,6 +66,7 @@ export default StyleSheet.create({
     flex: 1,
     height: '100%',
     width: '100%',
-    resizeMode: 'stretch'
+    alignSelf: 'center',
+    resizeMode: 'contain'
   }
 })
