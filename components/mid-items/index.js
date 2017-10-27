@@ -15,6 +15,7 @@ export default function MidItems (props) {
         bright={lock.bright}
         name='lock'
         style={styles.itemStyle}
+        onPress={lock.onPress}
       />
       <Item
         key={2}
@@ -22,6 +23,7 @@ export default function MidItems (props) {
         bright={unlock.bright}
         name='unlock'
         style={styles.itemStyle}
+        onPress={unlock.onPress}
       />
     </View>
   )
