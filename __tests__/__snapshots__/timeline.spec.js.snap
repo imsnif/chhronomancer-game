@@ -18,6 +18,38 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
   <View
     style={
       Object {
+        "backgroundColor": "#329932",
+        "flex": 0,
+        "flexDirection": "row",
+        "height": 40,
+        "marginBottom": 4,
+        "marginLeft": 15,
+        "marginRight": 15,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#329932",
+          "color": "#141313",
+          "flex": 1,
+          "fontFamily": "telegrama_raw",
+          "fontSize": 61.21510924600233,
+          "textAlign": "center",
+        }
+      }
+    >
+      Timeline 1
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
         "flex": 2,
         "paddingLeft": 15,
         "paddingRight": 15,
@@ -2612,6 +2644,38 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
   <View
     style={
       Object {
+        "backgroundColor": "#329932",
+        "flex": 0,
+        "flexDirection": "row",
+        "height": 40,
+        "marginBottom": 4,
+        "marginLeft": 15,
+        "marginRight": 15,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#329932",
+          "color": "#141313",
+          "flex": 1,
+          "fontFamily": "telegrama_raw",
+          "fontSize": 61.21510924600233,
+          "textAlign": "center",
+        }
+      }
+    >
+      Timeline 1
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
         "flex": 2,
         "paddingLeft": 15,
         "paddingRight": 15,
@@ -5203,6 +5267,38 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
 >
   <View />
   <View />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#329932",
+        "flex": 0,
+        "flexDirection": "row",
+        "height": 40,
+        "marginBottom": 4,
+        "marginLeft": 15,
+        "marginRight": 15,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#329932",
+          "color": "#141313",
+          "flex": 1,
+          "fontFamily": "telegrama_raw",
+          "fontSize": 61.21510924600233,
+          "textAlign": "center",
+        }
+      }
+    >
+      Timeline 1
+    </Text>
+  </View>
   <View
     style={
       Object {
