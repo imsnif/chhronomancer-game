@@ -6,5 +6,9 @@ export default StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center'
+  },
+  itemStyle: {
+    height: 30,
+    width: 30
   }
 })

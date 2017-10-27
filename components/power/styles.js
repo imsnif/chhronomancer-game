@@ -10,7 +10,8 @@ module.exports = StyleSheet.create({
     flex: 7,
     textAlign: 'center',
     paddingTop: 2,
-    fontSize: responsiveFontSize(0.8)
+    fontSize: responsiveFontSize(0.8),
+    textAlignVertical: 'center'
   },
   name: {
     flex: 1,
@@ -19,6 +20,7 @@ module.exports = StyleSheet.create({
     marginLeft: 9,
     textAlign: 'center',
     paddingTop: 2,
-    fontSize: responsiveFontSize(0.8)
+    fontSize: responsiveFontSize(0.8),
+    textAlignVertical: 'center'
   }
 })

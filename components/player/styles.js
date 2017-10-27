@@ -7,13 +7,15 @@ export default StyleSheet.create({
   },
   powerPad: {
     flex: 1,
-    paddingTop: 25
+    justifyContent: 'center',
+    paddingTop: 10
   },
   emptyPower: {
     flex: 1
   },
   lowerBar: {
-    flex: 1,
-    flexDirection: 'row'
+    flex: 2,
+    flexDirection: 'row',
+    justifyContent: 'space-between'
   }
 })

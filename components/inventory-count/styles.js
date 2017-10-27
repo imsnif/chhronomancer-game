@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native'
+import { responsiveFontSize } from 'react-native-responsive-dimensions'
 
 import commons from '../common/styles'
 
@@ -9,10 +10,10 @@ export default StyleSheet.create({
   },
   text: {
     flex: 1,
-    fontFamily: 'telegrama_raw',
+    fontFamily: commons.font,
     color: commons.foreGround,
     flexDirection: 'row',
-    fontSize: 8,
-    marginTop: 10
+    fontSize: responsiveFontSize(2),
+    textAlignVertical: 'center'
   }
 })

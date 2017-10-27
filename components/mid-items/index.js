@@ -9,8 +9,20 @@ export default function MidItems (props) {
   const unlock = items.find(i => i.name === 'unlock') || {fill: false, bright: false}
   return (
     <View style={styles.itemContainer}>
-      <Item key={1} fill={lock.fill} bright={lock.bright} name='lock' />
-      <Item key={2} fill={unlock.fill} bright={unlock.bright} name='unlock' />
+      <Item
+        key={1}
+        fill={lock.fill}
+        bright={lock.bright}
+        name='lock'
+        style={styles.itemStyle}
+      />
+      <Item
+        key={2}
+        fill={unlock.fill}
+        bright={unlock.bright}
+        name='unlock'
+        style={styles.itemStyle}
+      />
     </View>
   )
 }
