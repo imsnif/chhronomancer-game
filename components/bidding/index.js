@@ -21,18 +21,29 @@ export default class Bidding extends Component {
     const playerId = this.props.playerId
     const timelineName = this.props.timelineName
     const power = powerStore.getPower(playerId, timelineName)
-    if (!power) {
+    if (!power) { // TODO: move this elsewhere
       const scenes = this.props.navigator.getCurrentRoutes()
       const powerIndices = scenes.reduce((memo, scene, index) => {
-        if (scene.screenName === 'Bidding' && scene.timelineName === timelineName && Number(scene.playerId) === Number(playerId)) {
+        // find this bidding screen in the navigation stack
+        if (
+          scene.screenName === 'Bidding' &&
+          scene.timelineName === timelineName &&
+          Number(scene.playerId) === Number(playerId)
+        ) {
           memo.push(index)
         }
         return memo
       }, [])
       const timelineScene = {screenName: 'Timeline', timelineName}
       for (const index of powerIndices) {
+        // remove instances of this bidding screen from the navigation stack
+        // replacing them with the timeline from which this power originated
         await new Promise(resolve => {
-          this.props.navigator.replaceAtIndex(Object.assign({}, timelineScene, {_navigatorRouteId: index}), index, resolve)
+          this.props.navigator.replaceAtIndex(
+            Object.assign({}, timelineScene, {_navigatorRouteId: index}),
+            index,
+            resolve
+          )
         })
       }
     }
