@@ -57,7 +57,7 @@ exports[`Item list => renders correctly 1`] = `
         }
       }
     >
-      Cap: 6/7
+      Cap: 6/8
     </Text>
   </View>
   <View

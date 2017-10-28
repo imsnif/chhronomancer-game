@@ -1881,7 +1881,7 @@ exports[`Game renderScene (Timeline) => renders correctly 1`] = `
                         }
                       >
                         8
-                        /7
+                        /8
                       </Text>
                     </View>
                   </View>
@@ -2352,7 +2352,7 @@ exports[`Game renderScene (Timeline) => renders correctly 1`] = `
                         }
                       >
                         6
-                        /7
+                        /8
                       </Text>
                     </View>
                   </View>
@@ -2823,7 +2823,7 @@ exports[`Game renderScene (Timeline) => renders correctly 1`] = `
                         }
                       >
                         6
-                        /7
+                        /8
                       </Text>
                     </View>
                   </View>
@@ -3294,7 +3294,7 @@ exports[`Game renderScene (Timeline) => renders correctly 1`] = `
                         }
                       >
                         6
-                        /7
+                        /8
                       </Text>
                     </View>
                   </View>

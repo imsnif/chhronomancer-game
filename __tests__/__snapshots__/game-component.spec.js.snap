@@ -506,7 +506,7 @@ exports[`Game component (character-sheet) => renders correctly 1`] = `
                         }
                       }
                     >
-                      Cap: 5/7
+                      Cap: 5/8
                     </Text>
                   </View>
                   <View
