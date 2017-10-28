@@ -17,12 +17,24 @@ const images = {steal, assist, prevent, reset}
 
 @observer
 export default class Bidding extends Component {
-  componentDidUpdate () {
+  async componentDidUpdate () {
     const playerId = this.props.playerId
     const timelineName = this.props.timelineName
     const power = powerStore.getPower(playerId, timelineName)
     if (!power) {
-      this.props.navigator.pop()
+      const scenes = this.props.navigator.getCurrentRoutes()
+      const powerIndices = scenes.reduce((memo, scene, index) => {
+        if (scene.screenName === 'Bidding' && scene.timelineName === timelineName && Number(scene.playerId) === Number(playerId)) {
+          memo.push(index)
+        }
+        return memo
+      }, [])
+      const timelineScene = {screenName: 'Timeline', timelineName}
+      for (const index of powerIndices) {
+        await new Promise(resolve => {
+          this.props.navigator.replaceAtIndex(Object.assign({}, timelineScene, {_navigatorRouteId: index}), index, resolve)
+        })
+      }
     }
   }
   render () {
