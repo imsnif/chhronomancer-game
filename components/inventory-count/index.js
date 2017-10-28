@@ -6,7 +6,7 @@ export default function InventoryCount (props) {
   return (
     <View style={styles.countContainer}>
       <Text style={styles.text}>Cap: </Text>
-      <Text style={styles.text}>{props.count}/7</Text>
+      <Text style={styles.text}>{props.count}/8</Text>
     </View>
   )
 }

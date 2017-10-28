@@ -46,7 +46,7 @@ const itemNames = [
 export default function ItemList (props) {
   const { itemCount, items } = props
   return (
-    <ListBox title='Items' subtitle={`Cap: ${itemCount}/7`}>
+    <ListBox title='Items' subtitle={`Cap: ${itemCount}/8`}>
       {
         itemNames
         .map((itemName, index) => {
