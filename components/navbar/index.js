@@ -40,6 +40,7 @@ export default class NavBar extends Component {
     const player = playersStore.getPlayer(playerId)
     const actions = player ? player.actions : 'N/A'
     const newMessages = messageStore.unreadMessages
+    if (screenName === 'feed') messageStore.markAllAsRead()
     return (
       <View style={styles.wholeScreen}>
         <View style={styles.topBar}>

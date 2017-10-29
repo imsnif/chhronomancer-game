@@ -1,7 +1,11 @@
 import { observable, action, computed } from 'mobx'
+import debounce from 'debounce'
 import sendRequest from '../connect/send-request'
 
 class MessageStore {
+  constructor () {
+    this.markAllAsRead = debounce(this.markAllAsRead, 1000)
+  }
   @observable messages = []
   @action addMessage (message) {
     const existingMessage = this.getMessage(message.id)
@@ -16,8 +20,7 @@ class MessageStore {
     }
   }
   @action markAllAsRead () {
-    // TODO: do not mark as read if all are read
-    if (this.messages.length > 0) {
+    if (this.messages.length > 0 && this.messages.some(m => !m.read)) {
       const lastTimestamp = this.messages[this.messages.length - 1].startTime
       sendRequest(`/player/read/${lastTimestamp}`)
     }

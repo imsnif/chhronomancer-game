@@ -9,9 +9,6 @@ import LogMessage from '../log-message'
 
 @observer
 export default class Feed extends Component {
-  componentDidMount () {
-    messageStore.markAllAsRead()
-  }
   render () {
     return (
       <View style={styles.container}>
