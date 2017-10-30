@@ -30,14 +30,7 @@ exports[`TimelineSummary => renders correctly 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#329932",
-        "borderColor": "#329932",
-        "borderRadius": 0,
-        "borderWidth": 0.5,
-        "flex": 1,
         "flexDirection": "column",
-        "height": 120,
-        "marginBottom": 7,
         "width": "100%",
       }
     }
@@ -45,72 +38,15 @@ exports[`TimelineSummary => renders correctly 1`] = `
     <View
       style={
         Object {
-          "alignItems": "center",
-          "flexDirection": "row",
-          "height": 35,
-          "justifyContent": "center",
-        }
-      }
-    >
-      <Image
-        source={1}
-        style={
-          Object {
-            "backgroundColor": "#141313",
-            "borderColor": "black",
-            "borderWidth": 1,
-            "flex": 0,
-            "height": 32,
-            "margin": 1,
-            "resizeMode": "contain",
-            "width": 32,
-          }
-        }
-      />
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        numberOfLines={1}
-        style={
-          Object {
-            "color": "#0e0e0e",
-            "flex": 7,
-            "fontFamily": "telegrama_raw",
-            "fontSize": 30.607554623001164,
-            "textAlign": "center",
-          }
-        }
-      >
-        Timeline 1
-      </Text>
-      <Image
-        source={1}
-        style={
-          Object {
-            "backgroundColor": "#141313",
-            "borderColor": "black",
-            "borderWidth": 1,
-            "flex": 0,
-            "height": 32,
-            "margin": 1,
-            "resizeMode": "contain",
-            "width": 32,
-          }
-        }
-      />
-    </View>
-    <View
-      style={
-        Object {
-          "backgroundColor": "#141313",
-          "borderColor": "#141313",
+          "backgroundColor": "#329932",
+          "borderColor": "#329932",
           "borderRadius": 0,
           "borderWidth": 0.5,
-          "flex": 13,
+          "flex": 1,
           "flexDirection": "column",
-          "justifyContent": "space-between",
-          "margin": 1,
+          "height": 120,
+          "marginBottom": 7,
+          "width": "100%",
         }
       }
     >
@@ -118,113 +54,202 @@ exports[`TimelineSummary => renders correctly 1`] = `
         style={
           Object {
             "alignItems": "center",
-            "flex": 1,
             "flexDirection": "row",
+            "height": 35,
             "justifyContent": "center",
           }
         }
       >
         <Image
-          source={
-            Object {
-              "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
-            }
-          }
+          source={1}
           style={
             Object {
-              "height": 30,
-              "margin": 4,
-              "width": 30,
+              "backgroundColor": "#141313",
+              "borderColor": "black",
+              "borderWidth": 1,
+              "flex": 0,
+              "height": 32,
+              "margin": 1,
+              "resizeMode": "contain",
+              "width": 32,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Object {
+              "color": "#0e0e0e",
+              "flex": 7,
+              "fontFamily": "telegrama_raw",
+              "fontSize": 30.607554623001164,
+              "textAlign": "center",
             }
           }
         >
-          <View
-            style={
-              Object {
-                "backgroundColor": "green",
-                "height": "100%",
-                "opacity": 0.5,
-                "width": "100%",
-              }
-            }
-          />
-        </Image>
-        <Image
-          source={
-            Object {
-              "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
-            }
-          }
-          style={
-            Object {
-              "height": 30,
-              "margin": 4,
-              "width": 30,
-            }
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "green",
-                "height": "100%",
-                "opacity": 0.5,
-                "width": "100%",
-              }
-            }
-          />
-        </Image>
-        <Image
-          source={
-            Object {
-              "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
-            }
-          }
-          style={
-            Object {
-              "height": 30,
-              "margin": 4,
-              "width": 30,
-            }
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "green",
-                "height": "100%",
-                "opacity": 0.5,
-                "width": "100%",
-              }
-            }
-          />
-        </Image>
-        <Image
-          source={
-            Object {
-              "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
-            }
-          }
-          style={
-            Object {
-              "height": 30,
-              "margin": 4,
-              "width": 30,
-            }
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "green",
-                "height": "100%",
-                "opacity": 0.5,
-                "width": "100%",
-              }
-            }
-          />
-        </Image>
+          Timeline 1
+        </Text>
       </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#141313",
+            "borderColor": "#141313",
+            "borderRadius": 0,
+            "borderWidth": 0.5,
+            "flex": 13,
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+            "margin": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+              }
+            }
+            style={
+              Object {
+                "height": 30,
+                "margin": 4,
+                "width": 30,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "green",
+                  "height": "100%",
+                  "opacity": 0.5,
+                  "width": "100%",
+                }
+              }
+            />
+          </Image>
+          <Image
+            source={
+              Object {
+                "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+              }
+            }
+            style={
+              Object {
+                "height": 30,
+                "margin": 4,
+                "width": 30,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "green",
+                  "height": "100%",
+                  "opacity": 0.5,
+                  "width": "100%",
+                }
+              }
+            />
+          </Image>
+          <Image
+            source={
+              Object {
+                "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+              }
+            }
+            style={
+              Object {
+                "height": 30,
+                "margin": 4,
+                "width": 30,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "green",
+                  "height": "100%",
+                  "opacity": 0.5,
+                  "width": "100%",
+                }
+              }
+            />
+          </Image>
+          <Image
+            source={
+              Object {
+                "uri": "http://10.0.0.6:3000/placeholders/nopic.png",
+              }
+            }
+            style={
+              Object {
+                "height": 30,
+                "margin": 4,
+                "width": 30,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "green",
+                  "height": "100%",
+                  "opacity": 0.5,
+                  "width": "100%",
+                }
+              }
+            />
+          </Image>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#141313",
+          "flex": 0,
+          "height": 120,
+          "marginBottom": 7,
+          "opacity": 0.7,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#329932",
+            "fontFamily": "telegrama_raw",
+            "fontSize": 153.03777311500582,
+            "height": "100%",
+            "textAlignVertical": "center",
+          }
+        }
+      >
+        LOCKED
+      </Text>
     </View>
   </View>
 </View>
