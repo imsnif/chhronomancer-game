@@ -51,6 +51,18 @@ exports[`Low-Items component => renders correctly 1`] = `
         "width": 30,
       }
     }
-  />
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#141313",
+          "height": "100%",
+          "opacity": 0.9,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    />
+  </Image>
 </View>
 `;

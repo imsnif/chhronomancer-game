@@ -234,10 +234,10 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
               source={1}
               style={
                 Object {
-                  "backgroundColor": "transparent",
                   "flex": 0,
                   "height": 46.690000000000005,
                   "marginLeft": 4,
+                  "marginRight": 4,
                   "resizeMode": "stretch",
                   "width": 46.690000000000005,
                 }
@@ -261,8 +261,10 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
                     "color": "#00ff00",
                     "flex": 5,
                     "fontFamily": "telegrama_raw",
+                    "height": "100%",
                     "paddingLeft": 9,
                     "paddingTop": 3,
+                    "textAlignVertical": "center",
                   }
                 }
               >
@@ -299,10 +301,10 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
               source={1}
               style={
                 Object {
-                  "backgroundColor": "transparent",
                   "flex": 0,
                   "height": 46.690000000000005,
                   "marginLeft": 4,
+                  "marginRight": 4,
                   "resizeMode": "stretch",
                   "width": 46.690000000000005,
                 }
@@ -326,8 +328,10 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
                     "color": "#329932",
                     "flex": 5,
                     "fontFamily": "telegrama_raw",
+                    "height": "100%",
                     "paddingLeft": 9,
                     "paddingTop": 3,
+                    "textAlignVertical": "center",
                   }
                 }
               >
@@ -364,10 +368,10 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
               source={1}
               style={
                 Object {
-                  "backgroundColor": "transparent",
                   "flex": 0,
                   "height": 46.690000000000005,
                   "marginLeft": 4,
+                  "marginRight": 4,
                   "resizeMode": "stretch",
                   "width": 46.690000000000005,
                 }
@@ -391,8 +395,10 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
                     "color": "#00ff00",
                     "flex": 5,
                     "fontFamily": "telegrama_raw",
+                    "height": "100%",
                     "paddingLeft": 9,
                     "paddingTop": 3,
+                    "textAlignVertical": "center",
                   }
                 }
               >
@@ -429,10 +435,10 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
               source={1}
               style={
                 Object {
-                  "backgroundColor": "transparent",
                   "flex": 0,
                   "height": 46.690000000000005,
                   "marginLeft": 4,
+                  "marginRight": 4,
                   "resizeMode": "stretch",
                   "width": 46.690000000000005,
                 }
@@ -456,8 +462,10 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
                     "color": "#00ff00",
                     "flex": 5,
                     "fontFamily": "telegrama_raw",
+                    "height": "100%",
                     "paddingLeft": 9,
                     "paddingTop": 3,
+                    "textAlignVertical": "center",
                   }
                 }
               >
@@ -494,10 +502,10 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
               source={1}
               style={
                 Object {
-                  "backgroundColor": "transparent",
                   "flex": 0,
                   "height": 46.690000000000005,
                   "marginLeft": 4,
+                  "marginRight": 4,
                   "resizeMode": "stretch",
                   "width": 46.690000000000005,
                 }
@@ -521,8 +529,10 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
                     "color": "#329932",
                     "flex": 5,
                     "fontFamily": "telegrama_raw",
+                    "height": "100%",
                     "paddingLeft": 9,
                     "paddingTop": 3,
+                    "textAlignVertical": "center",
                   }
                 }
               >
@@ -559,10 +569,10 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
               source={1}
               style={
                 Object {
-                  "backgroundColor": "transparent",
                   "flex": 0,
                   "height": 46.690000000000005,
                   "marginLeft": 4,
+                  "marginRight": 4,
                   "resizeMode": "stretch",
                   "width": 46.690000000000005,
                 }
@@ -586,8 +596,10 @@ exports[`Character-Sheet (default props) => renders correctly 1`] = `
                     "color": "#329932",
                     "flex": 5,
                     "fontFamily": "telegrama_raw",
+                    "height": "100%",
                     "paddingLeft": 9,
                     "paddingTop": 3,
+                    "textAlignVertical": "center",
                   }
                 }
               >
