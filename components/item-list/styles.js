@@ -7,7 +7,6 @@ export default StyleSheet.create({
     width: responsiveHeight(3.5),
     height: responsiveHeight(3.5),
     flex: 0,
-    backgroundColor: 'transparent',
     resizeMode: 'stretch',
     marginLeft: 4
   },
@@ -27,14 +26,18 @@ export default StyleSheet.create({
     fontFamily: common.font,
     flex: 5,
     paddingTop: 3,
-    paddingLeft: 9
+    paddingLeft: 9,
+    height: '100%',
+    textAlignVertical: 'center'
   },
   boldNameText: {
     color: common.boldText,
     fontFamily: common.font,
     flex: 5,
     paddingTop: 3,
-    paddingLeft: 9
+    paddingLeft: 9,
+    height: '100%',
+    textAlignVertical: 'center'
   },
   details: {
     color: common.foreGround,
