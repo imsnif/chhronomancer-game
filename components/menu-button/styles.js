@@ -31,6 +31,19 @@ export default StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center'
   },
+  buttonDisabled: {
+    height: '100%',
+    width: '100%',
+    flex: 1,
+    backgroundColor: common.backGround,
+    position: 'absolute',
+    opacity: 0.1,
+    borderWidth: 1,
+    borderColor: common.foreGround,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
   buttonSwitch: {
     height: '100%',
     width: '100%',

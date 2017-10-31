@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Spinner from '../spinner'
-import { View, TouchableHighlight, Text, StyleSheet } from 'react-native'
+import { View, TouchableHighlight, Text, StyleSheet, Vibration } from 'react-native'
 import styles from './styles'
 
 import commonStyles from '../common/styles'
@@ -20,12 +20,18 @@ export default class MenuButton extends Component {
     this._isMounted = false
   }
   _onHideUnderlay () {
+    if (this.props.disabled) return
     this.setState({ pressStatus: false })
   }
   _onShowUnderlay () {
+    if (this.props.disabled) return
     this.setState({ pressStatus: true })
   }
   async _pressAction () {
+    if (this.props.disabled) {
+      Vibration.vibrate(50)
+      return
+    }
     if (!this.props.onPress) return
     if (this.props.syncAction) return this.props.onPress()
     try {
@@ -37,7 +43,7 @@ export default class MenuButton extends Component {
     }
   }
   render () {
-    const { fontSize, style } = this.props
+    const { fontSize, style, disabled } = this.props
     const textStyle = fontSize
       ? StyleSheet.flatten([styles.text, {fontSize}])
       : styles.text
@@ -47,6 +53,11 @@ export default class MenuButton extends Component {
     const buttonContainerStyle = style
       ? StyleSheet.flatten([styles.buttonContainer, style])
       : styles.buttonContainer
+    const buttonStyle = disabled
+      ? styles.buttonDisabled
+      : this.state.pressStatus
+      ? styles.buttonPress
+      : styles.button
     return (
       <View style={buttonContainerStyle}>
         {
@@ -54,8 +65,8 @@ export default class MenuButton extends Component {
           ? <Spinner />
           : <TouchableHighlight
             onPress={this._pressAction.bind(this)}
-            underlayColor={commonStyles.foreGround}
-            style={this.state.pressStatus ? styles.buttonPress : styles.button}
+            underlayColor={disabled ? commonStyles.backGround : commonStyles.foreGround}
+            style={buttonStyle}
             onHideUnderlay={this._onHideUnderlay.bind(this)}
             onShowUnderlay={this._onShowUnderlay.bind(this)}
           >

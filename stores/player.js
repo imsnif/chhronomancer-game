@@ -1,4 +1,4 @@
-import { observable, action } from 'mobx'
+import { observable, computed, action } from 'mobx'
 
 const { serverAddress } = require('../config.json')
 
@@ -19,6 +19,13 @@ class PlayerStore {
   @action removePlayer (id) {
     this.players = this.players.filter(p => {
       return p.id !== id
+    })
+  }
+  hasItem (playerId, item) {
+    return computed(() => {
+      const player = this.getPlayer(playerId)
+      if (!player) return false
+      return player.items.map(i => i.name).includes(item)
     })
   }
   getPlayer (id) {
