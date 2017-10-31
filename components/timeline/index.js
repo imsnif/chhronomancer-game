@@ -5,6 +5,7 @@ import ControlPanel from '../control-panel'
 import MenuButton from '../menu-button'
 import Player from '../player'
 import Switch from '../switch'
+import Item from '../item'
 import StealModal from '../steal-modal'
 import CombineModal from '../combine-modal'
 import styles from './styles'
@@ -25,7 +26,8 @@ export default class Timeline extends Component {
         <StealModal timelineName={name} />
         <CombineModal timelineName={name} />
         <View style={styles.titleItem}>
-          <Text style={styles.titleText}>{timeline.name}</Text>
+          <Item name={timeline.type} fill style={styles.timelineItemType} />
+          <Text style={styles.titleText}>{timeline.name}{timeline.isLocked ? ' (LOCKED)' : null}</Text>
         </View>
         <View style={styles.scrollContainer}>
           <ScrollView>
