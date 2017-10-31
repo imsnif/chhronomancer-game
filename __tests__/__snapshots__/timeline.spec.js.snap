@@ -28,6 +28,22 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
       }
     }
   >
+    <Image
+      source={1}
+      style={
+        Object {
+          "backgroundColor": "#141313",
+          "borderColor": "black",
+          "borderWidth": 1,
+          "flex": 0,
+          "height": 38,
+          "margin": 1,
+          "marginRight": 4,
+          "resizeMode": "contain",
+          "width": 38,
+        }
+      }
+    />
     <Text
       accessible={true}
       allowFontScaling={true}
@@ -39,12 +55,13 @@ exports[`Timeline (with multiple players - default sort) => renders correctly 1`
           "color": "#141313",
           "flex": 1,
           "fontFamily": "telegrama_raw",
-          "fontSize": 61.21510924600233,
+          "fontSize": 45.911331934501746,
           "textAlign": "center",
         }
       }
     >
       Timeline 1
+       (LOCKED)
     </Text>
   </View>
   <View
@@ -2654,6 +2671,22 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
       }
     }
   >
+    <Image
+      source={1}
+      style={
+        Object {
+          "backgroundColor": "#141313",
+          "borderColor": "black",
+          "borderWidth": 1,
+          "flex": 0,
+          "height": 38,
+          "margin": 1,
+          "marginRight": 4,
+          "resizeMode": "contain",
+          "width": 38,
+        }
+      }
+    />
     <Text
       accessible={true}
       allowFontScaling={true}
@@ -2665,12 +2698,13 @@ exports[`Timeline (with multiple players - power time left sort) => renders corr
           "color": "#141313",
           "flex": 1,
           "fontFamily": "telegrama_raw",
-          "fontSize": 61.21510924600233,
+          "fontSize": 45.911331934501746,
           "textAlign": "center",
         }
       }
     >
       Timeline 1
+       (LOCKED)
     </Text>
   </View>
   <View
@@ -5280,6 +5314,22 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
       }
     }
   >
+    <Image
+      source={1}
+      style={
+        Object {
+          "backgroundColor": "#141313",
+          "borderColor": "black",
+          "borderWidth": 1,
+          "flex": 0,
+          "height": 38,
+          "margin": 1,
+          "marginRight": 4,
+          "resizeMode": "contain",
+          "width": 38,
+        }
+      }
+    />
     <Text
       accessible={true}
       allowFontScaling={true}
@@ -5291,12 +5341,13 @@ exports[`Timeline (with multiple players - power type sort) => renders correctly
           "color": "#141313",
           "flex": 1,
           "fontFamily": "telegrama_raw",
-          "fontSize": 61.21510924600233,
+          "fontSize": 45.911331934501746,
           "textAlign": "center",
         }
       }
     >
       Timeline 1
+       (LOCKED)
     </Text>
   </View>
   <View
