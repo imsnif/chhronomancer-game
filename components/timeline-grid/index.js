@@ -25,6 +25,18 @@ function filterTimelines (timeline) {
 
 @observer
 export default class TimelineGrid extends Component {
+  _changeSortToName () {
+    timelineStore.changeSort(0)
+  }
+  _changeSortToType () {
+    timelineStore.changeSort(1)
+  }
+  _filterAllTimelines () {
+    timelineStore.changeFilter(0)
+  }
+  _filterMyTimelines () {
+    timelineStore.changeFilter(1)
+  }
   render () {
     return (
       <View style={styles.container}>
@@ -46,12 +58,12 @@ export default class TimelineGrid extends Component {
         </View>
         <ControlPanel>
           <Switch selected={timelineStore.filterBy} options={[
-            {text: 'all timelines', action: () => timelineStore.changeFilter(0)},
-            {text: 'my timelines', action: () => timelineStore.changeFilter(1)}
+            {text: 'all timelines', action: this._filterAllTimelines},
+            {text: 'my timelines', action: this._filterMyTimelines}
           ]} />
           <Switch selected={timelineStore.sortBy} options={[
-            {text: 'name', action: () => timelineStore.changeSort(0)},
-            {text: 'type', action: () => timelineStore.changeSort(1)}
+            {text: 'name', action: this._changeSortToName},
+            {text: 'type', action: this._changeSortToType}
           ]} />
         </ControlPanel>
       </View>
