@@ -1,27 +1,12 @@
 import React, { Component } from 'react'
 import { observer } from 'mobx-react/native'
-import { ScrollView, View } from 'react-native'
-import TimelineSummary from '../timeline-summary'
+import { View } from 'react-native'
 import Switch from '../switch'
 import ControlPanel from '../control-panel'
+import TimelineList from '../timeline-list'
 import styles from './styles'
 
 import timelineStore from '../../stores/timeline'
-import statsStore from '../../stores/stats'
-
-function sortTimelines (a, b) {
-  if (timelineStore.sortBy === 0) { // name
-    return (a.name < b.name ? -1 : 1)
-  } if (timelineStore.sortBy === 1) { // type
-    return (a.type < b.type ? -1 : 1)
-  }
-}
-
-function filterTimelines (timeline) {
-  return timelineStore.filterBy === 1 // filter by player in timeline
-    ? timeline.players.some(p => p === statsStore.playerId)
-    : true
-}
 
 @observer
 export default class TimelineGrid extends Component {
@@ -41,20 +26,7 @@ export default class TimelineGrid extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.scrollContainer}>
-          <ScrollView>
-            {
-              timelineStore.timelines
-              .sort(sortTimelines)
-              .filter(filterTimelines)
-              .map(timeline => {
-                return <TimelineSummary
-                  key={timeline.name}
-                  name={timeline.name}
-                  navigator={this.props.navigator}
-                />
-              })
-            }
-          </ScrollView>
+          <TimelineList navigator={this.props.navigator} />
         </View>
         <ControlPanel>
           <Switch selected={timelineStore.filterBy} options={[
