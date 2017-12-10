@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { observer } from 'mobx-react/native'
-import { View, Text, Image, TouchableHighlight } from 'react-native'
+import { View, Text, TouchableHighlight } from 'react-native'
 import ListBox from '../list-box'
+import TimelinePlayerImages from '../timeline-player-images'
 import styles from './styles'
 
 import steal from '../../assets/items/steal-green.png'
@@ -10,7 +11,6 @@ import prevent from '../../assets/items/prevent-green.png'
 import reset from '../../assets/items/reset-green.png'
 
 import timelineStore from '../../stores/timeline'
-import playerStore from '../../stores/player'
 
 @observer
 export default class TimelineSummary extends Component {
@@ -35,20 +35,7 @@ export default class TimelineSummary extends Component {
             image={imageToRender}
             style={styles.listBox}
           >
-            <View style={styles.wrapper}>
-              {
-              timeline.players
-                ? timeline.players.map(pId => {
-                  const player = playerStore.players.find(p => p.id === pId)
-                  return (
-                    <Image key={player.id} style={styles.image} source={{uri: player.picture}}>
-                      <View style={styles.imageOverlay} />
-                    </Image>
-                  )
-                })
-                : null
-            }
-            </View>
+            <TimelinePlayerImages name={this.props.name} />
           </ListBox>
           {
             timeline.isLocked
