@@ -22,13 +22,13 @@ const midItemNames = [ 'lock', 'unlock' ]
 export default class Player extends Component {
   constructor (props) {
     super(props)
-    this.navigate = this.navigate.bind(this)
+    this._navigateToBidding = this._navigateToBidding.bind(this)
   }
-  navigate (playerId, timelineName) {
+  _navigateToBidding () {
     this.props.navigator.push({
       screenName: 'Bidding',
-      playerId,
-      timelineName
+      playerId: this.props.id,
+      timelineName: this.props.timelineName
     })
   }
   render () {
@@ -41,10 +41,7 @@ export default class Player extends Component {
     return (
       <TouchableHighlight
         underlayColor={commonStyles.backGround}
-        onPress={activePower
-          ? () => this.navigate(player.id, timelineName)
-          : () => {}
-        }
+        onPress={activePower ? this._navigateToBidding : undefined}
       >
         <ListBox
           style={activePower ? styles.box : styles.smallBox}
