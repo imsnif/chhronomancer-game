@@ -17,6 +17,11 @@ const images = {steal, assist, prevent, reset}
 
 @observer
 export default class Bidding extends Component {
+  constructor (props) {
+    super(props)
+    this._assist = this._assist.bind(this)
+    this._prevent = this._prevent.bind(this)
+  }
   async componentDidUpdate () {
     const playerId = this.props.playerId
     const timelineName = this.props.timelineName
@@ -47,6 +52,14 @@ export default class Bidding extends Component {
         })
       }
     }
+  }
+  _assist () {
+    const { playerId, timelineName } = this.props
+    powerStore.assist(timelineName, playerId)
+  }
+  _prevent () {
+    const { playerId, timelineName } = this.props
+    powerStore.prevent(timelineName, playerId)
   }
   render () {
     const { playerId, timelineName } = this.props
@@ -89,7 +102,7 @@ export default class Bidding extends Component {
               total={totalFor}
               image={sourceImage}
               parties={allies}
-              onPress={() => powerStore.assist(timelineName, playerId)}
+              onPress={this._assist}
             />
           </View>
           <View style={{flex: 1}}>
@@ -98,7 +111,7 @@ export default class Bidding extends Component {
               total={totalAgainst}
               image={destinationImage}
               parties={enemies}
-              onPress={() => powerStore.prevent(timelineName, playerId)}
+              onPress={this._prevent}
             />
           </View>
         </View>
