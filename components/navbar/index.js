@@ -25,12 +25,27 @@ function goBack (navigator) {
 
 @observer
 export default class NavBar extends Component {
+  constructor (props) {
+    super(props)
+    this._navigateToCharacter = this._navigateToCharacter.bind(this)
+    this._navigateToTimelineGrid = this._navigateToTimelineGrid.bind(this)
+    this._navigateToFeed = this._navigateToFeed.bind(this)
+  }
   componentDidMount () {
     BackAndroid.addEventListener('hardwareBackPress', goBack(this.props.navigator))
   }
   navigate (screenName) {
     this.props.navigator.push({screenName})
     timelineStore.clearAllModals()
+  }
+  _navigateToCharacter () {
+    this.navigate('character-sheet')
+  }
+  _navigateToTimelineGrid () {
+    this.navigate('timeline-grid')
+  }
+  _navigateToFeed () {
+    this.navigate('feed')
   }
   render () {
     if (statsStore.winnerId) return (<GameOver navigator={this.props.navigator} />)
@@ -52,19 +67,19 @@ export default class NavBar extends Component {
                 <MenuTextSelection
                   selected={screenName === 'character-sheet'}
                   text='Character'
-                  onPress={() => this.navigate('character-sheet')}
+                  onPress={this._navigateToCharacter}
                   style={{textAlignVertical: 'bottom'}}
                 />
                 <MenuTextSelection
                   selected={screenName === 'timeline-grid'}
                   text='Timelines'
-                  onPress={() => this.navigate('timeline-grid')}
+                  onPress={this._navigateToTimelineGrid}
                   style={{textAlignVertical: 'bottom'}}
                 />
                 <MenuTextSelection
                   selected={screenName === 'feed'}
                   text={newMessages ? `Feed (${newMessages})` : 'Feed'}
-                  onPress={() => this.navigate('feed')}
+                  onPress={this._navigateToFeed}
                   style={{textAlignVertical: 'bottom'}}
                 />
               </View>
