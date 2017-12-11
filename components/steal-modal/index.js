@@ -10,15 +10,24 @@ import styles from './styles'
 
 import timelineStore from '../../stores/timeline'
 
-function stealItem (modal, timelineName) {
-  timelineStore.stealItem(modal.itemName, modal.playerName, timelineName)
-  timelineStore.clearAllModals()
-}
-
 const buttonFontSize = responsiveFontSize(3)
 
 @observer
 export default class StealModal extends Component {
+  constructor (props) {
+    super(props)
+    this._stealItem = this._stealItem.bind(this)
+    this._clearModals = this._clearModals.bind(this)
+  }
+  _stealItem () {
+    const timelineName = this.props.timelineName
+    const modal = timelineStore.modals.get(timelineName)
+    timelineStore.stealItem(modal.itemName, modal.playerName, timelineName)
+    timelineStore.clearAllModals()
+  }
+  _clearModals () {
+    timelineStore.clearAllModals()
+  }
   render () {
     const timelineName = this.props.timelineName
     const modal = timelineStore.modals.get(timelineName)
@@ -44,14 +53,14 @@ export default class StealModal extends Component {
               <View style={styles.buttonLeft}>
                 <MenuButton
                   title='Yes'
-                  onPress={() => stealItem(modal, timelineName)}
+                  onPress={this._stealItem}
                   fontSize={buttonFontSize}
                 />
               </View>
               <View style={styles.buttonRight}>
                 <MenuButton
                   title='No'
-                  onPress={() => timelineStore.clearAllModals()}
+                  onPress={this._clearModals}
                   fontSize={buttonFontSize}
                 />
               </View>
