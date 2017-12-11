@@ -9,6 +9,13 @@ import timelineStore from '../../stores/timeline'
 
 @observer
 export default class PlayersInTimeline extends Component {
+  constructor (props) {
+    super(props)
+    this._sortPlayers = this._sortPlayers.bind(this)
+  }
+  _sortPlayers (p1Id, p2Id) {
+    return sortPlayers(p1Id, p2Id, this.props.name)
+  }
   render () {
     const { name } = this.props
     const timeline = timelineStore.getTimeline(name)
@@ -17,7 +24,7 @@ export default class PlayersInTimeline extends Component {
         <ScrollView>
           {
             timeline.players
-            .sort((p1Id, p2Id) => sortPlayers(p1Id, p2Id, name))
+            .sort(this._sortPlayers)
             .map(pId =>
               <Player
                 key={pId}
