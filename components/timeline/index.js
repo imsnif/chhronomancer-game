@@ -1,15 +1,14 @@
 import React, { Component } from 'react'
-import { ScrollView, View, Text } from 'react-native'
+import { View, Text } from 'react-native'
 import { observer } from 'mobx-react/native'
 import ControlPanel from '../control-panel'
 import MenuButton from '../menu-button'
-import Player from '../player'
+import PlayersInTimeline from '../players-in-timeline'
 import Switch from '../switch'
 import Item from '../item'
 import StealModal from '../steal-modal'
 import CombineModal from '../combine-modal'
 import styles from './styles'
-import sortPlayers from './sort-players.js'
 
 import timelineStore from '../../stores/timeline'
 import statsStore from '../../stores/stats'
@@ -33,22 +32,7 @@ export default class Timeline extends Component {
           <Item name={timeline.type} fill style={styles.timelineItemType} />
           <Text style={styles.titleText}>{timeline.name}{timeline.isLocked ? ' (LOCKED)' : null}</Text>
         </View>
-        <View style={styles.scrollContainer}>
-          <ScrollView>
-            {
-              timeline.players
-              .sort((p1Id, p2Id) => sortPlayers(p1Id, p2Id, name))
-              .map(pId =>
-                <Player
-                  key={pId}
-                  id={pId}
-                  navigator={this.props.navigator}
-                  timelineName={this.props.name}
-                />
-              )
-            }
-          </ScrollView>
-        </View>
+        <PlayersInTimeline name={name} />
         <ControlPanel>
           <View style={styles.buttonPad}>
             <View style={styles.buttonRow}>
