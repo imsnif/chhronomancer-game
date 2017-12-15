@@ -28,7 +28,7 @@ exports[`Spinner => renders correctly (eighth spin) 1`] = `
       }
     }
   >
-    /
+    |
   </Text>
 </View>
 `;
@@ -94,7 +94,7 @@ exports[`Spinner => renders correctly (first spin) 1`] = `
       }
     }
   >
-    /
+    |
   </Text>
 </View>
 `;
@@ -127,7 +127,7 @@ exports[`Spinner => renders correctly (fourth spin) 1`] = `
       }
     }
   >
-    /
+    |
   </Text>
 </View>
 `;
@@ -160,7 +160,7 @@ exports[`Spinner => renders correctly (second spin) 1`] = `
       }
     }
   >
-    -
+    /
   </Text>
 </View>
 `;
@@ -226,7 +226,7 @@ exports[`Spinner => renders correctly (sixth spin) 1`] = `
       }
     }
   >
-    \\
+    /
   </Text>
 </View>
 `;
@@ -259,7 +259,7 @@ exports[`Spinner => renders correctly (third spin) 1`] = `
       }
     }
   >
-    \\
+    -
   </Text>
 </View>
 `;
