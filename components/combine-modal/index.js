@@ -37,7 +37,7 @@ export default class CombineModal extends Component {
     this._combineItems('steal', 'reset')
   }
   _combineLockUnlock () {
-    this._combine('lock', 'unlock')
+    this._combineItems('lock', 'unlock')
   }
   _hasItem (item) {
     const player = playerStore.getPlayer(statsStore.playerId)
