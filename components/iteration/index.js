@@ -1,14 +1,10 @@
 import React, { Component } from 'react'
-import { observer } from 'mobx-react/native'
 import { View, Text, TouchableHighlight } from 'react-native'
 import Power from '../power'
 
 import styles from './styles'
 import commonStyles from '../common/styles'
 
-import powerStore from '../../stores/power'
-
-@observer
 export default class Iteration extends Component {
   constructor (props) {
     super(props)
@@ -25,8 +21,6 @@ export default class Iteration extends Component {
   render () {
     const { power } = this.props
     const { playerId, timelineName } = power
-    const progress = powerStore.getProgress(playerId, timelineName).get()
-    const timeLeft = powerStore.getTimeLeft(playerId, timelineName).get()
     return (
       <TouchableHighlight
         underlayColor={commonStyles.backGround}
@@ -34,14 +28,7 @@ export default class Iteration extends Component {
       >
         <View style={styles.iterationItem}>
           <Text style={styles.timelineName}>{timelineName}</Text>
-          <Power
-            style={{flex: 1}}
-            name={power.name}
-            progress={progress}
-            timeLeft={timeLeft}
-            alliedPlayers={power.alliedPlayers}
-            enemyPlayers={power.enemyPlayers}
-          />
+          <Power style={{flex: 1}} playerId={playerId} timelineName={timelineName} />
         </View>
       </TouchableHighlight>
     )

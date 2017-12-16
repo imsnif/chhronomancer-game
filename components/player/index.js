@@ -51,13 +51,7 @@ export default class Player extends Component {
           <View style={activePower ? styles.powerPad : styles.noPowerPad}>
             {
               activePower
-                ? <Power
-                  name={activePower.name}
-                  progress={powerStore.getProgress(player.id, timelineName).get()}
-                  timeLeft={powerStore.getTimeLeft(player.id, timelineName).get()}
-                  alliedPlayers={activePower.alliedPlayers}
-                  enemyPlayers={activePower.enemyPlayers}
-                  />
+                ? <Power playerId={player.id} timelineName={timelineName} />
                 : <View />
             }
           </View>
